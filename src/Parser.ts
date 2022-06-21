@@ -17,9 +17,9 @@ export class Parser {
         this._tokenizer = new Tokenizer();
     }
 
-    parse(string: string) {
+    parse(string: string, fileType: string) {
         this._file = string;
-        this._tokenizer.init(this._file);
+        this._tokenizer.init(this._file, fileType);
         this._lookahead = this._tokenizer.getNextToken();
 
         return this.Document();

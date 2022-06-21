@@ -5,7 +5,7 @@ import { PARSESTRING2 } from '../static/StratEDI/Orders/String-Orders';
 const reader = new Reader();
 
 console.time("parseTime");
-const result = reader.read(PARSESTRING2);
+const result = reader.read("../static/StratEDI/Invoices/Invoice1.txt", "INVOICE", true);
 console.timeEnd("parseTime");
 
 console.log(JSON.stringify(result, null, 2));

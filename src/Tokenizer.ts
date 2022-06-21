@@ -1,4 +1,4 @@
-import { SECTIONS, LENGTHLIST, REGEXES } from "./constants";
+import { STRATEDI } from "./constants";
 
 export class Tokenizer {
     _string: string;
@@ -11,6 +11,7 @@ export class Tokenizer {
     _section: string;
     _tokenIndex: number;
     _sectionIndex: number;
+    FILETYPE: any;
 
     constructor() {
         this._string = "";
@@ -23,18 +24,21 @@ export class Tokenizer {
         this._section = "";
         this._sectionIndex = 0;
         this._tokenIndex = 0;
+        this.FILETYPE = {}
+        console.log("constructed")
     }
 
-    init(string: string) {
+    init(string: string, fileType: string) {
         this._string = string;
         this._leftover = string;
 
         //StratEDIpart
+        this.FILETYPE = fileType === "ORDER" ? STRATEDI.ORDER : STRATEDI.INVOICE;
         this._section = string.slice(0, 3);
-        this._sectionIndex = LENGTHLIST.indexOf(this._section) + 1;
+        this._sectionIndex = this.FILETYPE.LENGTHLIST.indexOf(this._section) + 1;
 
-        if(!SECTIONS.includes(this._section)) {
-            throw new SyntaxError(`Unexpected Section enountered ${this._section}, Expected one of these ${SECTIONS}`)
+        if(!this.FILETYPE.SECTIONS.includes(this._section)) {
+            throw new SyntaxError(`Unexpected Section enountered ${this._section}, Expected one of these ${this.FILETYPE.SECTIONS}`)
         }
     }
 
@@ -78,12 +82,15 @@ export class Tokenizer {
             this._tokenIndex = 0;
             this._section = this._leftover.slice(length, length + 3);
             
-            if(!SECTIONS.includes(this._section) && this._section !== "") {
-                throw new SyntaxError(`Unexpected Section enountered ${this._section}, Expected one of these ${SECTIONS}`)
+            if(!this.FILETYPE.SECTIONS.includes(this._section) && this._section !== "") {
+                throw new SyntaxError(`Unexpected Section enountered ${this._section}, Expected one of these ${this.FILETYPE.SECTIONS}`)
             }
 
-            this._sectionIndex = LENGTHLIST.indexOf(this._section) + 1;
-        }
+            this._sectionIndex = this.FILETYPE.LENGTHLIST.indexOf(this._section) + 1;
+        }   
+
+        console.log("token: ", this._token)
+        console.log("tokenType: ", this._tokenType)
         
         return {
             type: this._tokenType,
@@ -92,7 +99,7 @@ export class Tokenizer {
     }
 
     getTokenLength() {
-        return LENGTHLIST[this._sectionIndex][this._tokenIndex];
+        return this.FILETYPE.LENGTHLIST[this._sectionIndex][this._tokenIndex];
     }
     /**
      * StratEDI Specific functions end here
@@ -105,8 +112,9 @@ export class Tokenizer {
 
         this._leftover = this._string.slice(this._cursor);
 
-        for(const [rawRegex, tokenType] of REGEXES) {
+        for(const [rawRegex, tokenType] of this.FILETYPE.REGEXES) {
             const regexLength = tokenType === 'WORD' ? this.getTokenLength() : 1;
+            console.log("length: ", regexLength)
             const regex = this.produceRegex(rawRegex, regexLength)
 
             const matched = this.match(regex, this._leftover);
