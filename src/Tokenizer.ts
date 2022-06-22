@@ -115,12 +115,14 @@ export class Tokenizer {
 
             // HACK CODE, IMPROVE THIS
             if(regexLength !== null && regexLength !== 1) {
-                let test = `^.{1,${regexLength - 1}}\r\n`;
+                let test = `^.{1,${regexLength - 1}}(\n|\r\n)`;
                 let testreg = new RegExp(test);
                 let res = testreg.exec(this._leftover);
                 // console.log("matched uknown section: ", res)
                 if(res !== null) {
-                    regexLength = this._leftover.indexOf('\r\n')
+                    const crlfIndex = this._leftover.indexOf('\r\n');
+                    const lfIndex = this._leftover.indexOf('\n') 
+                    regexLength = crlfIndex === - 1 ? lfIndex : crlfIndex;  
                 }
             }
             const regex = this.produceRegex(rawRegex, regexLength)
