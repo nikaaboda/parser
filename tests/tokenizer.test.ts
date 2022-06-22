@@ -1,5 +1,5 @@
 import { Tokenizer } from "../src/Tokenizer";
-import { PARSESTRING1 } from "../static/StratEDI/Orders/String-Orders";
+import { RAWORDER1 } from "../static/StratEDI/Orders/String-Orders";
 
 const tokenizer = new Tokenizer();
 
@@ -17,10 +17,10 @@ describe("Tokenizer", () => {
     });
 
     test("Init function works properly", () => {
-        tokenizer.init(PARSESTRING1);
+        tokenizer.init(RAWORDER1, "ORDER");
 
-        expect(tokenizer._string).toEqual(PARSESTRING1);
-        expect(tokenizer._leftover).toEqual(PARSESTRING1);
+        expect(tokenizer._string).toEqual(RAWORDER1);
+        expect(tokenizer._leftover).toEqual(RAWORDER1);
         expect(tokenizer._section).toEqual("000");
         expect(tokenizer._sectionIndex).toEqual(1);
     })
@@ -35,7 +35,7 @@ describe("Tokenizer", () => {
     })
 
     test("Throws Error if new token has a length of zero", () => {
-        tokenizer.init(PARSESTRING1);
+        tokenizer.init(RAWORDER1, "ORDER");
         
         expect(tokenizer.createNewToken).toThrow(Error);
     });

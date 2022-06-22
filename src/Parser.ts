@@ -53,7 +53,9 @@ export class Parser {
             words.push(this.Word());
         }
         // Eat CRLF
-        this._eat()
+        while(this._lookahead?.type === 'CRLF') {
+            this._eat();
+        }
 
         return {
             type: "SENTENCE",

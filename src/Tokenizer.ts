@@ -8,10 +8,11 @@ export class Tokenizer {
     _tokenType: string;
 
     //StratEDIpart
+    FILETYPE: any;
     _section: string;
     _tokenIndex: number;
     _sectionIndex: number;
-    FILETYPE: any;
+    
 
     constructor() {
         this._string = "";
@@ -25,7 +26,6 @@ export class Tokenizer {
         this._sectionIndex = 0;
         this._tokenIndex = 0;
         this.FILETYPE = {}
-        console.log("constructed")
     }
 
     init(string: string, fileType: string) {
@@ -66,36 +66,34 @@ export class Tokenizer {
         if(matched.length === 0) {
             throw new Error('New token has a length of zero')
         }
-
         this._token = matched;
         this._tokenType = tokenType;
         this._cursor += matched.length;
+
+        return {
+            type: this._tokenType,
+            value: this._token
+        };
     }
 
     /**
      * StratEDI Specific functions
      */
-    handleNewToken(tokenType: "WORD" | "CRLF", length: number) {
+    handleNewToken(tokenType: "WORD" | "CRLF", matched: string) {
         if(tokenType === "WORD") {
             this._tokenIndex++;
         } else if(tokenType === "CRLF") {
             this._tokenIndex = 0;
-            this._section = this._leftover.slice(length, length + 3);
+            this._section = this._leftover.slice(matched.length, matched.length + 3);
             
             if(!this.FILETYPE.SECTIONS.includes(this._section) && this._section !== "") {
                 throw new SyntaxError(`Unexpected Section enountered ${this._section}, Expected one of these ${this.FILETYPE.SECTIONS}`)
             }
 
             this._sectionIndex = this.FILETYPE.LENGTHLIST.indexOf(this._section) + 1;
-        }   
+        }
 
-        console.log("token: ", this._token)
-        console.log("tokenType: ", this._tokenType)
-        
-        return {
-            type: this._tokenType,
-            value: this._token
-        };
+        return this.createNewToken(matched, tokenType)
     }
 
     getTokenLength() {
@@ -113,17 +111,25 @@ export class Tokenizer {
         this._leftover = this._string.slice(this._cursor);
 
         for(const [rawRegex, tokenType] of this.FILETYPE.REGEXES) {
-            const regexLength = tokenType === 'WORD' ? this.getTokenLength() : 1;
-            console.log("length: ", regexLength)
+            let regexLength = tokenType === 'WORD' ? this.getTokenLength() : null;
+
+            // HACK CODE, IMPROVE THIS
+            if(regexLength !== null && regexLength !== 1) {
+                let test = `^.{1,${regexLength - 1}}\r\n`;
+                let testreg = new RegExp(test);
+                let res = testreg.exec(this._leftover);
+                // console.log("matched uknown section: ", res)
+                if(res !== null) {
+                    regexLength = this._leftover.indexOf('\r\n')
+                }
+            }
             const regex = this.produceRegex(rawRegex, regexLength)
 
             const matched = this.match(regex, this._leftover);
 
             if(matched) {
-                this.createNewToken(matched, tokenType)
-                
-                return this.handleNewToken(tokenType, matched.length)
-            }
+                return this.handleNewToken(tokenType, matched)
+            } 
             
         }
         

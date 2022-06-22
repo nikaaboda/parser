@@ -1,6 +1,6 @@
 console.time("fullTime");
 import {Reader} from '../src/Reader';
-import { PARSESTRING2 } from '../static/StratEDI/Orders/String-Orders';
+import { RAWINVOICE1 } from '../static/StratEDI/Invoices/String-Invoices';
 
 const reader = new Reader();
 

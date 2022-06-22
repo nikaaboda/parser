@@ -1,4 +1,5 @@
 import fs from "fs";
+import util from "util"
 import {Parser} from './Parser';
 import { STRATEDI } from './constants';
 
@@ -21,6 +22,7 @@ export class Reader {
         }
     
         const ast = this._parser.parse(string, fileType);
+        // console.log(util.inspect(ast, {showHidden: false, depth: null, colors: true}))
         const {value: document} = ast;
         
         return this.constructJson(document, fileType);
@@ -46,13 +48,16 @@ export class Reader {
 
                 let sectionInstance: any = {}
 
-                // Loop over each section
+                // Loop over words
                 for(let j = 0; j < sectionLength; j++) {                    
                     const token = documentAst[i].value[j]?.value?.trim();
+                    const tokenType = documentAst[i].value[j]?.type;
                     const correspondingKey = FILETYPE.KEYS[section][j];
 
-                    if(token && token !== "") {
+                    if(token && token !== "" && tokenType !== "SECTIONLEFTOVER") {
                         sectionInstance[correspondingKey] = token;
+                    } else if(tokenType === "SECTIONLEFTOVER") {
+                        sectionInstance[tokenType] = token;
                     }
                 }
 
