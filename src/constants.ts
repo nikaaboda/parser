@@ -158,3 +158,6 @@ export const STRATEDI: any = {
     }
     
 }
+
+export const TOKENTYPES = ["WORD", "CRLF"];
+export const FILETYPES = ["ORDER", "INVOICE", "DEASDV"];

@@ -1,5 +1,7 @@
 import {Tokenizer} from "./Tokenizer";
 
+type Filetype = "ORDER" | "INVOICE" | "DEASDV";
+
 export interface ASTNode {
     type: string;
     value: string;
@@ -17,7 +19,7 @@ export class Parser {
         this._tokenizer = new Tokenizer();
     }
 
-    parse(string: string, fileType: string) {
+    parse(string: string, fileType: Filetype) {
         this._file = string;
         this._tokenizer.init(this._file, fileType);
         this._lookahead = this._tokenizer.getNextToken();

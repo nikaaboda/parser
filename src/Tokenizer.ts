@@ -1,4 +1,7 @@
-import { STRATEDI } from "./constants";
+import { STRATEDI, FILETYPES, TOKENTYPES } from './constants';
+
+type Filetype = "ORDER" | "INVOICE" | "DEASDV";
+type Tokentype = "WORD" | "CRLF";
 
 export class Tokenizer {
     _string: string;
@@ -28,12 +31,14 @@ export class Tokenizer {
         this.FILETYPE = {}
     }
 
-    init(string: string, fileType: string) {
+    init(string: string, fileType: Filetype) {
         this._string = string;
         this._leftover = string;
 
         //StratEDIpart
-        this.FILETYPE = fileType === "ORDER" ? STRATEDI.ORDER : fileType === "INVOICE" ? STRATEDI.INVOICE : STRATEDI.DEASDV;
+        const {ORDER, INVOICE, DEASDV} = STRATEDI;
+        this.FILETYPE = fileType === FILETYPES[0] ? ORDER : fileType === FILETYPES[1] ? INVOICE : DEASDV;
+
         this._section = string.slice(0, 3);
         this._sectionIndex = this.FILETYPE.LENGTHLIST.indexOf(this._section) + 1;
 
@@ -56,7 +61,7 @@ export class Tokenizer {
         return null;
     }
 
-    produceRegex(regex: string, length?: any): RegExp {
+    produceRegex(regex: string, length?: number | null): RegExp {
         const producedRgx = length ? new RegExp(`^${regex}{${length}}`) : new RegExp(`^${regex}`); 
 
         return producedRgx;
@@ -66,6 +71,7 @@ export class Tokenizer {
         if(matched.length === 0) {
             throw new Error('New token has a length of zero')
         }
+
         this._token = matched;
         this._tokenType = tokenType;
         this._cursor += matched.length;
@@ -79,10 +85,10 @@ export class Tokenizer {
     /**
      * StratEDI Specific functions
      */
-    handleNewToken(tokenType: "WORD" | "CRLF", matched: string) {
-        if(tokenType === "WORD") {
+    handleNewToken(tokenType: Tokentype, matched: string) {
+        if(tokenType === TOKENTYPES[0]) {
             this._tokenIndex++;
-        } else if(tokenType === "CRLF") {
+        } else if(tokenType === TOKENTYPES[1]) {
             this._tokenIndex = 0;
             this._section = this._leftover.slice(matched.length, matched.length + 3);
             
@@ -113,13 +119,14 @@ export class Tokenizer {
         for(const [rawRegex, tokenType] of this.FILETYPE.REGEXES) {
             let regexLength = tokenType === 'WORD' ? this.getTokenLength() : null;
 
-            // HACK CODE, IMPROVE THIS
+            // This block handles cases when the last word of some section ends unexpectedly 
+            // meaning there should have been more chars before line break.
+            // To handle it, match the left characters until linebreak and count the length.
             if(regexLength !== null && regexLength !== 1) {
-                let test = `^.{1,${regexLength - 1}}(\n|\r\n)`;
-                let testreg = new RegExp(test);
-                let res = testreg.exec(this._leftover);
-                // console.log("matched uknown section: ", res)
-                if(res !== null) {
+                const sectionLeftoverRegex = new RegExp(`^.{1,${regexLength - 1}}(\n|\r\n)`);
+                const sectionLeftover = sectionLeftoverRegex.exec(this._leftover);
+
+                if(sectionLeftover !== null) {
                     const crlfIndex = this._leftover.indexOf('\r\n');
                     const lfIndex = this._leftover.indexOf('\n') 
                     regexLength = crlfIndex === - 1 ? lfIndex : crlfIndex;  
