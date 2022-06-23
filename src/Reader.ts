@@ -30,8 +30,8 @@ export class Reader {
 
 
     constructJson(documentAst: any, fileType: string) {
-        const {ORDER, INVOICE} = STRATEDI
-        const FILETYPE = fileType === "ORDER" ? ORDER : INVOICE;
+        const {ORDER, INVOICE, DEASDV} = STRATEDI
+        const FILETYPE = fileType === "ORDER" ? ORDER : fileType === "INVOICE" ? INVOICE : DEASDV;
 
         // Construct ast from the parser
         let constructedJSON: any = {};

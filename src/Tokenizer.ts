@@ -33,7 +33,7 @@ export class Tokenizer {
         this._leftover = string;
 
         //StratEDIpart
-        this.FILETYPE = fileType === "ORDER" ? STRATEDI.ORDER : STRATEDI.INVOICE;
+        this.FILETYPE = fileType === "ORDER" ? STRATEDI.ORDER : fileType === "INVOICE" ? STRATEDI.INVOICE : STRATEDI.DEASDV;
         this._section = string.slice(0, 3);
         this._sectionIndex = this.FILETYPE.LENGTHLIST.indexOf(this._section) + 1;
 

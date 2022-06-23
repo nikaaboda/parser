@@ -16,6 +16,12 @@ import { PARSEDINVOICE1, PARSEDINVOICE2, PARSEDINVOICE3, PARSEDINVOICE4, PARSEDI
          PARSEDINVOICE6, PARSEDINVOICE7, PARSEDINVOICE8, 
          PARSEDINVOICE9} from "../static/StratEDI/Parsed/Parsed-Invoices";
 
+import { RAWDEASDV1, RAWDEASDV2, RAWDEASDV3, RAWDEASDV4, RAWDEASDV5, 
+         RAWDEASDV6, RAWDEASDV7} from '../static/StratEDI/Deasdvs/String-Deasdvs';
+
+import { PARSEDDEASDV1, PARSEDDEASDV2, PARSEDDEASDV3, PARSEDDEASDV4, PARSEDDEASDV5,
+         PARSEDDEASDV6, PARSEDDEASDV7} from "../static/StratEDI/Parsed/Parsed-Deasdvs";
+
 
 
 
@@ -312,6 +318,109 @@ describe("Reader", () => {
             })
         });
 
+        describe("Deasdv given as a string", () => {
+            test("Parses Deasdv 1 correctly", () => {
+                const reader = new Reader();
+
+                const result = reader.read(RAWDEASDV1, "DEASDV");
+                expect(result).toEqual(PARSEDDEASDV1)
+            })
+    
+            test("Parses Deasdv 2 correctly", () => {
+                const reader = new Reader();
+
+                const result = reader.read(RAWDEASDV2, "DEASDV");
+                expect(result).toEqual(PARSEDDEASDV2)
+            })
+    
+            test("Parses Deasdv 3 correctly", () => {
+                const reader = new Reader();
+
+
+                const result = reader.read(RAWDEASDV3, "DEASDV");
+                expect(result).toEqual(PARSEDDEASDV3)
+            })
+    
+            test("Parses Deasdv 4 correctly", () => {
+                const reader = new Reader();
+
+                const result = reader.read(RAWDEASDV4, "DEASDV");
+                expect(result).toEqual(PARSEDDEASDV4)
+            })
+    
+            test("Parses Deasdv 5 correctly", () => {
+                const reader = new Reader();
+
+                const result = reader.read(RAWDEASDV5, "DEASDV");
+                expect(result).toEqual(PARSEDDEASDV5)
+            })
+    
+            test("Parses Deasdv 6 correctly", () => {
+                const reader = new Reader();
+
+                const result = reader.read(RAWDEASDV6, "DEASDV");
+                expect(result).toEqual(PARSEDDEASDV6)
+            })
+    
+            test("Parses Deasdv 7 correctly", () => {
+                const reader = new Reader();
+
+                const result = reader.read(RAWDEASDV7, "DEASDV");
+                expect(result).toEqual(PARSEDDEASDV7)
+            })
+    
+        });
+
+        describe("Deasdv given as a file path", () => {
+            test("Parses Deasdv 1 correctly", () => {
+                const reader = new Reader();
+
+                const result = reader.read("../static/StratEDI/Deasdvs/Deasdv1.txt", "DEASDV", true);
+                expect(result).toEqual(PARSEDDEASDV1)
+            })
+    
+            test("Parses Deasdv 2 correctly", () => {
+                const reader = new Reader();
+
+                const result = reader.read("../static/StratEDI/Deasdvs/Deasdv2.txt", "DEASDV", true);
+                expect(result).toEqual(PARSEDDEASDV2)
+            })
+    
+            test("Parses Deasdv 3 correctly", () => {
+                const reader = new Reader();
+
+                const result = reader.read("../static/StratEDI/Deasdvs/Deasdv3.txt", "DEASDV", true);
+                expect(result).toEqual(PARSEDDEASDV3)
+            })
+    
+            test("Parses Deasdv 4 correctly", () => {
+                const reader = new Reader();
+
+                const result = reader.read("../static/StratEDI/Deasdvs/Deasdv4.txt", "DEASDV", true);
+                expect(result).toEqual(PARSEDDEASDV4)
+            })
+    
+            test("Parses Deasdv 5 correctly", () => {
+                const reader = new Reader();
+
+                const result = reader.read("../static/StratEDI/Deasdvs/Deasdv5.txt", "DEASDV", true);
+                expect(result).toEqual(PARSEDDEASDV5)
+            })
+    
+            test("Parses Deasdv 6 correctly", () => {
+                const reader = new Reader();
+
+                const result = reader.read("../static/StratEDI/Deasdvs/Deasdv6.txt", "DEASDV", true);
+                expect(result).toEqual(PARSEDDEASDV6)
+            })
+    
+            test("Parses Deasdv 7 correctly", () => {
+                const reader = new Reader();
+
+                const result = reader.read("../static/StratEDI/Deasdvs/Deasdv7.txt", "DEASDV", true);
+                expect(result).toEqual(PARSEDDEASDV7)
+            })
+        });
     })
 });
 

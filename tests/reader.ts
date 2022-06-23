@@ -5,7 +5,7 @@ import { RAWINVOICE1 } from '../static/StratEDI/Invoices/String-Invoices';
 const reader = new Reader();
 
 console.time("parseTime");
-const result = reader.read("../static/StratEDI/Invoices/Invoice1.txt", "INVOICE", true);
+const result = reader.read("../static/StratEDI/Deasdvs/Deasdv7.txt", "DEASDV", true);
 console.timeEnd("parseTime");
 
 console.log(JSON.stringify(result, null, 2));
