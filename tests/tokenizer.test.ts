@@ -1,5 +1,5 @@
 import { Tokenizer } from "../src/Tokenizer";
-import { RAWORDER1 } from "../static/StratEDI/Orders/String-Orders";
+import { RAWORDER1 } from "../static/StratEDI/Orders/Raw/String-Orders";
 
 const tokenizer = new Tokenizer();
 

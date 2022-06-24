@@ -1,22 +1,15115 @@
 export const PARSEDXMLDEASDV1 = 
-`<sentence1>\n    <type>000</type>\n    <senderId>4260402480008</senderId>\n    <recieverId>4311501990018</recieverId>\n    <date>20220401</date>\n    <time>1345</time>\n    <dataExchangeReference>32205908VEGANZ</dataExchangeReference>\n    <fileInterfaceVersionNumber>4.5</fileInterfaceVersionNumber>\n</sentence1>\n<sentence2>\n    <type>100</type>\n    <messageReference>1</messageReference>\n    <messageType>DESADV</messageType>\n    <transactionType>351</transactionType>\n    <documentNumber>22209209</documentNumber>\n    <documentDate>20220401</documentDate>\n</sentence2>\n<sentence3>\n    <type>111</type>\n    <customerOrderNumber>112041</customerOrderNumber>\n    <customerOrcerDate>20220331</customerOrcerDate>\n    <deliveryDate>20220405</deliveryDate>\n    <deliveryReceiptNumber>22209209</deliveryReceiptNumber>\n    <deliveryReceiptDate>20220401</deliveryReceiptDate>\n</sentence3>\n<sentence4>\n    <type>115</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence4>\n<sentence5>\n    <type>119</type>\n    <partnerType>BY</partnerType>\n    <partnerILN>4314187000002</partnerILN>\n</sentence5>\n<sentence6>\n    <type>119</type>\n    <partnerType>IV</partnerType>\n    <partnerILN>4314187000002</partnerILN>\n</sentence6>\n<sentence7>\n    <type>119</type>\n    <partnerType>DP</partnerType>\n    <partnerILN>4314187001306</partnerILN>\n</sentence7>\n<sentence8>\n    <type>119</type>\n    <partnerType>SU</partnerType>\n    <partnerILN>4260402480008</partnerILN>\n</sentence8>\n<sentence9>\n    <type>400</type>\n    <positionNumber>1</positionNumber>\n    <perShipmentPalletCount>2</perShipmentPalletCount>\n</sentence9>\n<sentence10>\n    <type>410</type>\n    <palletType>201</palletType>\n    <palletNVE>340455750695614954</palletNVE>\n</sentence10>\n<sentence11>\n    <type>500</type>\n    <positionNumber>1</positionNumber>\n    <EAN>4260402489995</EAN>\n    <orderQuantity>64.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence11>\n<sentence12>\n    <type>511</type>\n    <customerOrderNumber>112041</customerOrderNumber>\n</sentence12>\n<sentence13>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence13>\n<sentence14>\n    <type>580</type>\n    <positionNumber>1</positionNumber>\n    <bestBeforeDate>20220706</bestBeforeDate>\n    <batchNumber>100701-220706P05</batchNumber>\n    <deliveryQuantity>64</deliveryQuantity>\n</sentence14>\n<sentence15>\n    <type>410</type>\n    <palletType>201</palletType>\n    <palletNVE>340455750695614961</palletNVE>\n</sentence15>\n<sentence16>\n    <type>500</type>\n    <positionNumber>2</positionNumber>\n    <EAN>4251725800277</EAN>\n    <orderQuantity>32.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence16>\n<sentence17>\n    <type>511</type>\n    <customerOrderNumber>112041</customerOrderNumber>\n</sentence17>\n<sentence18>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence18>\n<sentence19>\n    <type>580</type>\n    <positionNumber>2</positionNumber>\n    <bestBeforeDate>20220427</bestBeforeDate>\n    <batchNumber>100753-0762022</batchNumber>\n    <deliveryQuantity>32</deliveryQuantity>\n</sentence19>`;
+`<sentence1>
+    <type>000</type>
+    <senderId>4260402480008</senderId>
+    <recieverId>4311501990018</recieverId>
+    <date>20220401</date>
+    <time>1345</time>
+    <dataExchangeReference>32205908VEGANZ</dataExchangeReference>
+    <fileInterfaceVersionNumber>4.5</fileInterfaceVersionNumber>
+</sentence1>
+<sentence2>
+    <type>100</type>
+    <messageReference>1</messageReference>
+    <messageType>DESADV</messageType>
+    <transactionType>351</transactionType>
+    <documentNumber>22209209</documentNumber>
+    <documentDate>20220401</documentDate>
+</sentence2>
+<sentence3>
+    <type>111</type>
+    <customerOrderNumber>112041</customerOrderNumber>
+    <customerOrcerDate>20220331</customerOrcerDate>
+    <deliveryDate>20220405</deliveryDate>
+    <deliveryReceiptNumber>22209209</deliveryReceiptNumber>
+    <deliveryReceiptDate>20220401</deliveryReceiptDate>
+</sentence3>
+<sentence4>
+    <type>115</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence4>
+<sentence5>
+    <type>119</type>
+    <partnerType>BY</partnerType>
+    <partnerILN>4314187000002</partnerILN>
+</sentence5>
+<sentence6>
+    <type>119</type>
+    <partnerType>IV</partnerType>
+    <partnerILN>4314187000002</partnerILN>
+</sentence6>
+<sentence7>
+    <type>119</type>
+    <partnerType>DP</partnerType>
+    <partnerILN>4314187001306</partnerILN>
+</sentence7>
+<sentence8>
+    <type>119</type>
+    <partnerType>SU</partnerType>
+    <partnerILN>4260402480008</partnerILN>
+</sentence8>
+<sentence9>
+    <type>400</type>
+    <positionNumber>1</positionNumber>
+    <perShipmentPalletCount>2</perShipmentPalletCount>
+</sentence9>
+<sentence10>
+    <type>410</type>
+    <palletType>201</palletType>
+    <palletNVE>340455750695614954</palletNVE>
+</sentence10>
+<sentence11>
+    <type>500</type>
+    <positionNumber>1</positionNumber>
+    <EAN>4260402489995</EAN>
+    <orderQuantity>64.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence11>
+<sentence12>
+    <type>511</type>
+    <customerOrderNumber>112041</customerOrderNumber>
+</sentence12>
+<sentence13>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence13>
+<sentence14>
+    <type>580</type>
+    <positionNumber>1</positionNumber>
+    <bestBeforeDate>20220706</bestBeforeDate>
+    <batchNumber>100701-220706P05</batchNumber>
+    <deliveryQuantity>64</deliveryQuantity>
+</sentence14>
+<sentence15>
+    <type>410</type>
+    <palletType>201</palletType>
+    <palletNVE>340455750695614961</palletNVE>
+</sentence15>
+<sentence16>
+    <type>500</type>
+    <positionNumber>2</positionNumber>
+    <EAN>4251725800277</EAN>
+    <orderQuantity>32.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence16>
+<sentence17>
+    <type>511</type>
+    <customerOrderNumber>112041</customerOrderNumber>
+</sentence17>
+<sentence18>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence18>
+<sentence19>
+    <type>580</type>
+    <positionNumber>2</positionNumber>
+    <bestBeforeDate>20220427</bestBeforeDate>
+    <batchNumber>100753-0762022</batchNumber>
+    <deliveryQuantity>32</deliveryQuantity>
+</sentence19>`;
 
 export const PARSEDXMLDEASDV2 = 
-`<sentence1>\n    <type>000</type>\n    <senderId>4260402480008</senderId>\n    <recieverId>4311501990018</recieverId>\n    <date>20220401</date>\n    <time>1550</time>\n    <dataExchangeReference>32205928VEGANZ</dataExchangeReference>\n    <fileInterfaceVersionNumber>4.5</fileInterfaceVersionNumber>\n</sentence1>\n<sentence2>\n    <type>100</type>\n    <messageReference>1</messageReference>\n    <messageType>DESADV</messageType>\n    <transactionType>YA6</transactionType>\n    <documentNumber>22209352</documentNumber>\n    <documentDate>20220401</documentDate>\n</sentence2>\n<sentence3>\n    <type>111</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <customerOrcerDate>20220401</customerOrcerDate>\n    <deliveryDate>20220405</deliveryDate>\n    <deliveryReceiptNumber>22209352</deliveryReceiptNumber>\n    <deliveryReceiptDate>20220401</deliveryReceiptDate>\n</sentence3>\n<sentence4>\n    <type>115</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence4>\n<sentence5>\n    <type>119</type>\n    <partnerType>BY</partnerType>\n    <partnerILN>4311560000000</partnerILN>\n</sentence5>\n<sentence6>\n    <type>119</type>\n    <partnerType>IV</partnerType>\n    <partnerILN>4311560000000</partnerILN>\n</sentence6>\n<sentence7>\n    <type>119</type>\n    <partnerType>DP</partnerType>\n    <partnerILN>4313280901407</partnerILN>\n</sentence7>\n<sentence8>\n    <type>119</type>\n    <partnerType>SU</partnerType>\n    <partnerILN>4260402480008</partnerILN>\n</sentence8>\n<sentence9>\n    <type>400</type>\n    <positionNumber>1</positionNumber>\n    <perShipmentPackagingCount>53</perShipmentPackagingCount>\n    <perShipmentColliKartonPackagingType>PK</perShipmentColliKartonPackagingType>\n</sentence9>\n<sentence10>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695535044</palletNVE>\n</sentence10>\n<sentence11>\n    <type>500</type>\n    <positionNumber>1</positionNumber>\n    <EAN>4251725800277</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence11>\n<sentence12>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>80</orderItemNumber>\n</sentence12>\n<sentence13>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence13>\n<sentence14>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210324894</partnerILN>\n</sentence14>\n<sentence15>\n    <type>580</type>\n    <positionNumber>1</positionNumber>\n    <bestBeforeDate>20220427</bestBeforeDate>\n    <batchNumber>100753-0762022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence15>\n<sentence16>\n    <type>500</type>\n    <positionNumber>2</positionNumber>\n    <EAN>4260402489995</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence16>\n<sentence17>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>78</orderItemNumber>\n</sentence17>\n<sentence18>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence18>\n<sentence19>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210324894</partnerILN>\n</sentence19>\n<sentence20>\n    <type>580</type>\n    <positionNumber>2</positionNumber>\n    <bestBeforeDate>20220708</bestBeforeDate>\n    <batchNumber>100701-220708P05</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence20>\n<sentence21>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695535051</palletNVE>\n</sentence21>\n<sentence22>\n    <type>500</type>\n    <positionNumber>3</positionNumber>\n    <EAN>4260402489568</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence22>\n<sentence23>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>202</orderItemNumber>\n</sentence23>\n<sentence24>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence24>\n<sentence25>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313207204796</partnerILN>\n</sentence25>\n<sentence26>\n    <type>580</type>\n    <positionNumber>3</positionNumber>\n    <bestBeforeDate>20220524</bestBeforeDate>\n    <batchNumber>100640-22054068</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence26>\n<sentence27>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695534887</palletNVE>\n</sentence27>\n<sentence28>\n    <type>500</type>\n    <positionNumber>4</positionNumber>\n    <EAN>4251725801069</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence28>\n<sentence29>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>138</orderItemNumber>\n</sentence29>\n<sentence30>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence30>\n<sentence31>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210359520</partnerILN>\n</sentence31>\n<sentence32>\n    <type>580</type>\n    <positionNumber>4</positionNumber>\n    <bestBeforeDate>20230801</bestBeforeDate>\n    <batchNumber>100887-0061222</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence32>\n<sentence33>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695534870</palletNVE>\n</sentence33>\n<sentence34>\n    <type>500</type>\n    <positionNumber>5</positionNumber>\n    <EAN>4251725801069</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence34>\n<sentence35>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>252</orderItemNumber>\n</sentence35>\n<sentence36>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence36>\n<sentence37>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210351814</partnerILN>\n</sentence37>\n<sentence38>\n    <type>580</type>\n    <positionNumber>5</positionNumber>\n    <bestBeforeDate>20230801</bestBeforeDate>\n    <batchNumber>100887-0061222</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence38>\n<sentence39>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695535112</palletNVE>\n</sentence39>\n<sentence40>\n    <type>500</type>\n    <positionNumber>6</positionNumber>\n    <EAN>4251725801045</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence40>\n<sentence41>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>210</orderItemNumber>\n</sentence41>\n<sentence42>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence42>\n<sentence43>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313206204865</partnerILN>\n</sentence43>\n<sentence44>\n    <type>580</type>\n    <positionNumber>6</positionNumber>\n    <bestBeforeDate>20230903</bestBeforeDate>\n    <batchNumber>100886-0061511</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence44>\n<sentence45>\n    <type>500</type>\n    <positionNumber>7</positionNumber>\n    <EAN>4251725801236</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence45>\n<sentence46>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>212</orderItemNumber>\n</sentence46>\n<sentence47>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence47>\n<sentence48>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313206204865</partnerILN>\n</sentence48>\n<sentence49>\n    <type>580</type>\n    <positionNumber>7</positionNumber>\n    <bestBeforeDate>20220911</bestBeforeDate>\n    <batchNumber>100917-723218022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence49>\n<sentence50>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695615005</palletNVE>\n</sentence50>\n<sentence51>\n    <type>500</type>\n    <positionNumber>8</positionNumber>\n    <EAN>4260402484006</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence51>\n<sentence52>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>194</orderItemNumber>\n</sentence52>\n<sentence53>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence53>\n<sentence54>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210319814</partnerILN>\n</sentence54>\n<sentence55>\n    <type>580</type>\n    <positionNumber>8</positionNumber>\n    <bestBeforeDate>20220918</bestBeforeDate>\n    <batchNumber>271013-180922</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence55>\n<sentence56>\n    <type>500</type>\n    <positionNumber>9</positionNumber>\n    <EAN>4260402489568</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence56>\n<sentence57>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>196</orderItemNumber>\n</sentence57>\n<sentence58>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence58>\n<sentence59>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210319814</partnerILN>\n</sentence59>\n<sentence60>\n    <type>580</type>\n    <positionNumber>9</positionNumber>\n    <bestBeforeDate>20220524</bestBeforeDate>\n    <batchNumber>100640-22054068</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence60>\n<sentence61>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695534894</palletNVE>\n</sentence61>\n<sentence62>\n    <type>500</type>\n    <positionNumber>10</positionNumber>\n    <EAN>4251725800581</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence62>\n<sentence63>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>46</orderItemNumber>\n</sentence63>\n<sentence64>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence64>\n<sentence65>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210307286</partnerILN>\n</sentence65>\n<sentence66>\n    <type>580</type>\n    <positionNumber>10</positionNumber>\n    <bestBeforeDate>20230102</bestBeforeDate>\n    <batchNumber>100807-C072202022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence66>\n<sentence67>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695535068</palletNVE>\n</sentence67>\n<sentence68>\n    <type>500</type>\n    <positionNumber>11</positionNumber>\n    <EAN>4260402489995</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence68>\n<sentence69>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>42</orderItemNumber>\n</sentence69>\n<sentence70>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence70>\n<sentence71>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210328472</partnerILN>\n</sentence71>\n<sentence72>\n    <type>580</type>\n    <positionNumber>11</positionNumber>\n    <bestBeforeDate>20220708</bestBeforeDate>\n    <batchNumber>100701-220708P05</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence72>\n<sentence73>\n    <type>500</type>\n    <positionNumber>12</positionNumber>\n    <EAN>4260402489056</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence73>\n<sentence74>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>40</orderItemNumber>\n</sentence74>\n<sentence75>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence75>\n<sentence76>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210328472</partnerILN>\n</sentence76>\n<sentence77>\n    <type>580</type>\n    <positionNumber>12</positionNumber>\n    <bestBeforeDate>20220719</bestBeforeDate>\n    <batchNumber>100597-O200122N</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence77>\n<sentence78>\n    <type>500</type>\n    <positionNumber>13</positionNumber>\n    <EAN>4251725800277</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence78>\n<sentence79>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>44</orderItemNumber>\n</sentence79>\n<sentence80>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence80>\n<sentence81>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210328472</partnerILN>\n</sentence81>\n<sentence82>\n    <type>580</type>\n    <positionNumber>13</positionNumber>\n    <bestBeforeDate>20220427</bestBeforeDate>\n    <batchNumber>100753-0762022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence82>\n<sentence83>\n    <type>500</type>\n    <positionNumber>14</positionNumber>\n    <EAN>4251725801434</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence83>\n<sentence84>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>152</orderItemNumber>\n</sentence84>\n<sentence85>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence85>\n<sentence86>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210384874</partnerILN>\n</sentence86>\n<sentence87>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695535013</palletNVE>\n</sentence87>\n<sentence88>\n    <type>500</type>\n    <positionNumber>15</positionNumber>\n    <EAN>4260402485386</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence88>\n<sentence89>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>304</orderItemNumber>\n</sentence89>\n<sentence90>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence90>\n<sentence91>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210384874</partnerILN>\n</sentence91>\n<sentence92>\n    <type>580</type>\n    <positionNumber>15</positionNumber>\n    <bestBeforeDate>20230409</bestBeforeDate>\n    <batchNumber>152206-L22063</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence92>\n<sentence93>\n    <type>500</type>\n    <positionNumber>16</positionNumber>\n    <EAN>4260402484518</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence93>\n<sentence94>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>150</orderItemNumber>\n</sentence94>\n<sentence95>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence95>\n<sentence96>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210384874</partnerILN>\n</sentence96>\n<sentence97>\n    <type>580</type>\n    <positionNumber>16</positionNumber>\n    <bestBeforeDate>20231201</bestBeforeDate>\n    <batchNumber>153061-335U</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence97>\n<sentence98>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695534900</palletNVE>\n</sentence98>\n<sentence99>\n    <type>500</type>\n    <positionNumber>17</positionNumber>\n    <EAN>4260402485737</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence99>\n<sentence100>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>28</orderItemNumber>\n</sentence100>\n<sentence101>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence101>\n<sentence102>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210424860</partnerILN>\n</sentence102>\n<sentence103>\n    <type>580</type>\n    <positionNumber>17</positionNumber>\n    <bestBeforeDate>20220620</bestBeforeDate>\n    <batchNumber>162014-1000306114</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence103>\n<sentence104>\n    <type>500</type>\n    <positionNumber>18</positionNumber>\n    <EAN>4251725800727</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence104>\n<sentence105>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>30</orderItemNumber>\n</sentence105>\n<sentence106>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence106>\n<sentence107>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210424860</partnerILN>\n</sentence107>\n<sentence108>\n    <type>580</type>\n    <positionNumber>18</positionNumber>\n    <bestBeforeDate>20221115</bestBeforeDate>\n    <batchNumber>100855-VE46227</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence108>\n<sentence109>\n    <type>500</type>\n    <positionNumber>19</positionNumber>\n    <EAN>4251725800901</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence109>\n<sentence110>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>32</orderItemNumber>\n</sentence110>\n<sentence111>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence111>\n<sentence112>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210424860</partnerILN>\n</sentence112>\n<sentence113>\n    <type>580</type>\n    <positionNumber>19</positionNumber>\n    <bestBeforeDate>20221101</bestBeforeDate>\n    <batchNumber>100875-VE46020</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence113>\n<sentence114>\n    <type>500</type>\n    <positionNumber>20</positionNumber>\n    <EAN>4260402486352</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence114>\n<sentence115>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>166</orderItemNumber>\n</sentence115>\n<sentence116>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence116>\n<sentence117>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210356864</partnerILN>\n</sentence117>\n<sentence118>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695614701</palletNVE>\n</sentence118>\n<sentence119>\n    <type>500</type>\n    <positionNumber>21</positionNumber>\n    <EAN>4251725800871</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence119>\n<sentence120>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>12</orderItemNumber>\n</sentence120>\n<sentence121>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence121>\n<sentence122>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210081100</partnerILN>\n</sentence122>\n<sentence123>\n    <type>580</type>\n    <positionNumber>21</positionNumber>\n    <bestBeforeDate>20220502</bestBeforeDate>\n    <batchNumber>100871-111112</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence123>\n<sentence124>\n    <type>500</type>\n    <positionNumber>22</positionNumber>\n    <EAN>4260402489094</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence124>\n<sentence125>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>8</orderItemNumber>\n</sentence125>\n<sentence126>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence126>\n<sentence127>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210081100</partnerILN>\n</sentence127>\n<sentence128>\n    <type>580</type>\n    <positionNumber>22</positionNumber>\n    <bestBeforeDate>20220706</bestBeforeDate>\n    <batchNumber>100599-O070122K</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence128>\n<sentence129>\n    <type>500</type>\n    <positionNumber>23</positionNumber>\n    <EAN>4251725800277</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence129>\n<sentence130>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>16</orderItemNumber>\n</sentence130>\n<sentence131>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence131>\n<sentence132>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210081100</partnerILN>\n</sentence132>\n<sentence133>\n    <type>580</type>\n    <positionNumber>23</positionNumber>\n    <bestBeforeDate>20220427</bestBeforeDate>\n    <batchNumber>100753-0762022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence133>\n<sentence134>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695614787</palletNVE>\n</sentence134>\n<sentence135>\n    <type>500</type>\n    <positionNumber>24</positionNumber>\n    <EAN>4251725801045</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence135>\n<sentence136>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>20</orderItemNumber>\n</sentence136>\n<sentence137>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence137>\n<sentence138>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210081100</partnerILN>\n</sentence138>\n<sentence139>\n    <type>580</type>\n    <positionNumber>24</positionNumber>\n    <bestBeforeDate>20230903</bestBeforeDate>\n    <batchNumber>100886-0061511</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence139>\n<sentence140>\n    <type>500</type>\n    <positionNumber>25</positionNumber>\n    <EAN>4260402484495</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence140>\n<sentence141>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>2</orderItemNumber>\n</sentence141>\n<sentence142>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence142>\n<sentence143>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210081100</partnerILN>\n</sentence143>\n<sentence144>\n    <type>580</type>\n    <positionNumber>25</positionNumber>\n    <bestBeforeDate>20240130</bestBeforeDate>\n    <batchNumber>153060-030F</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence144>\n<sentence145>\n    <type>500</type>\n    <positionNumber>26</positionNumber>\n    <EAN>4251725800109</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence145>\n<sentence146>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>10</orderItemNumber>\n</sentence146>\n<sentence147>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence147>\n<sentence148>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210081100</partnerILN>\n</sentence148>\n<sentence149>\n    <type>580</type>\n    <positionNumber>26</positionNumber>\n    <bestBeforeDate>20221215</bestBeforeDate>\n    <batchNumber>100723-VE44371</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence149>\n<sentence150>\n    <type>500</type>\n    <positionNumber>27</positionNumber>\n    <EAN>4251725800390</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence150>\n<sentence151>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>14</orderItemNumber>\n</sentence151>\n<sentence152>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence152>\n<sentence153>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210081100</partnerILN>\n</sentence153>\n<sentence154>\n    <type>580</type>\n    <positionNumber>27</positionNumber>\n    <bestBeforeDate>20230125</bestBeforeDate>\n    <batchNumber>100767-C072202251</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence154>\n<sentence155>\n    <type>500</type>\n    <positionNumber>28</positionNumber>\n    <EAN>4251725800727</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence155>\n<sentence156>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>18</orderItemNumber>\n</sentence156>\n<sentence157>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence157>\n<sentence158>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210081100</partnerILN>\n</sentence158>\n<sentence159>\n    <type>580</type>\n    <positionNumber>28</positionNumber>\n    <bestBeforeDate>20221115</bestBeforeDate>\n    <batchNumber>100855-VE46227</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence159>\n<sentence160>\n    <type>500</type>\n    <positionNumber>29</positionNumber>\n    <EAN>4260402487205</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence160>\n<sentence161>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>6</orderItemNumber>\n</sentence161>\n<sentence162>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence162>\n<sentence163>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210081100</partnerILN>\n</sentence163>\n<sentence164>\n    <type>580</type>\n    <positionNumber>29</positionNumber>\n    <bestBeforeDate>20221118</bestBeforeDate>\n    <batchNumber>100458-221010/0</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence164>\n<sentence165>\n    <type>500</type>\n    <positionNumber>30</positionNumber>\n    <EAN>4260402485447</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence165>\n<sentence166>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>4</orderItemNumber>\n</sentence166>\n<sentence167>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence167>\n<sentence168>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210081100</partnerILN>\n</sentence168>\n<sentence169>\n    <type>580</type>\n    <positionNumber>30</positionNumber>\n    <bestBeforeDate>20230415</bestBeforeDate>\n    <batchNumber>152208-VE47305</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence169>\n<sentence170>\n    <type>500</type>\n    <positionNumber>31</positionNumber>\n    <EAN>4251725800901</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence170>\n<sentence171>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>22</orderItemNumber>\n</sentence171>\n<sentence172>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence172>\n<sentence173>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210081100</partnerILN>\n</sentence173>\n<sentence174>\n    <type>580</type>\n    <positionNumber>31</positionNumber>\n    <bestBeforeDate>20221101</bestBeforeDate>\n    <batchNumber>100875-VE46020</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence174>\n<sentence175>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695535037</palletNVE>\n</sentence175>\n<sentence176>\n    <type>500</type>\n    <positionNumber>32</positionNumber>\n    <EAN>4260402489995</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence176>\n<sentence177>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>228</orderItemNumber>\n</sentence177>\n<sentence178>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence178>\n<sentence179>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210126146</partnerILN>\n</sentence179>\n<sentence180>\n    <type>580</type>\n    <positionNumber>32</positionNumber>\n    <bestBeforeDate>20220708</bestBeforeDate>\n    <batchNumber>100701-220708P05</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence180>\n<sentence181>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695534931</palletNVE>\n</sentence181>\n<sentence182>\n    <type>500</type>\n    <positionNumber>33</positionNumber>\n    <EAN>4251725800581</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence182>\n<sentence183>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>172</orderItemNumber>\n</sentence183>\n<sentence184>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence184>\n<sentence185>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313205157742</partnerILN>\n</sentence185>\n<sentence186>\n    <type>580</type>\n    <positionNumber>33</positionNumber>\n    <bestBeforeDate>20230102</bestBeforeDate>\n    <batchNumber>100807-C072202022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence186>\n<sentence187>\n    <type>500</type>\n    <positionNumber>34</positionNumber>\n    <EAN>4251725800499</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence187>\n<sentence188>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>158</orderItemNumber>\n</sentence188>\n<sentence189>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence189>\n<sentence190>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313205158428</partnerILN>\n</sentence190>\n<sentence191>\n    <type>500</type>\n    <positionNumber>35</positionNumber>\n    <EAN>4251725800451</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence191>\n<sentence192>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>156</orderItemNumber>\n</sentence192>\n<sentence193>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence193>\n<sentence194>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313205158428</partnerILN>\n</sentence194>\n<sentence195>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695614800</palletNVE>\n</sentence195>\n<sentence196>\n    <type>500</type>\n    <positionNumber>36</positionNumber>\n    <EAN>4260402489568</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence196>\n<sentence197>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>154</orderItemNumber>\n</sentence197>\n<sentence198>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence198>\n<sentence199>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313205158428</partnerILN>\n</sentence199>\n<sentence200>\n    <type>580</type>\n    <positionNumber>36</positionNumber>\n    <bestBeforeDate>20220524</bestBeforeDate>\n    <batchNumber>100640-22054068</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence200>\n<sentence201>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695532227</palletNVE>\n</sentence201>\n<sentence202>\n    <type>500</type>\n    <positionNumber>37</positionNumber>\n    <EAN>4251725800635</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence202>\n<sentence203>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>246</orderItemNumber>\n</sentence203>\n<sentence204>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence204>\n<sentence205>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210427076</partnerILN>\n</sentence205>\n<sentence206>\n    <type>580</type>\n    <positionNumber>37</positionNumber>\n    <bestBeforeDate>20230331</bestBeforeDate>\n    <batchNumber>100820-01/22</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence206>\n<sentence207>\n    <type>500</type>\n    <positionNumber>38</positionNumber>\n    <EAN>4251725800451</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence207>\n<sentence208>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>160</orderItemNumber>\n</sentence208>\n<sentence209>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence209>\n<sentence210>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210004512</partnerILN>\n</sentence210>\n<sentence211>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695535099</palletNVE>\n</sentence211>\n<sentence212>\n    <type>500</type>\n    <positionNumber>39</positionNumber>\n    <EAN>4260402489995</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence212>\n<sentence213>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>148</orderItemNumber>\n</sentence213>\n<sentence214>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence214>\n<sentence215>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210004512</partnerILN>\n</sentence215>\n<sentence216>\n    <type>580</type>\n    <positionNumber>39</positionNumber>\n    <bestBeforeDate>20220708</bestBeforeDate>\n    <batchNumber>100701-220708P05</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence216>\n<sentence217>\n    <type>500</type>\n    <positionNumber>40</positionNumber>\n    <EAN>4251725800451</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence217>\n<sentence218>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>188</orderItemNumber>\n</sentence218>\n<sentence219>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence219>\n<sentence220>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210104410</partnerILN>\n</sentence220>\n<sentence221>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695614749</palletNVE>\n</sentence221>\n<sentence222>\n    <type>500</type>\n    <positionNumber>41</positionNumber>\n    <EAN>4251725800864</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence222>\n<sentence223>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>186</orderItemNumber>\n</sentence223>\n<sentence224>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence224>\n<sentence225>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210104410</partnerILN>\n</sentence225>\n<sentence226>\n    <type>580</type>\n    <positionNumber>41</positionNumber>\n    <bestBeforeDate>20220502</bestBeforeDate>\n    <batchNumber>100870-110112</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence226>\n<sentence227>\n    <type>500</type>\n    <positionNumber>42</positionNumber>\n    <EAN>4251725800437</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence227>\n<sentence228>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>190</orderItemNumber>\n</sentence228>\n<sentence229>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence229>\n<sentence230>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210104410</partnerILN>\n</sentence230>\n<sentence231>\n    <type>580</type>\n    <positionNumber>42</positionNumber>\n    <bestBeforeDate>20220501</bestBeforeDate>\n    <batchNumber>100788-22087</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence231>\n<sentence232>\n    <type>500</type>\n    <positionNumber>43</positionNumber>\n    <EAN>4260402482576</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence232>\n<sentence233>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>180</orderItemNumber>\n</sentence233>\n<sentence234>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence234>\n<sentence235>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210104410</partnerILN>\n</sentence235>\n<sentence236>\n    <type>580</type>\n    <positionNumber>43</positionNumber>\n    <bestBeforeDate>20221104</bestBeforeDate>\n    <batchNumber>124007-PO08909-10845</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence236>\n<sentence237>\n    <type>500</type>\n    <positionNumber>44</positionNumber>\n    <EAN>4251725800871</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence237>\n<sentence238>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>184</orderItemNumber>\n</sentence238>\n<sentence239>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence239>\n<sentence240>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210104410</partnerILN>\n</sentence240>\n<sentence241>\n    <type>580</type>\n    <positionNumber>44</positionNumber>\n    <bestBeforeDate>20220502</bestBeforeDate>\n    <batchNumber>100871-111112</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence241>\n<sentence242>\n    <type>500</type>\n    <positionNumber>45</positionNumber>\n    <EAN>4260402485751</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence242>\n<sentence243>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>182</orderItemNumber>\n</sentence243>\n<sentence244>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence244>\n<sentence245>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210104410</partnerILN>\n</sentence245>\n<sentence246>\n    <type>580</type>\n    <positionNumber>45</positionNumber>\n    <bestBeforeDate>20220620</bestBeforeDate>\n    <batchNumber>162015-1000306113</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence246>\n<sentence247>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695614756</palletNVE>\n</sentence247>\n<sentence248>\n    <type>500</type>\n    <positionNumber>46</positionNumber>\n    <EAN>4251725800475</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence248>\n<sentence249>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>192</orderItemNumber>\n</sentence249>\n<sentence250>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence250>\n<sentence251>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210104410</partnerILN>\n</sentence251>\n<sentence252>\n    <type>580</type>\n    <positionNumber>46</positionNumber>\n    <bestBeforeDate>20220426</bestBeforeDate>\n    <batchNumber>100790-22082</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence252>\n<sentence253>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695534924</palletNVE>\n</sentence253>\n<sentence254>\n    <type>500</type>\n    <positionNumber>47</positionNumber>\n    <EAN>4260402485386</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence254>\n<sentence255>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>254</orderItemNumber>\n</sentence255>\n<sentence256>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence256>\n<sentence257>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210109538</partnerILN>\n</sentence257>\n<sentence258>\n    <type>580</type>\n    <positionNumber>47</positionNumber>\n    <bestBeforeDate>20230409</bestBeforeDate>\n    <batchNumber>152206-L22063</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence258>\n<sentence259>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695534917</palletNVE>\n</sentence259>\n<sentence260>\n    <type>500</type>\n    <positionNumber>48</positionNumber>\n    <EAN>4251725800581</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence260>\n<sentence261>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>244</orderItemNumber>\n</sentence261>\n<sentence262>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence262>\n<sentence263>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210120892</partnerILN>\n</sentence263>\n<sentence264>\n    <type>580</type>\n    <positionNumber>48</positionNumber>\n    <bestBeforeDate>20230102</bestBeforeDate>\n    <batchNumber>100807-C072202022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence264>\n<sentence265>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695614848</palletNVE>\n</sentence265>\n<sentence266>\n    <type>500</type>\n    <positionNumber>49</positionNumber>\n    <EAN>4260402489568</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence266>\n<sentence267>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>274</orderItemNumber>\n</sentence267>\n<sentence268>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence268>\n<sentence269>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210131294</partnerILN>\n</sentence269>\n<sentence270>\n    <type>580</type>\n    <positionNumber>49</positionNumber>\n    <bestBeforeDate>20220524</bestBeforeDate>\n    <batchNumber>100640-22054068</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence270>\n<sentence271>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695532234</palletNVE>\n</sentence271>\n<sentence272>\n    <type>500</type>\n    <positionNumber>50</positionNumber>\n    <EAN>4260402484495</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence272>\n<sentence273>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>168</orderItemNumber>\n</sentence273>\n<sentence274>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence274>\n<sentence275>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210303530</partnerILN>\n</sentence275>\n<sentence276>\n    <type>580</type>\n    <positionNumber>50</positionNumber>\n    <bestBeforeDate>20240130</bestBeforeDate>\n    <batchNumber>153060-030F</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence276>\n<sentence277>\n    <type>500</type>\n    <positionNumber>51</positionNumber>\n    <EAN>4260402484518</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence277>\n<sentence278>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>170</orderItemNumber>\n</sentence278>\n<sentence279>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence279>\n<sentence280>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210303530</partnerILN>\n</sentence280>\n<sentence281>\n    <type>580</type>\n    <positionNumber>51</positionNumber>\n    <bestBeforeDate>20231201</bestBeforeDate>\n    <batchNumber>153061-335U</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence281>\n<sentence282>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695535075</palletNVE>\n</sentence282>\n<sentence283>\n    <type>500</type>\n    <positionNumber>52</positionNumber>\n    <EAN>4251725800871</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence283>\n<sentence284>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>38</orderItemNumber>\n</sentence284>\n<sentence285>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence285>\n<sentence286>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210331472</partnerILN>\n</sentence286>\n<sentence287>\n    <type>580</type>\n    <positionNumber>52</positionNumber>\n    <bestBeforeDate>20220502</bestBeforeDate>\n    <batchNumber>100871-111112</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence287>\n<sentence288>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695535129</palletNVE>\n</sentence288>\n<sentence289>\n    <type>500</type>\n    <positionNumber>53</positionNumber>\n    <EAN>4260402489032</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence289>\n<sentence290>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>198</orderItemNumber>\n</sentence290>\n<sentence291>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence291>\n<sentence292>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210341020</partnerILN>\n</sentence292>\n<sentence293>\n    <type>580</type>\n    <positionNumber>53</positionNumber>\n    <bestBeforeDate>20230403</bestBeforeDate>\n    <batchNumber>100596-L22054</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence293>\n<sentence294>\n    <type>500</type>\n    <positionNumber>54</positionNumber>\n    <EAN>4251725800277</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence294>\n<sentence295>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>200</orderItemNumber>\n</sentence295>\n<sentence296>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence296>\n<sentence297>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210341020</partnerILN>\n</sentence297>\n<sentence298>\n    <type>580</type>\n    <positionNumber>54</positionNumber>\n    <bestBeforeDate>20220427</bestBeforeDate>\n    <batchNumber>100753-0762022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence298>\n<sentence299>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695532241</palletNVE>\n</sentence299>\n<sentence300>\n    <type>500</type>\n    <positionNumber>55</positionNumber>\n    <EAN>4260402486789</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence300>\n<sentence301>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>260</orderItemNumber>\n</sentence301>\n<sentence302>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence302>\n<sentence303>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210341402</partnerILN>\n</sentence303>\n<sentence304>\n    <type>580</type>\n    <positionNumber>55</positionNumber>\n    <bestBeforeDate>20221027</bestBeforeDate>\n    <batchNumber>161046-L1441</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence304>\n<sentence305>\n    <type>500</type>\n    <positionNumber>56</positionNumber>\n    <EAN>4260402488516</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence305>\n<sentence306>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>162</orderItemNumber>\n</sentence306>\n<sentence307>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence307>\n<sentence308>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210345080</partnerILN>\n</sentence308>\n<sentence309>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695535082</palletNVE>\n</sentence309>\n<sentence310>\n    <type>500</type>\n    <positionNumber>57</positionNumber>\n    <EAN>4251725800277</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence310>\n<sentence311>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>24</orderItemNumber>\n</sentence311>\n<sentence312>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence312>\n<sentence313>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210350138</partnerILN>\n</sentence313>\n<sentence314>\n    <type>580</type>\n    <positionNumber>57</positionNumber>\n    <bestBeforeDate>20220427</bestBeforeDate>\n    <batchNumber>100753-0762022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence314>\n<sentence315>\n    <type>500</type>\n    <positionNumber>58</positionNumber>\n    <EAN>4260402488516</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence315>\n<sentence316>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>52</orderItemNumber>\n</sentence316>\n<sentence317>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence317>\n<sentence318>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210362834</partnerILN>\n</sentence318>\n<sentence319>\n    <type>500</type>\n    <positionNumber>59</positionNumber>\n    <EAN>4251725800499</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence319>\n<sentence320>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>70</orderItemNumber>\n</sentence320>\n<sentence321>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence321>\n<sentence322>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210362834</partnerILN>\n</sentence322>\n<sentence323>\n    <type>500</type>\n    <positionNumber>60</positionNumber>\n    <EAN>4251725800451</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence323>\n<sentence324>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>62</orderItemNumber>\n</sentence324>\n<sentence325>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence325>\n<sentence326>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210362834</partnerILN>\n</sentence326>\n<sentence327>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695614718</palletNVE>\n</sentence327>\n<sentence328>\n    <type>500</type>\n    <positionNumber>61</positionNumber>\n    <EAN>4251725801007</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence328>\n<sentence329>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>72</orderItemNumber>\n</sentence329>\n<sentence330>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence330>\n<sentence331>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210362834</partnerILN>\n</sentence331>\n<sentence332>\n    <type>580</type>\n    <positionNumber>61</positionNumber>\n    <bestBeforeDate>20220723</bestBeforeDate>\n    <batchNumber>100884-765323022</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence332>\n<sentence333>\n    <type>500</type>\n    <positionNumber>62</positionNumber>\n    <EAN>4251725800673</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence333>\n<sentence334>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>286</orderItemNumber>\n</sentence334>\n<sentence335>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence335>\n<sentence336>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210362834</partnerILN>\n</sentence336>\n<sentence337>\n    <type>580</type>\n    <positionNumber>62</positionNumber>\n    <bestBeforeDate>20221231</bestBeforeDate>\n    <batchNumber>100822-09/21</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence337>\n<sentence338>\n    <type>500</type>\n    <positionNumber>63</positionNumber>\n    <EAN>4260402489995</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence338>\n<sentence339>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>58</orderItemNumber>\n</sentence339>\n<sentence340>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence340>\n<sentence341>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210362834</partnerILN>\n</sentence341>\n<sentence342>\n    <type>580</type>\n    <positionNumber>63</positionNumber>\n    <bestBeforeDate>20220708</bestBeforeDate>\n    <batchNumber>100701-220708P05</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence342>\n<sentence343>\n    <type>500</type>\n    <positionNumber>64</positionNumber>\n    <EAN>4251725801236</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence343>\n<sentence344>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>76</orderItemNumber>\n</sentence344>\n<sentence345>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence345>\n<sentence346>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210362834</partnerILN>\n</sentence346>\n<sentence347>\n    <type>580</type>\n    <positionNumber>64</positionNumber>\n    <bestBeforeDate>20220911</bestBeforeDate>\n    <batchNumber>100917-723218022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence347>\n<sentence348>\n    <type>500</type>\n    <positionNumber>65</positionNumber>\n    <EAN>4251725800987</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence348>\n<sentence349>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>74</orderItemNumber>\n</sentence349>\n<sentence350>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence350>\n<sentence351>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210362834</partnerILN>\n</sentence351>\n<sentence352>\n    <type>580</type>\n    <positionNumber>65</positionNumber>\n    <bestBeforeDate>20220709</bestBeforeDate>\n    <batchNumber>100883-765209022</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence352>\n<sentence353>\n    <type>500</type>\n    <positionNumber>66</positionNumber>\n    <EAN>4251725800871</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence353>\n<sentence354>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>56</orderItemNumber>\n</sentence354>\n<sentence355>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence355>\n<sentence356>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210362834</partnerILN>\n</sentence356>\n<sentence357>\n    <type>580</type>\n    <positionNumber>66</positionNumber>\n    <bestBeforeDate>20220502</bestBeforeDate>\n    <batchNumber>100871-111112</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence357>\n<sentence358>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695614725</palletNVE>\n</sentence358>\n<sentence359>\n    <type>500</type>\n    <positionNumber>67</positionNumber>\n    <EAN>4260402489070</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence359>\n<sentence360>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>54</orderItemNumber>\n</sentence360>\n<sentence361>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence361>\n<sentence362>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210362834</partnerILN>\n</sentence362>\n<sentence363>\n    <type>580</type>\n    <positionNumber>67</positionNumber>\n    <bestBeforeDate>20220821</bestBeforeDate>\n    <batchNumber>100598-O220222D</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence363>\n<sentence364>\n    <type>500</type>\n    <positionNumber>68</positionNumber>\n    <EAN>4251725800437</EAN>\n    <orderQuantity>3.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence364>\n<sentence365>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>66</orderItemNumber>\n</sentence365>\n<sentence366>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence366>\n<sentence367>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210362834</partnerILN>\n</sentence367>\n<sentence368>\n    <type>580</type>\n    <positionNumber>68</positionNumber>\n    <bestBeforeDate>20220501</bestBeforeDate>\n    <batchNumber>100788-22087</batchNumber>\n    <deliveryQuantity>3</deliveryQuantity>\n</sentence368>\n<sentence369>\n    <type>500</type>\n    <positionNumber>69</positionNumber>\n    <EAN>4260402489568</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence369>\n<sentence370>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>50</orderItemNumber>\n</sentence370>\n<sentence371>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence371>\n<sentence372>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210362834</partnerILN>\n</sentence372>\n<sentence373>\n    <type>580</type>\n    <positionNumber>69</positionNumber>\n    <bestBeforeDate>20220524</bestBeforeDate>\n    <batchNumber>100640-22054068</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence373>\n<sentence374>\n    <type>500</type>\n    <positionNumber>70</positionNumber>\n    <EAN>4251725800253</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence374>\n<sentence375>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>64</orderItemNumber>\n</sentence375>\n<sentence376>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence376>\n<sentence377>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210362834</partnerILN>\n</sentence377>\n<sentence378>\n    <type>580</type>\n    <positionNumber>70</positionNumber>\n    <bestBeforeDate>20220807</bestBeforeDate>\n    <batchNumber>100752-608514012</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence378>\n<sentence379>\n    <type>500</type>\n    <positionNumber>71</positionNumber>\n    <EAN>4251725800864</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence379>\n<sentence380>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>60</orderItemNumber>\n</sentence380>\n<sentence381>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence381>\n<sentence382>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210362834</partnerILN>\n</sentence382>\n<sentence383>\n    <type>580</type>\n    <positionNumber>71</positionNumber>\n    <bestBeforeDate>20220502</bestBeforeDate>\n    <batchNumber>100870-110112</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence383>\n<sentence384>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695614732</palletNVE>\n</sentence384>\n<sentence385>\n    <type>500</type>\n    <positionNumber>72</positionNumber>\n    <EAN>4251725800475</EAN>\n    <orderQuantity>3.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence385>\n<sentence386>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>68</orderItemNumber>\n</sentence386>\n<sentence387>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence387>\n<sentence388>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210362834</partnerILN>\n</sentence388>\n<sentence389>\n    <type>580</type>\n    <positionNumber>72</positionNumber>\n    <bestBeforeDate>20220426</bestBeforeDate>\n    <batchNumber>100790-22082</batchNumber>\n    <deliveryQuantity>3</deliveryQuantity>\n</sentence389>\n<sentence390>\n    <type>500</type>\n    <positionNumber>73</positionNumber>\n    <EAN>4251725800277</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence390>\n<sentence391>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>284</orderItemNumber>\n</sentence391>\n<sentence392>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence392>\n<sentence393>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210362834</partnerILN>\n</sentence393>\n<sentence394>\n    <type>580</type>\n    <positionNumber>73</positionNumber>\n    <bestBeforeDate>20220427</bestBeforeDate>\n    <batchNumber>100753-0762022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence394>\n<sentence395>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695614831</palletNVE>\n</sentence395>\n<sentence396>\n    <type>500</type>\n    <positionNumber>74</positionNumber>\n    <EAN>4260402489568</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence396>\n<sentence397>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>206</orderItemNumber>\n</sentence397>\n<sentence398>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence398>\n<sentence399>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210364500</partnerILN>\n</sentence399>\n<sentence400>\n    <type>580</type>\n    <positionNumber>74</positionNumber>\n    <bestBeforeDate>20220524</bestBeforeDate>\n    <batchNumber>100640-22054068</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence400>\n<sentence401>\n    <type>500</type>\n    <positionNumber>75</positionNumber>\n    <EAN>4251725800253</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence401>\n<sentence402>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>208</orderItemNumber>\n</sentence402>\n<sentence403>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence403>\n<sentence404>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210364500</partnerILN>\n</sentence404>\n<sentence405>\n    <type>580</type>\n    <positionNumber>75</positionNumber>\n    <bestBeforeDate>20220807</bestBeforeDate>\n    <batchNumber>100752-608514012</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence405>\n<sentence406>\n    <type>500</type>\n    <positionNumber>76</positionNumber>\n    <EAN>4251725800451</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence406>\n<sentence407>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>316</orderItemNumber>\n</sentence407>\n<sentence408>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence408>\n<sentence409>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210372000</partnerILN>\n</sentence409>\n<sentence410>\n    <type>500</type>\n    <positionNumber>77</positionNumber>\n    <EAN>4251725800499</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence410>\n<sentence411>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>322</orderItemNumber>\n</sentence411>\n<sentence412>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence412>\n<sentence413>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210372000</partnerILN>\n</sentence413>\n<sentence414>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695535143</palletNVE>\n</sentence414>\n<sentence415>\n    <type>500</type>\n    <positionNumber>78</positionNumber>\n    <EAN>4251725800390</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence415>\n<sentence416>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>320</orderItemNumber>\n</sentence416>\n<sentence417>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence417>\n<sentence418>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210372000</partnerILN>\n</sentence418>\n<sentence419>\n    <type>580</type>\n    <positionNumber>78</positionNumber>\n    <bestBeforeDate>20230125</bestBeforeDate>\n    <batchNumber>100767-C072202251</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence419>\n<sentence420>\n    <type>500</type>\n    <positionNumber>79</positionNumber>\n    <EAN>4251725800437</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence420>\n<sentence421>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>318</orderItemNumber>\n</sentence421>\n<sentence422>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence422>\n<sentence423>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210372000</partnerILN>\n</sentence423>\n<sentence424>\n    <type>580</type>\n    <positionNumber>79</positionNumber>\n    <bestBeforeDate>20220501</bestBeforeDate>\n    <batchNumber>100788-22087</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence424>\n<sentence425>\n    <type>500</type>\n    <positionNumber>80</positionNumber>\n    <EAN>4251725801236</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence425>\n<sentence426>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>328</orderItemNumber>\n</sentence426>\n<sentence427>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence427>\n<sentence428>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210372000</partnerILN>\n</sentence428>\n<sentence429>\n    <type>580</type>\n    <positionNumber>80</positionNumber>\n    <bestBeforeDate>20220911</bestBeforeDate>\n    <batchNumber>100917-723218022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence429>\n<sentence430>\n    <type>500</type>\n    <positionNumber>81</positionNumber>\n    <EAN>4260402484006</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence430>\n<sentence431>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>306</orderItemNumber>\n</sentence431>\n<sentence432>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence432>\n<sentence433>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210372000</partnerILN>\n</sentence433>\n<sentence434>\n    <type>580</type>\n    <positionNumber>81</positionNumber>\n    <bestBeforeDate>20220918</bestBeforeDate>\n    <batchNumber>271013-180922</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence434>\n<sentence435>\n    <type>500</type>\n    <positionNumber>82</positionNumber>\n    <EAN>4251725800277</EAN>\n    <orderQuantity>3.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence435>\n<sentence436>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>324</orderItemNumber>\n</sentence436>\n<sentence437>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence437>\n<sentence438>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210372000</partnerILN>\n</sentence438>\n<sentence439>\n    <type>580</type>\n    <positionNumber>82</positionNumber>\n    <bestBeforeDate>20220427</bestBeforeDate>\n    <batchNumber>100753-0762022</batchNumber>\n    <deliveryQuantity>3</deliveryQuantity>\n</sentence439>\n<sentence440>\n    <type>500</type>\n    <positionNumber>83</positionNumber>\n    <EAN>4251725800871</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence440>\n<sentence441>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>308</orderItemNumber>\n</sentence441>\n<sentence442>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence442>\n<sentence443>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210372000</partnerILN>\n</sentence443>\n<sentence444>\n    <type>580</type>\n    <positionNumber>83</positionNumber>\n    <bestBeforeDate>20220502</bestBeforeDate>\n    <batchNumber>100871-111112</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence444>\n<sentence445>\n    <type>500</type>\n    <positionNumber>84</positionNumber>\n    <EAN>4260402489995</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence445>\n<sentence446>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>310</orderItemNumber>\n</sentence446>\n<sentence447>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence447>\n<sentence448>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210372000</partnerILN>\n</sentence448>\n<sentence449>\n    <type>580</type>\n    <positionNumber>84</positionNumber>\n    <bestBeforeDate>20220708</bestBeforeDate>\n    <batchNumber>100701-220708P05</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence449>\n<sentence450>\n    <type>500</type>\n    <positionNumber>85</positionNumber>\n    <EAN>4251725800864</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence450>\n<sentence451>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>312</orderItemNumber>\n</sentence451>\n<sentence452>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence452>\n<sentence453>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210372000</partnerILN>\n</sentence453>\n<sentence454>\n    <type>580</type>\n    <positionNumber>85</positionNumber>\n    <bestBeforeDate>20220502</bestBeforeDate>\n    <batchNumber>100870-110112</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence454>\n<sentence455>\n    <type>500</type>\n    <positionNumber>86</positionNumber>\n    <EAN>4260402486338</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence455>\n<sentence456>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>314</orderItemNumber>\n</sentence456>\n<sentence457>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence457>\n<sentence458>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210372000</partnerILN>\n</sentence458>\n<sentence459>\n    <type>580</type>\n    <positionNumber>86</positionNumber>\n    <bestBeforeDate>20221003</bestBeforeDate>\n    <batchNumber>100362-03102022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence459>\n<sentence460>\n    <type>500</type>\n    <positionNumber>87</positionNumber>\n    <EAN>4251725801021</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence460>\n<sentence461>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>326</orderItemNumber>\n</sentence461>\n<sentence462>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence462>\n<sentence463>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210372000</partnerILN>\n</sentence463>\n<sentence464>\n    <type>580</type>\n    <positionNumber>87</positionNumber>\n    <bestBeforeDate>20240120</bestBeforeDate>\n    <batchNumber>100885-0060905</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence464>\n<sentence465>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695532258</palletNVE>\n</sentence465>\n<sentence466>\n    <type>500</type>\n    <positionNumber>88</positionNumber>\n    <EAN>4251725800598</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence466>\n<sentence467>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>250</orderItemNumber>\n</sentence467>\n<sentence468>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence468>\n<sentence469>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210381668</partnerILN>\n</sentence469>\n<sentence470>\n    <type>580</type>\n    <positionNumber>88</positionNumber>\n    <bestBeforeDate>20230103</bestBeforeDate>\n    <batchNumber>100808-C072202032</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence470>\n<sentence471>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695534955</palletNVE>\n</sentence471>\n<sentence472>\n    <type>500</type>\n    <positionNumber>89</positionNumber>\n    <EAN>4260402483962</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence472>\n<sentence473>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>34</orderItemNumber>\n</sentence473>\n<sentence474>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence474>\n<sentence475>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210390530</partnerILN>\n</sentence475>\n<sentence476>\n    <type>580</type>\n    <positionNumber>89</positionNumber>\n    <bestBeforeDate>20220913</bestBeforeDate>\n    <batchNumber>271012-130922</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence476>\n<sentence477>\n    <type>500</type>\n    <positionNumber>90</positionNumber>\n    <EAN>4260402486840</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence477>\n<sentence478>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>48</orderItemNumber>\n</sentence478>\n<sentence479>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence479>\n<sentence480>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210390530</partnerILN>\n</sentence480>\n<sentence481>\n    <type>580</type>\n    <positionNumber>90</positionNumber>\n    <bestBeforeDate>20230517</bestBeforeDate>\n    <batchNumber>100399-01722</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence481>\n<sentence482>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695535136</palletNVE>\n</sentence482>\n<sentence483>\n    <type>500</type>\n    <positionNumber>91</positionNumber>\n    <EAN>4251725800390</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence483>\n<sentence484>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>300</orderItemNumber>\n</sentence484>\n<sentence485>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence485>\n<sentence486>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210391834</partnerILN>\n</sentence486>\n<sentence487>\n    <type>580</type>\n    <positionNumber>91</positionNumber>\n    <bestBeforeDate>20230125</bestBeforeDate>\n    <batchNumber>100767-C072202251</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence487>\n<sentence488>\n    <type>500</type>\n    <positionNumber>92</positionNumber>\n    <EAN>4260402489568</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence488>\n<sentence489>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>292</orderItemNumber>\n</sentence489>\n<sentence490>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence490>\n<sentence491>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210391834</partnerILN>\n</sentence491>\n<sentence492>\n    <type>580</type>\n    <positionNumber>92</positionNumber>\n    <bestBeforeDate>20220524</bestBeforeDate>\n    <batchNumber>100640-22054068</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence492>\n<sentence493>\n    <type>500</type>\n    <positionNumber>93</positionNumber>\n    <EAN>4251725801250</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence493>\n<sentence494>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>302</orderItemNumber>\n</sentence494>\n<sentence495>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence495>\n<sentence496>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210391834</partnerILN>\n</sentence496>\n<sentence497>\n    <type>580</type>\n    <positionNumber>93</positionNumber>\n    <bestBeforeDate>20220901</bestBeforeDate>\n    <batchNumber>100918-723308022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence497>\n<sentence498>\n    <type>500</type>\n    <positionNumber>94</positionNumber>\n    <EAN>4251725800253</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence498>\n<sentence499>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>298</orderItemNumber>\n</sentence499>\n<sentence500>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence500>\n<sentence501>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210391834</partnerILN>\n</sentence501>\n<sentence502>\n    <type>580</type>\n    <positionNumber>94</positionNumber>\n    <bestBeforeDate>20220807</bestBeforeDate>\n    <batchNumber>100752-608514012</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence502>\n<sentence503>\n    <type>500</type>\n    <positionNumber>95</positionNumber>\n    <EAN>4260402489070</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence503>\n<sentence504>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>294</orderItemNumber>\n</sentence504>\n<sentence505>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence505>\n<sentence506>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210391834</partnerILN>\n</sentence506>\n<sentence507>\n    <type>580</type>\n    <positionNumber>95</positionNumber>\n    <bestBeforeDate>20220821</bestBeforeDate>\n    <batchNumber>100598-O220222D</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence507>\n<sentence508>\n    <type>500</type>\n    <positionNumber>96</positionNumber>\n    <EAN>4251725800581</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence508>\n<sentence509>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>288</orderItemNumber>\n</sentence509>\n<sentence510>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence510>\n<sentence511>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210391834</partnerILN>\n</sentence511>\n<sentence512>\n    <type>580</type>\n    <positionNumber>96</positionNumber>\n    <bestBeforeDate>20230102</bestBeforeDate>\n    <batchNumber>100807-C072202022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence512>\n<sentence513>\n    <type>500</type>\n    <positionNumber>97</positionNumber>\n    <EAN>4260402487205</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence513>\n<sentence514>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>290</orderItemNumber>\n</sentence514>\n<sentence515>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence515>\n<sentence516>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210391834</partnerILN>\n</sentence516>\n<sentence517>\n    <type>580</type>\n    <positionNumber>97</positionNumber>\n    <bestBeforeDate>20221118</bestBeforeDate>\n    <batchNumber>100458-221010/0</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence517>\n<sentence518>\n    <type>500</type>\n    <positionNumber>98</positionNumber>\n    <EAN>4251725800871</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence518>\n<sentence519>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>296</orderItemNumber>\n</sentence519>\n<sentence520>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence520>\n<sentence521>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210391834</partnerILN>\n</sentence521>\n<sentence522>\n    <type>580</type>\n    <positionNumber>98</positionNumber>\n    <bestBeforeDate>20220502</bestBeforeDate>\n    <batchNumber>100871-111112</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence522>\n<sentence523>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695534962</palletNVE>\n</sentence523>\n<sentence524>\n    <type>500</type>\n    <positionNumber>99</positionNumber>\n    <EAN>4251725800598</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence524>\n<sentence525>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>230</orderItemNumber>\n</sentence525>\n<sentence526>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence526>\n<sentence527>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210400468</partnerILN>\n</sentence527>\n<sentence528>\n    <type>580</type>\n    <positionNumber>99</positionNumber>\n    <bestBeforeDate>20230103</bestBeforeDate>\n    <batchNumber>100808-C072202032</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence528>\n<sentence529>\n    <type>500</type>\n    <positionNumber>100</positionNumber>\n    <EAN>4260402486789</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence529>\n<sentence530>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>232</orderItemNumber>\n</sentence530>\n<sentence531>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence531>\n<sentence532>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210400468</partnerILN>\n</sentence532>\n<sentence533>\n    <type>580</type>\n    <positionNumber>100</positionNumber>\n    <bestBeforeDate>20221027</bestBeforeDate>\n    <batchNumber>161046-L1441</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence533>\n<sentence534>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695532265</palletNVE>\n</sentence534>\n<sentence535>\n    <type>500</type>\n    <positionNumber>101</positionNumber>\n    <EAN>4260402483962</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence535>\n<sentence536>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>204</orderItemNumber>\n</sentence536>\n<sentence537>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence537>\n<sentence538>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210415684</partnerILN>\n</sentence538>\n<sentence539>\n    <type>580</type>\n    <positionNumber>101</positionNumber>\n    <bestBeforeDate>20220913</bestBeforeDate>\n    <batchNumber>271012-130922</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence539>\n<sentence540>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695534948</palletNVE>\n</sentence540>\n<sentence541>\n    <type>500</type>\n    <positionNumber>102</positionNumber>\n    <EAN>4251725800598</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence541>\n<sentence542>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>280</orderItemNumber>\n</sentence542>\n<sentence543>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence543>\n<sentence544>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210430076</partnerILN>\n</sentence544>\n<sentence545>\n    <type>580</type>\n    <positionNumber>102</positionNumber>\n    <bestBeforeDate>20230103</bestBeforeDate>\n    <batchNumber>100808-C072202032</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence545>\n<sentence546>\n    <type>500</type>\n    <positionNumber>103</positionNumber>\n    <EAN>4260402487618</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence546>\n<sentence547>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>282</orderItemNumber>\n</sentence547>\n<sentence548>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence548>\n<sentence549>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210430076</partnerILN>\n</sentence549>\n<sentence550>\n    <type>580</type>\n    <positionNumber>103</positionNumber>\n    <bestBeforeDate>20230308</bestBeforeDate>\n    <batchNumber>100479-L22102</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence550>\n<sentence551>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695275186</palletNVE>\n</sentence551>\n<sentence552>\n    <type>500</type>\n    <positionNumber>104</positionNumber>\n    <EAN>4251725800871</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence552>\n<sentence553>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>266</orderItemNumber>\n</sentence553>\n<sentence554>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence554>\n<sentence555>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210437006</partnerILN>\n</sentence555>\n<sentence556>\n    <type>580</type>\n    <positionNumber>104</positionNumber>\n    <bestBeforeDate>20220502</bestBeforeDate>\n    <batchNumber>100871-111112</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence556>\n<sentence557>\n    <type>500</type>\n    <positionNumber>105</positionNumber>\n    <EAN>4260402482576</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence557>\n<sentence558>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>262</orderItemNumber>\n</sentence558>\n<sentence559>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence559>\n<sentence560>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210437006</partnerILN>\n</sentence560>\n<sentence561>\n    <type>580</type>\n    <positionNumber>105</positionNumber>\n    <bestBeforeDate>20221104</bestBeforeDate>\n    <batchNumber>124007-PO08909-10845</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence561>\n<sentence562>\n    <type>500</type>\n    <positionNumber>106</positionNumber>\n    <EAN>4251725800864</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence562>\n<sentence563>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>268</orderItemNumber>\n</sentence563>\n<sentence564>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence564>\n<sentence565>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210437006</partnerILN>\n</sentence565>\n<sentence566>\n    <type>580</type>\n    <positionNumber>106</positionNumber>\n    <bestBeforeDate>20220502</bestBeforeDate>\n    <batchNumber>100870-110112</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence566>\n<sentence567>\n    <type>500</type>\n    <positionNumber>107</positionNumber>\n    <EAN>4251725800475</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence567>\n<sentence568>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>270</orderItemNumber>\n</sentence568>\n<sentence569>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence569>\n<sentence570>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210437006</partnerILN>\n</sentence570>\n<sentence571>\n    <type>580</type>\n    <positionNumber>107</positionNumber>\n    <bestBeforeDate>20220426</bestBeforeDate>\n    <batchNumber>100790-22082</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence571>\n<sentence572>\n    <type>500</type>\n    <positionNumber>108</positionNumber>\n    <EAN>4260402489568</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence572>\n<sentence573>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>264</orderItemNumber>\n</sentence573>\n<sentence574>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence574>\n<sentence575>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210437006</partnerILN>\n</sentence575>\n<sentence576>\n    <type>580</type>\n    <positionNumber>108</positionNumber>\n    <bestBeforeDate>20220524</bestBeforeDate>\n    <batchNumber>100640-22054068</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence576>\n<sentence577>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695534979</palletNVE>\n</sentence577>\n<sentence578>\n    <type>500</type>\n    <positionNumber>109</positionNumber>\n    <EAN>4260402486765</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence578>\n<sentence579>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>236</orderItemNumber>\n</sentence579>\n<sentence580>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence580>\n<sentence581>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210863942</partnerILN>\n</sentence581>\n<sentence582>\n    <type>580</type>\n    <positionNumber>109</positionNumber>\n    <bestBeforeDate>20230202</bestBeforeDate>\n    <batchNumber>161045-L2061</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence582>\n<sentence583>\n    <type>500</type>\n    <positionNumber>110</positionNumber>\n    <EAN>4260402485041</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence583>\n<sentence584>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>234</orderItemNumber>\n</sentence584>\n<sentence585>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence585>\n<sentence586>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210863942</partnerILN>\n</sentence586>\n<sentence587>\n    <type>580</type>\n    <positionNumber>110</positionNumber>\n    <bestBeforeDate>20230201</bestBeforeDate>\n    <batchNumber>161044-C101355</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence587>\n<sentence588>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695614817</palletNVE>\n</sentence588>\n<sentence589>\n    <type>500</type>\n    <positionNumber>111</positionNumber>\n    <EAN>4251725800253</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence589>\n<sentence590>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>36</orderItemNumber>\n</sentence590>\n<sentence591>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence591>\n<sentence592>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210864932</partnerILN>\n</sentence592>\n<sentence593>\n    <type>580</type>\n    <positionNumber>111</positionNumber>\n    <bestBeforeDate>20220807</bestBeforeDate>\n    <batchNumber>100752-608514012</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence593>\n<sentence594>\n    <type>500</type>\n    <positionNumber>112</positionNumber>\n    <EAN>4251725800451</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence594>\n<sentence595>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>144</orderItemNumber>\n</sentence595>\n<sentence596>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence596>\n<sentence597>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210865618</partnerILN>\n</sentence597>\n<sentence598>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695535105</palletNVE>\n</sentence598>\n<sentence599>\n    <type>500</type>\n    <positionNumber>113</positionNumber>\n    <EAN>4251725800475</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence599>\n<sentence600>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>146</orderItemNumber>\n</sentence600>\n<sentence601>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence601>\n<sentence602>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210865618</partnerILN>\n</sentence602>\n<sentence603>\n    <type>580</type>\n    <positionNumber>113</positionNumber>\n    <bestBeforeDate>20220426</bestBeforeDate>\n    <batchNumber>100790-22082</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence603>\n<sentence604>\n    <type>500</type>\n    <positionNumber>114</positionNumber>\n    <EAN>4251725800864</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence604>\n<sentence605>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>142</orderItemNumber>\n</sentence605>\n<sentence606>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence606>\n<sentence607>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210865618</partnerILN>\n</sentence607>\n<sentence608>\n    <type>580</type>\n    <positionNumber>114</positionNumber>\n    <bestBeforeDate>20220502</bestBeforeDate>\n    <batchNumber>100870-110112</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence608>\n<sentence609>\n    <type>500</type>\n    <positionNumber>115</positionNumber>\n    <EAN>4251725800871</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence609>\n<sentence610>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>140</orderItemNumber>\n</sentence610>\n<sentence611>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence611>\n<sentence612>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210865618</partnerILN>\n</sentence612>\n<sentence613>\n    <type>580</type>\n    <positionNumber>115</positionNumber>\n    <bestBeforeDate>20220502</bestBeforeDate>\n    <batchNumber>100871-111112</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence613>\n<sentence614>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695532272</palletNVE>\n</sentence614>\n<sentence615>\n    <type>500</type>\n    <positionNumber>116</positionNumber>\n    <EAN>4251725801083</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence615>\n<sentence616>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>126</orderItemNumber>\n</sentence616>\n<sentence617>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence617>\n<sentence618>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence618>\n<sentence619>\n    <type>580</type>\n    <positionNumber>116</positionNumber>\n    <bestBeforeDate>20230613</bestBeforeDate>\n    <batchNumber>100890-L004</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence619>\n<sentence620>\n    <type>500</type>\n    <positionNumber>117</positionNumber>\n    <EAN>4251725800390</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence620>\n<sentence621>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>124</orderItemNumber>\n</sentence621>\n<sentence622>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence622>\n<sentence623>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence623>\n<sentence624>\n    <type>580</type>\n    <positionNumber>117</positionNumber>\n    <bestBeforeDate>20230125</bestBeforeDate>\n    <batchNumber>100767-C072202251</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence624>\n<sentence625>\n    <type>500</type>\n    <positionNumber>118</positionNumber>\n    <EAN>4260402483962</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence625>\n<sentence626>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>98</orderItemNumber>\n</sentence626>\n<sentence627>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence627>\n<sentence628>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence628>\n<sentence629>\n    <type>580</type>\n    <positionNumber>118</positionNumber>\n    <bestBeforeDate>20220913</bestBeforeDate>\n    <batchNumber>271012-130922</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence629>\n<sentence630>\n    <type>500</type>\n    <positionNumber>119</positionNumber>\n    <EAN>4251725801069</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence630>\n<sentence631>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>130</orderItemNumber>\n</sentence631>\n<sentence632>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence632>\n<sentence633>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence633>\n<sentence634>\n    <type>580</type>\n    <positionNumber>119</positionNumber>\n    <bestBeforeDate>20230801</bestBeforeDate>\n    <batchNumber>100887-0061222</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence634>\n<sentence635>\n    <type>500</type>\n    <positionNumber>120</positionNumber>\n    <EAN>4260402480367</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence635>\n<sentence636>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>82</orderItemNumber>\n</sentence636>\n<sentence637>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence637>\n<sentence638>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence638>\n<sentence639>\n    <type>580</type>\n    <positionNumber>120</positionNumber>\n    <bestBeforeDate>20230610</bestBeforeDate>\n    <batchNumber>141049-L344G21</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence639>\n<sentence640>\n    <type>500</type>\n    <positionNumber>121</positionNumber>\n    <EAN>4251725801212</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence640>\n<sentence641>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>134</orderItemNumber>\n</sentence641>\n<sentence642>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence642>\n<sentence643>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence643>\n<sentence644>\n    <type>580</type>\n    <positionNumber>121</positionNumber>\n    <bestBeforeDate>20240201</bestBeforeDate>\n    <batchNumber>100913-0060906</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence644>\n<sentence645>\n    <type>500</type>\n    <positionNumber>122</positionNumber>\n    <EAN>4251725801120</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence645>\n<sentence646>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>136</orderItemNumber>\n</sentence646>\n<sentence647>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence647>\n<sentence648>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence648>\n<sentence649>\n    <type>580</type>\n    <positionNumber>122</positionNumber>\n    <bestBeforeDate>20240118</bestBeforeDate>\n    <batchNumber>100896-180124</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence649>\n<sentence650>\n    <type>500</type>\n    <positionNumber>123</positionNumber>\n    <EAN>4260402487212</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence650>\n<sentence651>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>116</orderItemNumber>\n</sentence651>\n<sentence652>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence652>\n<sentence653>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence653>\n<sentence654>\n    <type>580</type>\n    <positionNumber>123</positionNumber>\n    <bestBeforeDate>20221028</bestBeforeDate>\n    <batchNumber>100459-220604/0</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence654>\n<sentence655>\n    <type>500</type>\n    <positionNumber>124</positionNumber>\n    <EAN>4260402485065</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence655>\n<sentence656>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>90</orderItemNumber>\n</sentence656>\n<sentence657>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence657>\n<sentence658>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence658>\n<sentence659>\n    <type>580</type>\n    <positionNumber>124</positionNumber>\n    <bestBeforeDate>20230430</bestBeforeDate>\n    <batchNumber>151098-L32073</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence659>\n<sentence660>\n    <type>500</type>\n    <positionNumber>125</positionNumber>\n    <EAN>4260402485003</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence660>\n<sentence661>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>92</orderItemNumber>\n</sentence661>\n<sentence662>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence662>\n<sentence663>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence663>\n<sentence664>\n    <type>580</type>\n    <positionNumber>125</positionNumber>\n    <bestBeforeDate>20230331</bestBeforeDate>\n    <batchNumber>151096-L12034</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence664>\n<sentence665>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695532289</palletNVE>\n</sentence665>\n<sentence666>\n    <type>500</type>\n    <positionNumber>126</positionNumber>\n    <EAN>4260402484334</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence666>\n<sentence667>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>104</orderItemNumber>\n</sentence667>\n<sentence668>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence668>\n<sentence669>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence669>\n<sentence670>\n    <type>580</type>\n    <positionNumber>126</positionNumber>\n    <bestBeforeDate>20230420</bestBeforeDate>\n    <batchNumber>153059-L2020</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence670>\n<sentence671>\n    <type>500</type>\n    <positionNumber>127</positionNumber>\n    <EAN>4260402484495</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence671>\n<sentence672>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>100</orderItemNumber>\n</sentence672>\n<sentence673>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence673>\n<sentence674>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence674>\n<sentence675>\n    <type>580</type>\n    <positionNumber>127</positionNumber>\n    <bestBeforeDate>20240130</bestBeforeDate>\n    <batchNumber>153060-030F</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence675>\n<sentence676>\n    <type>500</type>\n    <positionNumber>128</positionNumber>\n    <EAN>4260402484983</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence676>\n<sentence677>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>86</orderItemNumber>\n</sentence677>\n<sentence678>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence678>\n<sentence679>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence679>\n<sentence680>\n    <type>580</type>\n    <positionNumber>128</positionNumber>\n    <bestBeforeDate>20230331</bestBeforeDate>\n    <batchNumber>151095-L32033</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence680>\n<sentence681>\n    <type>500</type>\n    <positionNumber>129</positionNumber>\n    <EAN>4260402485652</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence681>\n<sentence682>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>84</orderItemNumber>\n</sentence682>\n<sentence683>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence683>\n<sentence684>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence684>\n<sentence685>\n    <type>580</type>\n    <positionNumber>129</positionNumber>\n    <bestBeforeDate>20230228</bestBeforeDate>\n    <batchNumber>100314-L11512</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence685>\n<sentence686>\n    <type>500</type>\n    <positionNumber>130</positionNumber>\n    <EAN>4260402485027</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence686>\n<sentence687>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>88</orderItemNumber>\n</sentence687>\n<sentence688>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence688>\n<sentence689>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence689>\n<sentence690>\n    <type>580</type>\n    <positionNumber>130</positionNumber>\n    <bestBeforeDate>20230331</bestBeforeDate>\n    <batchNumber>151097-L22034</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence690>\n<sentence691>\n    <type>500</type>\n    <positionNumber>131</positionNumber>\n    <EAN>4260402485737</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence691>\n<sentence692>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>94</orderItemNumber>\n</sentence692>\n<sentence693>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence693>\n<sentence694>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence694>\n<sentence695>\n    <type>580</type>\n    <positionNumber>131</positionNumber>\n    <bestBeforeDate>20220620</bestBeforeDate>\n    <batchNumber>162014-1000306114</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence695>\n<sentence696>\n    <type>500</type>\n    <positionNumber>132</positionNumber>\n    <EAN>4260402484518</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence696>\n<sentence697>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>102</orderItemNumber>\n</sentence697>\n<sentence698>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence698>\n<sentence699>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence699>\n<sentence700>\n    <type>580</type>\n    <positionNumber>132</positionNumber>\n    <bestBeforeDate>20231201</bestBeforeDate>\n    <batchNumber>153061-335U</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence700>\n<sentence701>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695532296</palletNVE>\n</sentence701>\n<sentence702>\n    <type>500</type>\n    <positionNumber>133</positionNumber>\n    <EAN>4260402484006</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence702>\n<sentence703>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>96</orderItemNumber>\n</sentence703>\n<sentence704>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence704>\n<sentence705>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence705>\n<sentence706>\n    <type>580</type>\n    <positionNumber>133</positionNumber>\n    <bestBeforeDate>20220918</bestBeforeDate>\n    <batchNumber>271013-180922</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence706>\n<sentence707>\n    <type>500</type>\n    <positionNumber>134</positionNumber>\n    <EAN>4251725801045</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence707>\n<sentence708>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>132</orderItemNumber>\n</sentence708>\n<sentence709>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence709>\n<sentence710>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence710>\n<sentence711>\n    <type>580</type>\n    <positionNumber>134</positionNumber>\n    <bestBeforeDate>20230903</bestBeforeDate>\n    <batchNumber>100886-0061511</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence711>\n<sentence712>\n    <type>500</type>\n    <positionNumber>135</positionNumber>\n    <EAN>4251725801021</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence712>\n<sentence713>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>128</orderItemNumber>\n</sentence713>\n<sentence714>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence714>\n<sentence715>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence715>\n<sentence716>\n    <type>580</type>\n    <positionNumber>135</positionNumber>\n    <bestBeforeDate>20240120</bestBeforeDate>\n    <batchNumber>100885-0060905</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence716>\n<sentence717>\n    <type>500</type>\n    <positionNumber>136</positionNumber>\n    <EAN>4260402485447</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence717>\n<sentence718>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>108</orderItemNumber>\n</sentence718>\n<sentence719>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence719>\n<sentence720>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence720>\n<sentence721>\n    <type>580</type>\n    <positionNumber>136</positionNumber>\n    <bestBeforeDate>20230415</bestBeforeDate>\n    <batchNumber>152208-VE47305</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence721>\n<sentence722>\n    <type>500</type>\n    <positionNumber>137</positionNumber>\n    <EAN>4251725800581</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence722>\n<sentence723>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>110</orderItemNumber>\n</sentence723>\n<sentence724>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence724>\n<sentence725>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence725>\n<sentence726>\n    <type>580</type>\n    <positionNumber>137</positionNumber>\n    <bestBeforeDate>20230102</bestBeforeDate>\n    <batchNumber>100807-C072202022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence726>\n<sentence727>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695532302</palletNVE>\n</sentence727>\n<sentence728>\n    <type>500</type>\n    <positionNumber>138</positionNumber>\n    <EAN>4260402487939</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence728>\n<sentence729>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>120</orderItemNumber>\n</sentence729>\n<sentence730>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence730>\n<sentence731>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence731>\n<sentence732>\n    <type>580</type>\n    <positionNumber>138</positionNumber>\n    <bestBeforeDate>20230214</bestBeforeDate>\n    <batchNumber>100493-04522A</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence732>\n<sentence733>\n    <type>500</type>\n    <positionNumber>139</positionNumber>\n    <EAN>4260402487205</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence733>\n<sentence734>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>114</orderItemNumber>\n</sentence734>\n<sentence735>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence735>\n<sentence736>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence736>\n<sentence737>\n    <type>580</type>\n    <positionNumber>139</positionNumber>\n    <bestBeforeDate>20221118</bestBeforeDate>\n    <batchNumber>100458-221010/0</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence737>\n<sentence738>\n    <type>500</type>\n    <positionNumber>140</positionNumber>\n    <EAN>4260402487618</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence738>\n<sentence739>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>118</orderItemNumber>\n</sentence739>\n<sentence740>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence740>\n<sentence741>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence741>\n<sentence742>\n    <type>580</type>\n    <positionNumber>140</positionNumber>\n    <bestBeforeDate>20230308</bestBeforeDate>\n    <batchNumber>100479-L22102</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence742>\n<sentence743>\n    <type>500</type>\n    <positionNumber>141</positionNumber>\n    <EAN>4251725800598</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence743>\n<sentence744>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>112</orderItemNumber>\n</sentence744>\n<sentence745>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence745>\n<sentence746>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence746>\n<sentence747>\n    <type>580</type>\n    <positionNumber>141</positionNumber>\n    <bestBeforeDate>20230103</bestBeforeDate>\n    <batchNumber>100808-C072202032</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence747>\n<sentence748>\n    <type>500</type>\n    <positionNumber>142</positionNumber>\n    <EAN>4260402487892</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence748>\n<sentence749>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>122</orderItemNumber>\n</sentence749>\n<sentence750>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence750>\n<sentence751>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence751>\n<sentence752>\n    <type>580</type>\n    <positionNumber>142</positionNumber>\n    <bestBeforeDate>20230211</bestBeforeDate>\n    <batchNumber>100491-04222A</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence752>\n<sentence753>\n    <type>500</type>\n    <positionNumber>143</positionNumber>\n    <EAN>4260402485416</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence753>\n<sentence754>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>106</orderItemNumber>\n</sentence754>\n<sentence755>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence755>\n<sentence756>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046208</partnerILN>\n</sentence756>\n<sentence757>\n    <type>580</type>\n    <positionNumber>143</positionNumber>\n    <bestBeforeDate>20230401</bestBeforeDate>\n    <batchNumber>152207-VE47010</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence757>\n<sentence758>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695534986</palletNVE>\n</sentence758>\n<sentence759>\n    <type>500</type>\n    <positionNumber>144</positionNumber>\n    <EAN>4260402487892</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence759>\n<sentence760>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>272</orderItemNumber>\n</sentence760>\n<sentence761>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence761>\n<sentence762>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210125910</partnerILN>\n</sentence762>\n<sentence763>\n    <type>580</type>\n    <positionNumber>144</positionNumber>\n    <bestBeforeDate>20230211</bestBeforeDate>\n    <batchNumber>100491-04222A</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence763>\n<sentence764>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695534993</palletNVE>\n</sentence764>\n<sentence765>\n    <type>500</type>\n    <positionNumber>145</positionNumber>\n    <EAN>4260402485225</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence765>\n<sentence766>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>258</orderItemNumber>\n</sentence766>\n<sentence767>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence767>\n<sentence768>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210315472</partnerILN>\n</sentence768>\n<sentence769>\n    <type>580</type>\n    <positionNumber>145</positionNumber>\n    <bestBeforeDate>20230105</bestBeforeDate>\n    <batchNumber>151099-L22013</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence769>\n<sentence770>\n    <type>500</type>\n    <positionNumber>146</positionNumber>\n    <EAN>4260402485737</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence770>\n<sentence771>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>256</orderItemNumber>\n</sentence771>\n<sentence772>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence772>\n<sentence773>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210315472</partnerILN>\n</sentence773>\n<sentence774>\n    <type>580</type>\n    <positionNumber>146</positionNumber>\n    <bestBeforeDate>20220620</bestBeforeDate>\n    <batchNumber>162014-1000306114</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence774>\n<sentence775>\n    <type>500</type>\n    <positionNumber>147</positionNumber>\n    <EAN>4251725800451</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence775>\n<sentence776>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>276</orderItemNumber>\n</sentence776>\n<sentence777>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence777>\n<sentence778>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210330864</partnerILN>\n</sentence778>\n<sentence779>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695614794</palletNVE>\n</sentence779>\n<sentence780>\n    <type>500</type>\n    <positionNumber>148</positionNumber>\n    <EAN>4251725800437</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence780>\n<sentence781>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>278</orderItemNumber>\n</sentence781>\n<sentence782>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence782>\n<sentence783>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210330864</partnerILN>\n</sentence783>\n<sentence784>\n    <type>580</type>\n    <positionNumber>148</positionNumber>\n    <bestBeforeDate>20220501</bestBeforeDate>\n    <batchNumber>100788-22087</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence784>\n<sentence785>\n    <type>500</type>\n    <positionNumber>149</positionNumber>\n    <EAN>4251725801434</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence785>\n<sentence786>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>242</orderItemNumber>\n</sentence786>\n<sentence787>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence787>\n<sentence788>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210359766</partnerILN>\n</sentence788>\n<sentence789>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695535020</palletNVE>\n</sentence789>\n<sentence790>\n    <type>500</type>\n    <positionNumber>150</positionNumber>\n    <EAN>4251725800581</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence790>\n<sentence791>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>240</orderItemNumber>\n</sentence791>\n<sentence792>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence792>\n<sentence793>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210359766</partnerILN>\n</sentence793>\n<sentence794>\n    <type>580</type>\n    <positionNumber>150</positionNumber>\n    <bestBeforeDate>20230102</bestBeforeDate>\n    <batchNumber>100807-C072202022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence794>\n<sentence795>\n    <type>500</type>\n    <positionNumber>151</positionNumber>\n    <EAN>4260402484006</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence795>\n<sentence796>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>238</orderItemNumber>\n</sentence796>\n<sentence797>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence797>\n<sentence798>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210359766</partnerILN>\n</sentence798>\n<sentence799>\n    <type>580</type>\n    <positionNumber>151</positionNumber>\n    <bestBeforeDate>20220918</bestBeforeDate>\n    <batchNumber>271013-180922</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence799>\n<sentence800>\n    <type>500</type>\n    <positionNumber>152</positionNumber>\n    <EAN>4251725800451</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence800>\n<sentence801>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>176</orderItemNumber>\n</sentence801>\n<sentence802>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence802>\n<sentence803>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210362452</partnerILN>\n</sentence803>\n<sentence804>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695533682</palletNVE>\n</sentence804>\n<sentence805>\n    <type>500</type>\n    <positionNumber>153</positionNumber>\n    <EAN>4251725800475</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence805>\n<sentence806>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>178</orderItemNumber>\n</sentence806>\n<sentence807>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence807>\n<sentence808>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210362452</partnerILN>\n</sentence808>\n<sentence809>\n    <type>580</type>\n    <positionNumber>153</positionNumber>\n    <bestBeforeDate>20220426</bestBeforeDate>\n    <batchNumber>100790-22082</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence809>\n<sentence810>\n    <type>500</type>\n    <positionNumber>154</positionNumber>\n    <EAN>4260402483962</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence810>\n<sentence811>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>174</orderItemNumber>\n</sentence811>\n<sentence812>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence812>\n<sentence813>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210362452</partnerILN>\n</sentence813>\n<sentence814>\n    <type>580</type>\n    <positionNumber>154</positionNumber>\n    <bestBeforeDate>20220913</bestBeforeDate>\n    <batchNumber>271012-130922</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence814>\n<sentence815>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695535006</palletNVE>\n</sentence815>\n<sentence816>\n    <type>500</type>\n    <positionNumber>155</positionNumber>\n    <EAN>4251725800598</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence816>\n<sentence817>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>164</orderItemNumber>\n</sentence817>\n<sentence818>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence818>\n<sentence819>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210385000</partnerILN>\n</sentence819>\n<sentence820>\n    <type>580</type>\n    <positionNumber>155</positionNumber>\n    <bestBeforeDate>20230103</bestBeforeDate>\n    <batchNumber>100808-C072202032</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence820>\n<sentence821>\n    <type>500</type>\n    <positionNumber>156</positionNumber>\n    <EAN>4251725800451</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence821>\n<sentence822>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>248</orderItemNumber>\n</sentence822>\n<sentence823>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence823>\n<sentence824>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210389756</partnerILN>\n</sentence824>\n<sentence825>\n    <type>500</type>\n    <positionNumber>157</positionNumber>\n    <EAN>4260402488516</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence825>\n<sentence826>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>26</orderItemNumber>\n</sentence826>\n<sentence827>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence827>\n<sentence828>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210428684</partnerILN>\n</sentence828>\n<sentence829>\n    <type>500</type>\n    <positionNumber>158</positionNumber>\n    <EAN>4251725800451</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence829>\n<sentence830>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>224</orderItemNumber>\n</sentence830>\n<sentence831>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence831>\n<sentence832>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210392138</partnerILN>\n</sentence832>\n<sentence833>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695535150</palletNVE>\n</sentence833>\n<sentence834>\n    <type>500</type>\n    <positionNumber>159</positionNumber>\n    <EAN>4260402484495</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence834>\n<sentence835>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>214</orderItemNumber>\n</sentence835>\n<sentence836>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence836>\n<sentence837>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210392138</partnerILN>\n</sentence837>\n<sentence838>\n    <type>580</type>\n    <positionNumber>159</positionNumber>\n    <bestBeforeDate>20240130</bestBeforeDate>\n    <batchNumber>153060-030F</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence838>\n<sentence839>\n    <type>500</type>\n    <positionNumber>160</positionNumber>\n    <EAN>4251725800864</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence839>\n<sentence840>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>222</orderItemNumber>\n</sentence840>\n<sentence841>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence841>\n<sentence842>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210392138</partnerILN>\n</sentence842>\n<sentence843>\n    <type>580</type>\n    <positionNumber>160</positionNumber>\n    <bestBeforeDate>20220502</bestBeforeDate>\n    <batchNumber>100870-110112</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence843>\n<sentence844>\n    <type>500</type>\n    <positionNumber>161</positionNumber>\n    <EAN>4260402486789</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence844>\n<sentence845>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>220</orderItemNumber>\n</sentence845>\n<sentence846>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence846>\n<sentence847>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210392138</partnerILN>\n</sentence847>\n<sentence848>\n    <type>580</type>\n    <positionNumber>161</positionNumber>\n    <bestBeforeDate>20221027</bestBeforeDate>\n    <batchNumber>161046-L1441</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence848>\n<sentence849>\n    <type>500</type>\n    <positionNumber>162</positionNumber>\n    <EAN>4251725800277</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence849>\n<sentence850>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>226</orderItemNumber>\n</sentence850>\n<sentence851>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence851>\n<sentence852>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210392138</partnerILN>\n</sentence852>\n<sentence853>\n    <type>580</type>\n    <positionNumber>162</positionNumber>\n    <bestBeforeDate>20220427</bestBeforeDate>\n    <batchNumber>100753-0762022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence853>\n<sentence854>\n    <type>500</type>\n    <positionNumber>163</positionNumber>\n    <EAN>4251725800581</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence854>\n<sentence855>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>216</orderItemNumber>\n</sentence855>\n<sentence856>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence856>\n<sentence857>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210392138</partnerILN>\n</sentence857>\n<sentence858>\n    <type>580</type>\n    <positionNumber>163</positionNumber>\n    <bestBeforeDate>20230102</bestBeforeDate>\n    <batchNumber>100807-C072202022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence858>\n<sentence859>\n    <type>500</type>\n    <positionNumber>164</positionNumber>\n    <EAN>4251725800598</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence859>\n<sentence860>\n    <type>511</type>\n    <customerOrderNumber>6314564</customerOrderNumber>\n    <orderItemNumber>218</orderItemNumber>\n</sentence860>\n<sentence861>\n    <type>515</type>\n    <expectedDeliveryDate>20220405</expectedDeliveryDate>\n</sentence861>\n<sentence862>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210392138</partnerILN>\n</sentence862>\n<sentence863>\n    <type>580</type>\n    <positionNumber>164</positionNumber>\n    <bestBeforeDate>20230103</bestBeforeDate>\n    <batchNumber>100808-C072202032</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence863>`
+`<sentence1>
+    <type>000</type>
+    <senderId>4260402480008</senderId>
+    <recieverId>4311501990018</recieverId>
+    <date>20220401</date>
+    <time>1550</time>
+    <dataExchangeReference>32205928VEGANZ</dataExchangeReference>
+    <fileInterfaceVersionNumber>4.5</fileInterfaceVersionNumber>
+</sentence1>
+<sentence2>
+    <type>100</type>
+    <messageReference>1</messageReference>
+    <messageType>DESADV</messageType>
+    <transactionType>YA6</transactionType>
+    <documentNumber>22209352</documentNumber>
+    <documentDate>20220401</documentDate>
+</sentence2>
+<sentence3>
+    <type>111</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <customerOrcerDate>20220401</customerOrcerDate>
+    <deliveryDate>20220405</deliveryDate>
+    <deliveryReceiptNumber>22209352</deliveryReceiptNumber>
+    <deliveryReceiptDate>20220401</deliveryReceiptDate>
+</sentence3>
+<sentence4>
+    <type>115</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence4>
+<sentence5>
+    <type>119</type>
+    <partnerType>BY</partnerType>
+    <partnerILN>4311560000000</partnerILN>
+</sentence5>
+<sentence6>
+    <type>119</type>
+    <partnerType>IV</partnerType>
+    <partnerILN>4311560000000</partnerILN>
+</sentence6>
+<sentence7>
+    <type>119</type>
+    <partnerType>DP</partnerType>
+    <partnerILN>4313280901407</partnerILN>
+</sentence7>
+<sentence8>
+    <type>119</type>
+    <partnerType>SU</partnerType>
+    <partnerILN>4260402480008</partnerILN>
+</sentence8>
+<sentence9>
+    <type>400</type>
+    <positionNumber>1</positionNumber>
+    <perShipmentPackagingCount>53</perShipmentPackagingCount>
+    <perShipmentColliKartonPackagingType>PK</perShipmentColliKartonPackagingType>
+</sentence9>
+<sentence10>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695535044</palletNVE>
+</sentence10>
+<sentence11>
+    <type>500</type>
+    <positionNumber>1</positionNumber>
+    <EAN>4251725800277</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence11>
+<sentence12>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>80</orderItemNumber>
+</sentence12>
+<sentence13>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence13>
+<sentence14>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210324894</partnerILN>
+</sentence14>
+<sentence15>
+    <type>580</type>
+    <positionNumber>1</positionNumber>
+    <bestBeforeDate>20220427</bestBeforeDate>
+    <batchNumber>100753-0762022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence15>
+<sentence16>
+    <type>500</type>
+    <positionNumber>2</positionNumber>
+    <EAN>4260402489995</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence16>
+<sentence17>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>78</orderItemNumber>
+</sentence17>
+<sentence18>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence18>
+<sentence19>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210324894</partnerILN>
+</sentence19>
+<sentence20>
+    <type>580</type>
+    <positionNumber>2</positionNumber>
+    <bestBeforeDate>20220708</bestBeforeDate>
+    <batchNumber>100701-220708P05</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence20>
+<sentence21>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695535051</palletNVE>
+</sentence21>
+<sentence22>
+    <type>500</type>
+    <positionNumber>3</positionNumber>
+    <EAN>4260402489568</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence22>
+<sentence23>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>202</orderItemNumber>
+</sentence23>
+<sentence24>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence24>
+<sentence25>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313207204796</partnerILN>
+</sentence25>
+<sentence26>
+    <type>580</type>
+    <positionNumber>3</positionNumber>
+    <bestBeforeDate>20220524</bestBeforeDate>
+    <batchNumber>100640-22054068</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence26>
+<sentence27>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695534887</palletNVE>
+</sentence27>
+<sentence28>
+    <type>500</type>
+    <positionNumber>4</positionNumber>
+    <EAN>4251725801069</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence28>
+<sentence29>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>138</orderItemNumber>
+</sentence29>
+<sentence30>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence30>
+<sentence31>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210359520</partnerILN>
+</sentence31>
+<sentence32>
+    <type>580</type>
+    <positionNumber>4</positionNumber>
+    <bestBeforeDate>20230801</bestBeforeDate>
+    <batchNumber>100887-0061222</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence32>
+<sentence33>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695534870</palletNVE>
+</sentence33>
+<sentence34>
+    <type>500</type>
+    <positionNumber>5</positionNumber>
+    <EAN>4251725801069</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence34>
+<sentence35>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>252</orderItemNumber>
+</sentence35>
+<sentence36>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence36>
+<sentence37>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210351814</partnerILN>
+</sentence37>
+<sentence38>
+    <type>580</type>
+    <positionNumber>5</positionNumber>
+    <bestBeforeDate>20230801</bestBeforeDate>
+    <batchNumber>100887-0061222</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence38>
+<sentence39>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695535112</palletNVE>
+</sentence39>
+<sentence40>
+    <type>500</type>
+    <positionNumber>6</positionNumber>
+    <EAN>4251725801045</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence40>
+<sentence41>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>210</orderItemNumber>
+</sentence41>
+<sentence42>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence42>
+<sentence43>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313206204865</partnerILN>
+</sentence43>
+<sentence44>
+    <type>580</type>
+    <positionNumber>6</positionNumber>
+    <bestBeforeDate>20230903</bestBeforeDate>
+    <batchNumber>100886-0061511</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence44>
+<sentence45>
+    <type>500</type>
+    <positionNumber>7</positionNumber>
+    <EAN>4251725801236</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence45>
+<sentence46>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>212</orderItemNumber>
+</sentence46>
+<sentence47>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence47>
+<sentence48>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313206204865</partnerILN>
+</sentence48>
+<sentence49>
+    <type>580</type>
+    <positionNumber>7</positionNumber>
+    <bestBeforeDate>20220911</bestBeforeDate>
+    <batchNumber>100917-723218022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence49>
+<sentence50>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695615005</palletNVE>
+</sentence50>
+<sentence51>
+    <type>500</type>
+    <positionNumber>8</positionNumber>
+    <EAN>4260402484006</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence51>
+<sentence52>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>194</orderItemNumber>
+</sentence52>
+<sentence53>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence53>
+<sentence54>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210319814</partnerILN>
+</sentence54>
+<sentence55>
+    <type>580</type>
+    <positionNumber>8</positionNumber>
+    <bestBeforeDate>20220918</bestBeforeDate>
+    <batchNumber>271013-180922</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence55>
+<sentence56>
+    <type>500</type>
+    <positionNumber>9</positionNumber>
+    <EAN>4260402489568</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence56>
+<sentence57>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>196</orderItemNumber>
+</sentence57>
+<sentence58>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence58>
+<sentence59>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210319814</partnerILN>
+</sentence59>
+<sentence60>
+    <type>580</type>
+    <positionNumber>9</positionNumber>
+    <bestBeforeDate>20220524</bestBeforeDate>
+    <batchNumber>100640-22054068</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence60>
+<sentence61>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695534894</palletNVE>
+</sentence61>
+<sentence62>
+    <type>500</type>
+    <positionNumber>10</positionNumber>
+    <EAN>4251725800581</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence62>
+<sentence63>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>46</orderItemNumber>
+</sentence63>
+<sentence64>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence64>
+<sentence65>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210307286</partnerILN>
+</sentence65>
+<sentence66>
+    <type>580</type>
+    <positionNumber>10</positionNumber>
+    <bestBeforeDate>20230102</bestBeforeDate>
+    <batchNumber>100807-C072202022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence66>
+<sentence67>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695535068</palletNVE>
+</sentence67>
+<sentence68>
+    <type>500</type>
+    <positionNumber>11</positionNumber>
+    <EAN>4260402489995</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence68>
+<sentence69>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>42</orderItemNumber>
+</sentence69>
+<sentence70>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence70>
+<sentence71>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210328472</partnerILN>
+</sentence71>
+<sentence72>
+    <type>580</type>
+    <positionNumber>11</positionNumber>
+    <bestBeforeDate>20220708</bestBeforeDate>
+    <batchNumber>100701-220708P05</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence72>
+<sentence73>
+    <type>500</type>
+    <positionNumber>12</positionNumber>
+    <EAN>4260402489056</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence73>
+<sentence74>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>40</orderItemNumber>
+</sentence74>
+<sentence75>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence75>
+<sentence76>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210328472</partnerILN>
+</sentence76>
+<sentence77>
+    <type>580</type>
+    <positionNumber>12</positionNumber>
+    <bestBeforeDate>20220719</bestBeforeDate>
+    <batchNumber>100597-O200122N</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence77>
+<sentence78>
+    <type>500</type>
+    <positionNumber>13</positionNumber>
+    <EAN>4251725800277</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence78>
+<sentence79>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>44</orderItemNumber>
+</sentence79>
+<sentence80>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence80>
+<sentence81>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210328472</partnerILN>
+</sentence81>
+<sentence82>
+    <type>580</type>
+    <positionNumber>13</positionNumber>
+    <bestBeforeDate>20220427</bestBeforeDate>
+    <batchNumber>100753-0762022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence82>
+<sentence83>
+    <type>500</type>
+    <positionNumber>14</positionNumber>
+    <EAN>4251725801434</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence83>
+<sentence84>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>152</orderItemNumber>
+</sentence84>
+<sentence85>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence85>
+<sentence86>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210384874</partnerILN>
+</sentence86>
+<sentence87>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695535013</palletNVE>
+</sentence87>
+<sentence88>
+    <type>500</type>
+    <positionNumber>15</positionNumber>
+    <EAN>4260402485386</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence88>
+<sentence89>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>304</orderItemNumber>
+</sentence89>
+<sentence90>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence90>
+<sentence91>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210384874</partnerILN>
+</sentence91>
+<sentence92>
+    <type>580</type>
+    <positionNumber>15</positionNumber>
+    <bestBeforeDate>20230409</bestBeforeDate>
+    <batchNumber>152206-L22063</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence92>
+<sentence93>
+    <type>500</type>
+    <positionNumber>16</positionNumber>
+    <EAN>4260402484518</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence93>
+<sentence94>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>150</orderItemNumber>
+</sentence94>
+<sentence95>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence95>
+<sentence96>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210384874</partnerILN>
+</sentence96>
+<sentence97>
+    <type>580</type>
+    <positionNumber>16</positionNumber>
+    <bestBeforeDate>20231201</bestBeforeDate>
+    <batchNumber>153061-335U</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence97>
+<sentence98>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695534900</palletNVE>
+</sentence98>
+<sentence99>
+    <type>500</type>
+    <positionNumber>17</positionNumber>
+    <EAN>4260402485737</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence99>
+<sentence100>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>28</orderItemNumber>
+</sentence100>
+<sentence101>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence101>
+<sentence102>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210424860</partnerILN>
+</sentence102>
+<sentence103>
+    <type>580</type>
+    <positionNumber>17</positionNumber>
+    <bestBeforeDate>20220620</bestBeforeDate>
+    <batchNumber>162014-1000306114</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence103>
+<sentence104>
+    <type>500</type>
+    <positionNumber>18</positionNumber>
+    <EAN>4251725800727</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence104>
+<sentence105>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>30</orderItemNumber>
+</sentence105>
+<sentence106>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence106>
+<sentence107>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210424860</partnerILN>
+</sentence107>
+<sentence108>
+    <type>580</type>
+    <positionNumber>18</positionNumber>
+    <bestBeforeDate>20221115</bestBeforeDate>
+    <batchNumber>100855-VE46227</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence108>
+<sentence109>
+    <type>500</type>
+    <positionNumber>19</positionNumber>
+    <EAN>4251725800901</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence109>
+<sentence110>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>32</orderItemNumber>
+</sentence110>
+<sentence111>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence111>
+<sentence112>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210424860</partnerILN>
+</sentence112>
+<sentence113>
+    <type>580</type>
+    <positionNumber>19</positionNumber>
+    <bestBeforeDate>20221101</bestBeforeDate>
+    <batchNumber>100875-VE46020</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence113>
+<sentence114>
+    <type>500</type>
+    <positionNumber>20</positionNumber>
+    <EAN>4260402486352</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence114>
+<sentence115>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>166</orderItemNumber>
+</sentence115>
+<sentence116>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence116>
+<sentence117>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210356864</partnerILN>
+</sentence117>
+<sentence118>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695614701</palletNVE>
+</sentence118>
+<sentence119>
+    <type>500</type>
+    <positionNumber>21</positionNumber>
+    <EAN>4251725800871</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence119>
+<sentence120>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>12</orderItemNumber>
+</sentence120>
+<sentence121>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence121>
+<sentence122>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210081100</partnerILN>
+</sentence122>
+<sentence123>
+    <type>580</type>
+    <positionNumber>21</positionNumber>
+    <bestBeforeDate>20220502</bestBeforeDate>
+    <batchNumber>100871-111112</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence123>
+<sentence124>
+    <type>500</type>
+    <positionNumber>22</positionNumber>
+    <EAN>4260402489094</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence124>
+<sentence125>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>8</orderItemNumber>
+</sentence125>
+<sentence126>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence126>
+<sentence127>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210081100</partnerILN>
+</sentence127>
+<sentence128>
+    <type>580</type>
+    <positionNumber>22</positionNumber>
+    <bestBeforeDate>20220706</bestBeforeDate>
+    <batchNumber>100599-O070122K</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence128>
+<sentence129>
+    <type>500</type>
+    <positionNumber>23</positionNumber>
+    <EAN>4251725800277</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence129>
+<sentence130>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>16</orderItemNumber>
+</sentence130>
+<sentence131>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence131>
+<sentence132>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210081100</partnerILN>
+</sentence132>
+<sentence133>
+    <type>580</type>
+    <positionNumber>23</positionNumber>
+    <bestBeforeDate>20220427</bestBeforeDate>
+    <batchNumber>100753-0762022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence133>
+<sentence134>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695614787</palletNVE>
+</sentence134>
+<sentence135>
+    <type>500</type>
+    <positionNumber>24</positionNumber>
+    <EAN>4251725801045</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence135>
+<sentence136>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>20</orderItemNumber>
+</sentence136>
+<sentence137>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence137>
+<sentence138>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210081100</partnerILN>
+</sentence138>
+<sentence139>
+    <type>580</type>
+    <positionNumber>24</positionNumber>
+    <bestBeforeDate>20230903</bestBeforeDate>
+    <batchNumber>100886-0061511</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence139>
+<sentence140>
+    <type>500</type>
+    <positionNumber>25</positionNumber>
+    <EAN>4260402484495</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence140>
+<sentence141>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>2</orderItemNumber>
+</sentence141>
+<sentence142>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence142>
+<sentence143>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210081100</partnerILN>
+</sentence143>
+<sentence144>
+    <type>580</type>
+    <positionNumber>25</positionNumber>
+    <bestBeforeDate>20240130</bestBeforeDate>
+    <batchNumber>153060-030F</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence144>
+<sentence145>
+    <type>500</type>
+    <positionNumber>26</positionNumber>
+    <EAN>4251725800109</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence145>
+<sentence146>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>10</orderItemNumber>
+</sentence146>
+<sentence147>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence147>
+<sentence148>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210081100</partnerILN>
+</sentence148>
+<sentence149>
+    <type>580</type>
+    <positionNumber>26</positionNumber>
+    <bestBeforeDate>20221215</bestBeforeDate>
+    <batchNumber>100723-VE44371</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence149>
+<sentence150>
+    <type>500</type>
+    <positionNumber>27</positionNumber>
+    <EAN>4251725800390</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence150>
+<sentence151>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>14</orderItemNumber>
+</sentence151>
+<sentence152>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence152>
+<sentence153>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210081100</partnerILN>
+</sentence153>
+<sentence154>
+    <type>580</type>
+    <positionNumber>27</positionNumber>
+    <bestBeforeDate>20230125</bestBeforeDate>
+    <batchNumber>100767-C072202251</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence154>
+<sentence155>
+    <type>500</type>
+    <positionNumber>28</positionNumber>
+    <EAN>4251725800727</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence155>
+<sentence156>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>18</orderItemNumber>
+</sentence156>
+<sentence157>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence157>
+<sentence158>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210081100</partnerILN>
+</sentence158>
+<sentence159>
+    <type>580</type>
+    <positionNumber>28</positionNumber>
+    <bestBeforeDate>20221115</bestBeforeDate>
+    <batchNumber>100855-VE46227</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence159>
+<sentence160>
+    <type>500</type>
+    <positionNumber>29</positionNumber>
+    <EAN>4260402487205</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence160>
+<sentence161>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>6</orderItemNumber>
+</sentence161>
+<sentence162>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence162>
+<sentence163>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210081100</partnerILN>
+</sentence163>
+<sentence164>
+    <type>580</type>
+    <positionNumber>29</positionNumber>
+    <bestBeforeDate>20221118</bestBeforeDate>
+    <batchNumber>100458-221010/0</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence164>
+<sentence165>
+    <type>500</type>
+    <positionNumber>30</positionNumber>
+    <EAN>4260402485447</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence165>
+<sentence166>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>4</orderItemNumber>
+</sentence166>
+<sentence167>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence167>
+<sentence168>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210081100</partnerILN>
+</sentence168>
+<sentence169>
+    <type>580</type>
+    <positionNumber>30</positionNumber>
+    <bestBeforeDate>20230415</bestBeforeDate>
+    <batchNumber>152208-VE47305</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence169>
+<sentence170>
+    <type>500</type>
+    <positionNumber>31</positionNumber>
+    <EAN>4251725800901</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence170>
+<sentence171>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>22</orderItemNumber>
+</sentence171>
+<sentence172>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence172>
+<sentence173>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210081100</partnerILN>
+</sentence173>
+<sentence174>
+    <type>580</type>
+    <positionNumber>31</positionNumber>
+    <bestBeforeDate>20221101</bestBeforeDate>
+    <batchNumber>100875-VE46020</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence174>
+<sentence175>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695535037</palletNVE>
+</sentence175>
+<sentence176>
+    <type>500</type>
+    <positionNumber>32</positionNumber>
+    <EAN>4260402489995</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence176>
+<sentence177>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>228</orderItemNumber>
+</sentence177>
+<sentence178>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence178>
+<sentence179>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210126146</partnerILN>
+</sentence179>
+<sentence180>
+    <type>580</type>
+    <positionNumber>32</positionNumber>
+    <bestBeforeDate>20220708</bestBeforeDate>
+    <batchNumber>100701-220708P05</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence180>
+<sentence181>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695534931</palletNVE>
+</sentence181>
+<sentence182>
+    <type>500</type>
+    <positionNumber>33</positionNumber>
+    <EAN>4251725800581</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence182>
+<sentence183>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>172</orderItemNumber>
+</sentence183>
+<sentence184>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence184>
+<sentence185>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313205157742</partnerILN>
+</sentence185>
+<sentence186>
+    <type>580</type>
+    <positionNumber>33</positionNumber>
+    <bestBeforeDate>20230102</bestBeforeDate>
+    <batchNumber>100807-C072202022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence186>
+<sentence187>
+    <type>500</type>
+    <positionNumber>34</positionNumber>
+    <EAN>4251725800499</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence187>
+<sentence188>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>158</orderItemNumber>
+</sentence188>
+<sentence189>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence189>
+<sentence190>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313205158428</partnerILN>
+</sentence190>
+<sentence191>
+    <type>500</type>
+    <positionNumber>35</positionNumber>
+    <EAN>4251725800451</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence191>
+<sentence192>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>156</orderItemNumber>
+</sentence192>
+<sentence193>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence193>
+<sentence194>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313205158428</partnerILN>
+</sentence194>
+<sentence195>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695614800</palletNVE>
+</sentence195>
+<sentence196>
+    <type>500</type>
+    <positionNumber>36</positionNumber>
+    <EAN>4260402489568</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence196>
+<sentence197>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>154</orderItemNumber>
+</sentence197>
+<sentence198>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence198>
+<sentence199>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313205158428</partnerILN>
+</sentence199>
+<sentence200>
+    <type>580</type>
+    <positionNumber>36</positionNumber>
+    <bestBeforeDate>20220524</bestBeforeDate>
+    <batchNumber>100640-22054068</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence200>
+<sentence201>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695532227</palletNVE>
+</sentence201>
+<sentence202>
+    <type>500</type>
+    <positionNumber>37</positionNumber>
+    <EAN>4251725800635</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence202>
+<sentence203>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>246</orderItemNumber>
+</sentence203>
+<sentence204>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence204>
+<sentence205>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210427076</partnerILN>
+</sentence205>
+<sentence206>
+    <type>580</type>
+    <positionNumber>37</positionNumber>
+    <bestBeforeDate>20230331</bestBeforeDate>
+    <batchNumber>100820-01/22</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence206>
+<sentence207>
+    <type>500</type>
+    <positionNumber>38</positionNumber>
+    <EAN>4251725800451</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence207>
+<sentence208>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>160</orderItemNumber>
+</sentence208>
+<sentence209>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence209>
+<sentence210>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210004512</partnerILN>
+</sentence210>
+<sentence211>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695535099</palletNVE>
+</sentence211>
+<sentence212>
+    <type>500</type>
+    <positionNumber>39</positionNumber>
+    <EAN>4260402489995</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence212>
+<sentence213>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>148</orderItemNumber>
+</sentence213>
+<sentence214>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence214>
+<sentence215>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210004512</partnerILN>
+</sentence215>
+<sentence216>
+    <type>580</type>
+    <positionNumber>39</positionNumber>
+    <bestBeforeDate>20220708</bestBeforeDate>
+    <batchNumber>100701-220708P05</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence216>
+<sentence217>
+    <type>500</type>
+    <positionNumber>40</positionNumber>
+    <EAN>4251725800451</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence217>
+<sentence218>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>188</orderItemNumber>
+</sentence218>
+<sentence219>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence219>
+<sentence220>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210104410</partnerILN>
+</sentence220>
+<sentence221>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695614749</palletNVE>
+</sentence221>
+<sentence222>
+    <type>500</type>
+    <positionNumber>41</positionNumber>
+    <EAN>4251725800864</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence222>
+<sentence223>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>186</orderItemNumber>
+</sentence223>
+<sentence224>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence224>
+<sentence225>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210104410</partnerILN>
+</sentence225>
+<sentence226>
+    <type>580</type>
+    <positionNumber>41</positionNumber>
+    <bestBeforeDate>20220502</bestBeforeDate>
+    <batchNumber>100870-110112</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence226>
+<sentence227>
+    <type>500</type>
+    <positionNumber>42</positionNumber>
+    <EAN>4251725800437</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence227>
+<sentence228>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>190</orderItemNumber>
+</sentence228>
+<sentence229>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence229>
+<sentence230>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210104410</partnerILN>
+</sentence230>
+<sentence231>
+    <type>580</type>
+    <positionNumber>42</positionNumber>
+    <bestBeforeDate>20220501</bestBeforeDate>
+    <batchNumber>100788-22087</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence231>
+<sentence232>
+    <type>500</type>
+    <positionNumber>43</positionNumber>
+    <EAN>4260402482576</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence232>
+<sentence233>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>180</orderItemNumber>
+</sentence233>
+<sentence234>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence234>
+<sentence235>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210104410</partnerILN>
+</sentence235>
+<sentence236>
+    <type>580</type>
+    <positionNumber>43</positionNumber>
+    <bestBeforeDate>20221104</bestBeforeDate>
+    <batchNumber>124007-PO08909-10845</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence236>
+<sentence237>
+    <type>500</type>
+    <positionNumber>44</positionNumber>
+    <EAN>4251725800871</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence237>
+<sentence238>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>184</orderItemNumber>
+</sentence238>
+<sentence239>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence239>
+<sentence240>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210104410</partnerILN>
+</sentence240>
+<sentence241>
+    <type>580</type>
+    <positionNumber>44</positionNumber>
+    <bestBeforeDate>20220502</bestBeforeDate>
+    <batchNumber>100871-111112</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence241>
+<sentence242>
+    <type>500</type>
+    <positionNumber>45</positionNumber>
+    <EAN>4260402485751</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence242>
+<sentence243>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>182</orderItemNumber>
+</sentence243>
+<sentence244>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence244>
+<sentence245>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210104410</partnerILN>
+</sentence245>
+<sentence246>
+    <type>580</type>
+    <positionNumber>45</positionNumber>
+    <bestBeforeDate>20220620</bestBeforeDate>
+    <batchNumber>162015-1000306113</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence246>
+<sentence247>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695614756</palletNVE>
+</sentence247>
+<sentence248>
+    <type>500</type>
+    <positionNumber>46</positionNumber>
+    <EAN>4251725800475</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence248>
+<sentence249>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>192</orderItemNumber>
+</sentence249>
+<sentence250>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence250>
+<sentence251>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210104410</partnerILN>
+</sentence251>
+<sentence252>
+    <type>580</type>
+    <positionNumber>46</positionNumber>
+    <bestBeforeDate>20220426</bestBeforeDate>
+    <batchNumber>100790-22082</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence252>
+<sentence253>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695534924</palletNVE>
+</sentence253>
+<sentence254>
+    <type>500</type>
+    <positionNumber>47</positionNumber>
+    <EAN>4260402485386</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence254>
+<sentence255>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>254</orderItemNumber>
+</sentence255>
+<sentence256>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence256>
+<sentence257>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210109538</partnerILN>
+</sentence257>
+<sentence258>
+    <type>580</type>
+    <positionNumber>47</positionNumber>
+    <bestBeforeDate>20230409</bestBeforeDate>
+    <batchNumber>152206-L22063</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence258>
+<sentence259>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695534917</palletNVE>
+</sentence259>
+<sentence260>
+    <type>500</type>
+    <positionNumber>48</positionNumber>
+    <EAN>4251725800581</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence260>
+<sentence261>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>244</orderItemNumber>
+</sentence261>
+<sentence262>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence262>
+<sentence263>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210120892</partnerILN>
+</sentence263>
+<sentence264>
+    <type>580</type>
+    <positionNumber>48</positionNumber>
+    <bestBeforeDate>20230102</bestBeforeDate>
+    <batchNumber>100807-C072202022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence264>
+<sentence265>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695614848</palletNVE>
+</sentence265>
+<sentence266>
+    <type>500</type>
+    <positionNumber>49</positionNumber>
+    <EAN>4260402489568</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence266>
+<sentence267>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>274</orderItemNumber>
+</sentence267>
+<sentence268>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence268>
+<sentence269>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210131294</partnerILN>
+</sentence269>
+<sentence270>
+    <type>580</type>
+    <positionNumber>49</positionNumber>
+    <bestBeforeDate>20220524</bestBeforeDate>
+    <batchNumber>100640-22054068</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence270>
+<sentence271>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695532234</palletNVE>
+</sentence271>
+<sentence272>
+    <type>500</type>
+    <positionNumber>50</positionNumber>
+    <EAN>4260402484495</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence272>
+<sentence273>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>168</orderItemNumber>
+</sentence273>
+<sentence274>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence274>
+<sentence275>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210303530</partnerILN>
+</sentence275>
+<sentence276>
+    <type>580</type>
+    <positionNumber>50</positionNumber>
+    <bestBeforeDate>20240130</bestBeforeDate>
+    <batchNumber>153060-030F</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence276>
+<sentence277>
+    <type>500</type>
+    <positionNumber>51</positionNumber>
+    <EAN>4260402484518</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence277>
+<sentence278>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>170</orderItemNumber>
+</sentence278>
+<sentence279>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence279>
+<sentence280>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210303530</partnerILN>
+</sentence280>
+<sentence281>
+    <type>580</type>
+    <positionNumber>51</positionNumber>
+    <bestBeforeDate>20231201</bestBeforeDate>
+    <batchNumber>153061-335U</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence281>
+<sentence282>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695535075</palletNVE>
+</sentence282>
+<sentence283>
+    <type>500</type>
+    <positionNumber>52</positionNumber>
+    <EAN>4251725800871</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence283>
+<sentence284>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>38</orderItemNumber>
+</sentence284>
+<sentence285>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence285>
+<sentence286>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210331472</partnerILN>
+</sentence286>
+<sentence287>
+    <type>580</type>
+    <positionNumber>52</positionNumber>
+    <bestBeforeDate>20220502</bestBeforeDate>
+    <batchNumber>100871-111112</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence287>
+<sentence288>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695535129</palletNVE>
+</sentence288>
+<sentence289>
+    <type>500</type>
+    <positionNumber>53</positionNumber>
+    <EAN>4260402489032</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence289>
+<sentence290>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>198</orderItemNumber>
+</sentence290>
+<sentence291>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence291>
+<sentence292>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210341020</partnerILN>
+</sentence292>
+<sentence293>
+    <type>580</type>
+    <positionNumber>53</positionNumber>
+    <bestBeforeDate>20230403</bestBeforeDate>
+    <batchNumber>100596-L22054</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence293>
+<sentence294>
+    <type>500</type>
+    <positionNumber>54</positionNumber>
+    <EAN>4251725800277</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence294>
+<sentence295>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>200</orderItemNumber>
+</sentence295>
+<sentence296>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence296>
+<sentence297>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210341020</partnerILN>
+</sentence297>
+<sentence298>
+    <type>580</type>
+    <positionNumber>54</positionNumber>
+    <bestBeforeDate>20220427</bestBeforeDate>
+    <batchNumber>100753-0762022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence298>
+<sentence299>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695532241</palletNVE>
+</sentence299>
+<sentence300>
+    <type>500</type>
+    <positionNumber>55</positionNumber>
+    <EAN>4260402486789</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence300>
+<sentence301>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>260</orderItemNumber>
+</sentence301>
+<sentence302>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence302>
+<sentence303>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210341402</partnerILN>
+</sentence303>
+<sentence304>
+    <type>580</type>
+    <positionNumber>55</positionNumber>
+    <bestBeforeDate>20221027</bestBeforeDate>
+    <batchNumber>161046-L1441</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence304>
+<sentence305>
+    <type>500</type>
+    <positionNumber>56</positionNumber>
+    <EAN>4260402488516</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence305>
+<sentence306>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>162</orderItemNumber>
+</sentence306>
+<sentence307>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence307>
+<sentence308>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210345080</partnerILN>
+</sentence308>
+<sentence309>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695535082</palletNVE>
+</sentence309>
+<sentence310>
+    <type>500</type>
+    <positionNumber>57</positionNumber>
+    <EAN>4251725800277</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence310>
+<sentence311>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>24</orderItemNumber>
+</sentence311>
+<sentence312>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence312>
+<sentence313>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210350138</partnerILN>
+</sentence313>
+<sentence314>
+    <type>580</type>
+    <positionNumber>57</positionNumber>
+    <bestBeforeDate>20220427</bestBeforeDate>
+    <batchNumber>100753-0762022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence314>
+<sentence315>
+    <type>500</type>
+    <positionNumber>58</positionNumber>
+    <EAN>4260402488516</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence315>
+<sentence316>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>52</orderItemNumber>
+</sentence316>
+<sentence317>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence317>
+<sentence318>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210362834</partnerILN>
+</sentence318>
+<sentence319>
+    <type>500</type>
+    <positionNumber>59</positionNumber>
+    <EAN>4251725800499</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence319>
+<sentence320>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>70</orderItemNumber>
+</sentence320>
+<sentence321>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence321>
+<sentence322>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210362834</partnerILN>
+</sentence322>
+<sentence323>
+    <type>500</type>
+    <positionNumber>60</positionNumber>
+    <EAN>4251725800451</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence323>
+<sentence324>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>62</orderItemNumber>
+</sentence324>
+<sentence325>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence325>
+<sentence326>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210362834</partnerILN>
+</sentence326>
+<sentence327>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695614718</palletNVE>
+</sentence327>
+<sentence328>
+    <type>500</type>
+    <positionNumber>61</positionNumber>
+    <EAN>4251725801007</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence328>
+<sentence329>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>72</orderItemNumber>
+</sentence329>
+<sentence330>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence330>
+<sentence331>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210362834</partnerILN>
+</sentence331>
+<sentence332>
+    <type>580</type>
+    <positionNumber>61</positionNumber>
+    <bestBeforeDate>20220723</bestBeforeDate>
+    <batchNumber>100884-765323022</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence332>
+<sentence333>
+    <type>500</type>
+    <positionNumber>62</positionNumber>
+    <EAN>4251725800673</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence333>
+<sentence334>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>286</orderItemNumber>
+</sentence334>
+<sentence335>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence335>
+<sentence336>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210362834</partnerILN>
+</sentence336>
+<sentence337>
+    <type>580</type>
+    <positionNumber>62</positionNumber>
+    <bestBeforeDate>20221231</bestBeforeDate>
+    <batchNumber>100822-09/21</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence337>
+<sentence338>
+    <type>500</type>
+    <positionNumber>63</positionNumber>
+    <EAN>4260402489995</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence338>
+<sentence339>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>58</orderItemNumber>
+</sentence339>
+<sentence340>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence340>
+<sentence341>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210362834</partnerILN>
+</sentence341>
+<sentence342>
+    <type>580</type>
+    <positionNumber>63</positionNumber>
+    <bestBeforeDate>20220708</bestBeforeDate>
+    <batchNumber>100701-220708P05</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence342>
+<sentence343>
+    <type>500</type>
+    <positionNumber>64</positionNumber>
+    <EAN>4251725801236</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence343>
+<sentence344>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>76</orderItemNumber>
+</sentence344>
+<sentence345>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence345>
+<sentence346>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210362834</partnerILN>
+</sentence346>
+<sentence347>
+    <type>580</type>
+    <positionNumber>64</positionNumber>
+    <bestBeforeDate>20220911</bestBeforeDate>
+    <batchNumber>100917-723218022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence347>
+<sentence348>
+    <type>500</type>
+    <positionNumber>65</positionNumber>
+    <EAN>4251725800987</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence348>
+<sentence349>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>74</orderItemNumber>
+</sentence349>
+<sentence350>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence350>
+<sentence351>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210362834</partnerILN>
+</sentence351>
+<sentence352>
+    <type>580</type>
+    <positionNumber>65</positionNumber>
+    <bestBeforeDate>20220709</bestBeforeDate>
+    <batchNumber>100883-765209022</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence352>
+<sentence353>
+    <type>500</type>
+    <positionNumber>66</positionNumber>
+    <EAN>4251725800871</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence353>
+<sentence354>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>56</orderItemNumber>
+</sentence354>
+<sentence355>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence355>
+<sentence356>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210362834</partnerILN>
+</sentence356>
+<sentence357>
+    <type>580</type>
+    <positionNumber>66</positionNumber>
+    <bestBeforeDate>20220502</bestBeforeDate>
+    <batchNumber>100871-111112</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence357>
+<sentence358>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695614725</palletNVE>
+</sentence358>
+<sentence359>
+    <type>500</type>
+    <positionNumber>67</positionNumber>
+    <EAN>4260402489070</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence359>
+<sentence360>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>54</orderItemNumber>
+</sentence360>
+<sentence361>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence361>
+<sentence362>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210362834</partnerILN>
+</sentence362>
+<sentence363>
+    <type>580</type>
+    <positionNumber>67</positionNumber>
+    <bestBeforeDate>20220821</bestBeforeDate>
+    <batchNumber>100598-O220222D</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence363>
+<sentence364>
+    <type>500</type>
+    <positionNumber>68</positionNumber>
+    <EAN>4251725800437</EAN>
+    <orderQuantity>3.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence364>
+<sentence365>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>66</orderItemNumber>
+</sentence365>
+<sentence366>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence366>
+<sentence367>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210362834</partnerILN>
+</sentence367>
+<sentence368>
+    <type>580</type>
+    <positionNumber>68</positionNumber>
+    <bestBeforeDate>20220501</bestBeforeDate>
+    <batchNumber>100788-22087</batchNumber>
+    <deliveryQuantity>3</deliveryQuantity>
+</sentence368>
+<sentence369>
+    <type>500</type>
+    <positionNumber>69</positionNumber>
+    <EAN>4260402489568</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence369>
+<sentence370>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>50</orderItemNumber>
+</sentence370>
+<sentence371>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence371>
+<sentence372>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210362834</partnerILN>
+</sentence372>
+<sentence373>
+    <type>580</type>
+    <positionNumber>69</positionNumber>
+    <bestBeforeDate>20220524</bestBeforeDate>
+    <batchNumber>100640-22054068</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence373>
+<sentence374>
+    <type>500</type>
+    <positionNumber>70</positionNumber>
+    <EAN>4251725800253</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence374>
+<sentence375>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>64</orderItemNumber>
+</sentence375>
+<sentence376>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence376>
+<sentence377>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210362834</partnerILN>
+</sentence377>
+<sentence378>
+    <type>580</type>
+    <positionNumber>70</positionNumber>
+    <bestBeforeDate>20220807</bestBeforeDate>
+    <batchNumber>100752-608514012</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence378>
+<sentence379>
+    <type>500</type>
+    <positionNumber>71</positionNumber>
+    <EAN>4251725800864</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence379>
+<sentence380>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>60</orderItemNumber>
+</sentence380>
+<sentence381>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence381>
+<sentence382>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210362834</partnerILN>
+</sentence382>
+<sentence383>
+    <type>580</type>
+    <positionNumber>71</positionNumber>
+    <bestBeforeDate>20220502</bestBeforeDate>
+    <batchNumber>100870-110112</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence383>
+<sentence384>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695614732</palletNVE>
+</sentence384>
+<sentence385>
+    <type>500</type>
+    <positionNumber>72</positionNumber>
+    <EAN>4251725800475</EAN>
+    <orderQuantity>3.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence385>
+<sentence386>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>68</orderItemNumber>
+</sentence386>
+<sentence387>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence387>
+<sentence388>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210362834</partnerILN>
+</sentence388>
+<sentence389>
+    <type>580</type>
+    <positionNumber>72</positionNumber>
+    <bestBeforeDate>20220426</bestBeforeDate>
+    <batchNumber>100790-22082</batchNumber>
+    <deliveryQuantity>3</deliveryQuantity>
+</sentence389>
+<sentence390>
+    <type>500</type>
+    <positionNumber>73</positionNumber>
+    <EAN>4251725800277</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence390>
+<sentence391>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>284</orderItemNumber>
+</sentence391>
+<sentence392>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence392>
+<sentence393>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210362834</partnerILN>
+</sentence393>
+<sentence394>
+    <type>580</type>
+    <positionNumber>73</positionNumber>
+    <bestBeforeDate>20220427</bestBeforeDate>
+    <batchNumber>100753-0762022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence394>
+<sentence395>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695614831</palletNVE>
+</sentence395>
+<sentence396>
+    <type>500</type>
+    <positionNumber>74</positionNumber>
+    <EAN>4260402489568</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence396>
+<sentence397>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>206</orderItemNumber>
+</sentence397>
+<sentence398>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence398>
+<sentence399>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210364500</partnerILN>
+</sentence399>
+<sentence400>
+    <type>580</type>
+    <positionNumber>74</positionNumber>
+    <bestBeforeDate>20220524</bestBeforeDate>
+    <batchNumber>100640-22054068</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence400>
+<sentence401>
+    <type>500</type>
+    <positionNumber>75</positionNumber>
+    <EAN>4251725800253</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence401>
+<sentence402>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>208</orderItemNumber>
+</sentence402>
+<sentence403>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence403>
+<sentence404>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210364500</partnerILN>
+</sentence404>
+<sentence405>
+    <type>580</type>
+    <positionNumber>75</positionNumber>
+    <bestBeforeDate>20220807</bestBeforeDate>
+    <batchNumber>100752-608514012</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence405>
+<sentence406>
+    <type>500</type>
+    <positionNumber>76</positionNumber>
+    <EAN>4251725800451</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence406>
+<sentence407>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>316</orderItemNumber>
+</sentence407>
+<sentence408>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence408>
+<sentence409>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210372000</partnerILN>
+</sentence409>
+<sentence410>
+    <type>500</type>
+    <positionNumber>77</positionNumber>
+    <EAN>4251725800499</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence410>
+<sentence411>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>322</orderItemNumber>
+</sentence411>
+<sentence412>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence412>
+<sentence413>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210372000</partnerILN>
+</sentence413>
+<sentence414>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695535143</palletNVE>
+</sentence414>
+<sentence415>
+    <type>500</type>
+    <positionNumber>78</positionNumber>
+    <EAN>4251725800390</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence415>
+<sentence416>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>320</orderItemNumber>
+</sentence416>
+<sentence417>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence417>
+<sentence418>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210372000</partnerILN>
+</sentence418>
+<sentence419>
+    <type>580</type>
+    <positionNumber>78</positionNumber>
+    <bestBeforeDate>20230125</bestBeforeDate>
+    <batchNumber>100767-C072202251</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence419>
+<sentence420>
+    <type>500</type>
+    <positionNumber>79</positionNumber>
+    <EAN>4251725800437</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence420>
+<sentence421>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>318</orderItemNumber>
+</sentence421>
+<sentence422>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence422>
+<sentence423>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210372000</partnerILN>
+</sentence423>
+<sentence424>
+    <type>580</type>
+    <positionNumber>79</positionNumber>
+    <bestBeforeDate>20220501</bestBeforeDate>
+    <batchNumber>100788-22087</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence424>
+<sentence425>
+    <type>500</type>
+    <positionNumber>80</positionNumber>
+    <EAN>4251725801236</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence425>
+<sentence426>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>328</orderItemNumber>
+</sentence426>
+<sentence427>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence427>
+<sentence428>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210372000</partnerILN>
+</sentence428>
+<sentence429>
+    <type>580</type>
+    <positionNumber>80</positionNumber>
+    <bestBeforeDate>20220911</bestBeforeDate>
+    <batchNumber>100917-723218022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence429>
+<sentence430>
+    <type>500</type>
+    <positionNumber>81</positionNumber>
+    <EAN>4260402484006</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence430>
+<sentence431>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>306</orderItemNumber>
+</sentence431>
+<sentence432>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence432>
+<sentence433>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210372000</partnerILN>
+</sentence433>
+<sentence434>
+    <type>580</type>
+    <positionNumber>81</positionNumber>
+    <bestBeforeDate>20220918</bestBeforeDate>
+    <batchNumber>271013-180922</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence434>
+<sentence435>
+    <type>500</type>
+    <positionNumber>82</positionNumber>
+    <EAN>4251725800277</EAN>
+    <orderQuantity>3.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence435>
+<sentence436>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>324</orderItemNumber>
+</sentence436>
+<sentence437>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence437>
+<sentence438>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210372000</partnerILN>
+</sentence438>
+<sentence439>
+    <type>580</type>
+    <positionNumber>82</positionNumber>
+    <bestBeforeDate>20220427</bestBeforeDate>
+    <batchNumber>100753-0762022</batchNumber>
+    <deliveryQuantity>3</deliveryQuantity>
+</sentence439>
+<sentence440>
+    <type>500</type>
+    <positionNumber>83</positionNumber>
+    <EAN>4251725800871</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence440>
+<sentence441>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>308</orderItemNumber>
+</sentence441>
+<sentence442>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence442>
+<sentence443>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210372000</partnerILN>
+</sentence443>
+<sentence444>
+    <type>580</type>
+    <positionNumber>83</positionNumber>
+    <bestBeforeDate>20220502</bestBeforeDate>
+    <batchNumber>100871-111112</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence444>
+<sentence445>
+    <type>500</type>
+    <positionNumber>84</positionNumber>
+    <EAN>4260402489995</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence445>
+<sentence446>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>310</orderItemNumber>
+</sentence446>
+<sentence447>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence447>
+<sentence448>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210372000</partnerILN>
+</sentence448>
+<sentence449>
+    <type>580</type>
+    <positionNumber>84</positionNumber>
+    <bestBeforeDate>20220708</bestBeforeDate>
+    <batchNumber>100701-220708P05</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence449>
+<sentence450>
+    <type>500</type>
+    <positionNumber>85</positionNumber>
+    <EAN>4251725800864</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence450>
+<sentence451>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>312</orderItemNumber>
+</sentence451>
+<sentence452>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence452>
+<sentence453>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210372000</partnerILN>
+</sentence453>
+<sentence454>
+    <type>580</type>
+    <positionNumber>85</positionNumber>
+    <bestBeforeDate>20220502</bestBeforeDate>
+    <batchNumber>100870-110112</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence454>
+<sentence455>
+    <type>500</type>
+    <positionNumber>86</positionNumber>
+    <EAN>4260402486338</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence455>
+<sentence456>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>314</orderItemNumber>
+</sentence456>
+<sentence457>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence457>
+<sentence458>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210372000</partnerILN>
+</sentence458>
+<sentence459>
+    <type>580</type>
+    <positionNumber>86</positionNumber>
+    <bestBeforeDate>20221003</bestBeforeDate>
+    <batchNumber>100362-03102022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence459>
+<sentence460>
+    <type>500</type>
+    <positionNumber>87</positionNumber>
+    <EAN>4251725801021</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence460>
+<sentence461>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>326</orderItemNumber>
+</sentence461>
+<sentence462>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence462>
+<sentence463>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210372000</partnerILN>
+</sentence463>
+<sentence464>
+    <type>580</type>
+    <positionNumber>87</positionNumber>
+    <bestBeforeDate>20240120</bestBeforeDate>
+    <batchNumber>100885-0060905</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence464>
+<sentence465>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695532258</palletNVE>
+</sentence465>
+<sentence466>
+    <type>500</type>
+    <positionNumber>88</positionNumber>
+    <EAN>4251725800598</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence466>
+<sentence467>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>250</orderItemNumber>
+</sentence467>
+<sentence468>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence468>
+<sentence469>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210381668</partnerILN>
+</sentence469>
+<sentence470>
+    <type>580</type>
+    <positionNumber>88</positionNumber>
+    <bestBeforeDate>20230103</bestBeforeDate>
+    <batchNumber>100808-C072202032</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence470>
+<sentence471>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695534955</palletNVE>
+</sentence471>
+<sentence472>
+    <type>500</type>
+    <positionNumber>89</positionNumber>
+    <EAN>4260402483962</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence472>
+<sentence473>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>34</orderItemNumber>
+</sentence473>
+<sentence474>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence474>
+<sentence475>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210390530</partnerILN>
+</sentence475>
+<sentence476>
+    <type>580</type>
+    <positionNumber>89</positionNumber>
+    <bestBeforeDate>20220913</bestBeforeDate>
+    <batchNumber>271012-130922</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence476>
+<sentence477>
+    <type>500</type>
+    <positionNumber>90</positionNumber>
+    <EAN>4260402486840</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence477>
+<sentence478>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>48</orderItemNumber>
+</sentence478>
+<sentence479>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence479>
+<sentence480>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210390530</partnerILN>
+</sentence480>
+<sentence481>
+    <type>580</type>
+    <positionNumber>90</positionNumber>
+    <bestBeforeDate>20230517</bestBeforeDate>
+    <batchNumber>100399-01722</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence481>
+<sentence482>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695535136</palletNVE>
+</sentence482>
+<sentence483>
+    <type>500</type>
+    <positionNumber>91</positionNumber>
+    <EAN>4251725800390</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence483>
+<sentence484>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>300</orderItemNumber>
+</sentence484>
+<sentence485>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence485>
+<sentence486>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210391834</partnerILN>
+</sentence486>
+<sentence487>
+    <type>580</type>
+    <positionNumber>91</positionNumber>
+    <bestBeforeDate>20230125</bestBeforeDate>
+    <batchNumber>100767-C072202251</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence487>
+<sentence488>
+    <type>500</type>
+    <positionNumber>92</positionNumber>
+    <EAN>4260402489568</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence488>
+<sentence489>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>292</orderItemNumber>
+</sentence489>
+<sentence490>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence490>
+<sentence491>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210391834</partnerILN>
+</sentence491>
+<sentence492>
+    <type>580</type>
+    <positionNumber>92</positionNumber>
+    <bestBeforeDate>20220524</bestBeforeDate>
+    <batchNumber>100640-22054068</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence492>
+<sentence493>
+    <type>500</type>
+    <positionNumber>93</positionNumber>
+    <EAN>4251725801250</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence493>
+<sentence494>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>302</orderItemNumber>
+</sentence494>
+<sentence495>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence495>
+<sentence496>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210391834</partnerILN>
+</sentence496>
+<sentence497>
+    <type>580</type>
+    <positionNumber>93</positionNumber>
+    <bestBeforeDate>20220901</bestBeforeDate>
+    <batchNumber>100918-723308022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence497>
+<sentence498>
+    <type>500</type>
+    <positionNumber>94</positionNumber>
+    <EAN>4251725800253</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence498>
+<sentence499>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>298</orderItemNumber>
+</sentence499>
+<sentence500>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence500>
+<sentence501>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210391834</partnerILN>
+</sentence501>
+<sentence502>
+    <type>580</type>
+    <positionNumber>94</positionNumber>
+    <bestBeforeDate>20220807</bestBeforeDate>
+    <batchNumber>100752-608514012</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence502>
+<sentence503>
+    <type>500</type>
+    <positionNumber>95</positionNumber>
+    <EAN>4260402489070</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence503>
+<sentence504>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>294</orderItemNumber>
+</sentence504>
+<sentence505>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence505>
+<sentence506>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210391834</partnerILN>
+</sentence506>
+<sentence507>
+    <type>580</type>
+    <positionNumber>95</positionNumber>
+    <bestBeforeDate>20220821</bestBeforeDate>
+    <batchNumber>100598-O220222D</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence507>
+<sentence508>
+    <type>500</type>
+    <positionNumber>96</positionNumber>
+    <EAN>4251725800581</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence508>
+<sentence509>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>288</orderItemNumber>
+</sentence509>
+<sentence510>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence510>
+<sentence511>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210391834</partnerILN>
+</sentence511>
+<sentence512>
+    <type>580</type>
+    <positionNumber>96</positionNumber>
+    <bestBeforeDate>20230102</bestBeforeDate>
+    <batchNumber>100807-C072202022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence512>
+<sentence513>
+    <type>500</type>
+    <positionNumber>97</positionNumber>
+    <EAN>4260402487205</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence513>
+<sentence514>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>290</orderItemNumber>
+</sentence514>
+<sentence515>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence515>
+<sentence516>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210391834</partnerILN>
+</sentence516>
+<sentence517>
+    <type>580</type>
+    <positionNumber>97</positionNumber>
+    <bestBeforeDate>20221118</bestBeforeDate>
+    <batchNumber>100458-221010/0</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence517>
+<sentence518>
+    <type>500</type>
+    <positionNumber>98</positionNumber>
+    <EAN>4251725800871</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence518>
+<sentence519>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>296</orderItemNumber>
+</sentence519>
+<sentence520>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence520>
+<sentence521>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210391834</partnerILN>
+</sentence521>
+<sentence522>
+    <type>580</type>
+    <positionNumber>98</positionNumber>
+    <bestBeforeDate>20220502</bestBeforeDate>
+    <batchNumber>100871-111112</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence522>
+<sentence523>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695534962</palletNVE>
+</sentence523>
+<sentence524>
+    <type>500</type>
+    <positionNumber>99</positionNumber>
+    <EAN>4251725800598</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence524>
+<sentence525>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>230</orderItemNumber>
+</sentence525>
+<sentence526>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence526>
+<sentence527>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210400468</partnerILN>
+</sentence527>
+<sentence528>
+    <type>580</type>
+    <positionNumber>99</positionNumber>
+    <bestBeforeDate>20230103</bestBeforeDate>
+    <batchNumber>100808-C072202032</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence528>
+<sentence529>
+    <type>500</type>
+    <positionNumber>100</positionNumber>
+    <EAN>4260402486789</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence529>
+<sentence530>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>232</orderItemNumber>
+</sentence530>
+<sentence531>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence531>
+<sentence532>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210400468</partnerILN>
+</sentence532>
+<sentence533>
+    <type>580</type>
+    <positionNumber>100</positionNumber>
+    <bestBeforeDate>20221027</bestBeforeDate>
+    <batchNumber>161046-L1441</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence533>
+<sentence534>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695532265</palletNVE>
+</sentence534>
+<sentence535>
+    <type>500</type>
+    <positionNumber>101</positionNumber>
+    <EAN>4260402483962</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence535>
+<sentence536>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>204</orderItemNumber>
+</sentence536>
+<sentence537>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence537>
+<sentence538>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210415684</partnerILN>
+</sentence538>
+<sentence539>
+    <type>580</type>
+    <positionNumber>101</positionNumber>
+    <bestBeforeDate>20220913</bestBeforeDate>
+    <batchNumber>271012-130922</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence539>
+<sentence540>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695534948</palletNVE>
+</sentence540>
+<sentence541>
+    <type>500</type>
+    <positionNumber>102</positionNumber>
+    <EAN>4251725800598</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence541>
+<sentence542>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>280</orderItemNumber>
+</sentence542>
+<sentence543>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence543>
+<sentence544>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210430076</partnerILN>
+</sentence544>
+<sentence545>
+    <type>580</type>
+    <positionNumber>102</positionNumber>
+    <bestBeforeDate>20230103</bestBeforeDate>
+    <batchNumber>100808-C072202032</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence545>
+<sentence546>
+    <type>500</type>
+    <positionNumber>103</positionNumber>
+    <EAN>4260402487618</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence546>
+<sentence547>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>282</orderItemNumber>
+</sentence547>
+<sentence548>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence548>
+<sentence549>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210430076</partnerILN>
+</sentence549>
+<sentence550>
+    <type>580</type>
+    <positionNumber>103</positionNumber>
+    <bestBeforeDate>20230308</bestBeforeDate>
+    <batchNumber>100479-L22102</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence550>
+<sentence551>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695275186</palletNVE>
+</sentence551>
+<sentence552>
+    <type>500</type>
+    <positionNumber>104</positionNumber>
+    <EAN>4251725800871</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence552>
+<sentence553>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>266</orderItemNumber>
+</sentence553>
+<sentence554>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence554>
+<sentence555>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210437006</partnerILN>
+</sentence555>
+<sentence556>
+    <type>580</type>
+    <positionNumber>104</positionNumber>
+    <bestBeforeDate>20220502</bestBeforeDate>
+    <batchNumber>100871-111112</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence556>
+<sentence557>
+    <type>500</type>
+    <positionNumber>105</positionNumber>
+    <EAN>4260402482576</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence557>
+<sentence558>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>262</orderItemNumber>
+</sentence558>
+<sentence559>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence559>
+<sentence560>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210437006</partnerILN>
+</sentence560>
+<sentence561>
+    <type>580</type>
+    <positionNumber>105</positionNumber>
+    <bestBeforeDate>20221104</bestBeforeDate>
+    <batchNumber>124007-PO08909-10845</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence561>
+<sentence562>
+    <type>500</type>
+    <positionNumber>106</positionNumber>
+    <EAN>4251725800864</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence562>
+<sentence563>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>268</orderItemNumber>
+</sentence563>
+<sentence564>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence564>
+<sentence565>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210437006</partnerILN>
+</sentence565>
+<sentence566>
+    <type>580</type>
+    <positionNumber>106</positionNumber>
+    <bestBeforeDate>20220502</bestBeforeDate>
+    <batchNumber>100870-110112</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence566>
+<sentence567>
+    <type>500</type>
+    <positionNumber>107</positionNumber>
+    <EAN>4251725800475</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence567>
+<sentence568>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>270</orderItemNumber>
+</sentence568>
+<sentence569>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence569>
+<sentence570>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210437006</partnerILN>
+</sentence570>
+<sentence571>
+    <type>580</type>
+    <positionNumber>107</positionNumber>
+    <bestBeforeDate>20220426</bestBeforeDate>
+    <batchNumber>100790-22082</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence571>
+<sentence572>
+    <type>500</type>
+    <positionNumber>108</positionNumber>
+    <EAN>4260402489568</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence572>
+<sentence573>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>264</orderItemNumber>
+</sentence573>
+<sentence574>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence574>
+<sentence575>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210437006</partnerILN>
+</sentence575>
+<sentence576>
+    <type>580</type>
+    <positionNumber>108</positionNumber>
+    <bestBeforeDate>20220524</bestBeforeDate>
+    <batchNumber>100640-22054068</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence576>
+<sentence577>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695534979</palletNVE>
+</sentence577>
+<sentence578>
+    <type>500</type>
+    <positionNumber>109</positionNumber>
+    <EAN>4260402486765</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence578>
+<sentence579>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>236</orderItemNumber>
+</sentence579>
+<sentence580>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence580>
+<sentence581>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210863942</partnerILN>
+</sentence581>
+<sentence582>
+    <type>580</type>
+    <positionNumber>109</positionNumber>
+    <bestBeforeDate>20230202</bestBeforeDate>
+    <batchNumber>161045-L2061</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence582>
+<sentence583>
+    <type>500</type>
+    <positionNumber>110</positionNumber>
+    <EAN>4260402485041</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence583>
+<sentence584>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>234</orderItemNumber>
+</sentence584>
+<sentence585>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence585>
+<sentence586>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210863942</partnerILN>
+</sentence586>
+<sentence587>
+    <type>580</type>
+    <positionNumber>110</positionNumber>
+    <bestBeforeDate>20230201</bestBeforeDate>
+    <batchNumber>161044-C101355</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence587>
+<sentence588>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695614817</palletNVE>
+</sentence588>
+<sentence589>
+    <type>500</type>
+    <positionNumber>111</positionNumber>
+    <EAN>4251725800253</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence589>
+<sentence590>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>36</orderItemNumber>
+</sentence590>
+<sentence591>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence591>
+<sentence592>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210864932</partnerILN>
+</sentence592>
+<sentence593>
+    <type>580</type>
+    <positionNumber>111</positionNumber>
+    <bestBeforeDate>20220807</bestBeforeDate>
+    <batchNumber>100752-608514012</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence593>
+<sentence594>
+    <type>500</type>
+    <positionNumber>112</positionNumber>
+    <EAN>4251725800451</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence594>
+<sentence595>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>144</orderItemNumber>
+</sentence595>
+<sentence596>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence596>
+<sentence597>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210865618</partnerILN>
+</sentence597>
+<sentence598>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695535105</palletNVE>
+</sentence598>
+<sentence599>
+    <type>500</type>
+    <positionNumber>113</positionNumber>
+    <EAN>4251725800475</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence599>
+<sentence600>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>146</orderItemNumber>
+</sentence600>
+<sentence601>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence601>
+<sentence602>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210865618</partnerILN>
+</sentence602>
+<sentence603>
+    <type>580</type>
+    <positionNumber>113</positionNumber>
+    <bestBeforeDate>20220426</bestBeforeDate>
+    <batchNumber>100790-22082</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence603>
+<sentence604>
+    <type>500</type>
+    <positionNumber>114</positionNumber>
+    <EAN>4251725800864</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence604>
+<sentence605>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>142</orderItemNumber>
+</sentence605>
+<sentence606>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence606>
+<sentence607>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210865618</partnerILN>
+</sentence607>
+<sentence608>
+    <type>580</type>
+    <positionNumber>114</positionNumber>
+    <bestBeforeDate>20220502</bestBeforeDate>
+    <batchNumber>100870-110112</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence608>
+<sentence609>
+    <type>500</type>
+    <positionNumber>115</positionNumber>
+    <EAN>4251725800871</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence609>
+<sentence610>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>140</orderItemNumber>
+</sentence610>
+<sentence611>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence611>
+<sentence612>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210865618</partnerILN>
+</sentence612>
+<sentence613>
+    <type>580</type>
+    <positionNumber>115</positionNumber>
+    <bestBeforeDate>20220502</bestBeforeDate>
+    <batchNumber>100871-111112</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence613>
+<sentence614>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695532272</palletNVE>
+</sentence614>
+<sentence615>
+    <type>500</type>
+    <positionNumber>116</positionNumber>
+    <EAN>4251725801083</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence615>
+<sentence616>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>126</orderItemNumber>
+</sentence616>
+<sentence617>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence617>
+<sentence618>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence618>
+<sentence619>
+    <type>580</type>
+    <positionNumber>116</positionNumber>
+    <bestBeforeDate>20230613</bestBeforeDate>
+    <batchNumber>100890-L004</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence619>
+<sentence620>
+    <type>500</type>
+    <positionNumber>117</positionNumber>
+    <EAN>4251725800390</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence620>
+<sentence621>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>124</orderItemNumber>
+</sentence621>
+<sentence622>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence622>
+<sentence623>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence623>
+<sentence624>
+    <type>580</type>
+    <positionNumber>117</positionNumber>
+    <bestBeforeDate>20230125</bestBeforeDate>
+    <batchNumber>100767-C072202251</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence624>
+<sentence625>
+    <type>500</type>
+    <positionNumber>118</positionNumber>
+    <EAN>4260402483962</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence625>
+<sentence626>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>98</orderItemNumber>
+</sentence626>
+<sentence627>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence627>
+<sentence628>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence628>
+<sentence629>
+    <type>580</type>
+    <positionNumber>118</positionNumber>
+    <bestBeforeDate>20220913</bestBeforeDate>
+    <batchNumber>271012-130922</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence629>
+<sentence630>
+    <type>500</type>
+    <positionNumber>119</positionNumber>
+    <EAN>4251725801069</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence630>
+<sentence631>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>130</orderItemNumber>
+</sentence631>
+<sentence632>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence632>
+<sentence633>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence633>
+<sentence634>
+    <type>580</type>
+    <positionNumber>119</positionNumber>
+    <bestBeforeDate>20230801</bestBeforeDate>
+    <batchNumber>100887-0061222</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence634>
+<sentence635>
+    <type>500</type>
+    <positionNumber>120</positionNumber>
+    <EAN>4260402480367</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence635>
+<sentence636>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>82</orderItemNumber>
+</sentence636>
+<sentence637>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence637>
+<sentence638>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence638>
+<sentence639>
+    <type>580</type>
+    <positionNumber>120</positionNumber>
+    <bestBeforeDate>20230610</bestBeforeDate>
+    <batchNumber>141049-L344G21</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence639>
+<sentence640>
+    <type>500</type>
+    <positionNumber>121</positionNumber>
+    <EAN>4251725801212</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence640>
+<sentence641>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>134</orderItemNumber>
+</sentence641>
+<sentence642>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence642>
+<sentence643>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence643>
+<sentence644>
+    <type>580</type>
+    <positionNumber>121</positionNumber>
+    <bestBeforeDate>20240201</bestBeforeDate>
+    <batchNumber>100913-0060906</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence644>
+<sentence645>
+    <type>500</type>
+    <positionNumber>122</positionNumber>
+    <EAN>4251725801120</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence645>
+<sentence646>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>136</orderItemNumber>
+</sentence646>
+<sentence647>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence647>
+<sentence648>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence648>
+<sentence649>
+    <type>580</type>
+    <positionNumber>122</positionNumber>
+    <bestBeforeDate>20240118</bestBeforeDate>
+    <batchNumber>100896-180124</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence649>
+<sentence650>
+    <type>500</type>
+    <positionNumber>123</positionNumber>
+    <EAN>4260402487212</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence650>
+<sentence651>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>116</orderItemNumber>
+</sentence651>
+<sentence652>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence652>
+<sentence653>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence653>
+<sentence654>
+    <type>580</type>
+    <positionNumber>123</positionNumber>
+    <bestBeforeDate>20221028</bestBeforeDate>
+    <batchNumber>100459-220604/0</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence654>
+<sentence655>
+    <type>500</type>
+    <positionNumber>124</positionNumber>
+    <EAN>4260402485065</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence655>
+<sentence656>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>90</orderItemNumber>
+</sentence656>
+<sentence657>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence657>
+<sentence658>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence658>
+<sentence659>
+    <type>580</type>
+    <positionNumber>124</positionNumber>
+    <bestBeforeDate>20230430</bestBeforeDate>
+    <batchNumber>151098-L32073</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence659>
+<sentence660>
+    <type>500</type>
+    <positionNumber>125</positionNumber>
+    <EAN>4260402485003</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence660>
+<sentence661>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>92</orderItemNumber>
+</sentence661>
+<sentence662>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence662>
+<sentence663>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence663>
+<sentence664>
+    <type>580</type>
+    <positionNumber>125</positionNumber>
+    <bestBeforeDate>20230331</bestBeforeDate>
+    <batchNumber>151096-L12034</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence664>
+<sentence665>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695532289</palletNVE>
+</sentence665>
+<sentence666>
+    <type>500</type>
+    <positionNumber>126</positionNumber>
+    <EAN>4260402484334</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence666>
+<sentence667>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>104</orderItemNumber>
+</sentence667>
+<sentence668>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence668>
+<sentence669>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence669>
+<sentence670>
+    <type>580</type>
+    <positionNumber>126</positionNumber>
+    <bestBeforeDate>20230420</bestBeforeDate>
+    <batchNumber>153059-L2020</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence670>
+<sentence671>
+    <type>500</type>
+    <positionNumber>127</positionNumber>
+    <EAN>4260402484495</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence671>
+<sentence672>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>100</orderItemNumber>
+</sentence672>
+<sentence673>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence673>
+<sentence674>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence674>
+<sentence675>
+    <type>580</type>
+    <positionNumber>127</positionNumber>
+    <bestBeforeDate>20240130</bestBeforeDate>
+    <batchNumber>153060-030F</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence675>
+<sentence676>
+    <type>500</type>
+    <positionNumber>128</positionNumber>
+    <EAN>4260402484983</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence676>
+<sentence677>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>86</orderItemNumber>
+</sentence677>
+<sentence678>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence678>
+<sentence679>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence679>
+<sentence680>
+    <type>580</type>
+    <positionNumber>128</positionNumber>
+    <bestBeforeDate>20230331</bestBeforeDate>
+    <batchNumber>151095-L32033</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence680>
+<sentence681>
+    <type>500</type>
+    <positionNumber>129</positionNumber>
+    <EAN>4260402485652</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence681>
+<sentence682>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>84</orderItemNumber>
+</sentence682>
+<sentence683>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence683>
+<sentence684>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence684>
+<sentence685>
+    <type>580</type>
+    <positionNumber>129</positionNumber>
+    <bestBeforeDate>20230228</bestBeforeDate>
+    <batchNumber>100314-L11512</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence685>
+<sentence686>
+    <type>500</type>
+    <positionNumber>130</positionNumber>
+    <EAN>4260402485027</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence686>
+<sentence687>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>88</orderItemNumber>
+</sentence687>
+<sentence688>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence688>
+<sentence689>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence689>
+<sentence690>
+    <type>580</type>
+    <positionNumber>130</positionNumber>
+    <bestBeforeDate>20230331</bestBeforeDate>
+    <batchNumber>151097-L22034</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence690>
+<sentence691>
+    <type>500</type>
+    <positionNumber>131</positionNumber>
+    <EAN>4260402485737</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence691>
+<sentence692>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>94</orderItemNumber>
+</sentence692>
+<sentence693>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence693>
+<sentence694>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence694>
+<sentence695>
+    <type>580</type>
+    <positionNumber>131</positionNumber>
+    <bestBeforeDate>20220620</bestBeforeDate>
+    <batchNumber>162014-1000306114</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence695>
+<sentence696>
+    <type>500</type>
+    <positionNumber>132</positionNumber>
+    <EAN>4260402484518</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence696>
+<sentence697>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>102</orderItemNumber>
+</sentence697>
+<sentence698>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence698>
+<sentence699>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence699>
+<sentence700>
+    <type>580</type>
+    <positionNumber>132</positionNumber>
+    <bestBeforeDate>20231201</bestBeforeDate>
+    <batchNumber>153061-335U</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence700>
+<sentence701>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695532296</palletNVE>
+</sentence701>
+<sentence702>
+    <type>500</type>
+    <positionNumber>133</positionNumber>
+    <EAN>4260402484006</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence702>
+<sentence703>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>96</orderItemNumber>
+</sentence703>
+<sentence704>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence704>
+<sentence705>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence705>
+<sentence706>
+    <type>580</type>
+    <positionNumber>133</positionNumber>
+    <bestBeforeDate>20220918</bestBeforeDate>
+    <batchNumber>271013-180922</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence706>
+<sentence707>
+    <type>500</type>
+    <positionNumber>134</positionNumber>
+    <EAN>4251725801045</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence707>
+<sentence708>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>132</orderItemNumber>
+</sentence708>
+<sentence709>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence709>
+<sentence710>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence710>
+<sentence711>
+    <type>580</type>
+    <positionNumber>134</positionNumber>
+    <bestBeforeDate>20230903</bestBeforeDate>
+    <batchNumber>100886-0061511</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence711>
+<sentence712>
+    <type>500</type>
+    <positionNumber>135</positionNumber>
+    <EAN>4251725801021</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence712>
+<sentence713>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>128</orderItemNumber>
+</sentence713>
+<sentence714>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence714>
+<sentence715>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence715>
+<sentence716>
+    <type>580</type>
+    <positionNumber>135</positionNumber>
+    <bestBeforeDate>20240120</bestBeforeDate>
+    <batchNumber>100885-0060905</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence716>
+<sentence717>
+    <type>500</type>
+    <positionNumber>136</positionNumber>
+    <EAN>4260402485447</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence717>
+<sentence718>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>108</orderItemNumber>
+</sentence718>
+<sentence719>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence719>
+<sentence720>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence720>
+<sentence721>
+    <type>580</type>
+    <positionNumber>136</positionNumber>
+    <bestBeforeDate>20230415</bestBeforeDate>
+    <batchNumber>152208-VE47305</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence721>
+<sentence722>
+    <type>500</type>
+    <positionNumber>137</positionNumber>
+    <EAN>4251725800581</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence722>
+<sentence723>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>110</orderItemNumber>
+</sentence723>
+<sentence724>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence724>
+<sentence725>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence725>
+<sentence726>
+    <type>580</type>
+    <positionNumber>137</positionNumber>
+    <bestBeforeDate>20230102</bestBeforeDate>
+    <batchNumber>100807-C072202022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence726>
+<sentence727>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695532302</palletNVE>
+</sentence727>
+<sentence728>
+    <type>500</type>
+    <positionNumber>138</positionNumber>
+    <EAN>4260402487939</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence728>
+<sentence729>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>120</orderItemNumber>
+</sentence729>
+<sentence730>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence730>
+<sentence731>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence731>
+<sentence732>
+    <type>580</type>
+    <positionNumber>138</positionNumber>
+    <bestBeforeDate>20230214</bestBeforeDate>
+    <batchNumber>100493-04522A</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence732>
+<sentence733>
+    <type>500</type>
+    <positionNumber>139</positionNumber>
+    <EAN>4260402487205</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence733>
+<sentence734>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>114</orderItemNumber>
+</sentence734>
+<sentence735>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence735>
+<sentence736>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence736>
+<sentence737>
+    <type>580</type>
+    <positionNumber>139</positionNumber>
+    <bestBeforeDate>20221118</bestBeforeDate>
+    <batchNumber>100458-221010/0</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence737>
+<sentence738>
+    <type>500</type>
+    <positionNumber>140</positionNumber>
+    <EAN>4260402487618</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence738>
+<sentence739>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>118</orderItemNumber>
+</sentence739>
+<sentence740>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence740>
+<sentence741>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence741>
+<sentence742>
+    <type>580</type>
+    <positionNumber>140</positionNumber>
+    <bestBeforeDate>20230308</bestBeforeDate>
+    <batchNumber>100479-L22102</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence742>
+<sentence743>
+    <type>500</type>
+    <positionNumber>141</positionNumber>
+    <EAN>4251725800598</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence743>
+<sentence744>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>112</orderItemNumber>
+</sentence744>
+<sentence745>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence745>
+<sentence746>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence746>
+<sentence747>
+    <type>580</type>
+    <positionNumber>141</positionNumber>
+    <bestBeforeDate>20230103</bestBeforeDate>
+    <batchNumber>100808-C072202032</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence747>
+<sentence748>
+    <type>500</type>
+    <positionNumber>142</positionNumber>
+    <EAN>4260402487892</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence748>
+<sentence749>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>122</orderItemNumber>
+</sentence749>
+<sentence750>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence750>
+<sentence751>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence751>
+<sentence752>
+    <type>580</type>
+    <positionNumber>142</positionNumber>
+    <bestBeforeDate>20230211</bestBeforeDate>
+    <batchNumber>100491-04222A</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence752>
+<sentence753>
+    <type>500</type>
+    <positionNumber>143</positionNumber>
+    <EAN>4260402485416</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence753>
+<sentence754>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>106</orderItemNumber>
+</sentence754>
+<sentence755>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence755>
+<sentence756>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046208</partnerILN>
+</sentence756>
+<sentence757>
+    <type>580</type>
+    <positionNumber>143</positionNumber>
+    <bestBeforeDate>20230401</bestBeforeDate>
+    <batchNumber>152207-VE47010</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence757>
+<sentence758>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695534986</palletNVE>
+</sentence758>
+<sentence759>
+    <type>500</type>
+    <positionNumber>144</positionNumber>
+    <EAN>4260402487892</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence759>
+<sentence760>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>272</orderItemNumber>
+</sentence760>
+<sentence761>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence761>
+<sentence762>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210125910</partnerILN>
+</sentence762>
+<sentence763>
+    <type>580</type>
+    <positionNumber>144</positionNumber>
+    <bestBeforeDate>20230211</bestBeforeDate>
+    <batchNumber>100491-04222A</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence763>
+<sentence764>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695534993</palletNVE>
+</sentence764>
+<sentence765>
+    <type>500</type>
+    <positionNumber>145</positionNumber>
+    <EAN>4260402485225</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence765>
+<sentence766>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>258</orderItemNumber>
+</sentence766>
+<sentence767>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence767>
+<sentence768>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210315472</partnerILN>
+</sentence768>
+<sentence769>
+    <type>580</type>
+    <positionNumber>145</positionNumber>
+    <bestBeforeDate>20230105</bestBeforeDate>
+    <batchNumber>151099-L22013</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence769>
+<sentence770>
+    <type>500</type>
+    <positionNumber>146</positionNumber>
+    <EAN>4260402485737</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence770>
+<sentence771>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>256</orderItemNumber>
+</sentence771>
+<sentence772>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence772>
+<sentence773>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210315472</partnerILN>
+</sentence773>
+<sentence774>
+    <type>580</type>
+    <positionNumber>146</positionNumber>
+    <bestBeforeDate>20220620</bestBeforeDate>
+    <batchNumber>162014-1000306114</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence774>
+<sentence775>
+    <type>500</type>
+    <positionNumber>147</positionNumber>
+    <EAN>4251725800451</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence775>
+<sentence776>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>276</orderItemNumber>
+</sentence776>
+<sentence777>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence777>
+<sentence778>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210330864</partnerILN>
+</sentence778>
+<sentence779>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695614794</palletNVE>
+</sentence779>
+<sentence780>
+    <type>500</type>
+    <positionNumber>148</positionNumber>
+    <EAN>4251725800437</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence780>
+<sentence781>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>278</orderItemNumber>
+</sentence781>
+<sentence782>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence782>
+<sentence783>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210330864</partnerILN>
+</sentence783>
+<sentence784>
+    <type>580</type>
+    <positionNumber>148</positionNumber>
+    <bestBeforeDate>20220501</bestBeforeDate>
+    <batchNumber>100788-22087</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence784>
+<sentence785>
+    <type>500</type>
+    <positionNumber>149</positionNumber>
+    <EAN>4251725801434</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence785>
+<sentence786>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>242</orderItemNumber>
+</sentence786>
+<sentence787>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence787>
+<sentence788>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210359766</partnerILN>
+</sentence788>
+<sentence789>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695535020</palletNVE>
+</sentence789>
+<sentence790>
+    <type>500</type>
+    <positionNumber>150</positionNumber>
+    <EAN>4251725800581</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence790>
+<sentence791>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>240</orderItemNumber>
+</sentence791>
+<sentence792>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence792>
+<sentence793>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210359766</partnerILN>
+</sentence793>
+<sentence794>
+    <type>580</type>
+    <positionNumber>150</positionNumber>
+    <bestBeforeDate>20230102</bestBeforeDate>
+    <batchNumber>100807-C072202022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence794>
+<sentence795>
+    <type>500</type>
+    <positionNumber>151</positionNumber>
+    <EAN>4260402484006</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence795>
+<sentence796>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>238</orderItemNumber>
+</sentence796>
+<sentence797>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence797>
+<sentence798>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210359766</partnerILN>
+</sentence798>
+<sentence799>
+    <type>580</type>
+    <positionNumber>151</positionNumber>
+    <bestBeforeDate>20220918</bestBeforeDate>
+    <batchNumber>271013-180922</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence799>
+<sentence800>
+    <type>500</type>
+    <positionNumber>152</positionNumber>
+    <EAN>4251725800451</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence800>
+<sentence801>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>176</orderItemNumber>
+</sentence801>
+<sentence802>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence802>
+<sentence803>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210362452</partnerILN>
+</sentence803>
+<sentence804>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695533682</palletNVE>
+</sentence804>
+<sentence805>
+    <type>500</type>
+    <positionNumber>153</positionNumber>
+    <EAN>4251725800475</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence805>
+<sentence806>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>178</orderItemNumber>
+</sentence806>
+<sentence807>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence807>
+<sentence808>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210362452</partnerILN>
+</sentence808>
+<sentence809>
+    <type>580</type>
+    <positionNumber>153</positionNumber>
+    <bestBeforeDate>20220426</bestBeforeDate>
+    <batchNumber>100790-22082</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence809>
+<sentence810>
+    <type>500</type>
+    <positionNumber>154</positionNumber>
+    <EAN>4260402483962</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence810>
+<sentence811>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>174</orderItemNumber>
+</sentence811>
+<sentence812>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence812>
+<sentence813>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210362452</partnerILN>
+</sentence813>
+<sentence814>
+    <type>580</type>
+    <positionNumber>154</positionNumber>
+    <bestBeforeDate>20220913</bestBeforeDate>
+    <batchNumber>271012-130922</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence814>
+<sentence815>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695535006</palletNVE>
+</sentence815>
+<sentence816>
+    <type>500</type>
+    <positionNumber>155</positionNumber>
+    <EAN>4251725800598</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence816>
+<sentence817>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>164</orderItemNumber>
+</sentence817>
+<sentence818>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence818>
+<sentence819>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210385000</partnerILN>
+</sentence819>
+<sentence820>
+    <type>580</type>
+    <positionNumber>155</positionNumber>
+    <bestBeforeDate>20230103</bestBeforeDate>
+    <batchNumber>100808-C072202032</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence820>
+<sentence821>
+    <type>500</type>
+    <positionNumber>156</positionNumber>
+    <EAN>4251725800451</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence821>
+<sentence822>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>248</orderItemNumber>
+</sentence822>
+<sentence823>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence823>
+<sentence824>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210389756</partnerILN>
+</sentence824>
+<sentence825>
+    <type>500</type>
+    <positionNumber>157</positionNumber>
+    <EAN>4260402488516</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence825>
+<sentence826>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>26</orderItemNumber>
+</sentence826>
+<sentence827>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence827>
+<sentence828>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210428684</partnerILN>
+</sentence828>
+<sentence829>
+    <type>500</type>
+    <positionNumber>158</positionNumber>
+    <EAN>4251725800451</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence829>
+<sentence830>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>224</orderItemNumber>
+</sentence830>
+<sentence831>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence831>
+<sentence832>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210392138</partnerILN>
+</sentence832>
+<sentence833>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695535150</palletNVE>
+</sentence833>
+<sentence834>
+    <type>500</type>
+    <positionNumber>159</positionNumber>
+    <EAN>4260402484495</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence834>
+<sentence835>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>214</orderItemNumber>
+</sentence835>
+<sentence836>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence836>
+<sentence837>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210392138</partnerILN>
+</sentence837>
+<sentence838>
+    <type>580</type>
+    <positionNumber>159</positionNumber>
+    <bestBeforeDate>20240130</bestBeforeDate>
+    <batchNumber>153060-030F</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence838>
+<sentence839>
+    <type>500</type>
+    <positionNumber>160</positionNumber>
+    <EAN>4251725800864</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence839>
+<sentence840>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>222</orderItemNumber>
+</sentence840>
+<sentence841>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence841>
+<sentence842>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210392138</partnerILN>
+</sentence842>
+<sentence843>
+    <type>580</type>
+    <positionNumber>160</positionNumber>
+    <bestBeforeDate>20220502</bestBeforeDate>
+    <batchNumber>100870-110112</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence843>
+<sentence844>
+    <type>500</type>
+    <positionNumber>161</positionNumber>
+    <EAN>4260402486789</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence844>
+<sentence845>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>220</orderItemNumber>
+</sentence845>
+<sentence846>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence846>
+<sentence847>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210392138</partnerILN>
+</sentence847>
+<sentence848>
+    <type>580</type>
+    <positionNumber>161</positionNumber>
+    <bestBeforeDate>20221027</bestBeforeDate>
+    <batchNumber>161046-L1441</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence848>
+<sentence849>
+    <type>500</type>
+    <positionNumber>162</positionNumber>
+    <EAN>4251725800277</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence849>
+<sentence850>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>226</orderItemNumber>
+</sentence850>
+<sentence851>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence851>
+<sentence852>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210392138</partnerILN>
+</sentence852>
+<sentence853>
+    <type>580</type>
+    <positionNumber>162</positionNumber>
+    <bestBeforeDate>20220427</bestBeforeDate>
+    <batchNumber>100753-0762022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence853>
+<sentence854>
+    <type>500</type>
+    <positionNumber>163</positionNumber>
+    <EAN>4251725800581</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence854>
+<sentence855>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>216</orderItemNumber>
+</sentence855>
+<sentence856>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence856>
+<sentence857>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210392138</partnerILN>
+</sentence857>
+<sentence858>
+    <type>580</type>
+    <positionNumber>163</positionNumber>
+    <bestBeforeDate>20230102</bestBeforeDate>
+    <batchNumber>100807-C072202022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence858>
+<sentence859>
+    <type>500</type>
+    <positionNumber>164</positionNumber>
+    <EAN>4251725800598</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence859>
+<sentence860>
+    <type>511</type>
+    <customerOrderNumber>6314564</customerOrderNumber>
+    <orderItemNumber>218</orderItemNumber>
+</sentence860>
+<sentence861>
+    <type>515</type>
+    <expectedDeliveryDate>20220405</expectedDeliveryDate>
+</sentence861>
+<sentence862>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210392138</partnerILN>
+</sentence862>
+<sentence863>
+    <type>580</type>
+    <positionNumber>164</positionNumber>
+    <bestBeforeDate>20230103</bestBeforeDate>
+    <batchNumber>100808-C072202032</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence863>`
 
 export const PARSEDXMLDEASDV3 = 
-`<sentence1>\n    <type>000</type>\n    <senderId>4260402480008</senderId>\n    <recieverId>4388800000007</recieverId>\n    <date>20220407</date>\n    <time>0545</time>\n    <dataExchangeReference>32206221VEGANZ</dataExchangeReference>\n    <fileInterfaceVersionNumber>4.5</fileInterfaceVersionNumber>\n</sentence1>\n<sentence2>\n    <type>100</type>\n    <messageReference>1</messageReference>\n    <messageType>DESADV</messageType>\n    <documentNumber>22207836</documentNumber>\n    <documentDate>20220407</documentDate>\n</sentence2>\n<sentence3>\n    <type>111</type>\n    <customerOrderNumber>2015170052</customerOrderNumber>\n    <customerOrcerDate>20220317</customerOrcerDate>\n    <deliveryDate>20220408</deliveryDate>\n    <deliveryReceiptNumber>22207836</deliveryReceiptNumber>\n    <deliveryReceiptDate>20220407</deliveryReceiptDate>\n</sentence3>\n<sentence4>\n    <type>115</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence4>\n<sentence5>\n    <type>119</type>\n    <partnerType>BY</partnerType>\n    <partnerILN>4388100000004</partnerILN>\n</sentence5>\n<sentence6>\n    <type>119</type>\n    <partnerType>IV</partnerType>\n    <partnerILN>4388100000004</partnerILN>\n</sentence6>\n<sentence7>\n    <type>119</type>\n    <partnerType>DP</partnerType>\n    <partnerILN>4388100200411</partnerILN>\n</sentence7>\n<sentence8>\n    <type>119</type>\n    <partnerType>SU</partnerType>\n    <partnerILN>4260402480008</partnerILN>\n</sentence8>\n<sentence9>\n    <type>500</type>\n    <positionNumber>1</positionNumber>\n    <EAN>4251725801137</EAN>\n    <orderQuantity>9.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence9>\n<sentence10>\n    <type>500</type>\n    <positionNumber>2</positionNumber>\n    <EAN>4251725801021</EAN>\n    <orderQuantity>27.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence10>\n<sentence11>\n    <type>500</type>\n    <positionNumber>3</positionNumber>\n    <EAN>4251725801045</EAN>\n    <orderQuantity>27.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence11>\n<sentence12>\n    <type>500</type>\n    <positionNumber>4</positionNumber>\n    <EAN>4251725801069</EAN>\n    <orderQuantity>27.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence12>\n<sentence13>\n    <type>500</type>\n    <positionNumber>5</positionNumber>\n    <EAN>4260402483962</EAN>\n    <orderQuantity>18.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence13>\n<sentence14>\n    <type>500</type>\n    <positionNumber>6</positionNumber>\n    <EAN>4260402484006</EAN>\n    <orderQuantity>18.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence14>`
+`<sentence1>
+    <type>000</type>
+    <senderId>4260402480008</senderId>
+    <recieverId>4388800000007</recieverId>
+    <date>20220407</date>
+    <time>0545</time>
+    <dataExchangeReference>32206221VEGANZ</dataExchangeReference>
+    <fileInterfaceVersionNumber>4.5</fileInterfaceVersionNumber>
+</sentence1>
+<sentence2>
+    <type>100</type>
+    <messageReference>1</messageReference>
+    <messageType>DESADV</messageType>
+    <documentNumber>22207836</documentNumber>
+    <documentDate>20220407</documentDate>
+</sentence2>
+<sentence3>
+    <type>111</type>
+    <customerOrderNumber>2015170052</customerOrderNumber>
+    <customerOrcerDate>20220317</customerOrcerDate>
+    <deliveryDate>20220408</deliveryDate>
+    <deliveryReceiptNumber>22207836</deliveryReceiptNumber>
+    <deliveryReceiptDate>20220407</deliveryReceiptDate>
+</sentence3>
+<sentence4>
+    <type>115</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence4>
+<sentence5>
+    <type>119</type>
+    <partnerType>BY</partnerType>
+    <partnerILN>4388100000004</partnerILN>
+</sentence5>
+<sentence6>
+    <type>119</type>
+    <partnerType>IV</partnerType>
+    <partnerILN>4388100000004</partnerILN>
+</sentence6>
+<sentence7>
+    <type>119</type>
+    <partnerType>DP</partnerType>
+    <partnerILN>4388100200411</partnerILN>
+</sentence7>
+<sentence8>
+    <type>119</type>
+    <partnerType>SU</partnerType>
+    <partnerILN>4260402480008</partnerILN>
+</sentence8>
+<sentence9>
+    <type>500</type>
+    <positionNumber>1</positionNumber>
+    <EAN>4251725801137</EAN>
+    <orderQuantity>9.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence9>
+<sentence10>
+    <type>500</type>
+    <positionNumber>2</positionNumber>
+    <EAN>4251725801021</EAN>
+    <orderQuantity>27.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence10>
+<sentence11>
+    <type>500</type>
+    <positionNumber>3</positionNumber>
+    <EAN>4251725801045</EAN>
+    <orderQuantity>27.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence11>
+<sentence12>
+    <type>500</type>
+    <positionNumber>4</positionNumber>
+    <EAN>4251725801069</EAN>
+    <orderQuantity>27.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence12>
+<sentence13>
+    <type>500</type>
+    <positionNumber>5</positionNumber>
+    <EAN>4260402483962</EAN>
+    <orderQuantity>18.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence13>
+<sentence14>
+    <type>500</type>
+    <positionNumber>6</positionNumber>
+    <EAN>4260402484006</EAN>
+    <orderQuantity>18.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence14>`
 
 export const PARSEDXMLDEASDV4 =  
-`<sentence1>\n    <type>000</type>\n    <senderId>4260402480008</senderId>\n    <recieverId>4311501990018</recieverId>\n    <date>20220407</date>\n    <time>0837</time>\n    <dataExchangeReference>32206234VEGANZ</dataExchangeReference>\n    <fileInterfaceVersionNumber>4.5</fileInterfaceVersionNumber>\n</sentence1>\n<sentence2>\n    <type>100</type>\n    <messageReference>1</messageReference>\n    <messageType>DESADV</messageType>\n    <transactionType>YA6</transactionType>\n    <documentNumber>22209803</documentNumber>\n    <documentDate>20220407</documentDate>\n</sentence2>\n<sentence3>\n    <type>111</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <customerOrcerDate>20220406</customerOrcerDate>\n    <deliveryDate>20220408</deliveryDate>\n    <deliveryReceiptNumber>22209803</deliveryReceiptNumber>\n    <deliveryReceiptDate>20220407</deliveryReceiptDate>\n</sentence3>\n<sentence4>\n    <type>115</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence4>\n<sentence5>\n    <type>119</type>\n    <partnerType>BY</partnerType>\n    <partnerILN>4311560000000</partnerILN>\n</sentence5>\n<sentence6>\n    <type>119</type>\n    <partnerType>IV</partnerType>\n    <partnerILN>4311560000000</partnerILN>\n</sentence6>\n<sentence7>\n    <type>119</type>\n    <partnerType>DP</partnerType>\n    <partnerILN>4313280901506</partnerILN>\n</sentence7>\n<sentence8>\n    <type>119</type>\n    <partnerType>SU</partnerType>\n    <partnerILN>4260402480008</partnerILN>\n</sentence8>\n<sentence9>\n    <type>400</type>\n    <positionNumber>1</positionNumber>\n    <perShipmentPackagingCount>31</perShipmentPackagingCount>\n    <perShipmentColliKartonPackagingType>PK</perShipmentColliKartonPackagingType>\n</sentence9>\n<sentence10>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695538076</palletNVE>\n</sentence10>\n<sentence11>\n    <type>500</type>\n    <positionNumber>1</positionNumber>\n    <EAN>4251725801045</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence11>\n<sentence12>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>178</orderItemNumber>\n</sentence12>\n<sentence13>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence13>\n<sentence14>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210658852</partnerILN>\n</sentence14>\n<sentence15>\n    <type>580</type>\n    <positionNumber>1</positionNumber>\n    <bestBeforeDate>20230903</bestBeforeDate>\n    <batchNumber>100886-0061511</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence15>\n<sentence16>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695538083</palletNVE>\n</sentence16>\n<sentence17>\n    <type>500</type>\n    <positionNumber>2</positionNumber>\n    <EAN>4251725801212</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence17>\n<sentence18>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>180</orderItemNumber>\n</sentence18>\n<sentence19>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence19>\n<sentence20>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210658852</partnerILN>\n</sentence20>\n<sentence21>\n    <type>580</type>\n    <positionNumber>2</positionNumber>\n    <bestBeforeDate>20240201</bestBeforeDate>\n    <batchNumber>100913-0060906</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence21>\n<sentence22>\n    <type>500</type>\n    <positionNumber>3</positionNumber>\n    <EAN>4251725801021</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence22>\n<sentence23>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>176</orderItemNumber>\n</sentence23>\n<sentence24>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence24>\n<sentence25>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210658852</partnerILN>\n</sentence25>\n<sentence26>\n    <type>580</type>\n    <positionNumber>3</positionNumber>\n    <bestBeforeDate>20240120</bestBeforeDate>\n    <batchNumber>100885-0060905</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence26>\n<sentence27>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446791</palletNVE>\n</sentence27>\n<sentence28>\n    <type>500</type>\n    <positionNumber>4</positionNumber>\n    <EAN>4260402487618</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence28>\n<sentence29>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>224</orderItemNumber>\n</sentence29>\n<sentence30>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence30>\n<sentence31>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210655578</partnerILN>\n</sentence31>\n<sentence32>\n    <type>580</type>\n    <positionNumber>4</positionNumber>\n    <bestBeforeDate>20230308</bestBeforeDate>\n    <batchNumber>100479-L22102</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence32>\n<sentence33>\n    <type>500</type>\n    <positionNumber>5</positionNumber>\n    <EAN>4260402485737</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence33>\n<sentence34>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>48</orderItemNumber>\n</sentence34>\n<sentence35>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence35>\n<sentence36>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210655578</partnerILN>\n</sentence36>\n<sentence37>\n    <type>580</type>\n    <positionNumber>5</positionNumber>\n    <bestBeforeDate>20220620</bestBeforeDate>\n    <batchNumber>162014-1000306114</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence37>\n<sentence38>\n    <type>500</type>\n    <positionNumber>6</positionNumber>\n    <EAN>4260402483962</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence38>\n<sentence39>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>222</orderItemNumber>\n</sentence39>\n<sentence40>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence40>\n<sentence41>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210655578</partnerILN>\n</sentence41>\n<sentence42>\n    <type>580</type>\n    <positionNumber>6</positionNumber>\n    <bestBeforeDate>20220913</bestBeforeDate>\n    <batchNumber>271012-130922</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence42>\n<sentence43>\n    <type>500</type>\n    <positionNumber>7</positionNumber>\n    <EAN>4260402484495</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence43>\n<sentence44>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>52</orderItemNumber>\n</sentence44>\n<sentence45>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence45>\n<sentence46>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210655578</partnerILN>\n</sentence46>\n<sentence47>\n    <type>580</type>\n    <positionNumber>7</positionNumber>\n    <bestBeforeDate>20240130</bestBeforeDate>\n    <batchNumber>153060-030F</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence47>\n<sentence48>\n    <type>500</type>\n    <positionNumber>8</positionNumber>\n    <EAN>4260402484006</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence48>\n<sentence49>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>50</orderItemNumber>\n</sentence49>\n<sentence50>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence50>\n<sentence51>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210655578</partnerILN>\n</sentence51>\n<sentence52>\n    <type>580</type>\n    <positionNumber>8</positionNumber>\n    <bestBeforeDate>20220918</bestBeforeDate>\n    <batchNumber>271013-180922</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence52>\n<sentence53>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446876</palletNVE>\n</sentence53>\n<sentence54>\n    <type>500</type>\n    <positionNumber>9</positionNumber>\n    <EAN>4251725801120</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence54>\n<sentence55>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>56</orderItemNumber>\n</sentence55>\n<sentence56>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence56>\n<sentence57>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210655578</partnerILN>\n</sentence57>\n<sentence58>\n    <type>580</type>\n    <positionNumber>9</positionNumber>\n    <bestBeforeDate>20240118</bestBeforeDate>\n    <batchNumber>100896-180124</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence58>\n<sentence59>\n    <type>500</type>\n    <positionNumber>10</positionNumber>\n    <EAN>4260402486840</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence59>\n<sentence60>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>54</orderItemNumber>\n</sentence60>\n<sentence61>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence61>\n<sentence62>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210655578</partnerILN>\n</sentence62>\n<sentence63>\n    <type>580</type>\n    <positionNumber>10</positionNumber>\n    <bestBeforeDate>20230527</bestBeforeDate>\n    <batchNumber>100399-02722</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence63>\n<sentence64>\n    <type>500</type>\n    <positionNumber>11</positionNumber>\n    <EAN>4260402485065</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence64>\n<sentence65>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>220</orderItemNumber>\n</sentence65>\n<sentence66>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence66>\n<sentence67>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210655578</partnerILN>\n</sentence67>\n<sentence68>\n    <type>580</type>\n    <positionNumber>11</positionNumber>\n    <bestBeforeDate>20230430</bestBeforeDate>\n    <batchNumber>151098-L32073</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence68>\n<sentence69>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695675191</palletNVE>\n</sentence69>\n<sentence70>\n    <type>500</type>\n    <positionNumber>12</positionNumber>\n    <EAN>4260402486802</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence70>\n<sentence71>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>26</orderItemNumber>\n</sentence71>\n<sentence72>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence72>\n<sentence73>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210954596</partnerILN>\n</sentence73>\n<sentence74>\n    <type>580</type>\n    <positionNumber>12</positionNumber>\n    <bestBeforeDate>20230202</bestBeforeDate>\n    <batchNumber>161047-L2061</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence74>\n<sentence75>\n    <type>500</type>\n    <positionNumber>13</positionNumber>\n    <EAN>4251725800581</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence75>\n<sentence76>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>24</orderItemNumber>\n</sentence76>\n<sentence77>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence77>\n<sentence78>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210954596</partnerILN>\n</sentence78>\n<sentence79>\n    <type>580</type>\n    <positionNumber>13</positionNumber>\n    <bestBeforeDate>20230102</bestBeforeDate>\n    <batchNumber>100807-C072202022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence79>\n<sentence80>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695445695</palletNVE>\n</sentence80>\n<sentence81>\n    <type>500</type>\n    <positionNumber>14</positionNumber>\n    <EAN>4260402489568</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence81>\n<sentence82>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>134</orderItemNumber>\n</sentence82>\n<sentence83>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence83>\n<sentence84>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210657930</partnerILN>\n</sentence84>\n<sentence85>\n    <type>580</type>\n    <positionNumber>14</positionNumber>\n    <bestBeforeDate>20220524</bestBeforeDate>\n    <batchNumber>100640-22054068</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence85>\n<sentence86>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695538557</palletNVE>\n</sentence86>\n<sentence87>\n    <type>500</type>\n    <positionNumber>15</positionNumber>\n    <EAN>4251725800390</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence87>\n<sentence88>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>148</orderItemNumber>\n</sentence88>\n<sentence89>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence89>\n<sentence90>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210617842</partnerILN>\n</sentence90>\n<sentence91>\n    <type>580</type>\n    <positionNumber>15</positionNumber>\n    <bestBeforeDate>20230125</bestBeforeDate>\n    <batchNumber>100767-C072202251</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence91>\n<sentence92>\n    <type>500</type>\n    <positionNumber>16</positionNumber>\n    <EAN>4260402483962</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence92>\n<sentence93>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>2</orderItemNumber>\n</sentence93>\n<sentence94>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence94>\n<sentence95>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210617842</partnerILN>\n</sentence95>\n<sentence96>\n    <type>580</type>\n    <positionNumber>16</positionNumber>\n    <bestBeforeDate>20220913</bestBeforeDate>\n    <batchNumber>271012-130922</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence96>\n<sentence97>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695538564</palletNVE>\n</sentence97>\n<sentence98>\n    <type>500</type>\n    <positionNumber>17</positionNumber>\n    <EAN>4251725800598</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence98>\n<sentence99>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>144</orderItemNumber>\n</sentence99>\n<sentence100>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence100>\n<sentence101>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210617842</partnerILN>\n</sentence101>\n<sentence102>\n    <type>580</type>\n    <positionNumber>17</positionNumber>\n    <bestBeforeDate>20230103</bestBeforeDate>\n    <batchNumber>100808-C072202032</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence102>\n<sentence103>\n    <type>500</type>\n    <positionNumber>18</positionNumber>\n    <EAN>4260402486789</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence103>\n<sentence104>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>146</orderItemNumber>\n</sentence104>\n<sentence105>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence105>\n<sentence106>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210617842</partnerILN>\n</sentence106>\n<sentence107>\n    <type>580</type>\n    <positionNumber>18</positionNumber>\n    <bestBeforeDate>20221027</bestBeforeDate>\n    <batchNumber>161046-L1441</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence107>\n<sentence108>\n    <type>500</type>\n    <positionNumber>19</positionNumber>\n    <EAN>4260402486789</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence108>\n<sentence109>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>8</orderItemNumber>\n</sentence109>\n<sentence110>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence110>\n<sentence111>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210617842</partnerILN>\n</sentence111>\n<sentence112>\n    <type>580</type>\n    <positionNumber>19</positionNumber>\n    <bestBeforeDate>20221027</bestBeforeDate>\n    <batchNumber>161046-L1441</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence112>\n<sentence113>\n    <type>500</type>\n    <positionNumber>20</positionNumber>\n    <EAN>4251725800598</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence113>\n<sentence114>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>6</orderItemNumber>\n</sentence114>\n<sentence115>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence115>\n<sentence116>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210617842</partnerILN>\n</sentence116>\n<sentence117>\n    <type>580</type>\n    <positionNumber>20</positionNumber>\n    <bestBeforeDate>20230103</bestBeforeDate>\n    <batchNumber>100808-C072202032</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence117>\n<sentence118>\n    <type>500</type>\n    <positionNumber>21</positionNumber>\n    <EAN>4260402486802</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence118>\n<sentence119>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>4</orderItemNumber>\n</sentence119>\n<sentence120>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence120>\n<sentence121>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210617842</partnerILN>\n</sentence121>\n<sentence122>\n    <type>580</type>\n    <positionNumber>21</positionNumber>\n    <bestBeforeDate>20230202</bestBeforeDate>\n    <batchNumber>161047-L2061</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence122>\n<sentence123>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695538496</palletNVE>\n</sentence123>\n<sentence124>\n    <type>500</type>\n    <positionNumber>22</positionNumber>\n    <EAN>4260402486840</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence124>\n<sentence125>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>158</orderItemNumber>\n</sentence125>\n<sentence126>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence126>\n<sentence127>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210662088</partnerILN>\n</sentence127>\n<sentence128>\n    <type>580</type>\n    <positionNumber>22</positionNumber>\n    <bestBeforeDate>20230527</bestBeforeDate>\n    <batchNumber>100399-02722</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence128>\n<sentence129>\n    <type>500</type>\n    <positionNumber>23</positionNumber>\n    <EAN>4260402489995</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence129>\n<sentence130>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>74</orderItemNumber>\n</sentence130>\n<sentence131>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence131>\n<sentence132>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210626400</partnerILN>\n</sentence132>\n<sentence133>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446425</palletNVE>\n</sentence133>\n<sentence134>\n    <type>500</type>\n    <positionNumber>24</positionNumber>\n    <EAN>4251725800475</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence134>\n<sentence135>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>76</orderItemNumber>\n</sentence135>\n<sentence136>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence136>\n<sentence137>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210626400</partnerILN>\n</sentence137>\n<sentence138>\n    <type>580</type>\n    <positionNumber>24</positionNumber>\n    <bestBeforeDate>20220501</bestBeforeDate>\n    <batchNumber>100790-22087</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence138>\n<sentence139>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695675214</palletNVE>\n</sentence139>\n<sentence140>\n    <type>500</type>\n    <positionNumber>25</positionNumber>\n    <EAN>4260402487618</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence140>\n<sentence141>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>182</orderItemNumber>\n</sentence141>\n<sentence142>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence142>\n<sentence143>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210612274</partnerILN>\n</sentence143>\n<sentence144>\n    <type>580</type>\n    <positionNumber>25</positionNumber>\n    <bestBeforeDate>20230308</bestBeforeDate>\n    <batchNumber>100479-L22102</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence144>\n<sentence145>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446395</palletNVE>\n</sentence145>\n<sentence146>\n    <type>500</type>\n    <positionNumber>26</positionNumber>\n    <EAN>4251725800475</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence146>\n<sentence147>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>164</orderItemNumber>\n</sentence147>\n<sentence148>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence148>\n<sentence149>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210662460</partnerILN>\n</sentence149>\n<sentence150>\n    <type>580</type>\n    <positionNumber>26</positionNumber>\n    <bestBeforeDate>20220501</bestBeforeDate>\n    <batchNumber>100790-22087</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence150>\n<sentence151>\n    <type>500</type>\n    <positionNumber>27</positionNumber>\n    <EAN>4251725801069</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence151>\n<sentence152>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>166</orderItemNumber>\n</sentence152>\n<sentence153>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence153>\n<sentence154>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210662460</partnerILN>\n</sentence154>\n<sentence155>\n    <type>580</type>\n    <positionNumber>27</positionNumber>\n    <bestBeforeDate>20230801</bestBeforeDate>\n    <batchNumber>100887-0061222</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence155>\n<sentence156>\n    <type>500</type>\n    <positionNumber>28</positionNumber>\n    <EAN>4251725800987</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence156>\n<sentence157>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>168</orderItemNumber>\n</sentence157>\n<sentence158>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence158>\n<sentence159>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210662460</partnerILN>\n</sentence159>\n<sentence160>\n    <type>580</type>\n    <positionNumber>28</positionNumber>\n    <bestBeforeDate>20220815</bestBeforeDate>\n    <batchNumber>100883-765218032</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence160>\n<sentence161>\n    <type>500</type>\n    <positionNumber>29</positionNumber>\n    <EAN>4251725801021</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence161>\n<sentence162>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>92</orderItemNumber>\n</sentence162>\n<sentence163>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence163>\n<sentence164>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210662460</partnerILN>\n</sentence164>\n<sentence165>\n    <type>580</type>\n    <positionNumber>29</positionNumber>\n    <bestBeforeDate>20240120</bestBeforeDate>\n    <batchNumber>100885-0060905</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence165>\n<sentence166>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446401</palletNVE>\n</sentence166>\n<sentence167>\n    <type>500</type>\n    <positionNumber>30</positionNumber>\n    <EAN>4251725800390</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence167>\n<sentence168>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>90</orderItemNumber>\n</sentence168>\n<sentence169>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence169>\n<sentence170>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210662460</partnerILN>\n</sentence170>\n<sentence171>\n    <type>580</type>\n    <positionNumber>30</positionNumber>\n    <bestBeforeDate>20230125</bestBeforeDate>\n    <batchNumber>100767-C072202251</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence171>\n<sentence172>\n    <type>500</type>\n    <positionNumber>31</positionNumber>\n    <EAN>4251725800598</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence172>\n<sentence173>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>88</orderItemNumber>\n</sentence173>\n<sentence174>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence174>\n<sentence175>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210662460</partnerILN>\n</sentence175>\n<sentence176>\n    <type>580</type>\n    <positionNumber>31</positionNumber>\n    <bestBeforeDate>20230103</bestBeforeDate>\n    <batchNumber>100808-C072202032</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence176>\n<sentence177>\n    <type>500</type>\n    <positionNumber>32</positionNumber>\n    <EAN>4260402486802</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence177>\n<sentence178>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>86</orderItemNumber>\n</sentence178>\n<sentence179>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence179>\n<sentence180>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210662460</partnerILN>\n</sentence180>\n<sentence181>\n    <type>580</type>\n    <positionNumber>32</positionNumber>\n    <bestBeforeDate>20230202</bestBeforeDate>\n    <batchNumber>161047-L2061</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence181>\n<sentence182>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695536584</palletNVE>\n</sentence182>\n<sentence183>\n    <type>500</type>\n    <positionNumber>33</positionNumber>\n    <EAN>4260402484006</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence183>\n<sentence184>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>152</orderItemNumber>\n</sentence184>\n<sentence185>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence185>\n<sentence186>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313205159104</partnerILN>\n</sentence186>\n<sentence187>\n    <type>580</type>\n    <positionNumber>33</positionNumber>\n    <bestBeforeDate>20220918</bestBeforeDate>\n    <batchNumber>271013-180922</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence187>\n<sentence188>\n    <type>500</type>\n    <positionNumber>34</positionNumber>\n    <EAN>4260402485737</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence188>\n<sentence189>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>150</orderItemNumber>\n</sentence189>\n<sentence190>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence190>\n<sentence191>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313205159104</partnerILN>\n</sentence191>\n<sentence192>\n    <type>580</type>\n    <positionNumber>34</positionNumber>\n    <bestBeforeDate>20220620</bestBeforeDate>\n    <batchNumber>162014-1000306114</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence192>\n<sentence193>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695538427</palletNVE>\n</sentence193>\n<sentence194>\n    <type>500</type>\n    <positionNumber>35</positionNumber>\n    <EAN>4251725800581</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence194>\n<sentence195>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>154</orderItemNumber>\n</sentence195>\n<sentence196>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence196>\n<sentence197>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313205159104</partnerILN>\n</sentence197>\n<sentence198>\n    <type>580</type>\n    <positionNumber>35</positionNumber>\n    <bestBeforeDate>20230102</bestBeforeDate>\n    <batchNumber>100807-C072202022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence198>\n<sentence199>\n    <type>500</type>\n    <positionNumber>36</positionNumber>\n    <EAN>4251725800598</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence199>\n<sentence200>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>156</orderItemNumber>\n</sentence200>\n<sentence201>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence201>\n<sentence202>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313205159104</partnerILN>\n</sentence202>\n<sentence203>\n    <type>580</type>\n    <positionNumber>36</positionNumber>\n    <bestBeforeDate>20230103</bestBeforeDate>\n    <batchNumber>100808-C072202032</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence203>\n<sentence204>\n    <type>500</type>\n    <positionNumber>37</positionNumber>\n    <EAN>4260402486352</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence204>\n<sentence205>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>238</orderItemNumber>\n</sentence205>\n<sentence206>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence206>\n<sentence207>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313205159340</partnerILN>\n</sentence207>\n<sentence208>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695536577</palletNVE>\n</sentence208>\n<sentence209>\n    <type>500</type>\n    <positionNumber>38</positionNumber>\n    <EAN>4260402486840</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence209>\n<sentence210>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>162</orderItemNumber>\n</sentence210>\n<sentence211>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence211>\n<sentence212>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210517180</partnerILN>\n</sentence212>\n<sentence213>\n    <type>580</type>\n    <positionNumber>38</positionNumber>\n    <bestBeforeDate>20230527</bestBeforeDate>\n    <batchNumber>100399-02722</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence213>\n<sentence214>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695445749</palletNVE>\n</sentence214>\n<sentence215>\n    <type>500</type>\n    <positionNumber>39</positionNumber>\n    <EAN>4260402489032</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence215>\n<sentence216>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>140</orderItemNumber>\n</sentence216>\n<sentence217>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence217>\n<sentence218>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210603548</partnerILN>\n</sentence218>\n<sentence219>\n    <type>580</type>\n    <positionNumber>39</positionNumber>\n    <bestBeforeDate>20230403</bestBeforeDate>\n    <batchNumber>100596-L22054</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence219>\n<sentence220>\n    <type>500</type>\n    <positionNumber>40</positionNumber>\n    <EAN>4260402486765</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence220>\n<sentence221>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>34</orderItemNumber>\n</sentence221>\n<sentence222>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence222>\n<sentence223>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210603548</partnerILN>\n</sentence223>\n<sentence224>\n    <type>580</type>\n    <positionNumber>40</positionNumber>\n    <bestBeforeDate>20230203</bestBeforeDate>\n    <batchNumber>161045-L2062</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence224>\n<sentence225>\n    <type>500</type>\n    <positionNumber>41</positionNumber>\n    <EAN>4260402485386</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence225>\n<sentence226>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>28</orderItemNumber>\n</sentence226>\n<sentence227>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence227>\n<sentence228>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210603548</partnerILN>\n</sentence228>\n<sentence229>\n    <type>580</type>\n    <positionNumber>41</positionNumber>\n    <bestBeforeDate>20230409</bestBeforeDate>\n    <batchNumber>152206-L22063</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence229>\n<sentence230>\n    <type>500</type>\n    <positionNumber>42</positionNumber>\n    <EAN>4260402489452</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence230>\n<sentence231>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>42</orderItemNumber>\n</sentence231>\n<sentence232>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence232>\n<sentence233>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210603548</partnerILN>\n</sentence233>\n<sentence234>\n    <type>580</type>\n    <positionNumber>42</positionNumber>\n    <bestBeforeDate>20230404</bestBeforeDate>\n    <batchNumber>100634-L22055</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence234>\n<sentence235>\n    <type>500</type>\n    <positionNumber>43</positionNumber>\n    <EAN>4260402489032</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence235>\n<sentence236>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>40</orderItemNumber>\n</sentence236>\n<sentence237>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence237>\n<sentence238>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210603548</partnerILN>\n</sentence238>\n<sentence239>\n    <type>580</type>\n    <positionNumber>43</positionNumber>\n    <bestBeforeDate>20230403</bestBeforeDate>\n    <batchNumber>100596-L22054</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence239>\n<sentence240>\n    <type>500</type>\n    <positionNumber>44</positionNumber>\n    <EAN>4260402485386</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence240>\n<sentence241>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>138</orderItemNumber>\n</sentence241>\n<sentence242>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence242>\n<sentence243>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210603548</partnerILN>\n</sentence243>\n<sentence244>\n    <type>580</type>\n    <positionNumber>44</positionNumber>\n    <bestBeforeDate>20230409</bestBeforeDate>\n    <batchNumber>152206-L22063</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence244>\n<sentence245>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446821</palletNVE>\n</sentence245>\n<sentence246>\n    <type>500</type>\n    <positionNumber>45</positionNumber>\n    <EAN>4251725800727</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence246>\n<sentence247>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>44</orderItemNumber>\n</sentence247>\n<sentence248>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence248>\n<sentence249>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210603548</partnerILN>\n</sentence249>\n<sentence250>\n    <type>580</type>\n    <positionNumber>45</positionNumber>\n    <bestBeforeDate>20221115</bestBeforeDate>\n    <batchNumber>100855-VE46227</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence250>\n<sentence251>\n    <type>500</type>\n    <positionNumber>46</positionNumber>\n    <EAN>4251725801120</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence251>\n<sentence252>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>46</orderItemNumber>\n</sentence252>\n<sentence253>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence253>\n<sentence254>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210603548</partnerILN>\n</sentence254>\n<sentence255>\n    <type>580</type>\n    <positionNumber>46</positionNumber>\n    <bestBeforeDate>20240118</bestBeforeDate>\n    <batchNumber>100896-180124</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence255>\n<sentence256>\n    <type>500</type>\n    <positionNumber>47</positionNumber>\n    <EAN>4251725801045</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence256>\n<sentence257>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>142</orderItemNumber>\n</sentence257>\n<sentence258>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence258>\n<sentence259>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210603548</partnerILN>\n</sentence259>\n<sentence260>\n    <type>580</type>\n    <positionNumber>47</positionNumber>\n    <bestBeforeDate>20230903</bestBeforeDate>\n    <batchNumber>100886-0061511</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence260>\n<sentence261>\n    <type>500</type>\n    <positionNumber>48</positionNumber>\n    <EAN>4260402485324</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence261>\n<sentence262>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>32</orderItemNumber>\n</sentence262>\n<sentence263>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence263>\n<sentence264>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210603548</partnerILN>\n</sentence264>\n<sentence265>\n    <type>580</type>\n    <positionNumber>48</positionNumber>\n    <bestBeforeDate>20230407</bestBeforeDate>\n    <batchNumber>152204-L22061</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence265>\n<sentence266>\n    <type>500</type>\n    <positionNumber>49</positionNumber>\n    <EAN>4260402486802</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence266>\n<sentence267>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>36</orderItemNumber>\n</sentence267>\n<sentence268>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence268>\n<sentence269>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210603548</partnerILN>\n</sentence269>\n<sentence270>\n    <type>580</type>\n    <positionNumber>49</positionNumber>\n    <bestBeforeDate>20230202</bestBeforeDate>\n    <batchNumber>161047-L2061</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence270>\n<sentence271>\n    <type>500</type>\n    <positionNumber>50</positionNumber>\n    <EAN>4260402486789</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence271>\n<sentence272>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>38</orderItemNumber>\n</sentence272>\n<sentence273>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence273>\n<sentence274>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210603548</partnerILN>\n</sentence274>\n<sentence275>\n    <type>580</type>\n    <positionNumber>50</positionNumber>\n    <bestBeforeDate>20221027</bestBeforeDate>\n    <batchNumber>161046-L1441</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence275>\n<sentence276>\n    <type>500</type>\n    <positionNumber>51</positionNumber>\n    <EAN>4260402480367</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence276>\n<sentence277>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>136</orderItemNumber>\n</sentence277>\n<sentence278>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence278>\n<sentence279>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210603548</partnerILN>\n</sentence279>\n<sentence280>\n    <type>580</type>\n    <positionNumber>51</positionNumber>\n    <bestBeforeDate>20230610</bestBeforeDate>\n    <batchNumber>141049-L344G21</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence280>\n<sentence281>\n    <type>500</type>\n    <positionNumber>52</positionNumber>\n    <EAN>4260402484518</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence281>\n<sentence282>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>30</orderItemNumber>\n</sentence282>\n<sentence283>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence283>\n<sentence284>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210603548</partnerILN>\n</sentence284>\n<sentence285>\n    <type>580</type>\n    <positionNumber>52</positionNumber>\n    <bestBeforeDate>20231201</bestBeforeDate>\n    <batchNumber>153061-335U</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence285>\n<sentence286>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446449</palletNVE>\n</sentence286>\n<sentence287>\n    <type>500</type>\n    <positionNumber>53</positionNumber>\n    <EAN>4260402486802</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence287>\n<sentence288>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>170</orderItemNumber>\n</sentence288>\n<sentence289>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence289>\n<sentence290>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210605900</partnerILN>\n</sentence290>\n<sentence291>\n    <type>580</type>\n    <positionNumber>53</positionNumber>\n    <bestBeforeDate>20230202</bestBeforeDate>\n    <batchNumber>161047-L2061</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence291>\n<sentence292>\n    <type>500</type>\n    <positionNumber>54</positionNumber>\n    <EAN>4251725800390</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence292>\n<sentence293>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>174</orderItemNumber>\n</sentence293>\n<sentence294>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence294>\n<sentence295>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210605900</partnerILN>\n</sentence295>\n<sentence296>\n    <type>580</type>\n    <positionNumber>54</positionNumber>\n    <bestBeforeDate>20230125</bestBeforeDate>\n    <batchNumber>100767-C072202251</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence296>\n<sentence297>\n    <type>500</type>\n    <positionNumber>55</positionNumber>\n    <EAN>4260402486789</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence297>\n<sentence298>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>172</orderItemNumber>\n</sentence298>\n<sentence299>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence299>\n<sentence300>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210605900</partnerILN>\n</sentence300>\n<sentence301>\n    <type>580</type>\n    <positionNumber>55</positionNumber>\n    <bestBeforeDate>20221027</bestBeforeDate>\n    <batchNumber>161046-L1441</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence301>\n<sentence302>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695538007</palletNVE>\n</sentence302>\n<sentence303>\n    <type>500</type>\n    <positionNumber>56</positionNumber>\n    <EAN>4251725800581</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence303>\n<sentence304>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>80</orderItemNumber>\n</sentence304>\n<sentence305>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence305>\n<sentence306>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210611284</partnerILN>\n</sentence306>\n<sentence307>\n    <type>580</type>\n    <positionNumber>56</positionNumber>\n    <bestBeforeDate>20230102</bestBeforeDate>\n    <batchNumber>100807-C072202022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence307>\n<sentence308>\n    <type>500</type>\n    <positionNumber>57</positionNumber>\n    <EAN>4251725800208</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence308>\n<sentence309>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>82</orderItemNumber>\n</sentence309>\n<sentence310>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence310>\n<sentence311>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210611284</partnerILN>\n</sentence311>\n<sentence312>\n    <type>580</type>\n    <positionNumber>57</positionNumber>\n    <bestBeforeDate>20230121</bestBeforeDate>\n    <batchNumber>100744-21012023</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence312>\n<sentence313>\n    <type>500</type>\n    <positionNumber>58</positionNumber>\n    <EAN>4251725800390</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence313>\n<sentence314>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>84</orderItemNumber>\n</sentence314>\n<sentence315>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence315>\n<sentence316>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210611284</partnerILN>\n</sentence316>\n<sentence317>\n    <type>580</type>\n    <positionNumber>58</positionNumber>\n    <bestBeforeDate>20230125</bestBeforeDate>\n    <batchNumber>100767-C072202251</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence317>\n<sentence318>\n    <type>500</type>\n    <positionNumber>59</positionNumber>\n    <EAN>4251725800277</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence318>\n<sentence319>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>216</orderItemNumber>\n</sentence319>\n<sentence320>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence320>\n<sentence321>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210613950</partnerILN>\n</sentence321>\n<sentence322>\n    <type>500</type>\n    <positionNumber>60</positionNumber>\n    <EAN>4251725800451</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence322>\n<sentence323>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>214</orderItemNumber>\n</sentence323>\n<sentence324>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence324>\n<sentence325>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210613950</partnerILN>\n</sentence325>\n<sentence326>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446418</palletNVE>\n</sentence326>\n<sentence327>\n    <type>500</type>\n    <positionNumber>61</positionNumber>\n    <EAN>4251725801021</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence327>\n<sentence328>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>218</orderItemNumber>\n</sentence328>\n<sentence329>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence329>\n<sentence330>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210613950</partnerILN>\n</sentence330>\n<sentence331>\n    <type>580</type>\n    <positionNumber>61</positionNumber>\n    <bestBeforeDate>20240120</bestBeforeDate>\n    <batchNumber>100885-0060905</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence331>\n<sentence332>\n    <type>500</type>\n    <positionNumber>62</positionNumber>\n    <EAN>4260402489551</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence332>\n<sentence333>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>212</orderItemNumber>\n</sentence333>\n<sentence334>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence334>\n<sentence335>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210613950</partnerILN>\n</sentence335>\n<sentence336>\n    <type>580</type>\n    <positionNumber>62</positionNumber>\n    <bestBeforeDate>20220524</bestBeforeDate>\n    <batchNumber>100639-22054067</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence336>\n<sentence337>\n    <type>500</type>\n    <positionNumber>63</positionNumber>\n    <EAN>4260402486840</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence337>\n<sentence338>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>210</orderItemNumber>\n</sentence338>\n<sentence339>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence339>\n<sentence340>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210613950</partnerILN>\n</sentence340>\n<sentence341>\n    <type>580</type>\n    <positionNumber>63</positionNumber>\n    <bestBeforeDate>20230527</bestBeforeDate>\n    <batchNumber>100399-02722</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence341>\n<sentence342>\n    <type>500</type>\n    <positionNumber>64</positionNumber>\n    <EAN>4260402486352</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence342>\n<sentence343>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>114</orderItemNumber>\n</sentence343>\n<sentence344>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence344>\n<sentence345>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210629302</partnerILN>\n</sentence345>\n<sentence346>\n    <type>500</type>\n    <positionNumber>65</positionNumber>\n    <EAN>4251725801434</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence346>\n<sentence347>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>132</orderItemNumber>\n</sentence347>\n<sentence348>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence348>\n<sentence349>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210629302</partnerILN>\n</sentence349>\n<sentence350>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695538465</palletNVE>\n</sentence350>\n<sentence351>\n    <type>500</type>\n    <positionNumber>66</positionNumber>\n    <EAN>4260402487205</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence351>\n<sentence352>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>104</orderItemNumber>\n</sentence352>\n<sentence353>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence353>\n<sentence354>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210629302</partnerILN>\n</sentence354>\n<sentence355>\n    <type>580</type>\n    <positionNumber>66</positionNumber>\n    <bestBeforeDate>20221211</bestBeforeDate>\n    <batchNumber>100458-221553/0</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence355>\n<sentence356>\n    <type>500</type>\n    <positionNumber>67</positionNumber>\n    <EAN>4260402486338</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence356>\n<sentence357>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>112</orderItemNumber>\n</sentence357>\n<sentence358>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence358>\n<sentence359>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210629302</partnerILN>\n</sentence359>\n<sentence360>\n    <type>580</type>\n    <positionNumber>67</positionNumber>\n    <bestBeforeDate>20230121</bestBeforeDate>\n    <batchNumber>100362-21012023</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence360>\n<sentence361>\n    <type>500</type>\n    <positionNumber>68</positionNumber>\n    <EAN>4260402486765</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence361>\n<sentence362>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>102</orderItemNumber>\n</sentence362>\n<sentence363>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence363>\n<sentence364>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210629302</partnerILN>\n</sentence364>\n<sentence365>\n    <type>580</type>\n    <positionNumber>68</positionNumber>\n    <bestBeforeDate>20230203</bestBeforeDate>\n    <batchNumber>161045-L2062</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence365>\n<sentence366>\n    <type>500</type>\n    <positionNumber>69</positionNumber>\n    <EAN>4260402485447</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence366>\n<sentence367>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>100</orderItemNumber>\n</sentence367>\n<sentence368>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence368>\n<sentence369>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210629302</partnerILN>\n</sentence369>\n<sentence370>\n    <type>580</type>\n    <positionNumber>69</positionNumber>\n    <bestBeforeDate>20230415</bestBeforeDate>\n    <batchNumber>152208-VE47305</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence370>\n<sentence371>\n    <type>500</type>\n    <positionNumber>70</positionNumber>\n    <EAN>4260402485416</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence371>\n<sentence372>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>98</orderItemNumber>\n</sentence372>\n<sentence373>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence373>\n<sentence374>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210629302</partnerILN>\n</sentence374>\n<sentence375>\n    <type>580</type>\n    <positionNumber>70</positionNumber>\n    <bestBeforeDate>20230401</bestBeforeDate>\n    <batchNumber>152207-VE47010</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence375>\n<sentence376>\n    <type>500</type>\n    <positionNumber>71</positionNumber>\n    <EAN>4260402489032</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence376>\n<sentence377>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>110</orderItemNumber>\n</sentence377>\n<sentence378>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence378>\n<sentence379>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210629302</partnerILN>\n</sentence379>\n<sentence380>\n    <type>580</type>\n    <positionNumber>71</positionNumber>\n    <bestBeforeDate>20230403</bestBeforeDate>\n    <batchNumber>100596-L22054</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence380>\n<sentence381>\n    <type>500</type>\n    <positionNumber>72</positionNumber>\n    <EAN>4260402486789</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence381>\n<sentence382>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>108</orderItemNumber>\n</sentence382>\n<sentence383>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence383>\n<sentence384>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210629302</partnerILN>\n</sentence384>\n<sentence385>\n    <type>580</type>\n    <positionNumber>72</positionNumber>\n    <bestBeforeDate>20221027</bestBeforeDate>\n    <batchNumber>161046-L1441</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence385>\n<sentence386>\n    <type>500</type>\n    <positionNumber>73</positionNumber>\n    <EAN>4251725801045</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence386>\n<sentence387>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>126</orderItemNumber>\n</sentence387>\n<sentence388>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence388>\n<sentence389>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210629302</partnerILN>\n</sentence389>\n<sentence390>\n    <type>580</type>\n    <positionNumber>73</positionNumber>\n    <bestBeforeDate>20230903</bestBeforeDate>\n    <batchNumber>100886-0061511</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence390>\n<sentence391>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695538472</palletNVE>\n</sentence391>\n<sentence392>\n    <type>500</type>\n    <positionNumber>74</positionNumber>\n    <EAN>4260402480367</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence392>\n<sentence393>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>94</orderItemNumber>\n</sentence393>\n<sentence394>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence394>\n<sentence395>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210629302</partnerILN>\n</sentence395>\n<sentence396>\n    <type>580</type>\n    <positionNumber>74</positionNumber>\n    <bestBeforeDate>20230610</bestBeforeDate>\n    <batchNumber>141049-L344G21</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence396>\n<sentence397>\n    <type>500</type>\n    <positionNumber>75</positionNumber>\n    <EAN>4260402483962</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence397>\n<sentence398>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>96</orderItemNumber>\n</sentence398>\n<sentence399>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence399>\n<sentence400>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210629302</partnerILN>\n</sentence400>\n<sentence401>\n    <type>580</type>\n    <positionNumber>75</positionNumber>\n    <bestBeforeDate>20220913</bestBeforeDate>\n    <batchNumber>271012-130922</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence401>\n<sentence402>\n    <type>500</type>\n    <positionNumber>76</positionNumber>\n    <EAN>4251725801120</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence402>\n<sentence403>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>130</orderItemNumber>\n</sentence403>\n<sentence404>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence404>\n<sentence405>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210629302</partnerILN>\n</sentence405>\n<sentence406>\n    <type>580</type>\n    <positionNumber>76</positionNumber>\n    <bestBeforeDate>20240118</bestBeforeDate>\n    <batchNumber>100896-180124</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence406>\n<sentence407>\n    <type>500</type>\n    <positionNumber>77</positionNumber>\n    <EAN>4251725801212</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence407>\n<sentence408>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>128</orderItemNumber>\n</sentence408>\n<sentence409>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence409>\n<sentence410>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210629302</partnerILN>\n</sentence410>\n<sentence411>\n    <type>580</type>\n    <positionNumber>77</positionNumber>\n    <bestBeforeDate>20240201</bestBeforeDate>\n    <batchNumber>100913-0060906</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence411>\n<sentence412>\n    <type>500</type>\n    <positionNumber>78</positionNumber>\n    <EAN>4251725801069</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence412>\n<sentence413>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>124</orderItemNumber>\n</sentence413>\n<sentence414>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence414>\n<sentence415>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210629302</partnerILN>\n</sentence415>\n<sentence416>\n    <type>580</type>\n    <positionNumber>78</positionNumber>\n    <bestBeforeDate>20230801</bestBeforeDate>\n    <batchNumber>100887-0061222</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence416>\n<sentence417>\n    <type>500</type>\n    <positionNumber>79</positionNumber>\n    <EAN>4251725800727</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence417>\n<sentence418>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>120</orderItemNumber>\n</sentence418>\n<sentence419>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence419>\n<sentence420>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210629302</partnerILN>\n</sentence420>\n<sentence421>\n    <type>580</type>\n    <positionNumber>79</positionNumber>\n    <bestBeforeDate>20221115</bestBeforeDate>\n    <batchNumber>100855-VE46227</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence421>\n<sentence422>\n    <type>500</type>\n    <positionNumber>80</positionNumber>\n    <EAN>4251725800635</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence422>\n<sentence423>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>118</orderItemNumber>\n</sentence423>\n<sentence424>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence424>\n<sentence425>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210629302</partnerILN>\n</sentence425>\n<sentence426>\n    <type>580</type>\n    <positionNumber>80</positionNumber>\n    <bestBeforeDate>20230331</bestBeforeDate>\n    <batchNumber>100820-01/22</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence426>\n<sentence427>\n    <type>500</type>\n    <positionNumber>81</positionNumber>\n    <EAN>4251725800390</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence427>\n<sentence428>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>116</orderItemNumber>\n</sentence428>\n<sentence429>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence429>\n<sentence430>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210629302</partnerILN>\n</sentence430>\n<sentence431>\n    <type>580</type>\n    <positionNumber>81</positionNumber>\n    <bestBeforeDate>20230125</bestBeforeDate>\n    <batchNumber>100767-C072202251</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence431>\n<sentence432>\n    <type>500</type>\n    <positionNumber>82</positionNumber>\n    <EAN>4260402486840</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence432>\n<sentence433>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>106</orderItemNumber>\n</sentence433>\n<sentence434>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence434>\n<sentence435>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210629302</partnerILN>\n</sentence435>\n<sentence436>\n    <type>580</type>\n    <positionNumber>82</positionNumber>\n    <bestBeforeDate>20230527</bestBeforeDate>\n    <batchNumber>100399-02722</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence436>\n<sentence437>\n    <type>500</type>\n    <positionNumber>83</positionNumber>\n    <EAN>4251725801021</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence437>\n<sentence438>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>122</orderItemNumber>\n</sentence438>\n<sentence439>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence439>\n<sentence440>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210629302</partnerILN>\n</sentence440>\n<sentence441>\n    <type>580</type>\n    <positionNumber>83</positionNumber>\n    <bestBeforeDate>20240120</bestBeforeDate>\n    <batchNumber>100885-0060905</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence441>\n<sentence442>\n    <type>500</type>\n    <positionNumber>84</positionNumber>\n    <EAN>4260402486352</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence442>\n<sentence443>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>228</orderItemNumber>\n</sentence443>\n<sentence444>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence444>\n<sentence445>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210632166</partnerILN>\n</sentence445>\n<sentence446>\n    <type>500</type>\n    <positionNumber>85</positionNumber>\n    <EAN>4251725801458</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence446>\n<sentence447>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>232</orderItemNumber>\n</sentence447>\n<sentence448>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence448>\n<sentence449>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210632166</partnerILN>\n</sentence449>\n<sentence450>\n    <type>500</type>\n    <positionNumber>86</positionNumber>\n    <EAN>4251725801434</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence450>\n<sentence451>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>234</orderItemNumber>\n</sentence451>\n<sentence452>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence452>\n<sentence453>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210632166</partnerILN>\n</sentence453>\n<sentence454>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695538489</palletNVE>\n</sentence454>\n<sentence455>\n    <type>500</type>\n    <positionNumber>87</positionNumber>\n    <EAN>4260402485225</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence455>\n<sentence456>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>226</orderItemNumber>\n</sentence456>\n<sentence457>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence457>\n<sentence458>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210632166</partnerILN>\n</sentence458>\n<sentence459>\n    <type>580</type>\n    <positionNumber>87</positionNumber>\n    <bestBeforeDate>20230105</bestBeforeDate>\n    <batchNumber>151099-L22013</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence459>\n<sentence460>\n    <type>500</type>\n    <positionNumber>88</positionNumber>\n    <EAN>4251725800635</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence460>\n<sentence461>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>230</orderItemNumber>\n</sentence461>\n<sentence462>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence462>\n<sentence463>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210632166</partnerILN>\n</sentence463>\n<sentence464>\n    <type>580</type>\n    <positionNumber>88</positionNumber>\n    <bestBeforeDate>20230331</bestBeforeDate>\n    <batchNumber>100820-01/22</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence464>\n<sentence465>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695445701</palletNVE>\n</sentence465>\n<sentence466>\n    <type>500</type>\n    <positionNumber>89</positionNumber>\n    <EAN>4260402484495</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence466>\n<sentence467>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>58</orderItemNumber>\n</sentence467>\n<sentence468>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence468>\n<sentence469>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210637116</partnerILN>\n</sentence469>\n<sentence470>\n    <type>580</type>\n    <positionNumber>89</positionNumber>\n    <bestBeforeDate>20240130</bestBeforeDate>\n    <batchNumber>153060-030F</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence470>\n<sentence471>\n    <type>500</type>\n    <positionNumber>90</positionNumber>\n    <EAN>4260402485324</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence471>\n<sentence472>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>62</orderItemNumber>\n</sentence472>\n<sentence473>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence473>\n<sentence474>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210637116</partnerILN>\n</sentence474>\n<sentence475>\n    <type>580</type>\n    <positionNumber>90</positionNumber>\n    <bestBeforeDate>20230407</bestBeforeDate>\n    <batchNumber>152204-L22061</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence475>\n<sentence476>\n    <type>500</type>\n    <positionNumber>91</positionNumber>\n    <EAN>4251725800581</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence476>\n<sentence477>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>66</orderItemNumber>\n</sentence477>\n<sentence478>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence478>\n<sentence479>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210637116</partnerILN>\n</sentence479>\n<sentence480>\n    <type>580</type>\n    <positionNumber>91</positionNumber>\n    <bestBeforeDate>20230102</bestBeforeDate>\n    <batchNumber>100807-C072202022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence480>\n<sentence481>\n    <type>500</type>\n    <positionNumber>92</positionNumber>\n    <EAN>4260402486765</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence481>\n<sentence482>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>64</orderItemNumber>\n</sentence482>\n<sentence483>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence483>\n<sentence484>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210637116</partnerILN>\n</sentence484>\n<sentence485>\n    <type>580</type>\n    <positionNumber>92</positionNumber>\n    <bestBeforeDate>20230203</bestBeforeDate>\n    <batchNumber>161045-L2062</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence485>\n<sentence486>\n    <type>500</type>\n    <positionNumber>93</positionNumber>\n    <EAN>4260402487632</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence486>\n<sentence487>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>68</orderItemNumber>\n</sentence487>\n<sentence488>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence488>\n<sentence489>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210637116</partnerILN>\n</sentence489>\n<sentence490>\n    <type>580</type>\n    <positionNumber>93</positionNumber>\n    <bestBeforeDate>20230105</bestBeforeDate>\n    <batchNumber>100480-L22022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence490>\n<sentence491>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695445718</palletNVE>\n</sentence491>\n<sentence492>\n    <type>500</type>\n    <positionNumber>94</positionNumber>\n    <EAN>4251725801212</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence492>\n<sentence493>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>70</orderItemNumber>\n</sentence493>\n<sentence494>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence494>\n<sentence495>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210637116</partnerILN>\n</sentence495>\n<sentence496>\n    <type>580</type>\n    <positionNumber>94</positionNumber>\n    <bestBeforeDate>20240201</bestBeforeDate>\n    <batchNumber>100913-0060906</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence496>\n<sentence497>\n    <type>500</type>\n    <positionNumber>95</positionNumber>\n    <EAN>4251725801120</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence497>\n<sentence498>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>72</orderItemNumber>\n</sentence498>\n<sentence499>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence499>\n<sentence500>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210637116</partnerILN>\n</sentence500>\n<sentence501>\n    <type>580</type>\n    <positionNumber>95</positionNumber>\n    <bestBeforeDate>20240118</bestBeforeDate>\n    <batchNumber>100896-180124</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence501>\n<sentence502>\n    <type>500</type>\n    <positionNumber>96</positionNumber>\n    <EAN>4260402484518</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence502>\n<sentence503>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>60</orderItemNumber>\n</sentence503>\n<sentence504>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence504>\n<sentence505>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210637116</partnerILN>\n</sentence505>\n<sentence506>\n    <type>580</type>\n    <positionNumber>96</positionNumber>\n    <bestBeforeDate>20231201</bestBeforeDate>\n    <batchNumber>153061-335U</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence506>\n<sentence507>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446432</palletNVE>\n</sentence507>\n<sentence508>\n    <type>500</type>\n    <positionNumber>97</positionNumber>\n    <EAN>4260402480367</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence508>\n<sentence509>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>184</orderItemNumber>\n</sentence509>\n<sentence510>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence510>\n<sentence511>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210674548</partnerILN>\n</sentence511>\n<sentence512>\n    <type>580</type>\n    <positionNumber>97</positionNumber>\n    <bestBeforeDate>20230610</bestBeforeDate>\n    <batchNumber>141049-L344G21</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence512>\n<sentence513>\n    <type>500</type>\n    <positionNumber>98</positionNumber>\n    <EAN>4260402485249</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence513>\n<sentence514>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>188</orderItemNumber>\n</sentence514>\n<sentence515>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence515>\n<sentence516>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210674548</partnerILN>\n</sentence516>\n<sentence517>\n    <type>580</type>\n    <positionNumber>98</positionNumber>\n    <bestBeforeDate>20230217</bestBeforeDate>\n    <batchNumber>151100-L22074</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence517>\n<sentence518>\n    <type>500</type>\n    <positionNumber>99</positionNumber>\n    <EAN>4260402486802</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence518>\n<sentence519>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>186</orderItemNumber>\n</sentence519>\n<sentence520>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence520>\n<sentence521>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210674548</partnerILN>\n</sentence521>\n<sentence522>\n    <type>580</type>\n    <positionNumber>99</positionNumber>\n    <bestBeforeDate>20230202</bestBeforeDate>\n    <batchNumber>161047-L2061</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence522>\n<sentence523>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695445725</palletNVE>\n</sentence523>\n<sentence524>\n    <type>500</type>\n    <positionNumber>100</positionNumber>\n    <EAN>4251725801212</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence524>\n<sentence525>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>208</orderItemNumber>\n</sentence525>\n<sentence526>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence526>\n<sentence527>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210658234</partnerILN>\n</sentence527>\n<sentence528>\n    <type>580</type>\n    <positionNumber>100</positionNumber>\n    <bestBeforeDate>20240201</bestBeforeDate>\n    <batchNumber>100913-0060906</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence528>\n<sentence529>\n    <type>500</type>\n    <positionNumber>101</positionNumber>\n    <EAN>4251725800451</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence529>\n<sentence530>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>236</orderItemNumber>\n</sentence530>\n<sentence531>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence531>\n<sentence532>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313230533948</partnerILN>\n</sentence532>\n<sentence533>\n    <type>500</type>\n    <positionNumber>102</positionNumber>\n    <EAN>4260402489995</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence533>\n<sentence534>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>22</orderItemNumber>\n</sentence534>\n<sentence535>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence535>\n<sentence536>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210649430</partnerILN>\n</sentence536>\n<sentence537>\n    <type>500</type>\n    <positionNumber>103</positionNumber>\n    <EAN>4260402489995</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence537>\n<sentence538>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>78</orderItemNumber>\n</sentence538>\n<sentence539>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence539>\n<sentence540>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210649430</partnerILN>\n</sentence540>\n<sentence541>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446777</palletNVE>\n</sentence541>\n<sentence542>\n    <type>500</type>\n    <positionNumber>104</positionNumber>\n    <EAN>4260402489056</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence542>\n<sentence543>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>10</orderItemNumber>\n</sentence543>\n<sentence544>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence544>\n<sentence545>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210649430</partnerILN>\n</sentence545>\n<sentence546>\n    <type>580</type>\n    <positionNumber>104</positionNumber>\n    <bestBeforeDate>20220822</bestBeforeDate>\n    <batchNumber>100597-O230222N</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence546>\n<sentence547>\n    <type>500</type>\n    <positionNumber>105</positionNumber>\n    <EAN>4251725800253</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence547>\n<sentence548>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>16</orderItemNumber>\n</sentence548>\n<sentence549>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence549>\n<sentence550>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210649430</partnerILN>\n</sentence550>\n<sentence551>\n    <type>580</type>\n    <positionNumber>105</positionNumber>\n    <bestBeforeDate>20220811</bestBeforeDate>\n    <batchNumber>100752-608518012</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence551>\n<sentence552>\n    <type>500</type>\n    <positionNumber>106</positionNumber>\n    <EAN>4251725801250</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence552>\n<sentence553>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>18</orderItemNumber>\n</sentence553>\n<sentence554>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence554>\n<sentence555>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210649430</partnerILN>\n</sentence555>\n<sentence556>\n    <type>580</type>\n    <positionNumber>106</positionNumber>\n    <bestBeforeDate>20220901</bestBeforeDate>\n    <batchNumber>100918-723308022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence556>\n<sentence557>\n    <type>500</type>\n    <positionNumber>107</positionNumber>\n    <EAN>4251725801236</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence557>\n<sentence558>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>20</orderItemNumber>\n</sentence558>\n<sentence559>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence559>\n<sentence560>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210649430</partnerILN>\n</sentence560>\n<sentence561>\n    <type>580</type>\n    <positionNumber>107</positionNumber>\n    <bestBeforeDate>20220911</bestBeforeDate>\n    <batchNumber>100917-723218022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence561>\n<sentence562>\n    <type>500</type>\n    <positionNumber>108</positionNumber>\n    <EAN>4260402489094</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence562>\n<sentence563>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>12</orderItemNumber>\n</sentence563>\n<sentence564>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence564>\n<sentence565>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210649430</partnerILN>\n</sentence565>\n<sentence566>\n    <type>580</type>\n    <positionNumber>108</positionNumber>\n    <bestBeforeDate>20220706</bestBeforeDate>\n    <batchNumber>100599-O070122K</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence566>\n<sentence567>\n    <type>500</type>\n    <positionNumber>109</positionNumber>\n    <EAN>4260402489070</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence567>\n<sentence568>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>14</orderItemNumber>\n</sentence568>\n<sentence569>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence569>\n<sentence570>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210649430</partnerILN>\n</sentence570>\n<sentence571>\n    <type>580</type>\n    <positionNumber>109</positionNumber>\n    <bestBeforeDate>20220821</bestBeforeDate>\n    <batchNumber>100598-O220222D</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence571>\n<sentence572>\n    <type>500</type>\n    <positionNumber>110</positionNumber>\n    <EAN>4251725800277</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence572>\n<sentence573>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>202</orderItemNumber>\n</sentence573>\n<sentence574>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence574>\n<sentence575>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210658548</partnerILN>\n</sentence575>\n<sentence576>\n    <type>500</type>\n    <positionNumber>111</positionNumber>\n    <EAN>4251725800451</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence576>\n<sentence577>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>198</orderItemNumber>\n</sentence577>\n<sentence578>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence578>\n<sentence579>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210658548</partnerILN>\n</sentence579>\n<sentence580>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446838</palletNVE>\n</sentence580>\n<sentence581>\n    <type>500</type>\n    <positionNumber>112</positionNumber>\n    <EAN>4251725800598</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence581>\n<sentence582>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>190</orderItemNumber>\n</sentence582>\n<sentence583>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence583>\n<sentence584>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210658548</partnerILN>\n</sentence584>\n<sentence585>\n    <type>580</type>\n    <positionNumber>112</positionNumber>\n    <bestBeforeDate>20230103</bestBeforeDate>\n    <batchNumber>100808-C072202032</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence585>\n<sentence586>\n    <type>500</type>\n    <positionNumber>113</positionNumber>\n    <EAN>4251725800390</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence586>\n<sentence587>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>200</orderItemNumber>\n</sentence587>\n<sentence588>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence588>\n<sentence589>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210658548</partnerILN>\n</sentence589>\n<sentence590>\n    <type>580</type>\n    <positionNumber>113</positionNumber>\n    <bestBeforeDate>20230125</bestBeforeDate>\n    <batchNumber>100767-C072202251</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence590>\n<sentence591>\n    <type>500</type>\n    <positionNumber>114</positionNumber>\n    <EAN>4251725801021</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence591>\n<sentence592>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>204</orderItemNumber>\n</sentence592>\n<sentence593>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence593>\n<sentence594>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210658548</partnerILN>\n</sentence594>\n<sentence595>\n    <type>580</type>\n    <positionNumber>114</positionNumber>\n    <bestBeforeDate>20240120</bestBeforeDate>\n    <batchNumber>100885-0060905</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence595>\n<sentence596>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446852</palletNVE>\n</sentence596>\n<sentence597>\n    <type>500</type>\n    <positionNumber>115</positionNumber>\n    <EAN>4260402489056</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence597>\n<sentence598>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>196</orderItemNumber>\n</sentence598>\n<sentence599>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence599>\n<sentence600>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210658548</partnerILN>\n</sentence600>\n<sentence601>\n    <type>580</type>\n    <positionNumber>115</positionNumber>\n    <bestBeforeDate>20220822</bestBeforeDate>\n    <batchNumber>100597-O230222N</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence601>\n<sentence602>\n    <type>500</type>\n    <positionNumber>116</positionNumber>\n    <EAN>4260402489551</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence602>\n<sentence603>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>194</orderItemNumber>\n</sentence603>\n<sentence604>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence604>\n<sentence605>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210658548</partnerILN>\n</sentence605>\n<sentence606>\n    <type>580</type>\n    <positionNumber>116</positionNumber>\n    <bestBeforeDate>20220524</bestBeforeDate>\n    <batchNumber>100639-22054067</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence606>\n<sentence607>\n    <type>500</type>\n    <positionNumber>117</positionNumber>\n    <EAN>4260402489568</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence607>\n<sentence608>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>192</orderItemNumber>\n</sentence608>\n<sentence609>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence609>\n<sentence610>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210658548</partnerILN>\n</sentence610>\n<sentence611>\n    <type>580</type>\n    <positionNumber>117</positionNumber>\n    <bestBeforeDate>20220524</bestBeforeDate>\n    <batchNumber>100640-22054068</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence611>\n<sentence612>\n    <type>500</type>\n    <positionNumber>118</positionNumber>\n    <EAN>4251725801212</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence612>\n<sentence613>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>206</orderItemNumber>\n</sentence613>\n<sentence614>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence614>\n<sentence615>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210658548</partnerILN>\n</sentence615>\n<sentence616>\n    <type>580</type>\n    <positionNumber>118</positionNumber>\n    <bestBeforeDate>20240201</bestBeforeDate>\n    <batchNumber>100913-0060906</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence616>\n<sentence617>\n    <type>500</type>\n    <positionNumber>119</positionNumber>\n    <EAN>4260402486352</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence617>\n<sentence618>\n    <type>511</type>\n    <customerOrderNumber>6320700</customerOrderNumber>\n    <orderItemNumber>160</orderItemNumber>\n</sentence618>\n<sentence619>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence619>\n<sentence620>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n</sentence620>`
+`<sentence1>
+    <type>000</type>
+    <senderId>4260402480008</senderId>
+    <recieverId>4311501990018</recieverId>
+    <date>20220407</date>
+    <time>0837</time>
+    <dataExchangeReference>32206234VEGANZ</dataExchangeReference>
+    <fileInterfaceVersionNumber>4.5</fileInterfaceVersionNumber>
+</sentence1>
+<sentence2>
+    <type>100</type>
+    <messageReference>1</messageReference>
+    <messageType>DESADV</messageType>
+    <transactionType>YA6</transactionType>
+    <documentNumber>22209803</documentNumber>
+    <documentDate>20220407</documentDate>
+</sentence2>
+<sentence3>
+    <type>111</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <customerOrcerDate>20220406</customerOrcerDate>
+    <deliveryDate>20220408</deliveryDate>
+    <deliveryReceiptNumber>22209803</deliveryReceiptNumber>
+    <deliveryReceiptDate>20220407</deliveryReceiptDate>
+</sentence3>
+<sentence4>
+    <type>115</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence4>
+<sentence5>
+    <type>119</type>
+    <partnerType>BY</partnerType>
+    <partnerILN>4311560000000</partnerILN>
+</sentence5>
+<sentence6>
+    <type>119</type>
+    <partnerType>IV</partnerType>
+    <partnerILN>4311560000000</partnerILN>
+</sentence6>
+<sentence7>
+    <type>119</type>
+    <partnerType>DP</partnerType>
+    <partnerILN>4313280901506</partnerILN>
+</sentence7>
+<sentence8>
+    <type>119</type>
+    <partnerType>SU</partnerType>
+    <partnerILN>4260402480008</partnerILN>
+</sentence8>
+<sentence9>
+    <type>400</type>
+    <positionNumber>1</positionNumber>
+    <perShipmentPackagingCount>31</perShipmentPackagingCount>
+    <perShipmentColliKartonPackagingType>PK</perShipmentColliKartonPackagingType>
+</sentence9>
+<sentence10>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695538076</palletNVE>
+</sentence10>
+<sentence11>
+    <type>500</type>
+    <positionNumber>1</positionNumber>
+    <EAN>4251725801045</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence11>
+<sentence12>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>178</orderItemNumber>
+</sentence12>
+<sentence13>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence13>
+<sentence14>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210658852</partnerILN>
+</sentence14>
+<sentence15>
+    <type>580</type>
+    <positionNumber>1</positionNumber>
+    <bestBeforeDate>20230903</bestBeforeDate>
+    <batchNumber>100886-0061511</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence15>
+<sentence16>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695538083</palletNVE>
+</sentence16>
+<sentence17>
+    <type>500</type>
+    <positionNumber>2</positionNumber>
+    <EAN>4251725801212</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence17>
+<sentence18>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>180</orderItemNumber>
+</sentence18>
+<sentence19>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence19>
+<sentence20>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210658852</partnerILN>
+</sentence20>
+<sentence21>
+    <type>580</type>
+    <positionNumber>2</positionNumber>
+    <bestBeforeDate>20240201</bestBeforeDate>
+    <batchNumber>100913-0060906</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence21>
+<sentence22>
+    <type>500</type>
+    <positionNumber>3</positionNumber>
+    <EAN>4251725801021</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence22>
+<sentence23>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>176</orderItemNumber>
+</sentence23>
+<sentence24>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence24>
+<sentence25>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210658852</partnerILN>
+</sentence25>
+<sentence26>
+    <type>580</type>
+    <positionNumber>3</positionNumber>
+    <bestBeforeDate>20240120</bestBeforeDate>
+    <batchNumber>100885-0060905</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence26>
+<sentence27>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446791</palletNVE>
+</sentence27>
+<sentence28>
+    <type>500</type>
+    <positionNumber>4</positionNumber>
+    <EAN>4260402487618</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence28>
+<sentence29>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>224</orderItemNumber>
+</sentence29>
+<sentence30>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence30>
+<sentence31>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210655578</partnerILN>
+</sentence31>
+<sentence32>
+    <type>580</type>
+    <positionNumber>4</positionNumber>
+    <bestBeforeDate>20230308</bestBeforeDate>
+    <batchNumber>100479-L22102</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence32>
+<sentence33>
+    <type>500</type>
+    <positionNumber>5</positionNumber>
+    <EAN>4260402485737</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence33>
+<sentence34>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>48</orderItemNumber>
+</sentence34>
+<sentence35>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence35>
+<sentence36>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210655578</partnerILN>
+</sentence36>
+<sentence37>
+    <type>580</type>
+    <positionNumber>5</positionNumber>
+    <bestBeforeDate>20220620</bestBeforeDate>
+    <batchNumber>162014-1000306114</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence37>
+<sentence38>
+    <type>500</type>
+    <positionNumber>6</positionNumber>
+    <EAN>4260402483962</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence38>
+<sentence39>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>222</orderItemNumber>
+</sentence39>
+<sentence40>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence40>
+<sentence41>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210655578</partnerILN>
+</sentence41>
+<sentence42>
+    <type>580</type>
+    <positionNumber>6</positionNumber>
+    <bestBeforeDate>20220913</bestBeforeDate>
+    <batchNumber>271012-130922</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence42>
+<sentence43>
+    <type>500</type>
+    <positionNumber>7</positionNumber>
+    <EAN>4260402484495</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence43>
+<sentence44>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>52</orderItemNumber>
+</sentence44>
+<sentence45>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence45>
+<sentence46>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210655578</partnerILN>
+</sentence46>
+<sentence47>
+    <type>580</type>
+    <positionNumber>7</positionNumber>
+    <bestBeforeDate>20240130</bestBeforeDate>
+    <batchNumber>153060-030F</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence47>
+<sentence48>
+    <type>500</type>
+    <positionNumber>8</positionNumber>
+    <EAN>4260402484006</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence48>
+<sentence49>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>50</orderItemNumber>
+</sentence49>
+<sentence50>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence50>
+<sentence51>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210655578</partnerILN>
+</sentence51>
+<sentence52>
+    <type>580</type>
+    <positionNumber>8</positionNumber>
+    <bestBeforeDate>20220918</bestBeforeDate>
+    <batchNumber>271013-180922</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence52>
+<sentence53>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446876</palletNVE>
+</sentence53>
+<sentence54>
+    <type>500</type>
+    <positionNumber>9</positionNumber>
+    <EAN>4251725801120</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence54>
+<sentence55>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>56</orderItemNumber>
+</sentence55>
+<sentence56>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence56>
+<sentence57>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210655578</partnerILN>
+</sentence57>
+<sentence58>
+    <type>580</type>
+    <positionNumber>9</positionNumber>
+    <bestBeforeDate>20240118</bestBeforeDate>
+    <batchNumber>100896-180124</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence58>
+<sentence59>
+    <type>500</type>
+    <positionNumber>10</positionNumber>
+    <EAN>4260402486840</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence59>
+<sentence60>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>54</orderItemNumber>
+</sentence60>
+<sentence61>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence61>
+<sentence62>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210655578</partnerILN>
+</sentence62>
+<sentence63>
+    <type>580</type>
+    <positionNumber>10</positionNumber>
+    <bestBeforeDate>20230527</bestBeforeDate>
+    <batchNumber>100399-02722</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence63>
+<sentence64>
+    <type>500</type>
+    <positionNumber>11</positionNumber>
+    <EAN>4260402485065</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence64>
+<sentence65>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>220</orderItemNumber>
+</sentence65>
+<sentence66>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence66>
+<sentence67>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210655578</partnerILN>
+</sentence67>
+<sentence68>
+    <type>580</type>
+    <positionNumber>11</positionNumber>
+    <bestBeforeDate>20230430</bestBeforeDate>
+    <batchNumber>151098-L32073</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence68>
+<sentence69>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695675191</palletNVE>
+</sentence69>
+<sentence70>
+    <type>500</type>
+    <positionNumber>12</positionNumber>
+    <EAN>4260402486802</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence70>
+<sentence71>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>26</orderItemNumber>
+</sentence71>
+<sentence72>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence72>
+<sentence73>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210954596</partnerILN>
+</sentence73>
+<sentence74>
+    <type>580</type>
+    <positionNumber>12</positionNumber>
+    <bestBeforeDate>20230202</bestBeforeDate>
+    <batchNumber>161047-L2061</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence74>
+<sentence75>
+    <type>500</type>
+    <positionNumber>13</positionNumber>
+    <EAN>4251725800581</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence75>
+<sentence76>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>24</orderItemNumber>
+</sentence76>
+<sentence77>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence77>
+<sentence78>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210954596</partnerILN>
+</sentence78>
+<sentence79>
+    <type>580</type>
+    <positionNumber>13</positionNumber>
+    <bestBeforeDate>20230102</bestBeforeDate>
+    <batchNumber>100807-C072202022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence79>
+<sentence80>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695445695</palletNVE>
+</sentence80>
+<sentence81>
+    <type>500</type>
+    <positionNumber>14</positionNumber>
+    <EAN>4260402489568</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence81>
+<sentence82>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>134</orderItemNumber>
+</sentence82>
+<sentence83>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence83>
+<sentence84>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210657930</partnerILN>
+</sentence84>
+<sentence85>
+    <type>580</type>
+    <positionNumber>14</positionNumber>
+    <bestBeforeDate>20220524</bestBeforeDate>
+    <batchNumber>100640-22054068</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence85>
+<sentence86>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695538557</palletNVE>
+</sentence86>
+<sentence87>
+    <type>500</type>
+    <positionNumber>15</positionNumber>
+    <EAN>4251725800390</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence87>
+<sentence88>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>148</orderItemNumber>
+</sentence88>
+<sentence89>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence89>
+<sentence90>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210617842</partnerILN>
+</sentence90>
+<sentence91>
+    <type>580</type>
+    <positionNumber>15</positionNumber>
+    <bestBeforeDate>20230125</bestBeforeDate>
+    <batchNumber>100767-C072202251</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence91>
+<sentence92>
+    <type>500</type>
+    <positionNumber>16</positionNumber>
+    <EAN>4260402483962</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence92>
+<sentence93>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>2</orderItemNumber>
+</sentence93>
+<sentence94>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence94>
+<sentence95>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210617842</partnerILN>
+</sentence95>
+<sentence96>
+    <type>580</type>
+    <positionNumber>16</positionNumber>
+    <bestBeforeDate>20220913</bestBeforeDate>
+    <batchNumber>271012-130922</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence96>
+<sentence97>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695538564</palletNVE>
+</sentence97>
+<sentence98>
+    <type>500</type>
+    <positionNumber>17</positionNumber>
+    <EAN>4251725800598</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence98>
+<sentence99>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>144</orderItemNumber>
+</sentence99>
+<sentence100>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence100>
+<sentence101>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210617842</partnerILN>
+</sentence101>
+<sentence102>
+    <type>580</type>
+    <positionNumber>17</positionNumber>
+    <bestBeforeDate>20230103</bestBeforeDate>
+    <batchNumber>100808-C072202032</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence102>
+<sentence103>
+    <type>500</type>
+    <positionNumber>18</positionNumber>
+    <EAN>4260402486789</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence103>
+<sentence104>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>146</orderItemNumber>
+</sentence104>
+<sentence105>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence105>
+<sentence106>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210617842</partnerILN>
+</sentence106>
+<sentence107>
+    <type>580</type>
+    <positionNumber>18</positionNumber>
+    <bestBeforeDate>20221027</bestBeforeDate>
+    <batchNumber>161046-L1441</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence107>
+<sentence108>
+    <type>500</type>
+    <positionNumber>19</positionNumber>
+    <EAN>4260402486789</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence108>
+<sentence109>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>8</orderItemNumber>
+</sentence109>
+<sentence110>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence110>
+<sentence111>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210617842</partnerILN>
+</sentence111>
+<sentence112>
+    <type>580</type>
+    <positionNumber>19</positionNumber>
+    <bestBeforeDate>20221027</bestBeforeDate>
+    <batchNumber>161046-L1441</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence112>
+<sentence113>
+    <type>500</type>
+    <positionNumber>20</positionNumber>
+    <EAN>4251725800598</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence113>
+<sentence114>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>6</orderItemNumber>
+</sentence114>
+<sentence115>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence115>
+<sentence116>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210617842</partnerILN>
+</sentence116>
+<sentence117>
+    <type>580</type>
+    <positionNumber>20</positionNumber>
+    <bestBeforeDate>20230103</bestBeforeDate>
+    <batchNumber>100808-C072202032</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence117>
+<sentence118>
+    <type>500</type>
+    <positionNumber>21</positionNumber>
+    <EAN>4260402486802</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence118>
+<sentence119>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>4</orderItemNumber>
+</sentence119>
+<sentence120>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence120>
+<sentence121>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210617842</partnerILN>
+</sentence121>
+<sentence122>
+    <type>580</type>
+    <positionNumber>21</positionNumber>
+    <bestBeforeDate>20230202</bestBeforeDate>
+    <batchNumber>161047-L2061</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence122>
+<sentence123>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695538496</palletNVE>
+</sentence123>
+<sentence124>
+    <type>500</type>
+    <positionNumber>22</positionNumber>
+    <EAN>4260402486840</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence124>
+<sentence125>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>158</orderItemNumber>
+</sentence125>
+<sentence126>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence126>
+<sentence127>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210662088</partnerILN>
+</sentence127>
+<sentence128>
+    <type>580</type>
+    <positionNumber>22</positionNumber>
+    <bestBeforeDate>20230527</bestBeforeDate>
+    <batchNumber>100399-02722</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence128>
+<sentence129>
+    <type>500</type>
+    <positionNumber>23</positionNumber>
+    <EAN>4260402489995</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence129>
+<sentence130>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>74</orderItemNumber>
+</sentence130>
+<sentence131>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence131>
+<sentence132>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210626400</partnerILN>
+</sentence132>
+<sentence133>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446425</palletNVE>
+</sentence133>
+<sentence134>
+    <type>500</type>
+    <positionNumber>24</positionNumber>
+    <EAN>4251725800475</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence134>
+<sentence135>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>76</orderItemNumber>
+</sentence135>
+<sentence136>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence136>
+<sentence137>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210626400</partnerILN>
+</sentence137>
+<sentence138>
+    <type>580</type>
+    <positionNumber>24</positionNumber>
+    <bestBeforeDate>20220501</bestBeforeDate>
+    <batchNumber>100790-22087</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence138>
+<sentence139>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695675214</palletNVE>
+</sentence139>
+<sentence140>
+    <type>500</type>
+    <positionNumber>25</positionNumber>
+    <EAN>4260402487618</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence140>
+<sentence141>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>182</orderItemNumber>
+</sentence141>
+<sentence142>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence142>
+<sentence143>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210612274</partnerILN>
+</sentence143>
+<sentence144>
+    <type>580</type>
+    <positionNumber>25</positionNumber>
+    <bestBeforeDate>20230308</bestBeforeDate>
+    <batchNumber>100479-L22102</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence144>
+<sentence145>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446395</palletNVE>
+</sentence145>
+<sentence146>
+    <type>500</type>
+    <positionNumber>26</positionNumber>
+    <EAN>4251725800475</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence146>
+<sentence147>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>164</orderItemNumber>
+</sentence147>
+<sentence148>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence148>
+<sentence149>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210662460</partnerILN>
+</sentence149>
+<sentence150>
+    <type>580</type>
+    <positionNumber>26</positionNumber>
+    <bestBeforeDate>20220501</bestBeforeDate>
+    <batchNumber>100790-22087</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence150>
+<sentence151>
+    <type>500</type>
+    <positionNumber>27</positionNumber>
+    <EAN>4251725801069</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence151>
+<sentence152>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>166</orderItemNumber>
+</sentence152>
+<sentence153>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence153>
+<sentence154>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210662460</partnerILN>
+</sentence154>
+<sentence155>
+    <type>580</type>
+    <positionNumber>27</positionNumber>
+    <bestBeforeDate>20230801</bestBeforeDate>
+    <batchNumber>100887-0061222</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence155>
+<sentence156>
+    <type>500</type>
+    <positionNumber>28</positionNumber>
+    <EAN>4251725800987</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence156>
+<sentence157>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>168</orderItemNumber>
+</sentence157>
+<sentence158>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence158>
+<sentence159>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210662460</partnerILN>
+</sentence159>
+<sentence160>
+    <type>580</type>
+    <positionNumber>28</positionNumber>
+    <bestBeforeDate>20220815</bestBeforeDate>
+    <batchNumber>100883-765218032</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence160>
+<sentence161>
+    <type>500</type>
+    <positionNumber>29</positionNumber>
+    <EAN>4251725801021</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence161>
+<sentence162>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>92</orderItemNumber>
+</sentence162>
+<sentence163>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence163>
+<sentence164>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210662460</partnerILN>
+</sentence164>
+<sentence165>
+    <type>580</type>
+    <positionNumber>29</positionNumber>
+    <bestBeforeDate>20240120</bestBeforeDate>
+    <batchNumber>100885-0060905</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence165>
+<sentence166>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446401</palletNVE>
+</sentence166>
+<sentence167>
+    <type>500</type>
+    <positionNumber>30</positionNumber>
+    <EAN>4251725800390</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence167>
+<sentence168>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>90</orderItemNumber>
+</sentence168>
+<sentence169>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence169>
+<sentence170>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210662460</partnerILN>
+</sentence170>
+<sentence171>
+    <type>580</type>
+    <positionNumber>30</positionNumber>
+    <bestBeforeDate>20230125</bestBeforeDate>
+    <batchNumber>100767-C072202251</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence171>
+<sentence172>
+    <type>500</type>
+    <positionNumber>31</positionNumber>
+    <EAN>4251725800598</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence172>
+<sentence173>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>88</orderItemNumber>
+</sentence173>
+<sentence174>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence174>
+<sentence175>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210662460</partnerILN>
+</sentence175>
+<sentence176>
+    <type>580</type>
+    <positionNumber>31</positionNumber>
+    <bestBeforeDate>20230103</bestBeforeDate>
+    <batchNumber>100808-C072202032</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence176>
+<sentence177>
+    <type>500</type>
+    <positionNumber>32</positionNumber>
+    <EAN>4260402486802</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence177>
+<sentence178>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>86</orderItemNumber>
+</sentence178>
+<sentence179>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence179>
+<sentence180>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210662460</partnerILN>
+</sentence180>
+<sentence181>
+    <type>580</type>
+    <positionNumber>32</positionNumber>
+    <bestBeforeDate>20230202</bestBeforeDate>
+    <batchNumber>161047-L2061</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence181>
+<sentence182>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695536584</palletNVE>
+</sentence182>
+<sentence183>
+    <type>500</type>
+    <positionNumber>33</positionNumber>
+    <EAN>4260402484006</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence183>
+<sentence184>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>152</orderItemNumber>
+</sentence184>
+<sentence185>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence185>
+<sentence186>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313205159104</partnerILN>
+</sentence186>
+<sentence187>
+    <type>580</type>
+    <positionNumber>33</positionNumber>
+    <bestBeforeDate>20220918</bestBeforeDate>
+    <batchNumber>271013-180922</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence187>
+<sentence188>
+    <type>500</type>
+    <positionNumber>34</positionNumber>
+    <EAN>4260402485737</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence188>
+<sentence189>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>150</orderItemNumber>
+</sentence189>
+<sentence190>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence190>
+<sentence191>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313205159104</partnerILN>
+</sentence191>
+<sentence192>
+    <type>580</type>
+    <positionNumber>34</positionNumber>
+    <bestBeforeDate>20220620</bestBeforeDate>
+    <batchNumber>162014-1000306114</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence192>
+<sentence193>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695538427</palletNVE>
+</sentence193>
+<sentence194>
+    <type>500</type>
+    <positionNumber>35</positionNumber>
+    <EAN>4251725800581</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence194>
+<sentence195>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>154</orderItemNumber>
+</sentence195>
+<sentence196>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence196>
+<sentence197>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313205159104</partnerILN>
+</sentence197>
+<sentence198>
+    <type>580</type>
+    <positionNumber>35</positionNumber>
+    <bestBeforeDate>20230102</bestBeforeDate>
+    <batchNumber>100807-C072202022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence198>
+<sentence199>
+    <type>500</type>
+    <positionNumber>36</positionNumber>
+    <EAN>4251725800598</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence199>
+<sentence200>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>156</orderItemNumber>
+</sentence200>
+<sentence201>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence201>
+<sentence202>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313205159104</partnerILN>
+</sentence202>
+<sentence203>
+    <type>580</type>
+    <positionNumber>36</positionNumber>
+    <bestBeforeDate>20230103</bestBeforeDate>
+    <batchNumber>100808-C072202032</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence203>
+<sentence204>
+    <type>500</type>
+    <positionNumber>37</positionNumber>
+    <EAN>4260402486352</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence204>
+<sentence205>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>238</orderItemNumber>
+</sentence205>
+<sentence206>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence206>
+<sentence207>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313205159340</partnerILN>
+</sentence207>
+<sentence208>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695536577</palletNVE>
+</sentence208>
+<sentence209>
+    <type>500</type>
+    <positionNumber>38</positionNumber>
+    <EAN>4260402486840</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence209>
+<sentence210>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>162</orderItemNumber>
+</sentence210>
+<sentence211>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence211>
+<sentence212>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210517180</partnerILN>
+</sentence212>
+<sentence213>
+    <type>580</type>
+    <positionNumber>38</positionNumber>
+    <bestBeforeDate>20230527</bestBeforeDate>
+    <batchNumber>100399-02722</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence213>
+<sentence214>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695445749</palletNVE>
+</sentence214>
+<sentence215>
+    <type>500</type>
+    <positionNumber>39</positionNumber>
+    <EAN>4260402489032</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence215>
+<sentence216>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>140</orderItemNumber>
+</sentence216>
+<sentence217>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence217>
+<sentence218>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210603548</partnerILN>
+</sentence218>
+<sentence219>
+    <type>580</type>
+    <positionNumber>39</positionNumber>
+    <bestBeforeDate>20230403</bestBeforeDate>
+    <batchNumber>100596-L22054</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence219>
+<sentence220>
+    <type>500</type>
+    <positionNumber>40</positionNumber>
+    <EAN>4260402486765</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence220>
+<sentence221>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>34</orderItemNumber>
+</sentence221>
+<sentence222>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence222>
+<sentence223>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210603548</partnerILN>
+</sentence223>
+<sentence224>
+    <type>580</type>
+    <positionNumber>40</positionNumber>
+    <bestBeforeDate>20230203</bestBeforeDate>
+    <batchNumber>161045-L2062</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence224>
+<sentence225>
+    <type>500</type>
+    <positionNumber>41</positionNumber>
+    <EAN>4260402485386</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence225>
+<sentence226>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>28</orderItemNumber>
+</sentence226>
+<sentence227>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence227>
+<sentence228>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210603548</partnerILN>
+</sentence228>
+<sentence229>
+    <type>580</type>
+    <positionNumber>41</positionNumber>
+    <bestBeforeDate>20230409</bestBeforeDate>
+    <batchNumber>152206-L22063</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence229>
+<sentence230>
+    <type>500</type>
+    <positionNumber>42</positionNumber>
+    <EAN>4260402489452</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence230>
+<sentence231>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>42</orderItemNumber>
+</sentence231>
+<sentence232>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence232>
+<sentence233>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210603548</partnerILN>
+</sentence233>
+<sentence234>
+    <type>580</type>
+    <positionNumber>42</positionNumber>
+    <bestBeforeDate>20230404</bestBeforeDate>
+    <batchNumber>100634-L22055</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence234>
+<sentence235>
+    <type>500</type>
+    <positionNumber>43</positionNumber>
+    <EAN>4260402489032</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence235>
+<sentence236>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>40</orderItemNumber>
+</sentence236>
+<sentence237>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence237>
+<sentence238>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210603548</partnerILN>
+</sentence238>
+<sentence239>
+    <type>580</type>
+    <positionNumber>43</positionNumber>
+    <bestBeforeDate>20230403</bestBeforeDate>
+    <batchNumber>100596-L22054</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence239>
+<sentence240>
+    <type>500</type>
+    <positionNumber>44</positionNumber>
+    <EAN>4260402485386</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence240>
+<sentence241>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>138</orderItemNumber>
+</sentence241>
+<sentence242>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence242>
+<sentence243>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210603548</partnerILN>
+</sentence243>
+<sentence244>
+    <type>580</type>
+    <positionNumber>44</positionNumber>
+    <bestBeforeDate>20230409</bestBeforeDate>
+    <batchNumber>152206-L22063</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence244>
+<sentence245>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446821</palletNVE>
+</sentence245>
+<sentence246>
+    <type>500</type>
+    <positionNumber>45</positionNumber>
+    <EAN>4251725800727</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence246>
+<sentence247>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>44</orderItemNumber>
+</sentence247>
+<sentence248>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence248>
+<sentence249>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210603548</partnerILN>
+</sentence249>
+<sentence250>
+    <type>580</type>
+    <positionNumber>45</positionNumber>
+    <bestBeforeDate>20221115</bestBeforeDate>
+    <batchNumber>100855-VE46227</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence250>
+<sentence251>
+    <type>500</type>
+    <positionNumber>46</positionNumber>
+    <EAN>4251725801120</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence251>
+<sentence252>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>46</orderItemNumber>
+</sentence252>
+<sentence253>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence253>
+<sentence254>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210603548</partnerILN>
+</sentence254>
+<sentence255>
+    <type>580</type>
+    <positionNumber>46</positionNumber>
+    <bestBeforeDate>20240118</bestBeforeDate>
+    <batchNumber>100896-180124</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence255>
+<sentence256>
+    <type>500</type>
+    <positionNumber>47</positionNumber>
+    <EAN>4251725801045</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence256>
+<sentence257>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>142</orderItemNumber>
+</sentence257>
+<sentence258>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence258>
+<sentence259>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210603548</partnerILN>
+</sentence259>
+<sentence260>
+    <type>580</type>
+    <positionNumber>47</positionNumber>
+    <bestBeforeDate>20230903</bestBeforeDate>
+    <batchNumber>100886-0061511</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence260>
+<sentence261>
+    <type>500</type>
+    <positionNumber>48</positionNumber>
+    <EAN>4260402485324</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence261>
+<sentence262>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>32</orderItemNumber>
+</sentence262>
+<sentence263>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence263>
+<sentence264>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210603548</partnerILN>
+</sentence264>
+<sentence265>
+    <type>580</type>
+    <positionNumber>48</positionNumber>
+    <bestBeforeDate>20230407</bestBeforeDate>
+    <batchNumber>152204-L22061</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence265>
+<sentence266>
+    <type>500</type>
+    <positionNumber>49</positionNumber>
+    <EAN>4260402486802</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence266>
+<sentence267>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>36</orderItemNumber>
+</sentence267>
+<sentence268>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence268>
+<sentence269>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210603548</partnerILN>
+</sentence269>
+<sentence270>
+    <type>580</type>
+    <positionNumber>49</positionNumber>
+    <bestBeforeDate>20230202</bestBeforeDate>
+    <batchNumber>161047-L2061</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence270>
+<sentence271>
+    <type>500</type>
+    <positionNumber>50</positionNumber>
+    <EAN>4260402486789</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence271>
+<sentence272>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>38</orderItemNumber>
+</sentence272>
+<sentence273>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence273>
+<sentence274>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210603548</partnerILN>
+</sentence274>
+<sentence275>
+    <type>580</type>
+    <positionNumber>50</positionNumber>
+    <bestBeforeDate>20221027</bestBeforeDate>
+    <batchNumber>161046-L1441</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence275>
+<sentence276>
+    <type>500</type>
+    <positionNumber>51</positionNumber>
+    <EAN>4260402480367</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence276>
+<sentence277>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>136</orderItemNumber>
+</sentence277>
+<sentence278>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence278>
+<sentence279>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210603548</partnerILN>
+</sentence279>
+<sentence280>
+    <type>580</type>
+    <positionNumber>51</positionNumber>
+    <bestBeforeDate>20230610</bestBeforeDate>
+    <batchNumber>141049-L344G21</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence280>
+<sentence281>
+    <type>500</type>
+    <positionNumber>52</positionNumber>
+    <EAN>4260402484518</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence281>
+<sentence282>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>30</orderItemNumber>
+</sentence282>
+<sentence283>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence283>
+<sentence284>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210603548</partnerILN>
+</sentence284>
+<sentence285>
+    <type>580</type>
+    <positionNumber>52</positionNumber>
+    <bestBeforeDate>20231201</bestBeforeDate>
+    <batchNumber>153061-335U</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence285>
+<sentence286>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446449</palletNVE>
+</sentence286>
+<sentence287>
+    <type>500</type>
+    <positionNumber>53</positionNumber>
+    <EAN>4260402486802</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence287>
+<sentence288>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>170</orderItemNumber>
+</sentence288>
+<sentence289>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence289>
+<sentence290>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210605900</partnerILN>
+</sentence290>
+<sentence291>
+    <type>580</type>
+    <positionNumber>53</positionNumber>
+    <bestBeforeDate>20230202</bestBeforeDate>
+    <batchNumber>161047-L2061</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence291>
+<sentence292>
+    <type>500</type>
+    <positionNumber>54</positionNumber>
+    <EAN>4251725800390</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence292>
+<sentence293>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>174</orderItemNumber>
+</sentence293>
+<sentence294>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence294>
+<sentence295>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210605900</partnerILN>
+</sentence295>
+<sentence296>
+    <type>580</type>
+    <positionNumber>54</positionNumber>
+    <bestBeforeDate>20230125</bestBeforeDate>
+    <batchNumber>100767-C072202251</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence296>
+<sentence297>
+    <type>500</type>
+    <positionNumber>55</positionNumber>
+    <EAN>4260402486789</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence297>
+<sentence298>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>172</orderItemNumber>
+</sentence298>
+<sentence299>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence299>
+<sentence300>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210605900</partnerILN>
+</sentence300>
+<sentence301>
+    <type>580</type>
+    <positionNumber>55</positionNumber>
+    <bestBeforeDate>20221027</bestBeforeDate>
+    <batchNumber>161046-L1441</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence301>
+<sentence302>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695538007</palletNVE>
+</sentence302>
+<sentence303>
+    <type>500</type>
+    <positionNumber>56</positionNumber>
+    <EAN>4251725800581</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence303>
+<sentence304>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>80</orderItemNumber>
+</sentence304>
+<sentence305>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence305>
+<sentence306>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210611284</partnerILN>
+</sentence306>
+<sentence307>
+    <type>580</type>
+    <positionNumber>56</positionNumber>
+    <bestBeforeDate>20230102</bestBeforeDate>
+    <batchNumber>100807-C072202022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence307>
+<sentence308>
+    <type>500</type>
+    <positionNumber>57</positionNumber>
+    <EAN>4251725800208</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence308>
+<sentence309>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>82</orderItemNumber>
+</sentence309>
+<sentence310>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence310>
+<sentence311>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210611284</partnerILN>
+</sentence311>
+<sentence312>
+    <type>580</type>
+    <positionNumber>57</positionNumber>
+    <bestBeforeDate>20230121</bestBeforeDate>
+    <batchNumber>100744-21012023</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence312>
+<sentence313>
+    <type>500</type>
+    <positionNumber>58</positionNumber>
+    <EAN>4251725800390</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence313>
+<sentence314>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>84</orderItemNumber>
+</sentence314>
+<sentence315>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence315>
+<sentence316>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210611284</partnerILN>
+</sentence316>
+<sentence317>
+    <type>580</type>
+    <positionNumber>58</positionNumber>
+    <bestBeforeDate>20230125</bestBeforeDate>
+    <batchNumber>100767-C072202251</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence317>
+<sentence318>
+    <type>500</type>
+    <positionNumber>59</positionNumber>
+    <EAN>4251725800277</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence318>
+<sentence319>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>216</orderItemNumber>
+</sentence319>
+<sentence320>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence320>
+<sentence321>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210613950</partnerILN>
+</sentence321>
+<sentence322>
+    <type>500</type>
+    <positionNumber>60</positionNumber>
+    <EAN>4251725800451</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence322>
+<sentence323>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>214</orderItemNumber>
+</sentence323>
+<sentence324>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence324>
+<sentence325>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210613950</partnerILN>
+</sentence325>
+<sentence326>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446418</palletNVE>
+</sentence326>
+<sentence327>
+    <type>500</type>
+    <positionNumber>61</positionNumber>
+    <EAN>4251725801021</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence327>
+<sentence328>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>218</orderItemNumber>
+</sentence328>
+<sentence329>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence329>
+<sentence330>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210613950</partnerILN>
+</sentence330>
+<sentence331>
+    <type>580</type>
+    <positionNumber>61</positionNumber>
+    <bestBeforeDate>20240120</bestBeforeDate>
+    <batchNumber>100885-0060905</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence331>
+<sentence332>
+    <type>500</type>
+    <positionNumber>62</positionNumber>
+    <EAN>4260402489551</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence332>
+<sentence333>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>212</orderItemNumber>
+</sentence333>
+<sentence334>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence334>
+<sentence335>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210613950</partnerILN>
+</sentence335>
+<sentence336>
+    <type>580</type>
+    <positionNumber>62</positionNumber>
+    <bestBeforeDate>20220524</bestBeforeDate>
+    <batchNumber>100639-22054067</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence336>
+<sentence337>
+    <type>500</type>
+    <positionNumber>63</positionNumber>
+    <EAN>4260402486840</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence337>
+<sentence338>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>210</orderItemNumber>
+</sentence338>
+<sentence339>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence339>
+<sentence340>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210613950</partnerILN>
+</sentence340>
+<sentence341>
+    <type>580</type>
+    <positionNumber>63</positionNumber>
+    <bestBeforeDate>20230527</bestBeforeDate>
+    <batchNumber>100399-02722</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence341>
+<sentence342>
+    <type>500</type>
+    <positionNumber>64</positionNumber>
+    <EAN>4260402486352</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence342>
+<sentence343>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>114</orderItemNumber>
+</sentence343>
+<sentence344>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence344>
+<sentence345>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210629302</partnerILN>
+</sentence345>
+<sentence346>
+    <type>500</type>
+    <positionNumber>65</positionNumber>
+    <EAN>4251725801434</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence346>
+<sentence347>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>132</orderItemNumber>
+</sentence347>
+<sentence348>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence348>
+<sentence349>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210629302</partnerILN>
+</sentence349>
+<sentence350>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695538465</palletNVE>
+</sentence350>
+<sentence351>
+    <type>500</type>
+    <positionNumber>66</positionNumber>
+    <EAN>4260402487205</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence351>
+<sentence352>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>104</orderItemNumber>
+</sentence352>
+<sentence353>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence353>
+<sentence354>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210629302</partnerILN>
+</sentence354>
+<sentence355>
+    <type>580</type>
+    <positionNumber>66</positionNumber>
+    <bestBeforeDate>20221211</bestBeforeDate>
+    <batchNumber>100458-221553/0</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence355>
+<sentence356>
+    <type>500</type>
+    <positionNumber>67</positionNumber>
+    <EAN>4260402486338</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence356>
+<sentence357>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>112</orderItemNumber>
+</sentence357>
+<sentence358>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence358>
+<sentence359>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210629302</partnerILN>
+</sentence359>
+<sentence360>
+    <type>580</type>
+    <positionNumber>67</positionNumber>
+    <bestBeforeDate>20230121</bestBeforeDate>
+    <batchNumber>100362-21012023</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence360>
+<sentence361>
+    <type>500</type>
+    <positionNumber>68</positionNumber>
+    <EAN>4260402486765</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence361>
+<sentence362>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>102</orderItemNumber>
+</sentence362>
+<sentence363>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence363>
+<sentence364>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210629302</partnerILN>
+</sentence364>
+<sentence365>
+    <type>580</type>
+    <positionNumber>68</positionNumber>
+    <bestBeforeDate>20230203</bestBeforeDate>
+    <batchNumber>161045-L2062</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence365>
+<sentence366>
+    <type>500</type>
+    <positionNumber>69</positionNumber>
+    <EAN>4260402485447</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence366>
+<sentence367>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>100</orderItemNumber>
+</sentence367>
+<sentence368>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence368>
+<sentence369>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210629302</partnerILN>
+</sentence369>
+<sentence370>
+    <type>580</type>
+    <positionNumber>69</positionNumber>
+    <bestBeforeDate>20230415</bestBeforeDate>
+    <batchNumber>152208-VE47305</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence370>
+<sentence371>
+    <type>500</type>
+    <positionNumber>70</positionNumber>
+    <EAN>4260402485416</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence371>
+<sentence372>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>98</orderItemNumber>
+</sentence372>
+<sentence373>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence373>
+<sentence374>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210629302</partnerILN>
+</sentence374>
+<sentence375>
+    <type>580</type>
+    <positionNumber>70</positionNumber>
+    <bestBeforeDate>20230401</bestBeforeDate>
+    <batchNumber>152207-VE47010</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence375>
+<sentence376>
+    <type>500</type>
+    <positionNumber>71</positionNumber>
+    <EAN>4260402489032</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence376>
+<sentence377>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>110</orderItemNumber>
+</sentence377>
+<sentence378>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence378>
+<sentence379>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210629302</partnerILN>
+</sentence379>
+<sentence380>
+    <type>580</type>
+    <positionNumber>71</positionNumber>
+    <bestBeforeDate>20230403</bestBeforeDate>
+    <batchNumber>100596-L22054</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence380>
+<sentence381>
+    <type>500</type>
+    <positionNumber>72</positionNumber>
+    <EAN>4260402486789</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence381>
+<sentence382>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>108</orderItemNumber>
+</sentence382>
+<sentence383>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence383>
+<sentence384>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210629302</partnerILN>
+</sentence384>
+<sentence385>
+    <type>580</type>
+    <positionNumber>72</positionNumber>
+    <bestBeforeDate>20221027</bestBeforeDate>
+    <batchNumber>161046-L1441</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence385>
+<sentence386>
+    <type>500</type>
+    <positionNumber>73</positionNumber>
+    <EAN>4251725801045</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence386>
+<sentence387>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>126</orderItemNumber>
+</sentence387>
+<sentence388>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence388>
+<sentence389>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210629302</partnerILN>
+</sentence389>
+<sentence390>
+    <type>580</type>
+    <positionNumber>73</positionNumber>
+    <bestBeforeDate>20230903</bestBeforeDate>
+    <batchNumber>100886-0061511</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence390>
+<sentence391>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695538472</palletNVE>
+</sentence391>
+<sentence392>
+    <type>500</type>
+    <positionNumber>74</positionNumber>
+    <EAN>4260402480367</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence392>
+<sentence393>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>94</orderItemNumber>
+</sentence393>
+<sentence394>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence394>
+<sentence395>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210629302</partnerILN>
+</sentence395>
+<sentence396>
+    <type>580</type>
+    <positionNumber>74</positionNumber>
+    <bestBeforeDate>20230610</bestBeforeDate>
+    <batchNumber>141049-L344G21</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence396>
+<sentence397>
+    <type>500</type>
+    <positionNumber>75</positionNumber>
+    <EAN>4260402483962</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence397>
+<sentence398>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>96</orderItemNumber>
+</sentence398>
+<sentence399>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence399>
+<sentence400>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210629302</partnerILN>
+</sentence400>
+<sentence401>
+    <type>580</type>
+    <positionNumber>75</positionNumber>
+    <bestBeforeDate>20220913</bestBeforeDate>
+    <batchNumber>271012-130922</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence401>
+<sentence402>
+    <type>500</type>
+    <positionNumber>76</positionNumber>
+    <EAN>4251725801120</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence402>
+<sentence403>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>130</orderItemNumber>
+</sentence403>
+<sentence404>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence404>
+<sentence405>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210629302</partnerILN>
+</sentence405>
+<sentence406>
+    <type>580</type>
+    <positionNumber>76</positionNumber>
+    <bestBeforeDate>20240118</bestBeforeDate>
+    <batchNumber>100896-180124</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence406>
+<sentence407>
+    <type>500</type>
+    <positionNumber>77</positionNumber>
+    <EAN>4251725801212</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence407>
+<sentence408>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>128</orderItemNumber>
+</sentence408>
+<sentence409>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence409>
+<sentence410>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210629302</partnerILN>
+</sentence410>
+<sentence411>
+    <type>580</type>
+    <positionNumber>77</positionNumber>
+    <bestBeforeDate>20240201</bestBeforeDate>
+    <batchNumber>100913-0060906</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence411>
+<sentence412>
+    <type>500</type>
+    <positionNumber>78</positionNumber>
+    <EAN>4251725801069</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence412>
+<sentence413>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>124</orderItemNumber>
+</sentence413>
+<sentence414>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence414>
+<sentence415>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210629302</partnerILN>
+</sentence415>
+<sentence416>
+    <type>580</type>
+    <positionNumber>78</positionNumber>
+    <bestBeforeDate>20230801</bestBeforeDate>
+    <batchNumber>100887-0061222</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence416>
+<sentence417>
+    <type>500</type>
+    <positionNumber>79</positionNumber>
+    <EAN>4251725800727</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence417>
+<sentence418>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>120</orderItemNumber>
+</sentence418>
+<sentence419>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence419>
+<sentence420>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210629302</partnerILN>
+</sentence420>
+<sentence421>
+    <type>580</type>
+    <positionNumber>79</positionNumber>
+    <bestBeforeDate>20221115</bestBeforeDate>
+    <batchNumber>100855-VE46227</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence421>
+<sentence422>
+    <type>500</type>
+    <positionNumber>80</positionNumber>
+    <EAN>4251725800635</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence422>
+<sentence423>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>118</orderItemNumber>
+</sentence423>
+<sentence424>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence424>
+<sentence425>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210629302</partnerILN>
+</sentence425>
+<sentence426>
+    <type>580</type>
+    <positionNumber>80</positionNumber>
+    <bestBeforeDate>20230331</bestBeforeDate>
+    <batchNumber>100820-01/22</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence426>
+<sentence427>
+    <type>500</type>
+    <positionNumber>81</positionNumber>
+    <EAN>4251725800390</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence427>
+<sentence428>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>116</orderItemNumber>
+</sentence428>
+<sentence429>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence429>
+<sentence430>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210629302</partnerILN>
+</sentence430>
+<sentence431>
+    <type>580</type>
+    <positionNumber>81</positionNumber>
+    <bestBeforeDate>20230125</bestBeforeDate>
+    <batchNumber>100767-C072202251</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence431>
+<sentence432>
+    <type>500</type>
+    <positionNumber>82</positionNumber>
+    <EAN>4260402486840</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence432>
+<sentence433>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>106</orderItemNumber>
+</sentence433>
+<sentence434>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence434>
+<sentence435>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210629302</partnerILN>
+</sentence435>
+<sentence436>
+    <type>580</type>
+    <positionNumber>82</positionNumber>
+    <bestBeforeDate>20230527</bestBeforeDate>
+    <batchNumber>100399-02722</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence436>
+<sentence437>
+    <type>500</type>
+    <positionNumber>83</positionNumber>
+    <EAN>4251725801021</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence437>
+<sentence438>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>122</orderItemNumber>
+</sentence438>
+<sentence439>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence439>
+<sentence440>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210629302</partnerILN>
+</sentence440>
+<sentence441>
+    <type>580</type>
+    <positionNumber>83</positionNumber>
+    <bestBeforeDate>20240120</bestBeforeDate>
+    <batchNumber>100885-0060905</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence441>
+<sentence442>
+    <type>500</type>
+    <positionNumber>84</positionNumber>
+    <EAN>4260402486352</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence442>
+<sentence443>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>228</orderItemNumber>
+</sentence443>
+<sentence444>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence444>
+<sentence445>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210632166</partnerILN>
+</sentence445>
+<sentence446>
+    <type>500</type>
+    <positionNumber>85</positionNumber>
+    <EAN>4251725801458</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence446>
+<sentence447>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>232</orderItemNumber>
+</sentence447>
+<sentence448>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence448>
+<sentence449>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210632166</partnerILN>
+</sentence449>
+<sentence450>
+    <type>500</type>
+    <positionNumber>86</positionNumber>
+    <EAN>4251725801434</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence450>
+<sentence451>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>234</orderItemNumber>
+</sentence451>
+<sentence452>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence452>
+<sentence453>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210632166</partnerILN>
+</sentence453>
+<sentence454>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695538489</palletNVE>
+</sentence454>
+<sentence455>
+    <type>500</type>
+    <positionNumber>87</positionNumber>
+    <EAN>4260402485225</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence455>
+<sentence456>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>226</orderItemNumber>
+</sentence456>
+<sentence457>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence457>
+<sentence458>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210632166</partnerILN>
+</sentence458>
+<sentence459>
+    <type>580</type>
+    <positionNumber>87</positionNumber>
+    <bestBeforeDate>20230105</bestBeforeDate>
+    <batchNumber>151099-L22013</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence459>
+<sentence460>
+    <type>500</type>
+    <positionNumber>88</positionNumber>
+    <EAN>4251725800635</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence460>
+<sentence461>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>230</orderItemNumber>
+</sentence461>
+<sentence462>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence462>
+<sentence463>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210632166</partnerILN>
+</sentence463>
+<sentence464>
+    <type>580</type>
+    <positionNumber>88</positionNumber>
+    <bestBeforeDate>20230331</bestBeforeDate>
+    <batchNumber>100820-01/22</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence464>
+<sentence465>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695445701</palletNVE>
+</sentence465>
+<sentence466>
+    <type>500</type>
+    <positionNumber>89</positionNumber>
+    <EAN>4260402484495</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence466>
+<sentence467>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>58</orderItemNumber>
+</sentence467>
+<sentence468>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence468>
+<sentence469>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210637116</partnerILN>
+</sentence469>
+<sentence470>
+    <type>580</type>
+    <positionNumber>89</positionNumber>
+    <bestBeforeDate>20240130</bestBeforeDate>
+    <batchNumber>153060-030F</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence470>
+<sentence471>
+    <type>500</type>
+    <positionNumber>90</positionNumber>
+    <EAN>4260402485324</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence471>
+<sentence472>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>62</orderItemNumber>
+</sentence472>
+<sentence473>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence473>
+<sentence474>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210637116</partnerILN>
+</sentence474>
+<sentence475>
+    <type>580</type>
+    <positionNumber>90</positionNumber>
+    <bestBeforeDate>20230407</bestBeforeDate>
+    <batchNumber>152204-L22061</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence475>
+<sentence476>
+    <type>500</type>
+    <positionNumber>91</positionNumber>
+    <EAN>4251725800581</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence476>
+<sentence477>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>66</orderItemNumber>
+</sentence477>
+<sentence478>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence478>
+<sentence479>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210637116</partnerILN>
+</sentence479>
+<sentence480>
+    <type>580</type>
+    <positionNumber>91</positionNumber>
+    <bestBeforeDate>20230102</bestBeforeDate>
+    <batchNumber>100807-C072202022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence480>
+<sentence481>
+    <type>500</type>
+    <positionNumber>92</positionNumber>
+    <EAN>4260402486765</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence481>
+<sentence482>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>64</orderItemNumber>
+</sentence482>
+<sentence483>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence483>
+<sentence484>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210637116</partnerILN>
+</sentence484>
+<sentence485>
+    <type>580</type>
+    <positionNumber>92</positionNumber>
+    <bestBeforeDate>20230203</bestBeforeDate>
+    <batchNumber>161045-L2062</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence485>
+<sentence486>
+    <type>500</type>
+    <positionNumber>93</positionNumber>
+    <EAN>4260402487632</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence486>
+<sentence487>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>68</orderItemNumber>
+</sentence487>
+<sentence488>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence488>
+<sentence489>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210637116</partnerILN>
+</sentence489>
+<sentence490>
+    <type>580</type>
+    <positionNumber>93</positionNumber>
+    <bestBeforeDate>20230105</bestBeforeDate>
+    <batchNumber>100480-L22022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence490>
+<sentence491>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695445718</palletNVE>
+</sentence491>
+<sentence492>
+    <type>500</type>
+    <positionNumber>94</positionNumber>
+    <EAN>4251725801212</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence492>
+<sentence493>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>70</orderItemNumber>
+</sentence493>
+<sentence494>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence494>
+<sentence495>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210637116</partnerILN>
+</sentence495>
+<sentence496>
+    <type>580</type>
+    <positionNumber>94</positionNumber>
+    <bestBeforeDate>20240201</bestBeforeDate>
+    <batchNumber>100913-0060906</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence496>
+<sentence497>
+    <type>500</type>
+    <positionNumber>95</positionNumber>
+    <EAN>4251725801120</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence497>
+<sentence498>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>72</orderItemNumber>
+</sentence498>
+<sentence499>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence499>
+<sentence500>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210637116</partnerILN>
+</sentence500>
+<sentence501>
+    <type>580</type>
+    <positionNumber>95</positionNumber>
+    <bestBeforeDate>20240118</bestBeforeDate>
+    <batchNumber>100896-180124</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence501>
+<sentence502>
+    <type>500</type>
+    <positionNumber>96</positionNumber>
+    <EAN>4260402484518</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence502>
+<sentence503>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>60</orderItemNumber>
+</sentence503>
+<sentence504>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence504>
+<sentence505>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210637116</partnerILN>
+</sentence505>
+<sentence506>
+    <type>580</type>
+    <positionNumber>96</positionNumber>
+    <bestBeforeDate>20231201</bestBeforeDate>
+    <batchNumber>153061-335U</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence506>
+<sentence507>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446432</palletNVE>
+</sentence507>
+<sentence508>
+    <type>500</type>
+    <positionNumber>97</positionNumber>
+    <EAN>4260402480367</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence508>
+<sentence509>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>184</orderItemNumber>
+</sentence509>
+<sentence510>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence510>
+<sentence511>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210674548</partnerILN>
+</sentence511>
+<sentence512>
+    <type>580</type>
+    <positionNumber>97</positionNumber>
+    <bestBeforeDate>20230610</bestBeforeDate>
+    <batchNumber>141049-L344G21</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence512>
+<sentence513>
+    <type>500</type>
+    <positionNumber>98</positionNumber>
+    <EAN>4260402485249</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence513>
+<sentence514>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>188</orderItemNumber>
+</sentence514>
+<sentence515>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence515>
+<sentence516>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210674548</partnerILN>
+</sentence516>
+<sentence517>
+    <type>580</type>
+    <positionNumber>98</positionNumber>
+    <bestBeforeDate>20230217</bestBeforeDate>
+    <batchNumber>151100-L22074</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence517>
+<sentence518>
+    <type>500</type>
+    <positionNumber>99</positionNumber>
+    <EAN>4260402486802</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence518>
+<sentence519>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>186</orderItemNumber>
+</sentence519>
+<sentence520>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence520>
+<sentence521>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210674548</partnerILN>
+</sentence521>
+<sentence522>
+    <type>580</type>
+    <positionNumber>99</positionNumber>
+    <bestBeforeDate>20230202</bestBeforeDate>
+    <batchNumber>161047-L2061</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence522>
+<sentence523>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695445725</palletNVE>
+</sentence523>
+<sentence524>
+    <type>500</type>
+    <positionNumber>100</positionNumber>
+    <EAN>4251725801212</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence524>
+<sentence525>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>208</orderItemNumber>
+</sentence525>
+<sentence526>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence526>
+<sentence527>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210658234</partnerILN>
+</sentence527>
+<sentence528>
+    <type>580</type>
+    <positionNumber>100</positionNumber>
+    <bestBeforeDate>20240201</bestBeforeDate>
+    <batchNumber>100913-0060906</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence528>
+<sentence529>
+    <type>500</type>
+    <positionNumber>101</positionNumber>
+    <EAN>4251725800451</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence529>
+<sentence530>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>236</orderItemNumber>
+</sentence530>
+<sentence531>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence531>
+<sentence532>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313230533948</partnerILN>
+</sentence532>
+<sentence533>
+    <type>500</type>
+    <positionNumber>102</positionNumber>
+    <EAN>4260402489995</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence533>
+<sentence534>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>22</orderItemNumber>
+</sentence534>
+<sentence535>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence535>
+<sentence536>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210649430</partnerILN>
+</sentence536>
+<sentence537>
+    <type>500</type>
+    <positionNumber>103</positionNumber>
+    <EAN>4260402489995</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence537>
+<sentence538>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>78</orderItemNumber>
+</sentence538>
+<sentence539>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence539>
+<sentence540>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210649430</partnerILN>
+</sentence540>
+<sentence541>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446777</palletNVE>
+</sentence541>
+<sentence542>
+    <type>500</type>
+    <positionNumber>104</positionNumber>
+    <EAN>4260402489056</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence542>
+<sentence543>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>10</orderItemNumber>
+</sentence543>
+<sentence544>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence544>
+<sentence545>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210649430</partnerILN>
+</sentence545>
+<sentence546>
+    <type>580</type>
+    <positionNumber>104</positionNumber>
+    <bestBeforeDate>20220822</bestBeforeDate>
+    <batchNumber>100597-O230222N</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence546>
+<sentence547>
+    <type>500</type>
+    <positionNumber>105</positionNumber>
+    <EAN>4251725800253</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence547>
+<sentence548>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>16</orderItemNumber>
+</sentence548>
+<sentence549>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence549>
+<sentence550>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210649430</partnerILN>
+</sentence550>
+<sentence551>
+    <type>580</type>
+    <positionNumber>105</positionNumber>
+    <bestBeforeDate>20220811</bestBeforeDate>
+    <batchNumber>100752-608518012</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence551>
+<sentence552>
+    <type>500</type>
+    <positionNumber>106</positionNumber>
+    <EAN>4251725801250</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence552>
+<sentence553>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>18</orderItemNumber>
+</sentence553>
+<sentence554>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence554>
+<sentence555>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210649430</partnerILN>
+</sentence555>
+<sentence556>
+    <type>580</type>
+    <positionNumber>106</positionNumber>
+    <bestBeforeDate>20220901</bestBeforeDate>
+    <batchNumber>100918-723308022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence556>
+<sentence557>
+    <type>500</type>
+    <positionNumber>107</positionNumber>
+    <EAN>4251725801236</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence557>
+<sentence558>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>20</orderItemNumber>
+</sentence558>
+<sentence559>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence559>
+<sentence560>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210649430</partnerILN>
+</sentence560>
+<sentence561>
+    <type>580</type>
+    <positionNumber>107</positionNumber>
+    <bestBeforeDate>20220911</bestBeforeDate>
+    <batchNumber>100917-723218022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence561>
+<sentence562>
+    <type>500</type>
+    <positionNumber>108</positionNumber>
+    <EAN>4260402489094</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence562>
+<sentence563>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>12</orderItemNumber>
+</sentence563>
+<sentence564>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence564>
+<sentence565>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210649430</partnerILN>
+</sentence565>
+<sentence566>
+    <type>580</type>
+    <positionNumber>108</positionNumber>
+    <bestBeforeDate>20220706</bestBeforeDate>
+    <batchNumber>100599-O070122K</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence566>
+<sentence567>
+    <type>500</type>
+    <positionNumber>109</positionNumber>
+    <EAN>4260402489070</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence567>
+<sentence568>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>14</orderItemNumber>
+</sentence568>
+<sentence569>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence569>
+<sentence570>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210649430</partnerILN>
+</sentence570>
+<sentence571>
+    <type>580</type>
+    <positionNumber>109</positionNumber>
+    <bestBeforeDate>20220821</bestBeforeDate>
+    <batchNumber>100598-O220222D</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence571>
+<sentence572>
+    <type>500</type>
+    <positionNumber>110</positionNumber>
+    <EAN>4251725800277</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence572>
+<sentence573>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>202</orderItemNumber>
+</sentence573>
+<sentence574>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence574>
+<sentence575>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210658548</partnerILN>
+</sentence575>
+<sentence576>
+    <type>500</type>
+    <positionNumber>111</positionNumber>
+    <EAN>4251725800451</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence576>
+<sentence577>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>198</orderItemNumber>
+</sentence577>
+<sentence578>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence578>
+<sentence579>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210658548</partnerILN>
+</sentence579>
+<sentence580>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446838</palletNVE>
+</sentence580>
+<sentence581>
+    <type>500</type>
+    <positionNumber>112</positionNumber>
+    <EAN>4251725800598</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence581>
+<sentence582>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>190</orderItemNumber>
+</sentence582>
+<sentence583>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence583>
+<sentence584>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210658548</partnerILN>
+</sentence584>
+<sentence585>
+    <type>580</type>
+    <positionNumber>112</positionNumber>
+    <bestBeforeDate>20230103</bestBeforeDate>
+    <batchNumber>100808-C072202032</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence585>
+<sentence586>
+    <type>500</type>
+    <positionNumber>113</positionNumber>
+    <EAN>4251725800390</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence586>
+<sentence587>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>200</orderItemNumber>
+</sentence587>
+<sentence588>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence588>
+<sentence589>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210658548</partnerILN>
+</sentence589>
+<sentence590>
+    <type>580</type>
+    <positionNumber>113</positionNumber>
+    <bestBeforeDate>20230125</bestBeforeDate>
+    <batchNumber>100767-C072202251</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence590>
+<sentence591>
+    <type>500</type>
+    <positionNumber>114</positionNumber>
+    <EAN>4251725801021</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence591>
+<sentence592>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>204</orderItemNumber>
+</sentence592>
+<sentence593>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence593>
+<sentence594>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210658548</partnerILN>
+</sentence594>
+<sentence595>
+    <type>580</type>
+    <positionNumber>114</positionNumber>
+    <bestBeforeDate>20240120</bestBeforeDate>
+    <batchNumber>100885-0060905</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence595>
+<sentence596>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446852</palletNVE>
+</sentence596>
+<sentence597>
+    <type>500</type>
+    <positionNumber>115</positionNumber>
+    <EAN>4260402489056</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence597>
+<sentence598>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>196</orderItemNumber>
+</sentence598>
+<sentence599>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence599>
+<sentence600>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210658548</partnerILN>
+</sentence600>
+<sentence601>
+    <type>580</type>
+    <positionNumber>115</positionNumber>
+    <bestBeforeDate>20220822</bestBeforeDate>
+    <batchNumber>100597-O230222N</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence601>
+<sentence602>
+    <type>500</type>
+    <positionNumber>116</positionNumber>
+    <EAN>4260402489551</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence602>
+<sentence603>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>194</orderItemNumber>
+</sentence603>
+<sentence604>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence604>
+<sentence605>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210658548</partnerILN>
+</sentence605>
+<sentence606>
+    <type>580</type>
+    <positionNumber>116</positionNumber>
+    <bestBeforeDate>20220524</bestBeforeDate>
+    <batchNumber>100639-22054067</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence606>
+<sentence607>
+    <type>500</type>
+    <positionNumber>117</positionNumber>
+    <EAN>4260402489568</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence607>
+<sentence608>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>192</orderItemNumber>
+</sentence608>
+<sentence609>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence609>
+<sentence610>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210658548</partnerILN>
+</sentence610>
+<sentence611>
+    <type>580</type>
+    <positionNumber>117</positionNumber>
+    <bestBeforeDate>20220524</bestBeforeDate>
+    <batchNumber>100640-22054068</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence611>
+<sentence612>
+    <type>500</type>
+    <positionNumber>118</positionNumber>
+    <EAN>4251725801212</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence612>
+<sentence613>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>206</orderItemNumber>
+</sentence613>
+<sentence614>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence614>
+<sentence615>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210658548</partnerILN>
+</sentence615>
+<sentence616>
+    <type>580</type>
+    <positionNumber>118</positionNumber>
+    <bestBeforeDate>20240201</bestBeforeDate>
+    <batchNumber>100913-0060906</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence616>
+<sentence617>
+    <type>500</type>
+    <positionNumber>119</positionNumber>
+    <EAN>4260402486352</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence617>
+<sentence618>
+    <type>511</type>
+    <customerOrderNumber>6320700</customerOrderNumber>
+    <orderItemNumber>160</orderItemNumber>
+</sentence618>
+<sentence619>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence619>
+<sentence620>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+</sentence620>`
 
 
 export const PARSEDXMLDEASDV5 = 
-`<sentence1>\n    <type>000</type>\n    <senderId>4260402480008</senderId>\n    <recieverId>4311501990018</recieverId>\n    <date>20220407</date>\n    <time>0926</time>\n    <dataExchangeReference>32206244VEGANZ</dataExchangeReference>\n    <fileInterfaceVersionNumber>4.5</fileInterfaceVersionNumber>\n</sentence1>\n<sentence2>\n    <type>100</type>\n    <messageReference>1</messageReference>\n    <messageType>DESADV</messageType>\n    <transactionType>YA6</transactionType>\n    <documentNumber>22209801</documentNumber>\n    <documentDate>20220407</documentDate>\n</sentence2>\n<sentence3>\n    <type>111</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <customerOrcerDate>20220406</customerOrcerDate>\n    <deliveryDate>20220408</deliveryDate>\n    <deliveryReceiptNumber>22209801</deliveryReceiptNumber>\n    <deliveryReceiptDate>20220407</deliveryReceiptDate>\n</sentence3>\n<sentence4>\n    <type>115</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence4>\n<sentence5>\n    <type>119</type>\n    <partnerType>BY</partnerType>\n    <partnerILN>4311560000000</partnerILN>\n</sentence5>\n<sentence6>\n    <type>119</type>\n    <partnerType>IV</partnerType>\n    <partnerILN>4311560000000</partnerILN>\n</sentence6>\n<sentence7>\n    <type>119</type>\n    <partnerType>DP</partnerType>\n    <partnerILN>4313280901100</partnerILN>\n</sentence7>\n<sentence8>\n    <type>119</type>\n    <partnerType>SU</partnerType>\n    <partnerILN>4260402480008</partnerILN>\n</sentence8>\n<sentence9>\n    <type>400</type>\n    <positionNumber>1</positionNumber>\n    <perShipmentPackagingCount>40</perShipmentPackagingCount>\n    <perShipmentColliKartonPackagingType>PK</perShipmentColliKartonPackagingType>\n</sentence9>\n<sentence10>\n    <type>500</type>\n    <positionNumber>1</positionNumber>\n    <EAN>4251725801434</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence10>\n<sentence11>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>336</orderItemNumber>\n</sentence11>\n<sentence12>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence12>\n<sentence13>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210108234</partnerILN>\n</sentence13>\n<sentence14>\n    <type>500</type>\n    <positionNumber>2</positionNumber>\n    <EAN>4251725800277</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence14>\n<sentence15>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>332</orderItemNumber>\n</sentence15>\n<sentence16>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence16>\n<sentence17>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210108234</partnerILN>\n</sentence17>\n<sentence18>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695536416</palletNVE>\n</sentence18>\n<sentence19>\n    <type>500</type>\n    <positionNumber>3</positionNumber>\n    <EAN>4251725800987</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence19>\n<sentence20>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>334</orderItemNumber>\n</sentence20>\n<sentence21>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence21>\n<sentence22>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210108234</partnerILN>\n</sentence22>\n<sentence23>\n    <type>580</type>\n    <positionNumber>3</positionNumber>\n    <bestBeforeDate>20220815</bestBeforeDate>\n    <batchNumber>100883-765218032</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence23>\n<sentence24>\n    <type>500</type>\n    <positionNumber>4</positionNumber>\n    <EAN>4251725800390</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence24>\n<sentence25>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>330</orderItemNumber>\n</sentence25>\n<sentence26>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence26>\n<sentence27>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210108234</partnerILN>\n</sentence27>\n<sentence28>\n    <type>580</type>\n    <positionNumber>4</positionNumber>\n    <bestBeforeDate>20230125</bestBeforeDate>\n    <batchNumber>100767-C072202251</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence28>\n<sentence29>\n    <type>500</type>\n    <positionNumber>5</positionNumber>\n    <EAN>4251725800598</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence29>\n<sentence30>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>328</orderItemNumber>\n</sentence30>\n<sentence31>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence31>\n<sentence32>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210108234</partnerILN>\n</sentence32>\n<sentence33>\n    <type>580</type>\n    <positionNumber>5</positionNumber>\n    <bestBeforeDate>20230103</bestBeforeDate>\n    <batchNumber>100808-C072202032</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence33>\n<sentence34>\n    <type>500</type>\n    <positionNumber>6</positionNumber>\n    <EAN>4260402485386</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence34>\n<sentence35>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>326</orderItemNumber>\n</sentence35>\n<sentence36>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence36>\n<sentence37>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210108234</partnerILN>\n</sentence37>\n<sentence38>\n    <type>580</type>\n    <positionNumber>6</positionNumber>\n    <bestBeforeDate>20230409</bestBeforeDate>\n    <batchNumber>152206-L22063</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence38>\n<sentence39>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695536638</palletNVE>\n</sentence39>\n<sentence40>\n    <type>500</type>\n    <positionNumber>7</positionNumber>\n    <EAN>4260402487892</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence40>\n<sentence41>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>52</orderItemNumber>\n</sentence41>\n<sentence42>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence42>\n<sentence43>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210094278</partnerILN>\n</sentence43>\n<sentence44>\n    <type>580</type>\n    <positionNumber>7</positionNumber>\n    <bestBeforeDate>20230211</bestBeforeDate>\n    <batchNumber>100491-04222A</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence44>\n<sentence45>\n    <type>500</type>\n    <positionNumber>8</positionNumber>\n    <EAN>4251725801120</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence45>\n<sentence46>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>56</orderItemNumber>\n</sentence46>\n<sentence47>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence47>\n<sentence48>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210094278</partnerILN>\n</sentence48>\n<sentence49>\n    <type>580</type>\n    <positionNumber>8</positionNumber>\n    <bestBeforeDate>20240118</bestBeforeDate>\n    <batchNumber>100896-180124</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence49>\n<sentence50>\n    <type>500</type>\n    <positionNumber>9</positionNumber>\n    <EAN>4251725800390</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence50>\n<sentence51>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>54</orderItemNumber>\n</sentence51>\n<sentence52>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence52>\n<sentence53>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210094278</partnerILN>\n</sentence53>\n<sentence54>\n    <type>580</type>\n    <positionNumber>9</positionNumber>\n    <bestBeforeDate>20230125</bestBeforeDate>\n    <batchNumber>100767-C072202251</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence54>\n<sentence55>\n    <type>500</type>\n    <positionNumber>10</positionNumber>\n    <EAN>4260402487939</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence55>\n<sentence56>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>50</orderItemNumber>\n</sentence56>\n<sentence57>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence57>\n<sentence58>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210094278</partnerILN>\n</sentence58>\n<sentence59>\n    <type>580</type>\n    <positionNumber>10</positionNumber>\n    <bestBeforeDate>20230214</bestBeforeDate>\n    <batchNumber>100493-04522A</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence59>\n<sentence60>\n    <type>500</type>\n    <positionNumber>11</positionNumber>\n    <EAN>4260402484495</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence60>\n<sentence61>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>48</orderItemNumber>\n</sentence61>\n<sentence62>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence62>\n<sentence63>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210094278</partnerILN>\n</sentence63>\n<sentence64>\n    <type>580</type>\n    <positionNumber>11</positionNumber>\n    <bestBeforeDate>20240130</bestBeforeDate>\n    <batchNumber>153060-030F</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence64>\n<sentence65>\n    <type>500</type>\n    <positionNumber>12</positionNumber>\n    <EAN>4251725800451</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence65>\n<sentence66>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>372</orderItemNumber>\n</sentence66>\n<sentence67>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence67>\n<sentence68>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210318510</partnerILN>\n</sentence68>\n<sentence69>\n    <type>500</type>\n    <positionNumber>13</positionNumber>\n    <EAN>4251725800277</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence69>\n<sentence70>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>32</orderItemNumber>\n</sentence70>\n<sentence71>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence71>\n<sentence72>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210318510</partnerILN>\n</sentence72>\n<sentence73>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446890</palletNVE>\n</sentence73>\n<sentence74>\n    <type>500</type>\n    <positionNumber>14</positionNumber>\n    <EAN>4251725800475</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence74>\n<sentence75>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>374</orderItemNumber>\n</sentence75>\n<sentence76>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence76>\n<sentence77>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210318510</partnerILN>\n</sentence77>\n<sentence78>\n    <type>580</type>\n    <positionNumber>14</positionNumber>\n    <bestBeforeDate>20220501</bestBeforeDate>\n    <batchNumber>100790-22087</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence78>\n<sentence79>\n    <type>500</type>\n    <positionNumber>15</positionNumber>\n    <EAN>4260402485737</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence79>\n<sentence80>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>368</orderItemNumber>\n</sentence80>\n<sentence81>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence81>\n<sentence82>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210318510</partnerILN>\n</sentence82>\n<sentence83>\n    <type>580</type>\n    <positionNumber>15</positionNumber>\n    <bestBeforeDate>20220620</bestBeforeDate>\n    <batchNumber>162014-1000306114</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence83>\n<sentence84>\n    <type>500</type>\n    <positionNumber>16</positionNumber>\n    <EAN>4260402489551</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence84>\n<sentence85>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>370</orderItemNumber>\n</sentence85>\n<sentence86>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence86>\n<sentence87>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210318510</partnerILN>\n</sentence87>\n<sentence88>\n    <type>580</type>\n    <positionNumber>16</positionNumber>\n    <bestBeforeDate>20220524</bestBeforeDate>\n    <batchNumber>100639-22054067</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence88>\n<sentence89>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446906</palletNVE>\n</sentence89>\n<sentence90>\n    <type>500</type>\n    <positionNumber>17</positionNumber>\n    <EAN>4251725800277</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence90>\n<sentence91>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>28</orderItemNumber>\n</sentence91>\n<sentence92>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence92>\n<sentence93>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210139900</partnerILN>\n</sentence93>\n<sentence94>\n    <type>580</type>\n    <positionNumber>17</positionNumber>\n    <bestBeforeDate>20220504</bestBeforeDate>\n    <batchNumber>100753-0832022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence94>\n<sentence95>\n    <type>500</type>\n    <positionNumber>18</positionNumber>\n    <EAN>4251725800451</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence95>\n<sentence96>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>342</orderItemNumber>\n</sentence96>\n<sentence97>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence97>\n<sentence98>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210053886</partnerILN>\n</sentence98>\n<sentence99>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695537970</palletNVE>\n</sentence99>\n<sentence100>\n    <type>500</type>\n    <positionNumber>19</positionNumber>\n    <EAN>4260402489551</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence100>\n<sentence101>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>324</orderItemNumber>\n</sentence101>\n<sentence102>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence102>\n<sentence103>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210336736</partnerILN>\n</sentence103>\n<sentence104>\n    <type>580</type>\n    <positionNumber>19</positionNumber>\n    <bestBeforeDate>20220524</bestBeforeDate>\n    <batchNumber>100639-22054067</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence104>\n<sentence105>\n    <type>500</type>\n    <positionNumber>20</positionNumber>\n    <EAN>4260402485737</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence105>\n<sentence106>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>322</orderItemNumber>\n</sentence106>\n<sentence107>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence107>\n<sentence108>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210336736</partnerILN>\n</sentence108>\n<sentence109>\n    <type>580</type>\n    <positionNumber>20</positionNumber>\n    <bestBeforeDate>20220620</bestBeforeDate>\n    <batchNumber>162014-1000306114</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence109>\n<sentence110>\n    <type>500</type>\n    <positionNumber>21</positionNumber>\n    <EAN>4251725800277</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence110>\n<sentence111>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>240</orderItemNumber>\n</sentence111>\n<sentence112>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence112>\n<sentence113>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence113>\n<sentence114>\n    <type>500</type>\n    <positionNumber>22</positionNumber>\n    <EAN>4251725800185</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence114>\n<sentence115>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>200</orderItemNumber>\n</sentence115>\n<sentence116>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence116>\n<sentence117>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence117>\n<sentence118>\n    <type>500</type>\n    <positionNumber>23</positionNumber>\n    <EAN>4260402489995</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence118>\n<sentence119>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>232</orderItemNumber>\n</sentence119>\n<sentence120>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence120>\n<sentence121>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence121>\n<sentence122>\n    <type>500</type>\n    <positionNumber>24</positionNumber>\n    <EAN>4260402486352</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence122>\n<sentence123>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>210</orderItemNumber>\n</sentence123>\n<sentence124>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence124>\n<sentence125>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence125>\n<sentence126>\n    <type>500</type>\n    <positionNumber>25</positionNumber>\n    <EAN>4251725801458</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence126>\n<sentence127>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>226</orderItemNumber>\n</sentence127>\n<sentence128>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence128>\n<sentence129>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence129>\n<sentence130>\n    <type>500</type>\n    <positionNumber>26</positionNumber>\n    <EAN>4251725801434</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence130>\n<sentence131>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>228</orderItemNumber>\n</sentence131>\n<sentence132>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence132>\n<sentence133>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence133>\n<sentence134>\n    <type>500</type>\n    <positionNumber>27</positionNumber>\n    <EAN>4251725800451</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence134>\n<sentence135>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>234</orderItemNumber>\n</sentence135>\n<sentence136>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence136>\n<sentence137>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence137>\n<sentence138>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446340</palletNVE>\n</sentence138>\n<sentence139>\n    <type>500</type>\n    <positionNumber>28</positionNumber>\n    <EAN>4260402485027</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence139>\n<sentence140>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>140</orderItemNumber>\n</sentence140>\n<sentence141>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence141>\n<sentence142>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence142>\n<sentence143>\n    <type>580</type>\n    <positionNumber>28</positionNumber>\n    <bestBeforeDate>20230331</bestBeforeDate>\n    <batchNumber>151097-L22034</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence143>\n<sentence144>\n    <type>500</type>\n    <positionNumber>29</positionNumber>\n    <EAN>4260402485065</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence144>\n<sentence145>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>142</orderItemNumber>\n</sentence145>\n<sentence146>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence146>\n<sentence147>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence147>\n<sentence148>\n    <type>580</type>\n    <positionNumber>29</positionNumber>\n    <bestBeforeDate>20230430</bestBeforeDate>\n    <batchNumber>151098-L32073</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence148>\n<sentence149>\n    <type>500</type>\n    <positionNumber>30</positionNumber>\n    <EAN>4260402485003</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence149>\n<sentence150>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>144</orderItemNumber>\n</sentence150>\n<sentence151>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence151>\n<sentence152>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence152>\n<sentence153>\n    <type>580</type>\n    <positionNumber>30</positionNumber>\n    <bestBeforeDate>20230331</bestBeforeDate>\n    <batchNumber>151096-L12034</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence153>\n<sentence154>\n    <type>500</type>\n    <positionNumber>31</positionNumber>\n    <EAN>4260402485652</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence154>\n<sentence155>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>136</orderItemNumber>\n</sentence155>\n<sentence156>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence156>\n<sentence157>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence157>\n<sentence158>\n    <type>580</type>\n    <positionNumber>31</positionNumber>\n    <bestBeforeDate>20230228</bestBeforeDate>\n    <batchNumber>100314-L11512</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence158>\n<sentence159>\n    <type>500</type>\n    <positionNumber>32</positionNumber>\n    <EAN>4260402480367</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence159>\n<sentence160>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>134</orderItemNumber>\n</sentence160>\n<sentence161>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence161>\n<sentence162>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence162>\n<sentence163>\n    <type>580</type>\n    <positionNumber>32</positionNumber>\n    <bestBeforeDate>20230610</bestBeforeDate>\n    <batchNumber>141049-L344G21</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence163>\n<sentence164>\n    <type>500</type>\n    <positionNumber>33</positionNumber>\n    <EAN>4251725800901</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence164>\n<sentence165>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>230</orderItemNumber>\n</sentence165>\n<sentence166>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence166>\n<sentence167>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence167>\n<sentence168>\n    <type>580</type>\n    <positionNumber>33</positionNumber>\n    <bestBeforeDate>20221101</bestBeforeDate>\n    <batchNumber>100875-VE46020</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence168>\n<sentence169>\n    <type>500</type>\n    <positionNumber>34</positionNumber>\n    <EAN>4260402484518</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence169>\n<sentence170>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>158</orderItemNumber>\n</sentence170>\n<sentence171>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence171>\n<sentence172>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence172>\n<sentence173>\n    <type>580</type>\n    <positionNumber>34</positionNumber>\n    <bestBeforeDate>20231201</bestBeforeDate>\n    <batchNumber>153061-335U</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence173>\n<sentence174>\n    <type>500</type>\n    <positionNumber>35</positionNumber>\n    <EAN>4260402486840</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence174>\n<sentence175>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>180</orderItemNumber>\n</sentence175>\n<sentence176>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence176>\n<sentence177>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence177>\n<sentence178>\n    <type>580</type>\n    <positionNumber>35</positionNumber>\n    <bestBeforeDate>20230527</bestBeforeDate>\n    <batchNumber>100399-02722</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence178>\n<sentence179>\n    <type>500</type>\n    <positionNumber>36</positionNumber>\n    <EAN>4260402487212</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence179>\n<sentence180>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>182</orderItemNumber>\n</sentence180>\n<sentence181>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence181>\n<sentence182>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence182>\n<sentence183>\n    <type>580</type>\n    <positionNumber>36</positionNumber>\n    <bestBeforeDate>20221028</bestBeforeDate>\n    <batchNumber>100459-220604/0</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence183>\n<sentence184>\n    <type>500</type>\n    <positionNumber>37</positionNumber>\n    <EAN>4260402485225</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence184>\n<sentence185>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>184</orderItemNumber>\n</sentence185>\n<sentence186>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence186>\n<sentence187>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence187>\n<sentence188>\n    <type>580</type>\n    <positionNumber>37</positionNumber>\n    <bestBeforeDate>20230105</bestBeforeDate>\n    <batchNumber>151099-L22013</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence188>\n<sentence189>\n    <type>500</type>\n    <positionNumber>38</positionNumber>\n    <EAN>4251725800208</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence189>\n<sentence190>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>198</orderItemNumber>\n</sentence190>\n<sentence191>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence191>\n<sentence192>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence192>\n<sentence193>\n    <type>580</type>\n    <positionNumber>38</positionNumber>\n    <bestBeforeDate>20230121</bestBeforeDate>\n    <batchNumber>100744-21012023</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence193>\n<sentence194>\n    <type>500</type>\n    <positionNumber>39</positionNumber>\n    <EAN>4251725800109</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence194>\n<sentence195>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>202</orderItemNumber>\n</sentence195>\n<sentence196>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence196>\n<sentence197>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence197>\n<sentence198>\n    <type>580</type>\n    <positionNumber>39</positionNumber>\n    <bestBeforeDate>20221215</bestBeforeDate>\n    <batchNumber>100723-VE44371</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence198>\n<sentence199>\n    <type>500</type>\n    <positionNumber>40</positionNumber>\n    <EAN>4251725800123</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence199>\n<sentence200>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>204</orderItemNumber>\n</sentence200>\n<sentence201>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence201>\n<sentence202>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence202>\n<sentence203>\n    <type>580</type>\n    <positionNumber>40</positionNumber>\n    <bestBeforeDate>20230101</bestBeforeDate>\n    <batchNumber>100724-VE44387</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence203>\n<sentence204>\n    <type>500</type>\n    <positionNumber>41</positionNumber>\n    <EAN>4251725800086</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence204>\n<sentence205>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>206</orderItemNumber>\n</sentence205>\n<sentence206>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence206>\n<sentence207>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence207>\n<sentence208>\n    <type>580</type>\n    <positionNumber>41</positionNumber>\n    <bestBeforeDate>20230101</bestBeforeDate>\n    <batchNumber>100722-VE44392</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence208>\n<sentence209>\n    <type>500</type>\n    <positionNumber>42</positionNumber>\n    <EAN>4251725801120</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence209>\n<sentence210>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>224</orderItemNumber>\n</sentence210>\n<sentence211>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence211>\n<sentence212>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence212>\n<sentence213>\n    <type>580</type>\n    <positionNumber>42</positionNumber>\n    <bestBeforeDate>20240118</bestBeforeDate>\n    <batchNumber>100896-180124</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence213>\n<sentence214>\n    <type>500</type>\n    <positionNumber>43</positionNumber>\n    <EAN>4251725800499</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence214>\n<sentence215>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>238</orderItemNumber>\n</sentence215>\n<sentence216>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence216>\n<sentence217>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence217>\n<sentence218>\n    <type>580</type>\n    <positionNumber>43</positionNumber>\n    <bestBeforeDate>20220504</bestBeforeDate>\n    <batchNumber>100791-22090</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence218>\n<sentence219>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446357</palletNVE>\n</sentence219>\n<sentence220>\n    <type>500</type>\n    <positionNumber>44</positionNumber>\n    <EAN>4260402485751</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence220>\n<sentence221>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>148</orderItemNumber>\n</sentence221>\n<sentence222>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence222>\n<sentence223>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence223>\n<sentence224>\n    <type>580</type>\n    <positionNumber>44</positionNumber>\n    <bestBeforeDate>20220620</bestBeforeDate>\n    <batchNumber>162015-1000306113</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence224>\n<sentence225>\n    <type>500</type>\n    <positionNumber>45</positionNumber>\n    <EAN>4260402487939</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence225>\n<sentence226>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>212</orderItemNumber>\n</sentence226>\n<sentence227>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence227>\n<sentence228>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence228>\n<sentence229>\n    <type>580</type>\n    <positionNumber>45</positionNumber>\n    <bestBeforeDate>20230214</bestBeforeDate>\n    <batchNumber>100493-04522A</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence229>\n<sentence230>\n    <type>500</type>\n    <positionNumber>46</positionNumber>\n    <EAN>4260402485041</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence230>\n<sentence231>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>162</orderItemNumber>\n</sentence231>\n<sentence232>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence232>\n<sentence233>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence233>\n<sentence234>\n    <type>580</type>\n    <positionNumber>46</positionNumber>\n    <bestBeforeDate>20230201</bestBeforeDate>\n    <batchNumber>161044-C101355</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence234>\n<sentence235>\n    <type>500</type>\n    <positionNumber>47</positionNumber>\n    <EAN>4260402484006</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence235>\n<sentence236>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>150</orderItemNumber>\n</sentence236>\n<sentence237>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence237>\n<sentence238>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence238>\n<sentence239>\n    <type>580</type>\n    <positionNumber>47</positionNumber>\n    <bestBeforeDate>20220918</bestBeforeDate>\n    <batchNumber>271013-180922</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence239>\n<sentence240>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446364</palletNVE>\n</sentence240>\n<sentence241>\n    <type>500</type>\n    <positionNumber>48</positionNumber>\n    <EAN>4260402484495</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence241>\n<sentence242>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>154</orderItemNumber>\n</sentence242>\n<sentence243>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence243>\n<sentence244>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence244>\n<sentence245>\n    <type>580</type>\n    <positionNumber>48</positionNumber>\n    <bestBeforeDate>20240130</bestBeforeDate>\n    <batchNumber>153060-030F</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence245>\n<sentence246>\n    <type>500</type>\n    <positionNumber>49</positionNumber>\n    <EAN>4251725800581</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence246>\n<sentence247>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>172</orderItemNumber>\n</sentence247>\n<sentence248>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence248>\n<sentence249>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence249>\n<sentence250>\n    <type>580</type>\n    <positionNumber>49</positionNumber>\n    <bestBeforeDate>20230102</bestBeforeDate>\n    <batchNumber>100807-C072202022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence250>\n<sentence251>\n    <type>500</type>\n    <positionNumber>50</positionNumber>\n    <EAN>4260402483962</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence251>\n<sentence252>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>152</orderItemNumber>\n</sentence252>\n<sentence253>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence253>\n<sentence254>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence254>\n<sentence255>\n    <type>580</type>\n    <positionNumber>50</positionNumber>\n    <bestBeforeDate>20220913</bestBeforeDate>\n    <batchNumber>271012-130922</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence255>\n<sentence256>\n    <type>500</type>\n    <positionNumber>51</positionNumber>\n    <EAN>4260402485737</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence256>\n<sentence257>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>146</orderItemNumber>\n</sentence257>\n<sentence258>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence258>\n<sentence259>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence259>\n<sentence260>\n    <type>580</type>\n    <positionNumber>51</positionNumber>\n    <bestBeforeDate>20220620</bestBeforeDate>\n    <batchNumber>162014-1000306114</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence260>\n<sentence261>\n    <type>500</type>\n    <positionNumber>52</positionNumber>\n    <EAN>4251725800390</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence261>\n<sentence262>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>216</orderItemNumber>\n</sentence262>\n<sentence263>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence263>\n<sentence264>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence264>\n<sentence265>\n    <type>580</type>\n    <positionNumber>52</positionNumber>\n    <bestBeforeDate>20230125</bestBeforeDate>\n    <batchNumber>100767-C072202251</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence265>\n<sentence266>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446371</palletNVE>\n</sentence266>\n<sentence267>\n    <type>500</type>\n    <positionNumber>53</positionNumber>\n    <EAN>4251725800727</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence267>\n<sentence268>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>222</orderItemNumber>\n</sentence268>\n<sentence269>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence269>\n<sentence270>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence270>\n<sentence271>\n    <type>580</type>\n    <positionNumber>53</positionNumber>\n    <bestBeforeDate>20221115</bestBeforeDate>\n    <batchNumber>100855-VE46227</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence271>\n<sentence272>\n    <type>500</type>\n    <positionNumber>54</positionNumber>\n    <EAN>4260402485447</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence272>\n<sentence273>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>166</orderItemNumber>\n</sentence273>\n<sentence274>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence274>\n<sentence275>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence275>\n<sentence276>\n    <type>580</type>\n    <positionNumber>54</positionNumber>\n    <bestBeforeDate>20230415</bestBeforeDate>\n    <batchNumber>152208-VE47305</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence276>\n<sentence277>\n    <type>500</type>\n    <positionNumber>55</positionNumber>\n    <EAN>4260402485324</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence277>\n<sentence278>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>168</orderItemNumber>\n</sentence278>\n<sentence279>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence279>\n<sentence280>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence280>\n<sentence281>\n    <type>580</type>\n    <positionNumber>55</positionNumber>\n    <bestBeforeDate>20230407</bestBeforeDate>\n    <batchNumber>152204-L22061</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence281>\n<sentence282>\n    <type>500</type>\n    <positionNumber>56</positionNumber>\n    <EAN>4260402484334</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence282>\n<sentence283>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>160</orderItemNumber>\n</sentence283>\n<sentence284>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence284>\n<sentence285>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence285>\n<sentence286>\n    <type>580</type>\n    <positionNumber>56</positionNumber>\n    <bestBeforeDate>20230420</bestBeforeDate>\n    <batchNumber>153059-L2020</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence286>\n<sentence287>\n    <type>500</type>\n    <positionNumber>57</positionNumber>\n    <EAN>4251725800635</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence287>\n<sentence288>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>218</orderItemNumber>\n</sentence288>\n<sentence289>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence289>\n<sentence290>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence290>\n<sentence291>\n    <type>580</type>\n    <positionNumber>57</positionNumber>\n    <bestBeforeDate>20230331</bestBeforeDate>\n    <batchNumber>100820-01/22</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence291>\n<sentence292>\n    <type>500</type>\n    <positionNumber>58</positionNumber>\n    <EAN>4260402486802</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence292>\n<sentence293>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>174</orderItemNumber>\n</sentence293>\n<sentence294>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence294>\n<sentence295>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence295>\n<sentence296>\n    <type>580</type>\n    <positionNumber>58</positionNumber>\n    <bestBeforeDate>20230202</bestBeforeDate>\n    <batchNumber>161047-L2061</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence296>\n<sentence297>\n    <type>500</type>\n    <positionNumber>59</positionNumber>\n    <EAN>4260402489032</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence297>\n<sentence298>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>194</orderItemNumber>\n</sentence298>\n<sentence299>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence299>\n<sentence300>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence300>\n<sentence301>\n    <type>580</type>\n    <positionNumber>59</positionNumber>\n    <bestBeforeDate>20230403</bestBeforeDate>\n    <batchNumber>100596-L22054</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence301>\n<sentence302>\n    <type>500</type>\n    <positionNumber>60</positionNumber>\n    <EAN>4260402486789</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence302>\n<sentence303>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>192</orderItemNumber>\n</sentence303>\n<sentence304>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence304>\n<sentence305>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence305>\n<sentence306>\n    <type>580</type>\n    <positionNumber>60</positionNumber>\n    <bestBeforeDate>20221027</bestBeforeDate>\n    <batchNumber>161046-L1441</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence306>\n<sentence307>\n    <type>500</type>\n    <positionNumber>61</positionNumber>\n    <EAN>4260402484983</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence307>\n<sentence308>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>138</orderItemNumber>\n</sentence308>\n<sentence309>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence309>\n<sentence310>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence310>\n<sentence311>\n    <type>580</type>\n    <positionNumber>61</positionNumber>\n    <bestBeforeDate>20230331</bestBeforeDate>\n    <batchNumber>151095-L32033</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence311>\n<sentence312>\n    <type>500</type>\n    <positionNumber>62</positionNumber>\n    <EAN>4260402487632</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence312>\n<sentence313>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>188</orderItemNumber>\n</sentence313>\n<sentence314>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence314>\n<sentence315>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence315>\n<sentence316>\n    <type>580</type>\n    <positionNumber>62</positionNumber>\n    <bestBeforeDate>20230105</bestBeforeDate>\n    <batchNumber>100480-L22022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence316>\n<sentence317>\n    <type>500</type>\n    <positionNumber>63</positionNumber>\n    <EAN>4260402485249</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence317>\n<sentence318>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>186</orderItemNumber>\n</sentence318>\n<sentence319>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence319>\n<sentence320>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence320>\n<sentence321>\n    <type>580</type>\n    <positionNumber>63</positionNumber>\n    <bestBeforeDate>20230217</bestBeforeDate>\n    <batchNumber>151100-L22074</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence321>\n<sentence322>\n    <type>500</type>\n    <positionNumber>64</positionNumber>\n    <EAN>4260402486765</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence322>\n<sentence323>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>170</orderItemNumber>\n</sentence323>\n<sentence324>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence324>\n<sentence325>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence325>\n<sentence326>\n    <type>580</type>\n    <positionNumber>64</positionNumber>\n    <bestBeforeDate>20230203</bestBeforeDate>\n    <batchNumber>161045-L2062</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence326>\n<sentence327>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446388</palletNVE>\n</sentence327>\n<sentence328>\n    <type>500</type>\n    <positionNumber>65</positionNumber>\n    <EAN>4260402487205</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence328>\n<sentence329>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>178</orderItemNumber>\n</sentence329>\n<sentence330>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence330>\n<sentence331>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence331>\n<sentence332>\n    <type>580</type>\n    <positionNumber>65</positionNumber>\n    <bestBeforeDate>20221211</bestBeforeDate>\n    <batchNumber>100458-221553/0</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence332>\n<sentence333>\n    <type>500</type>\n    <positionNumber>66</positionNumber>\n    <EAN>4260402482576</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence333>\n<sentence334>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>132</orderItemNumber>\n</sentence334>\n<sentence335>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence335>\n<sentence336>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence336>\n<sentence337>\n    <type>580</type>\n    <positionNumber>66</positionNumber>\n    <bestBeforeDate>20221104</bestBeforeDate>\n    <batchNumber>124007-PO08909-10845</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence337>\n<sentence338>\n    <type>500</type>\n    <positionNumber>67</positionNumber>\n    <EAN>4260402485416</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence338>\n<sentence339>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>164</orderItemNumber>\n</sentence339>\n<sentence340>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence340>\n<sentence341>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence341>\n<sentence342>\n    <type>580</type>\n    <positionNumber>67</positionNumber>\n    <bestBeforeDate>20230401</bestBeforeDate>\n    <batchNumber>152207-VE47010</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence342>\n<sentence343>\n    <type>500</type>\n    <positionNumber>68</positionNumber>\n    <EAN>4260402485386</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence343>\n<sentence344>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>156</orderItemNumber>\n</sentence344>\n<sentence345>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence345>\n<sentence346>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence346>\n<sentence347>\n    <type>580</type>\n    <positionNumber>68</positionNumber>\n    <bestBeforeDate>20230409</bestBeforeDate>\n    <batchNumber>152206-L22063</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence347>\n<sentence348>\n    <type>500</type>\n    <positionNumber>69</positionNumber>\n    <EAN>4260402487618</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence348>\n<sentence349>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>190</orderItemNumber>\n</sentence349>\n<sentence350>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence350>\n<sentence351>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence351>\n<sentence352>\n    <type>580</type>\n    <positionNumber>69</positionNumber>\n    <bestBeforeDate>20230308</bestBeforeDate>\n    <batchNumber>100479-L22102</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence352>\n<sentence353>\n    <type>500</type>\n    <positionNumber>70</positionNumber>\n    <EAN>4251725800673</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence353>\n<sentence354>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>220</orderItemNumber>\n</sentence354>\n<sentence355>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence355>\n<sentence356>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence356>\n<sentence357>\n    <type>580</type>\n    <positionNumber>70</positionNumber>\n    <bestBeforeDate>20221231</bestBeforeDate>\n    <batchNumber>100822-09/21</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence357>\n<sentence358>\n    <type>500</type>\n    <positionNumber>71</positionNumber>\n    <EAN>4260402487892</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence358>\n<sentence359>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>214</orderItemNumber>\n</sentence359>\n<sentence360>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence360>\n<sentence361>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence361>\n<sentence362>\n    <type>580</type>\n    <positionNumber>71</positionNumber>\n    <bestBeforeDate>20230211</bestBeforeDate>\n    <batchNumber>100491-04222A</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence362>\n<sentence363>\n    <type>500</type>\n    <positionNumber>72</positionNumber>\n    <EAN>4260402486338</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence363>\n<sentence364>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>208</orderItemNumber>\n</sentence364>\n<sentence365>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence365>\n<sentence366>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence366>\n<sentence367>\n    <type>580</type>\n    <positionNumber>72</positionNumber>\n    <bestBeforeDate>20230121</bestBeforeDate>\n    <batchNumber>100362-21012023</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence367>\n<sentence368>\n    <type>500</type>\n    <positionNumber>73</positionNumber>\n    <EAN>4260402489452</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence368>\n<sentence369>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>196</orderItemNumber>\n</sentence369>\n<sentence370>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence370>\n<sentence371>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence371>\n<sentence372>\n    <type>580</type>\n    <positionNumber>73</positionNumber>\n    <bestBeforeDate>20230404</bestBeforeDate>\n    <batchNumber>100634-L22055</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence372>\n<sentence373>\n    <type>500</type>\n    <positionNumber>74</positionNumber>\n    <EAN>4251725800598</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence373>\n<sentence374>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>176</orderItemNumber>\n</sentence374>\n<sentence375>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence375>\n<sentence376>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence376>\n<sentence377>\n    <type>580</type>\n    <positionNumber>74</positionNumber>\n    <bestBeforeDate>20230103</bestBeforeDate>\n    <batchNumber>100808-C072202032</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence377>\n<sentence378>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695676167</palletNVE>\n</sentence378>\n<sentence379>\n    <type>500</type>\n    <positionNumber>75</positionNumber>\n    <EAN>4251725800475</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence379>\n<sentence380>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>236</orderItemNumber>\n</sentence380>\n<sentence381>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence381>\n<sentence382>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence382>\n<sentence383>\n    <type>580</type>\n    <positionNumber>75</positionNumber>\n    <bestBeforeDate>20220501</bestBeforeDate>\n    <batchNumber>100790-22087</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence383>\n<sentence384>\n    <type>500</type>\n    <positionNumber>76</positionNumber>\n    <EAN>4251725800987</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence384>\n<sentence385>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>242</orderItemNumber>\n</sentence385>\n<sentence386>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence386>\n<sentence387>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313234295132</partnerILN>\n</sentence387>\n<sentence388>\n    <type>580</type>\n    <positionNumber>76</positionNumber>\n    <bestBeforeDate>20220815</bestBeforeDate>\n    <batchNumber>100883-765218032</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence388>\n<sentence389>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695538410</palletNVE>\n</sentence389>\n<sentence390>\n    <type>500</type>\n    <positionNumber>77</positionNumber>\n    <EAN>4251725800437</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence390>\n<sentence391>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>314</orderItemNumber>\n</sentence391>\n<sentence392>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence392>\n<sentence393>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210381590</partnerILN>\n</sentence393>\n<sentence394>\n    <type>580</type>\n    <positionNumber>77</positionNumber>\n    <bestBeforeDate>20220508</bestBeforeDate>\n    <batchNumber>100788-22094</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence394>\n<sentence395>\n    <type>500</type>\n    <positionNumber>78</positionNumber>\n    <EAN>4260402489995</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence395>\n<sentence396>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>64</orderItemNumber>\n</sentence396>\n<sentence397>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence397>\n<sentence398>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210756084</partnerILN>\n</sentence398>\n<sentence399>\n    <type>500</type>\n    <positionNumber>79</positionNumber>\n    <EAN>4251725800451</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence399>\n<sentence400>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>66</orderItemNumber>\n</sentence400>\n<sentence401>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence401>\n<sentence402>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210756084</partnerILN>\n</sentence402>\n<sentence403>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695537987</palletNVE>\n</sentence403>\n<sentence404>\n    <type>500</type>\n    <positionNumber>80</positionNumber>\n    <EAN>4260402489568</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence404>\n<sentence405>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>62</orderItemNumber>\n</sentence405>\n<sentence406>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence406>\n<sentence407>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210756084</partnerILN>\n</sentence407>\n<sentence408>\n    <type>580</type>\n    <positionNumber>80</positionNumber>\n    <bestBeforeDate>20220524</bestBeforeDate>\n    <batchNumber>100640-22054068</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence408>\n<sentence409>\n    <type>500</type>\n    <positionNumber>81</positionNumber>\n    <EAN>4260402487205</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence409>\n<sentence410>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>390</orderItemNumber>\n</sentence410>\n<sentence411>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence411>\n<sentence412>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210756084</partnerILN>\n</sentence412>\n<sentence413>\n    <type>580</type>\n    <positionNumber>81</positionNumber>\n    <bestBeforeDate>20221211</bestBeforeDate>\n    <batchNumber>100458-221553/0</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence413>\n<sentence414>\n    <type>500</type>\n    <positionNumber>82</positionNumber>\n    <EAN>4251725800437</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence414>\n<sentence415>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>68</orderItemNumber>\n</sentence415>\n<sentence416>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence416>\n<sentence417>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210756084</partnerILN>\n</sentence417>\n<sentence418>\n    <type>580</type>\n    <positionNumber>82</positionNumber>\n    <bestBeforeDate>20220508</bestBeforeDate>\n    <batchNumber>100788-22094</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence418>\n<sentence419>\n    <type>500</type>\n    <positionNumber>83</positionNumber>\n    <EAN>4251725800475</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence419>\n<sentence420>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>70</orderItemNumber>\n</sentence420>\n<sentence421>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence421>\n<sentence422>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210756084</partnerILN>\n</sentence422>\n<sentence423>\n    <type>580</type>\n    <positionNumber>83</positionNumber>\n    <bestBeforeDate>20220501</bestBeforeDate>\n    <batchNumber>100790-22087</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence423>\n<sentence424>\n    <type>500</type>\n    <positionNumber>84</positionNumber>\n    <EAN>4251725800499</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence424>\n<sentence425>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>72</orderItemNumber>\n</sentence425>\n<sentence426>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence426>\n<sentence427>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210756084</partnerILN>\n</sentence427>\n<sentence428>\n    <type>580</type>\n    <positionNumber>84</positionNumber>\n    <bestBeforeDate>20220504</bestBeforeDate>\n    <batchNumber>100791-22090</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence428>\n<sentence429>\n    <type>500</type>\n    <positionNumber>85</positionNumber>\n    <EAN>4260402487212</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence429>\n<sentence430>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>392</orderItemNumber>\n</sentence430>\n<sentence431>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence431>\n<sentence432>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210756084</partnerILN>\n</sentence432>\n<sentence433>\n    <type>580</type>\n    <positionNumber>85</positionNumber>\n    <bestBeforeDate>20221028</bestBeforeDate>\n    <batchNumber>100459-220604/0</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence433>\n<sentence434>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446968</palletNVE>\n</sentence434>\n<sentence435>\n    <type>500</type>\n    <positionNumber>86</positionNumber>\n    <EAN>4260402486802</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence435>\n<sentence436>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>288</orderItemNumber>\n</sentence436>\n<sentence437>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence437>\n<sentence438>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210022592</partnerILN>\n</sentence438>\n<sentence439>\n    <type>580</type>\n    <positionNumber>86</positionNumber>\n    <bestBeforeDate>20230202</bestBeforeDate>\n    <batchNumber>161047-L2061</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence439>\n<sentence440>\n    <type>500</type>\n    <positionNumber>87</positionNumber>\n    <EAN>4260402486789</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence440>\n<sentence441>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>290</orderItemNumber>\n</sentence441>\n<sentence442>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence442>\n<sentence443>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210022592</partnerILN>\n</sentence443>\n<sentence444>\n    <type>580</type>\n    <positionNumber>87</positionNumber>\n    <bestBeforeDate>20221027</bestBeforeDate>\n    <batchNumber>161046-L1441</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence444>\n<sentence445>\n    <type>500</type>\n    <positionNumber>88</positionNumber>\n    <EAN>4260402489995</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence445>\n<sentence446>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>14</orderItemNumber>\n</sentence446>\n<sentence447>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence447>\n<sentence448>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210023414</partnerILN>\n</sentence448>\n<sentence449>\n    <type>500</type>\n    <positionNumber>89</positionNumber>\n    <EAN>4251725800451</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence449>\n<sentence450>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>18</orderItemNumber>\n</sentence450>\n<sentence451>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence451>\n<sentence452>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210023414</partnerILN>\n</sentence452>\n<sentence453>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446463</palletNVE>\n</sentence453>\n<sentence454>\n    <type>500</type>\n    <positionNumber>90</positionNumber>\n    <EAN>4251725801250</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence454>\n<sentence455>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>24</orderItemNumber>\n</sentence455>\n<sentence456>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence456>\n<sentence457>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210023414</partnerILN>\n</sentence457>\n<sentence458>\n    <type>580</type>\n    <positionNumber>90</positionNumber>\n    <bestBeforeDate>20220901</bestBeforeDate>\n    <batchNumber>100918-723308022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence458>\n<sentence459>\n    <type>500</type>\n    <positionNumber>91</positionNumber>\n    <EAN>4251725800437</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence459>\n<sentence460>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>22</orderItemNumber>\n</sentence460>\n<sentence461>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence461>\n<sentence462>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210023414</partnerILN>\n</sentence462>\n<sentence463>\n    <type>580</type>\n    <positionNumber>91</positionNumber>\n    <bestBeforeDate>20220508</bestBeforeDate>\n    <batchNumber>100788-22094</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence463>\n<sentence464>\n    <type>500</type>\n    <positionNumber>92</positionNumber>\n    <EAN>4251725801236</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence464>\n<sentence465>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>26</orderItemNumber>\n</sentence465>\n<sentence466>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence466>\n<sentence467>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210023414</partnerILN>\n</sentence467>\n<sentence468>\n    <type>580</type>\n    <positionNumber>92</positionNumber>\n    <bestBeforeDate>20220911</bestBeforeDate>\n    <batchNumber>100917-723218022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence468>\n<sentence469>\n    <type>500</type>\n    <positionNumber>93</positionNumber>\n    <EAN>4251725800871</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence469>\n<sentence470>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>12</orderItemNumber>\n</sentence470>\n<sentence471>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence471>\n<sentence472>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210023414</partnerILN>\n</sentence472>\n<sentence473>\n    <type>580</type>\n    <positionNumber>93</positionNumber>\n    <bestBeforeDate>20220502</bestBeforeDate>\n    <batchNumber>100871-111112</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence473>\n<sentence474>\n    <type>500</type>\n    <positionNumber>94</positionNumber>\n    <EAN>4251725800864</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence474>\n<sentence475>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>16</orderItemNumber>\n</sentence475>\n<sentence476>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence476>\n<sentence477>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210023414</partnerILN>\n</sentence477>\n<sentence478>\n    <type>580</type>\n    <positionNumber>94</positionNumber>\n    <bestBeforeDate>20220509</bestBeforeDate>\n    <batchNumber>100870-111113</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence478>\n<sentence479>\n    <type>500</type>\n    <positionNumber>95</positionNumber>\n    <EAN>4251725800253</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence479>\n<sentence480>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>20</orderItemNumber>\n</sentence480>\n<sentence481>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence481>\n<sentence482>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210023414</partnerILN>\n</sentence482>\n<sentence483>\n    <type>580</type>\n    <positionNumber>95</positionNumber>\n    <bestBeforeDate>20220811</bestBeforeDate>\n    <batchNumber>100752-608518012</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence483>\n<sentence484>\n    <type>500</type>\n    <positionNumber>96</positionNumber>\n    <EAN>4260402489094</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence484>\n<sentence485>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>10</orderItemNumber>\n</sentence485>\n<sentence486>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence486>\n<sentence487>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210023414</partnerILN>\n</sentence487>\n<sentence488>\n    <type>580</type>\n    <positionNumber>96</positionNumber>\n    <bestBeforeDate>20220706</bestBeforeDate>\n    <batchNumber>100599-O070122K</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence488>\n<sentence489>\n    <type>500</type>\n    <positionNumber>97</positionNumber>\n    <EAN>4251725801458</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence489>\n<sentence490>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>128</orderItemNumber>\n</sentence490>\n<sentence491>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence491>\n<sentence492>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210030092</partnerILN>\n</sentence492>\n<sentence493>\n    <type>500</type>\n    <positionNumber>98</positionNumber>\n    <EAN>4251725801458</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence493>\n<sentence494>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>38</orderItemNumber>\n</sentence494>\n<sentence495>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence495>\n<sentence496>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210030092</partnerILN>\n</sentence496>\n<sentence497>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695538403</palletNVE>\n</sentence497>\n<sentence498>\n    <type>500</type>\n    <positionNumber>99</positionNumber>\n    <EAN>4260402489032</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence498>\n<sentence499>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>124</orderItemNumber>\n</sentence499>\n<sentence500>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence500>\n<sentence501>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210030092</partnerILN>\n</sentence501>\n<sentence502>\n    <type>580</type>\n    <positionNumber>99</positionNumber>\n    <bestBeforeDate>20230403</bestBeforeDate>\n    <batchNumber>100596-L22054</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence502>\n<sentence503>\n    <type>500</type>\n    <positionNumber>100</positionNumber>\n    <EAN>4260402489032</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence503>\n<sentence504>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>36</orderItemNumber>\n</sentence504>\n<sentence505>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence505>\n<sentence506>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210030092</partnerILN>\n</sentence506>\n<sentence507>\n    <type>580</type>\n    <positionNumber>100</positionNumber>\n    <bestBeforeDate>20230403</bestBeforeDate>\n    <batchNumber>100596-L22054</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence507>\n<sentence508>\n    <type>500</type>\n    <positionNumber>101</positionNumber>\n    <EAN>4260402486338</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence508>\n<sentence509>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>126</orderItemNumber>\n</sentence509>\n<sentence510>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence510>\n<sentence511>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210030092</partnerILN>\n</sentence511>\n<sentence512>\n    <type>580</type>\n    <positionNumber>101</positionNumber>\n    <bestBeforeDate>20230121</bestBeforeDate>\n    <batchNumber>100362-21012023</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence512>\n<sentence513>\n    <type>500</type>\n    <positionNumber>102</positionNumber>\n    <EAN>4260402486789</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence513>\n<sentence514>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>122</orderItemNumber>\n</sentence514>\n<sentence515>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence515>\n<sentence516>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210030092</partnerILN>\n</sentence516>\n<sentence517>\n    <type>580</type>\n    <positionNumber>102</positionNumber>\n    <bestBeforeDate>20221027</bestBeforeDate>\n    <batchNumber>161046-L1441</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence517>\n<sentence518>\n    <type>500</type>\n    <positionNumber>103</positionNumber>\n    <EAN>4260402485652</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence518>\n<sentence519>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>114</orderItemNumber>\n</sentence519>\n<sentence520>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence520>\n<sentence521>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210030092</partnerILN>\n</sentence521>\n<sentence522>\n    <type>580</type>\n    <positionNumber>103</positionNumber>\n    <bestBeforeDate>20230228</bestBeforeDate>\n    <batchNumber>100314-L11512</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence522>\n<sentence523>\n    <type>500</type>\n    <positionNumber>104</positionNumber>\n    <EAN>4260402485447</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence523>\n<sentence524>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>118</orderItemNumber>\n</sentence524>\n<sentence525>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence525>\n<sentence526>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210030092</partnerILN>\n</sentence526>\n<sentence527>\n    <type>580</type>\n    <positionNumber>104</positionNumber>\n    <bestBeforeDate>20230415</bestBeforeDate>\n    <batchNumber>152208-VE47305</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence527>\n<sentence528>\n    <type>500</type>\n    <positionNumber>105</positionNumber>\n    <EAN>4260402486802</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence528>\n<sentence529>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>120</orderItemNumber>\n</sentence529>\n<sentence530>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence530>\n<sentence531>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210030092</partnerILN>\n</sentence531>\n<sentence532>\n    <type>580</type>\n    <positionNumber>105</positionNumber>\n    <bestBeforeDate>20230202</bestBeforeDate>\n    <batchNumber>161047-L2061</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence532>\n<sentence533>\n    <type>500</type>\n    <positionNumber>106</positionNumber>\n    <EAN>4260402484495</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence533>\n<sentence534>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>116</orderItemNumber>\n</sentence534>\n<sentence535>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence535>\n<sentence536>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210030092</partnerILN>\n</sentence536>\n<sentence537>\n    <type>580</type>\n    <positionNumber>106</positionNumber>\n    <bestBeforeDate>20240130</bestBeforeDate>\n    <batchNumber>153060-030F</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence537>\n<sentence538>\n    <type>500</type>\n    <positionNumber>107</positionNumber>\n    <EAN>4251725800277</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence538>\n<sentence539>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>274</orderItemNumber>\n</sentence539>\n<sentence540>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence540>\n<sentence541>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210047748</partnerILN>\n</sentence541>\n<sentence542>\n    <type>500</type>\n    <positionNumber>108</positionNumber>\n    <EAN>4251725800451</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence542>\n<sentence543>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>284</orderItemNumber>\n</sentence543>\n<sentence544>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence544>\n<sentence545>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210047748</partnerILN>\n</sentence545>\n<sentence546>\n    <type>500</type>\n    <positionNumber>109</positionNumber>\n    <EAN>4260402489995</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence546>\n<sentence547>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>282</orderItemNumber>\n</sentence547>\n<sentence548>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence548>\n<sentence549>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210047748</partnerILN>\n</sentence549>\n<sentence550>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446883</palletNVE>\n</sentence550>\n<sentence551>\n    <type>500</type>\n    <positionNumber>110</positionNumber>\n    <EAN>4251725800727</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence551>\n<sentence552>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>276</orderItemNumber>\n</sentence552>\n<sentence553>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence553>\n<sentence554>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210047748</partnerILN>\n</sentence554>\n<sentence555>\n    <type>580</type>\n    <positionNumber>110</positionNumber>\n    <bestBeforeDate>20221115</bestBeforeDate>\n    <batchNumber>100855-VE46227</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence555>\n<sentence556>\n    <type>500</type>\n    <positionNumber>111</positionNumber>\n    <EAN>4251725800253</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence556>\n<sentence557>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>272</orderItemNumber>\n</sentence557>\n<sentence558>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence558>\n<sentence559>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210047748</partnerILN>\n</sentence559>\n<sentence560>\n    <type>580</type>\n    <positionNumber>111</positionNumber>\n    <bestBeforeDate>20220811</bestBeforeDate>\n    <batchNumber>100752-608518012</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence560>\n<sentence561>\n    <type>500</type>\n    <positionNumber>112</positionNumber>\n    <EAN>4260402485447</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence561>\n<sentence562>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>270</orderItemNumber>\n</sentence562>\n<sentence563>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence563>\n<sentence564>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210047748</partnerILN>\n</sentence564>\n<sentence565>\n    <type>580</type>\n    <positionNumber>112</positionNumber>\n    <bestBeforeDate>20230415</bestBeforeDate>\n    <batchNumber>152208-VE47305</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence565>\n<sentence566>\n    <type>500</type>\n    <positionNumber>113</positionNumber>\n    <EAN>4260402485386</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence566>\n<sentence567>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>268</orderItemNumber>\n</sentence567>\n<sentence568>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence568>\n<sentence569>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210047748</partnerILN>\n</sentence569>\n<sentence570>\n    <type>580</type>\n    <positionNumber>113</positionNumber>\n    <bestBeforeDate>20230409</bestBeforeDate>\n    <batchNumber>152206-L22063</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence570>\n<sentence571>\n    <type>500</type>\n    <positionNumber>114</positionNumber>\n    <EAN>4251725800475</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence571>\n<sentence572>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>286</orderItemNumber>\n</sentence572>\n<sentence573>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence573>\n<sentence574>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210047748</partnerILN>\n</sentence574>\n<sentence575>\n    <type>580</type>\n    <positionNumber>114</positionNumber>\n    <bestBeforeDate>20220501</bestBeforeDate>\n    <batchNumber>100790-22087</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence575>\n<sentence576>\n    <type>500</type>\n    <positionNumber>115</positionNumber>\n    <EAN>4260402489551</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence576>\n<sentence577>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>280</orderItemNumber>\n</sentence577>\n<sentence578>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence578>\n<sentence579>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210047748</partnerILN>\n</sentence579>\n<sentence580>\n    <type>580</type>\n    <positionNumber>115</positionNumber>\n    <bestBeforeDate>20220524</bestBeforeDate>\n    <batchNumber>100639-22054067</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence580>\n<sentence581>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446944</palletNVE>\n</sentence581>\n<sentence582>\n    <type>500</type>\n    <positionNumber>116</positionNumber>\n    <EAN>4251725801120</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence582>\n<sentence583>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>266</orderItemNumber>\n</sentence583>\n<sentence584>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence584>\n<sentence585>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210067012</partnerILN>\n</sentence585>\n<sentence586>\n    <type>580</type>\n    <positionNumber>116</positionNumber>\n    <bestBeforeDate>20240118</bestBeforeDate>\n    <batchNumber>100896-180124</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence586>\n<sentence587>\n    <type>500</type>\n    <positionNumber>117</positionNumber>\n    <EAN>4260402484006</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence587>\n<sentence588>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>256</orderItemNumber>\n</sentence588>\n<sentence589>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence589>\n<sentence590>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210067012</partnerILN>\n</sentence590>\n<sentence591>\n    <type>580</type>\n    <positionNumber>117</positionNumber>\n    <bestBeforeDate>20220918</bestBeforeDate>\n    <batchNumber>271013-180922</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence591>\n<sentence592>\n    <type>500</type>\n    <positionNumber>118</positionNumber>\n    <EAN>4260402480367</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence592>\n<sentence593>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>254</orderItemNumber>\n</sentence593>\n<sentence594>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence594>\n<sentence595>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210067012</partnerILN>\n</sentence595>\n<sentence596>\n    <type>580</type>\n    <positionNumber>118</positionNumber>\n    <bestBeforeDate>20230610</bestBeforeDate>\n    <batchNumber>141049-L344G21</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence596>\n<sentence597>\n    <type>500</type>\n    <positionNumber>119</positionNumber>\n    <EAN>4260402484334</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence597>\n<sentence598>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>260</orderItemNumber>\n</sentence598>\n<sentence599>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence599>\n<sentence600>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210067012</partnerILN>\n</sentence600>\n<sentence601>\n    <type>580</type>\n    <positionNumber>119</positionNumber>\n    <bestBeforeDate>20230420</bestBeforeDate>\n    <batchNumber>153059-L2020</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence601>\n<sentence602>\n    <type>500</type>\n    <positionNumber>120</positionNumber>\n    <EAN>4260402486789</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence602>\n<sentence603>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>262</orderItemNumber>\n</sentence603>\n<sentence604>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence604>\n<sentence605>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210067012</partnerILN>\n</sentence605>\n<sentence606>\n    <type>580</type>\n    <positionNumber>120</positionNumber>\n    <bestBeforeDate>20221027</bestBeforeDate>\n    <batchNumber>161046-L1441</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence606>\n<sentence607>\n    <type>500</type>\n    <positionNumber>121</positionNumber>\n    <EAN>4251725801021</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence607>\n<sentence608>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>264</orderItemNumber>\n</sentence608>\n<sentence609>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence609>\n<sentence610>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210067012</partnerILN>\n</sentence610>\n<sentence611>\n    <type>580</type>\n    <positionNumber>121</positionNumber>\n    <bestBeforeDate>20240120</bestBeforeDate>\n    <batchNumber>100885-0060905</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence611>\n<sentence612>\n    <type>500</type>\n    <positionNumber>122</positionNumber>\n    <EAN>4260402483962</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence612>\n<sentence613>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>258</orderItemNumber>\n</sentence613>\n<sentence614>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence614>\n<sentence615>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210067012</partnerILN>\n</sentence615>\n<sentence616>\n    <type>580</type>\n    <positionNumber>122</positionNumber>\n    <bestBeforeDate>20220913</bestBeforeDate>\n    <batchNumber>271012-130922</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence616>\n<sentence617>\n    <type>500</type>\n    <positionNumber>123</positionNumber>\n    <EAN>4260402486352</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence617>\n<sentence618>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>44</orderItemNumber>\n</sentence618>\n<sentence619>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence619>\n<sentence620>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210095886</partnerILN>\n</sentence620>\n<sentence621>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695536621</palletNVE>\n</sentence621>\n<sentence622>\n    <type>500</type>\n    <positionNumber>124</positionNumber>\n    <EAN>4260402489032</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence622>\n<sentence623>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>42</orderItemNumber>\n</sentence623>\n<sentence624>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence624>\n<sentence625>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210095886</partnerILN>\n</sentence625>\n<sentence626>\n    <type>580</type>\n    <positionNumber>124</positionNumber>\n    <bestBeforeDate>20230403</bestBeforeDate>\n    <batchNumber>100596-L22054</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence626>\n<sentence627>\n    <type>500</type>\n    <positionNumber>125</positionNumber>\n    <EAN>4251725800581</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence627>\n<sentence628>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>40</orderItemNumber>\n</sentence628>\n<sentence629>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence629>\n<sentence630>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210095886</partnerILN>\n</sentence630>\n<sentence631>\n    <type>580</type>\n    <positionNumber>125</positionNumber>\n    <bestBeforeDate>20230102</bestBeforeDate>\n    <batchNumber>100807-C072202022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence631>\n<sentence632>\n    <type>500</type>\n    <positionNumber>126</positionNumber>\n    <EAN>4251725800390</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence632>\n<sentence633>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>46</orderItemNumber>\n</sentence633>\n<sentence634>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence634>\n<sentence635>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210095886</partnerILN>\n</sentence635>\n<sentence636>\n    <type>580</type>\n    <positionNumber>126</positionNumber>\n    <bestBeforeDate>20230125</bestBeforeDate>\n    <batchNumber>100767-C072202251</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence636>\n<sentence637>\n    <type>500</type>\n    <positionNumber>127</positionNumber>\n    <EAN>4251725800277</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence637>\n<sentence638>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>74</orderItemNumber>\n</sentence638>\n<sentence639>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence639>\n<sentence640>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210101204</partnerILN>\n</sentence640>\n<sentence641>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695537956</palletNVE>\n</sentence641>\n<sentence642>\n    <type>500</type>\n    <positionNumber>128</positionNumber>\n    <EAN>4260402484334</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence642>\n<sentence643>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>396</orderItemNumber>\n</sentence643>\n<sentence644>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence644>\n<sentence645>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210101204</partnerILN>\n</sentence645>\n<sentence646>\n    <type>580</type>\n    <positionNumber>128</positionNumber>\n    <bestBeforeDate>20230420</bestBeforeDate>\n    <batchNumber>153059-L2020</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence646>\n<sentence647>\n    <type>500</type>\n    <positionNumber>129</positionNumber>\n    <EAN>4260402485003</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence647>\n<sentence648>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>394</orderItemNumber>\n</sentence648>\n<sentence649>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence649>\n<sentence650>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210101204</partnerILN>\n</sentence650>\n<sentence651>\n    <type>580</type>\n    <positionNumber>129</positionNumber>\n    <bestBeforeDate>20230331</bestBeforeDate>\n    <batchNumber>151096-L12034</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence651>\n<sentence652>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446937</palletNVE>\n</sentence652>\n<sentence653>\n    <type>500</type>\n    <positionNumber>130</positionNumber>\n    <EAN>4260402484518</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence653>\n<sentence654>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>292</orderItemNumber>\n</sentence654>\n<sentence655>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence655>\n<sentence656>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210106568</partnerILN>\n</sentence656>\n<sentence657>\n    <type>580</type>\n    <positionNumber>130</positionNumber>\n    <bestBeforeDate>20231201</bestBeforeDate>\n    <batchNumber>153061-335U</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence657>\n<sentence658>\n    <type>500</type>\n    <positionNumber>131</positionNumber>\n    <EAN>4251725800277</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence658>\n<sentence659>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>130</orderItemNumber>\n</sentence659>\n<sentence660>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence660>\n<sentence661>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210124616</partnerILN>\n</sentence661>\n<sentence662>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695536591</palletNVE>\n</sentence662>\n<sentence663>\n    <type>500</type>\n    <positionNumber>132</positionNumber>\n    <EAN>4251725801007</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence663>\n<sentence664>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>30</orderItemNumber>\n</sentence664>\n<sentence665>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence665>\n<sentence666>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210124616</partnerILN>\n</sentence666>\n<sentence667>\n    <type>580</type>\n    <positionNumber>132</positionNumber>\n    <bestBeforeDate>20220808</bestBeforeDate>\n    <batchNumber>100884-765311032</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence667>\n<sentence668>\n    <type>500</type>\n    <positionNumber>133</positionNumber>\n    <EAN>4251725800185</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence668>\n<sentence669>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>302</orderItemNumber>\n</sentence669>\n<sentence670>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence670>\n<sentence671>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210126450</partnerILN>\n</sentence671>\n<sentence672>\n    <type>500</type>\n    <positionNumber>134</positionNumber>\n    <EAN>4251725800451</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence672>\n<sentence673>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>306</orderItemNumber>\n</sentence673>\n<sentence674>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence674>\n<sentence675>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210126450</partnerILN>\n</sentence675>\n<sentence676>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695538113</palletNVE>\n</sentence676>\n<sentence677>\n    <type>500</type>\n    <positionNumber>135</positionNumber>\n    <EAN>4260402485041</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence677>\n<sentence678>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>296</orderItemNumber>\n</sentence678>\n<sentence679>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence679>\n<sentence680>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210126450</partnerILN>\n</sentence680>\n<sentence681>\n    <type>580</type>\n    <positionNumber>135</positionNumber>\n    <bestBeforeDate>20230201</bestBeforeDate>\n    <batchNumber>161044-C101355</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence681>\n<sentence682>\n    <type>500</type>\n    <positionNumber>136</positionNumber>\n    <EAN>4251725800864</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence682>\n<sentence683>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>304</orderItemNumber>\n</sentence683>\n<sentence684>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence684>\n<sentence685>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210126450</partnerILN>\n</sentence685>\n<sentence686>\n    <type>580</type>\n    <positionNumber>136</positionNumber>\n    <bestBeforeDate>20220509</bestBeforeDate>\n    <batchNumber>100870-111113</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence686>\n<sentence687>\n    <type>500</type>\n    <positionNumber>137</positionNumber>\n    <EAN>4260402489551</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence687>\n<sentence688>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>298</orderItemNumber>\n</sentence688>\n<sentence689>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence689>\n<sentence690>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210126450</partnerILN>\n</sentence690>\n<sentence691>\n    <type>580</type>\n    <positionNumber>137</positionNumber>\n    <bestBeforeDate>20220524</bestBeforeDate>\n    <batchNumber>100639-22054067</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence691>\n<sentence692>\n    <type>500</type>\n    <positionNumber>138</positionNumber>\n    <EAN>4260402486789</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence692>\n<sentence693>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>300</orderItemNumber>\n</sentence693>\n<sentence694>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence694>\n<sentence695>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210126450</partnerILN>\n</sentence695>\n<sentence696>\n    <type>580</type>\n    <positionNumber>138</positionNumber>\n    <bestBeforeDate>20221027</bestBeforeDate>\n    <batchNumber>161046-L1441</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence696>\n<sentence697>\n    <type>500</type>\n    <positionNumber>139</positionNumber>\n    <EAN>4260402484495</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence697>\n<sentence698>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>294</orderItemNumber>\n</sentence698>\n<sentence699>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence699>\n<sentence700>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210126450</partnerILN>\n</sentence700>\n<sentence701>\n    <type>580</type>\n    <positionNumber>139</positionNumber>\n    <bestBeforeDate>20240130</bestBeforeDate>\n    <batchNumber>153060-030F</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence701>\n<sentence702>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446951</palletNVE>\n</sentence702>\n<sentence703>\n    <type>500</type>\n    <positionNumber>140</positionNumber>\n    <EAN>4251725800390</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence703>\n<sentence704>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>310</orderItemNumber>\n</sentence704>\n<sentence705>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence705>\n<sentence706>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210128812</partnerILN>\n</sentence706>\n<sentence707>\n    <type>580</type>\n    <positionNumber>140</positionNumber>\n    <bestBeforeDate>20230125</bestBeforeDate>\n    <batchNumber>100767-C072202251</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence707>\n<sentence708>\n    <type>500</type>\n    <positionNumber>141</positionNumber>\n    <EAN>4260402485386</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence708>\n<sentence709>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>308</orderItemNumber>\n</sentence709>\n<sentence710>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence710>\n<sentence711>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210128812</partnerILN>\n</sentence711>\n<sentence712>\n    <type>580</type>\n    <positionNumber>141</positionNumber>\n    <bestBeforeDate>20230409</bestBeforeDate>\n    <batchNumber>152206-L22063</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence712>\n<sentence713>\n    <type>500</type>\n    <positionNumber>142</positionNumber>\n    <EAN>4251725800451</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence713>\n<sentence714>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>2</orderItemNumber>\n</sentence714>\n<sentence715>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence715>\n<sentence716>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210304834</partnerILN>\n</sentence716>\n<sentence717>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695536409</palletNVE>\n</sentence717>\n<sentence718>\n    <type>500</type>\n    <positionNumber>143</positionNumber>\n    <EAN>4251725801007</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence718>\n<sentence719>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>4</orderItemNumber>\n</sentence719>\n<sentence720>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence720>\n<sentence721>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210304834</partnerILN>\n</sentence721>\n<sentence722>\n    <type>580</type>\n    <positionNumber>143</positionNumber>\n    <bestBeforeDate>20220808</bestBeforeDate>\n    <batchNumber>100884-765311032</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence722>\n<sentence723>\n    <type>500</type>\n    <positionNumber>144</positionNumber>\n    <EAN>4251725800987</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence723>\n<sentence724>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>6</orderItemNumber>\n</sentence724>\n<sentence725>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence725>\n<sentence726>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210304834</partnerILN>\n</sentence726>\n<sentence727>\n    <type>580</type>\n    <positionNumber>144</positionNumber>\n    <bestBeforeDate>20220815</bestBeforeDate>\n    <batchNumber>100883-765218032</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence727>\n<sentence728>\n    <type>500</type>\n    <positionNumber>145</positionNumber>\n    <EAN>4260402482576</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence728>\n<sentence729>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>378</orderItemNumber>\n</sentence729>\n<sentence730>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence730>\n<sentence731>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210314864</partnerILN>\n</sentence731>\n<sentence732>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695536492</palletNVE>\n</sentence732>\n<sentence733>\n    <type>500</type>\n    <positionNumber>146</positionNumber>\n    <EAN>4251725800864</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence733>\n<sentence734>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>386</orderItemNumber>\n</sentence734>\n<sentence735>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence735>\n<sentence736>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210314864</partnerILN>\n</sentence736>\n<sentence737>\n    <type>580</type>\n    <positionNumber>146</positionNumber>\n    <bestBeforeDate>20220509</bestBeforeDate>\n    <batchNumber>100870-111113</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence737>\n<sentence738>\n    <type>500</type>\n    <positionNumber>147</positionNumber>\n    <EAN>4251725800598</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence738>\n<sentence739>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>384</orderItemNumber>\n</sentence739>\n<sentence740>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence740>\n<sentence741>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210314864</partnerILN>\n</sentence741>\n<sentence742>\n    <type>580</type>\n    <positionNumber>147</positionNumber>\n    <bestBeforeDate>20230103</bestBeforeDate>\n    <batchNumber>100808-C072202032</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence742>\n<sentence743>\n    <type>500</type>\n    <positionNumber>148</positionNumber>\n    <EAN>4251725800581</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence743>\n<sentence744>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>382</orderItemNumber>\n</sentence744>\n<sentence745>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence745>\n<sentence746>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210314864</partnerILN>\n</sentence746>\n<sentence747>\n    <type>580</type>\n    <positionNumber>148</positionNumber>\n    <bestBeforeDate>20230102</bestBeforeDate>\n    <batchNumber>100807-C072202022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence747>\n<sentence748>\n    <type>500</type>\n    <positionNumber>149</positionNumber>\n    <EAN>4260402485027</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence748>\n<sentence749>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>380</orderItemNumber>\n</sentence749>\n<sentence750>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence750>\n<sentence751>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210314864</partnerILN>\n</sentence751>\n<sentence752>\n    <type>580</type>\n    <positionNumber>149</positionNumber>\n    <bestBeforeDate>20230331</bestBeforeDate>\n    <batchNumber>151097-L22034</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence752>\n<sentence753>\n    <type>500</type>\n    <positionNumber>150</positionNumber>\n    <EAN>4251725800277</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence753>\n<sentence754>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>252</orderItemNumber>\n</sentence754>\n<sentence755>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence755>\n<sentence756>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210404596</partnerILN>\n</sentence756>\n<sentence757>\n    <type>500</type>\n    <positionNumber>151</positionNumber>\n    <EAN>4251725800451</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence757>\n<sentence758>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>250</orderItemNumber>\n</sentence758>\n<sentence759>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence759>\n<sentence760>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210404596</partnerILN>\n</sentence760>\n<sentence761>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446470</palletNVE>\n</sentence761>\n<sentence762>\n    <type>500</type>\n    <positionNumber>152</positionNumber>\n    <EAN>4260402489070</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence762>\n<sentence763>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>248</orderItemNumber>\n</sentence763>\n<sentence764>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence764>\n<sentence765>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210404596</partnerILN>\n</sentence765>\n<sentence766>\n    <type>580</type>\n    <positionNumber>152</positionNumber>\n    <bestBeforeDate>20220821</bestBeforeDate>\n    <batchNumber>100598-O220222D</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence766>\n<sentence767>\n    <type>500</type>\n    <positionNumber>153</positionNumber>\n    <EAN>4260402489551</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence767>\n<sentence768>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>246</orderItemNumber>\n</sentence768>\n<sentence769>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence769>\n<sentence770>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210404596</partnerILN>\n</sentence770>\n<sentence771>\n    <type>580</type>\n    <positionNumber>153</positionNumber>\n    <bestBeforeDate>20220524</bestBeforeDate>\n    <batchNumber>100639-22054067</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence771>\n<sentence772>\n    <type>500</type>\n    <positionNumber>154</positionNumber>\n    <EAN>4260402489568</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence772>\n<sentence773>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>244</orderItemNumber>\n</sentence773>\n<sentence774>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence774>\n<sentence775>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210404596</partnerILN>\n</sentence775>\n<sentence776>\n    <type>580</type>\n    <positionNumber>154</positionNumber>\n    <bestBeforeDate>20220524</bestBeforeDate>\n    <batchNumber>100640-22054068</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence776>\n<sentence777>\n    <type>500</type>\n    <positionNumber>155</positionNumber>\n    <EAN>4251725800451</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence777>\n<sentence778>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>96</orderItemNumber>\n</sentence778>\n<sentence779>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence779>\n<sentence780>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210432506</partnerILN>\n</sentence780>\n<sentence781>\n    <type>500</type>\n    <positionNumber>156</positionNumber>\n    <EAN>4251725800277</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence781>\n<sentence782>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>104</orderItemNumber>\n</sentence782>\n<sentence783>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence783>\n<sentence784>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210432506</partnerILN>\n</sentence784>\n<sentence785>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695537994</palletNVE>\n</sentence785>\n<sentence786>\n    <type>500</type>\n    <positionNumber>157</positionNumber>\n    <EAN>4251725800437</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence786>\n<sentence787>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>100</orderItemNumber>\n</sentence787>\n<sentence788>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence788>\n<sentence789>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210432506</partnerILN>\n</sentence789>\n<sentence790>\n    <type>580</type>\n    <positionNumber>157</positionNumber>\n    <bestBeforeDate>20220508</bestBeforeDate>\n    <batchNumber>100788-22094</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence790>\n<sentence791>\n    <type>500</type>\n    <positionNumber>158</positionNumber>\n    <EAN>4251725801120</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence791>\n<sentence792>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>112</orderItemNumber>\n</sentence792>\n<sentence793>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence793>\n<sentence794>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210432506</partnerILN>\n</sentence794>\n<sentence795>\n    <type>580</type>\n    <positionNumber>158</positionNumber>\n    <bestBeforeDate>20240118</bestBeforeDate>\n    <batchNumber>100896-180124</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence795>\n<sentence796>\n    <type>500</type>\n    <positionNumber>159</positionNumber>\n    <EAN>4251725801236</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence796>\n<sentence797>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>110</orderItemNumber>\n</sentence797>\n<sentence798>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence798>\n<sentence799>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210432506</partnerILN>\n</sentence799>\n<sentence800>\n    <type>580</type>\n    <positionNumber>159</positionNumber>\n    <bestBeforeDate>20220911</bestBeforeDate>\n    <batchNumber>100917-723218022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence800>\n<sentence801>\n    <type>500</type>\n    <positionNumber>160</positionNumber>\n    <EAN>4260402484006</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence801>\n<sentence802>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>86</orderItemNumber>\n</sentence802>\n<sentence803>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence803>\n<sentence804>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210432506</partnerILN>\n</sentence804>\n<sentence805>\n    <type>580</type>\n    <positionNumber>160</positionNumber>\n    <bestBeforeDate>20220918</bestBeforeDate>\n    <batchNumber>271013-180922</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence805>\n<sentence806>\n    <type>500</type>\n    <positionNumber>161</positionNumber>\n    <EAN>4260402489094</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence806>\n<sentence807>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>90</orderItemNumber>\n</sentence807>\n<sentence808>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence808>\n<sentence809>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210432506</partnerILN>\n</sentence809>\n<sentence810>\n    <type>580</type>\n    <positionNumber>161</positionNumber>\n    <bestBeforeDate>20220706</bestBeforeDate>\n    <batchNumber>100599-O070122K</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence810>\n<sentence811>\n    <type>500</type>\n    <positionNumber>162</positionNumber>\n    <EAN>4251725800871</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence811>\n<sentence812>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>94</orderItemNumber>\n</sentence812>\n<sentence813>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence813>\n<sentence814>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210432506</partnerILN>\n</sentence814>\n<sentence815>\n    <type>580</type>\n    <positionNumber>162</positionNumber>\n    <bestBeforeDate>20220502</bestBeforeDate>\n    <batchNumber>100871-111112</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence815>\n<sentence816>\n    <type>500</type>\n    <positionNumber>163</positionNumber>\n    <EAN>4251725800475</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence816>\n<sentence817>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>102</orderItemNumber>\n</sentence817>\n<sentence818>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence818>\n<sentence819>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210432506</partnerILN>\n</sentence819>\n<sentence820>\n    <type>580</type>\n    <positionNumber>163</positionNumber>\n    <bestBeforeDate>20220501</bestBeforeDate>\n    <batchNumber>100790-22087</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence820>\n<sentence821>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695538106</palletNVE>\n</sentence821>\n<sentence822>\n    <type>500</type>\n    <positionNumber>164</positionNumber>\n    <EAN>4260402489056</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence822>\n<sentence823>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>88</orderItemNumber>\n</sentence823>\n<sentence824>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence824>\n<sentence825>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210432506</partnerILN>\n</sentence825>\n<sentence826>\n    <type>580</type>\n    <positionNumber>164</positionNumber>\n    <bestBeforeDate>20220822</bestBeforeDate>\n    <batchNumber>100597-O230222N</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence826>\n<sentence827>\n    <type>500</type>\n    <positionNumber>165</positionNumber>\n    <EAN>4251725800987</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence827>\n<sentence828>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>108</orderItemNumber>\n</sentence828>\n<sentence829>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence829>\n<sentence830>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210432506</partnerILN>\n</sentence830>\n<sentence831>\n    <type>580</type>\n    <positionNumber>165</positionNumber>\n    <bestBeforeDate>20220815</bestBeforeDate>\n    <batchNumber>100883-765218032</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence831>\n<sentence832>\n    <type>500</type>\n    <positionNumber>166</positionNumber>\n    <EAN>4260402489070</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence832>\n<sentence833>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>92</orderItemNumber>\n</sentence833>\n<sentence834>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence834>\n<sentence835>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210432506</partnerILN>\n</sentence835>\n<sentence836>\n    <type>580</type>\n    <positionNumber>166</positionNumber>\n    <bestBeforeDate>20220821</bestBeforeDate>\n    <batchNumber>100598-O220222D</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence836>\n<sentence837>\n    <type>500</type>\n    <positionNumber>167</positionNumber>\n    <EAN>4251725800772</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence837>\n<sentence838>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>106</orderItemNumber>\n</sentence838>\n<sentence839>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence839>\n<sentence840>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210432506</partnerILN>\n</sentence840>\n<sentence841>\n    <type>580</type>\n    <positionNumber>167</positionNumber>\n    <bestBeforeDate>20220904</bestBeforeDate>\n    <batchNumber>100865-605208032</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence841>\n<sentence842>\n    <type>500</type>\n    <positionNumber>168</positionNumber>\n    <EAN>4251725800253</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence842>\n<sentence843>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>98</orderItemNumber>\n</sentence843>\n<sentence844>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence844>\n<sentence845>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210432506</partnerILN>\n</sentence845>\n<sentence846>\n    <type>580</type>\n    <positionNumber>168</positionNumber>\n    <bestBeforeDate>20220811</bestBeforeDate>\n    <batchNumber>100752-608518012</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence846>\n<sentence847>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695538120</palletNVE>\n</sentence847>\n<sentence848>\n    <type>500</type>\n    <positionNumber>169</positionNumber>\n    <EAN>4260402485041</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence848>\n<sentence849>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>338</orderItemNumber>\n</sentence849>\n<sentence850>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence850>\n<sentence851>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210700162</partnerILN>\n</sentence851>\n<sentence852>\n    <type>580</type>\n    <positionNumber>169</positionNumber>\n    <bestBeforeDate>20230201</bestBeforeDate>\n    <batchNumber>161044-C101355</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence852>\n<sentence853>\n    <type>500</type>\n    <positionNumber>170</positionNumber>\n    <EAN>4260402486352</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence853>\n<sentence854>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>376</orderItemNumber>\n</sentence854>\n<sentence855>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence855>\n<sentence856>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210700780</partnerILN>\n</sentence856>\n<sentence857>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695536607</palletNVE>\n</sentence857>\n<sentence858>\n    <type>500</type>\n    <positionNumber>171</positionNumber>\n    <EAN>4260402485751</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence858>\n<sentence859>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>76</orderItemNumber>\n</sentence859>\n<sentence860>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence860>\n<sentence861>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210700780</partnerILN>\n</sentence861>\n<sentence862>\n    <type>580</type>\n    <positionNumber>171</positionNumber>\n    <bestBeforeDate>20220620</bestBeforeDate>\n    <batchNumber>162015-1000306113</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence862>\n<sentence863>\n    <type>500</type>\n    <positionNumber>172</positionNumber>\n    <EAN>4251725800390</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence863>\n<sentence864>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>84</orderItemNumber>\n</sentence864>\n<sentence865>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence865>\n<sentence866>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210700780</partnerILN>\n</sentence866>\n<sentence867>\n    <type>580</type>\n    <positionNumber>172</positionNumber>\n    <bestBeforeDate>20230125</bestBeforeDate>\n    <batchNumber>100767-C072202251</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence867>\n<sentence868>\n    <type>500</type>\n    <positionNumber>173</positionNumber>\n    <EAN>4260402486802</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence868>\n<sentence869>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>80</orderItemNumber>\n</sentence869>\n<sentence870>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence870>\n<sentence871>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210700780</partnerILN>\n</sentence871>\n<sentence872>\n    <type>580</type>\n    <positionNumber>173</positionNumber>\n    <bestBeforeDate>20230202</bestBeforeDate>\n    <batchNumber>161047-L2061</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence872>\n<sentence873>\n    <type>500</type>\n    <positionNumber>174</positionNumber>\n    <EAN>4251725800598</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence873>\n<sentence874>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>82</orderItemNumber>\n</sentence874>\n<sentence875>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence875>\n<sentence876>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210700780</partnerILN>\n</sentence876>\n<sentence877>\n    <type>580</type>\n    <positionNumber>174</positionNumber>\n    <bestBeforeDate>20230103</bestBeforeDate>\n    <batchNumber>100808-C072202032</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence877>\n<sentence878>\n    <type>500</type>\n    <positionNumber>175</positionNumber>\n    <EAN>4260402486765</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence878>\n<sentence879>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>78</orderItemNumber>\n</sentence879>\n<sentence880>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence880>\n<sentence881>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210700780</partnerILN>\n</sentence881>\n<sentence882>\n    <type>580</type>\n    <positionNumber>175</positionNumber>\n    <bestBeforeDate>20230203</bestBeforeDate>\n    <batchNumber>161045-L2062</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence882>\n<sentence883>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695537925</palletNVE>\n</sentence883>\n<sentence884>\n    <type>500</type>\n    <positionNumber>176</positionNumber>\n    <EAN>4251725801069</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence884>\n<sentence885>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>316</orderItemNumber>\n</sentence885>\n<sentence886>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence886>\n<sentence887>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210706416</partnerILN>\n</sentence887>\n<sentence888>\n    <type>580</type>\n    <positionNumber>176</positionNumber>\n    <bestBeforeDate>20230801</bestBeforeDate>\n    <batchNumber>100887-0061222</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence888>\n<sentence889>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695538380</palletNVE>\n</sentence889>\n<sentence890>\n    <type>500</type>\n    <positionNumber>177</positionNumber>\n    <EAN>4251725801021</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence890>\n<sentence891>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>312</orderItemNumber>\n</sentence891>\n<sentence892>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence892>\n<sentence893>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210715524</partnerILN>\n</sentence893>\n<sentence894>\n    <type>580</type>\n    <positionNumber>177</positionNumber>\n    <bestBeforeDate>20240120</bestBeforeDate>\n    <batchNumber>100885-0060905</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence894>\n<sentence895>\n    <type>500</type>\n    <positionNumber>178</positionNumber>\n    <EAN>4251725800277</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence895>\n<sentence896>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>388</orderItemNumber>\n</sentence896>\n<sentence897>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence897>\n<sentence898>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210717504</partnerILN>\n</sentence898>\n<sentence899>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695537949</palletNVE>\n</sentence899>\n<sentence900>\n    <type>500</type>\n    <positionNumber>179</positionNumber>\n    <EAN>4251725801021</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence900>\n<sentence901>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>352</orderItemNumber>\n</sentence901>\n<sentence902>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence902>\n<sentence903>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046062</partnerILN>\n</sentence903>\n<sentence904>\n    <type>580</type>\n    <positionNumber>179</positionNumber>\n    <bestBeforeDate>20240120</bestBeforeDate>\n    <batchNumber>100885-0060905</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence904>\n<sentence905>\n    <type>500</type>\n    <positionNumber>180</positionNumber>\n    <EAN>4260402485249</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence905>\n<sentence906>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>348</orderItemNumber>\n</sentence906>\n<sentence907>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence907>\n<sentence908>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046062</partnerILN>\n</sentence908>\n<sentence909>\n    <type>580</type>\n    <positionNumber>180</positionNumber>\n    <bestBeforeDate>20230217</bestBeforeDate>\n    <batchNumber>151100-L22074</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence909>\n<sentence910>\n    <type>500</type>\n    <positionNumber>181</positionNumber>\n    <EAN>4251725800390</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence910>\n<sentence911>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>350</orderItemNumber>\n</sentence911>\n<sentence912>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence912>\n<sentence913>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046062</partnerILN>\n</sentence913>\n<sentence914>\n    <type>580</type>\n    <positionNumber>181</positionNumber>\n    <bestBeforeDate>20230125</bestBeforeDate>\n    <batchNumber>100767-C072202251</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence914>\n<sentence915>\n    <type>500</type>\n    <positionNumber>182</positionNumber>\n    <EAN>4260402484334</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence915>\n<sentence916>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>346</orderItemNumber>\n</sentence916>\n<sentence917>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence917>\n<sentence918>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210046062</partnerILN>\n</sentence918>\n<sentence919>\n    <type>580</type>\n    <positionNumber>182</positionNumber>\n    <bestBeforeDate>20230420</bestBeforeDate>\n    <batchNumber>153059-L2020</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence919>\n<sentence920>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446920</palletNVE>\n</sentence920>\n<sentence921>\n    <type>500</type>\n    <positionNumber>183</positionNumber>\n    <EAN>4260402486338</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence921>\n<sentence922>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>340</orderItemNumber>\n</sentence922>\n<sentence923>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence923>\n<sentence924>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210847706</partnerILN>\n</sentence924>\n<sentence925>\n    <type>580</type>\n    <positionNumber>183</positionNumber>\n    <bestBeforeDate>20230121</bestBeforeDate>\n    <batchNumber>100362-21012023</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence925>\n<sentence926>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695537932</palletNVE>\n</sentence926>\n<sentence927>\n    <type>500</type>\n    <positionNumber>184</positionNumber>\n    <EAN>4260402484006</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence927>\n<sentence928>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>58</orderItemNumber>\n</sentence928>\n<sentence929>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence929>\n<sentence930>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210861412</partnerILN>\n</sentence930>\n<sentence931>\n    <type>580</type>\n    <positionNumber>184</positionNumber>\n    <bestBeforeDate>20220918</bestBeforeDate>\n    <batchNumber>271013-180922</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence931>\n<sentence932>\n    <type>500</type>\n    <positionNumber>185</positionNumber>\n    <EAN>4260402483962</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence932>\n<sentence933>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>60</orderItemNumber>\n</sentence933>\n<sentence934>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence934>\n<sentence935>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210861412</partnerILN>\n</sentence935>\n<sentence936>\n    <type>580</type>\n    <positionNumber>185</positionNumber>\n    <bestBeforeDate>20220913</bestBeforeDate>\n    <batchNumber>271012-130922</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence936>\n<sentence937>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695538397</palletNVE>\n</sentence937>\n<sentence938>\n    <type>500</type>\n    <positionNumber>186</positionNumber>\n    <EAN>4251725801212</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence938>\n<sentence939>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>8</orderItemNumber>\n</sentence939>\n<sentence940>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence940>\n<sentence941>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210869500</partnerILN>\n</sentence941>\n<sentence942>\n    <type>580</type>\n    <positionNumber>186</positionNumber>\n    <bestBeforeDate>20240201</bestBeforeDate>\n    <batchNumber>100913-0060906</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence942>\n<sentence943>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695537963</palletNVE>\n</sentence943>\n<sentence944>\n    <type>500</type>\n    <positionNumber>187</positionNumber>\n    <EAN>4251725800871</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence944>\n<sentence945>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>34</orderItemNumber>\n</sentence945>\n<sentence946>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence946>\n<sentence947>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210874726</partnerILN>\n</sentence947>\n<sentence948>\n    <type>580</type>\n    <positionNumber>187</positionNumber>\n    <bestBeforeDate>20220502</bestBeforeDate>\n    <batchNumber>100871-111112</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence948>\n<sentence949>\n    <type>500</type>\n    <positionNumber>188</positionNumber>\n    <EAN>4251725800277</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence949>\n<sentence950>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>344</orderItemNumber>\n</sentence950>\n<sentence951>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence951>\n<sentence952>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313230152798</partnerILN>\n</sentence952>\n<sentence953>\n    <type>500</type>\n    <positionNumber>189</positionNumber>\n    <EAN>4260402482576</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence953>\n<sentence954>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>278</orderItemNumber>\n</sentence954>\n<sentence955>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence955>\n<sentence956>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210056856</partnerILN>\n</sentence956>\n<sentence957>\n    <type>500</type>\n    <positionNumber>190</positionNumber>\n    <EAN>4251725801434</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence957>\n<sentence958>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>318</orderItemNumber>\n</sentence958>\n<sentence959>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence959>\n<sentence960>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210326492</partnerILN>\n</sentence960>\n<sentence961>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695446913</palletNVE>\n</sentence961>\n<sentence962>\n    <type>500</type>\n    <positionNumber>191</positionNumber>\n    <EAN>4251725800390</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence962>\n<sentence963>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>320</orderItemNumber>\n</sentence963>\n<sentence964>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence964>\n<sentence965>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210326188</partnerILN>\n</sentence965>\n<sentence966>\n    <type>580</type>\n    <positionNumber>191</positionNumber>\n    <bestBeforeDate>20230125</bestBeforeDate>\n    <batchNumber>100767-C072202251</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence966>\n<sentence967>\n    <type>500</type>\n    <positionNumber>192</positionNumber>\n    <EAN>4251725800277</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence967>\n<sentence968>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>366</orderItemNumber>\n</sentence968>\n<sentence969>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence969>\n<sentence970>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210029522</partnerILN>\n</sentence970>\n<sentence971>\n    <type>410</type>\n    <palletType>PK</palletType>\n    <palletNVE>340455750695538434</palletNVE>\n</sentence971>\n<sentence972>\n    <type>500</type>\n    <positionNumber>193</positionNumber>\n    <EAN>4260402485027</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence972>\n<sentence973>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>354</orderItemNumber>\n</sentence973>\n<sentence974>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence974>\n<sentence975>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210029522</partnerILN>\n</sentence975>\n<sentence976>\n    <type>580</type>\n    <positionNumber>193</positionNumber>\n    <bestBeforeDate>20230331</bestBeforeDate>\n    <batchNumber>151097-L22034</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence976>\n<sentence977>\n    <type>500</type>\n    <positionNumber>194</positionNumber>\n    <EAN>4251725800109</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence977>\n<sentence978>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>358</orderItemNumber>\n</sentence978>\n<sentence979>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence979>\n<sentence980>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210029522</partnerILN>\n</sentence980>\n<sentence981>\n    <type>580</type>\n    <positionNumber>194</positionNumber>\n    <bestBeforeDate>20221215</bestBeforeDate>\n    <batchNumber>100723-VE44371</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence981>\n<sentence982>\n    <type>500</type>\n    <positionNumber>195</positionNumber>\n    <EAN>4251725800864</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence982>\n<sentence983>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>360</orderItemNumber>\n</sentence983>\n<sentence984>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence984>\n<sentence985>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210029522</partnerILN>\n</sentence985>\n<sentence986>\n    <type>580</type>\n    <positionNumber>195</positionNumber>\n    <bestBeforeDate>20220509</bestBeforeDate>\n    <batchNumber>100870-111113</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence986>\n<sentence987>\n    <type>500</type>\n    <positionNumber>196</positionNumber>\n    <EAN>4251725800475</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence987>\n<sentence988>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>364</orderItemNumber>\n</sentence988>\n<sentence989>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence989>\n<sentence990>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210029522</partnerILN>\n</sentence990>\n<sentence991>\n    <type>580</type>\n    <positionNumber>196</positionNumber>\n    <bestBeforeDate>20220501</bestBeforeDate>\n    <batchNumber>100790-22087</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence991>\n<sentence992>\n    <type>500</type>\n    <positionNumber>197</positionNumber>\n    <EAN>4251725800437</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence992>\n<sentence993>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>362</orderItemNumber>\n</sentence993>\n<sentence994>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence994>\n<sentence995>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210029522</partnerILN>\n</sentence995>\n<sentence996>\n    <type>580</type>\n    <positionNumber>197</positionNumber>\n    <bestBeforeDate>20220508</bestBeforeDate>\n    <batchNumber>100788-22094</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence996>\n<sentence997>\n    <type>500</type>\n    <positionNumber>198</positionNumber>\n    <EAN>4260402489551</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence997>\n<sentence998>\n    <type>511</type>\n    <customerOrderNumber>6320698</customerOrderNumber>\n    <orderItemNumber>356</orderItemNumber>\n</sentence998>\n<sentence999>\n    <type>515</type>\n    <expectedDeliveryDate>20220408</expectedDeliveryDate>\n</sentence999>\n<sentence1000>\n    <type>519</type>\n    <partnerType>UC</partnerType>\n    <partnerILN>4313210029522</partnerILN>\n</sentence1000>\n<sentence1001>\n    <type>580</type>\n    <positionNumber>198</positionNumber>\n    <bestBeforeDate>20220524</bestBeforeDate>\n    <batchNumber>100639-22054067</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence1001>`
+`<sentence1>
+    <type>000</type>
+    <senderId>4260402480008</senderId>
+    <recieverId>4311501990018</recieverId>
+    <date>20220407</date>
+    <time>0926</time>
+    <dataExchangeReference>32206244VEGANZ</dataExchangeReference>
+    <fileInterfaceVersionNumber>4.5</fileInterfaceVersionNumber>
+</sentence1>
+<sentence2>
+    <type>100</type>
+    <messageReference>1</messageReference>
+    <messageType>DESADV</messageType>
+    <transactionType>YA6</transactionType>
+    <documentNumber>22209801</documentNumber>
+    <documentDate>20220407</documentDate>
+</sentence2>
+<sentence3>
+    <type>111</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <customerOrcerDate>20220406</customerOrcerDate>
+    <deliveryDate>20220408</deliveryDate>
+    <deliveryReceiptNumber>22209801</deliveryReceiptNumber>
+    <deliveryReceiptDate>20220407</deliveryReceiptDate>
+</sentence3>
+<sentence4>
+    <type>115</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence4>
+<sentence5>
+    <type>119</type>
+    <partnerType>BY</partnerType>
+    <partnerILN>4311560000000</partnerILN>
+</sentence5>
+<sentence6>
+    <type>119</type>
+    <partnerType>IV</partnerType>
+    <partnerILN>4311560000000</partnerILN>
+</sentence6>
+<sentence7>
+    <type>119</type>
+    <partnerType>DP</partnerType>
+    <partnerILN>4313280901100</partnerILN>
+</sentence7>
+<sentence8>
+    <type>119</type>
+    <partnerType>SU</partnerType>
+    <partnerILN>4260402480008</partnerILN>
+</sentence8>
+<sentence9>
+    <type>400</type>
+    <positionNumber>1</positionNumber>
+    <perShipmentPackagingCount>40</perShipmentPackagingCount>
+    <perShipmentColliKartonPackagingType>PK</perShipmentColliKartonPackagingType>
+</sentence9>
+<sentence10>
+    <type>500</type>
+    <positionNumber>1</positionNumber>
+    <EAN>4251725801434</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence10>
+<sentence11>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>336</orderItemNumber>
+</sentence11>
+<sentence12>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence12>
+<sentence13>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210108234</partnerILN>
+</sentence13>
+<sentence14>
+    <type>500</type>
+    <positionNumber>2</positionNumber>
+    <EAN>4251725800277</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence14>
+<sentence15>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>332</orderItemNumber>
+</sentence15>
+<sentence16>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence16>
+<sentence17>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210108234</partnerILN>
+</sentence17>
+<sentence18>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695536416</palletNVE>
+</sentence18>
+<sentence19>
+    <type>500</type>
+    <positionNumber>3</positionNumber>
+    <EAN>4251725800987</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence19>
+<sentence20>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>334</orderItemNumber>
+</sentence20>
+<sentence21>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence21>
+<sentence22>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210108234</partnerILN>
+</sentence22>
+<sentence23>
+    <type>580</type>
+    <positionNumber>3</positionNumber>
+    <bestBeforeDate>20220815</bestBeforeDate>
+    <batchNumber>100883-765218032</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence23>
+<sentence24>
+    <type>500</type>
+    <positionNumber>4</positionNumber>
+    <EAN>4251725800390</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence24>
+<sentence25>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>330</orderItemNumber>
+</sentence25>
+<sentence26>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence26>
+<sentence27>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210108234</partnerILN>
+</sentence27>
+<sentence28>
+    <type>580</type>
+    <positionNumber>4</positionNumber>
+    <bestBeforeDate>20230125</bestBeforeDate>
+    <batchNumber>100767-C072202251</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence28>
+<sentence29>
+    <type>500</type>
+    <positionNumber>5</positionNumber>
+    <EAN>4251725800598</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence29>
+<sentence30>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>328</orderItemNumber>
+</sentence30>
+<sentence31>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence31>
+<sentence32>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210108234</partnerILN>
+</sentence32>
+<sentence33>
+    <type>580</type>
+    <positionNumber>5</positionNumber>
+    <bestBeforeDate>20230103</bestBeforeDate>
+    <batchNumber>100808-C072202032</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence33>
+<sentence34>
+    <type>500</type>
+    <positionNumber>6</positionNumber>
+    <EAN>4260402485386</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence34>
+<sentence35>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>326</orderItemNumber>
+</sentence35>
+<sentence36>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence36>
+<sentence37>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210108234</partnerILN>
+</sentence37>
+<sentence38>
+    <type>580</type>
+    <positionNumber>6</positionNumber>
+    <bestBeforeDate>20230409</bestBeforeDate>
+    <batchNumber>152206-L22063</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence38>
+<sentence39>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695536638</palletNVE>
+</sentence39>
+<sentence40>
+    <type>500</type>
+    <positionNumber>7</positionNumber>
+    <EAN>4260402487892</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence40>
+<sentence41>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>52</orderItemNumber>
+</sentence41>
+<sentence42>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence42>
+<sentence43>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210094278</partnerILN>
+</sentence43>
+<sentence44>
+    <type>580</type>
+    <positionNumber>7</positionNumber>
+    <bestBeforeDate>20230211</bestBeforeDate>
+    <batchNumber>100491-04222A</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence44>
+<sentence45>
+    <type>500</type>
+    <positionNumber>8</positionNumber>
+    <EAN>4251725801120</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence45>
+<sentence46>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>56</orderItemNumber>
+</sentence46>
+<sentence47>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence47>
+<sentence48>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210094278</partnerILN>
+</sentence48>
+<sentence49>
+    <type>580</type>
+    <positionNumber>8</positionNumber>
+    <bestBeforeDate>20240118</bestBeforeDate>
+    <batchNumber>100896-180124</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence49>
+<sentence50>
+    <type>500</type>
+    <positionNumber>9</positionNumber>
+    <EAN>4251725800390</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence50>
+<sentence51>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>54</orderItemNumber>
+</sentence51>
+<sentence52>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence52>
+<sentence53>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210094278</partnerILN>
+</sentence53>
+<sentence54>
+    <type>580</type>
+    <positionNumber>9</positionNumber>
+    <bestBeforeDate>20230125</bestBeforeDate>
+    <batchNumber>100767-C072202251</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence54>
+<sentence55>
+    <type>500</type>
+    <positionNumber>10</positionNumber>
+    <EAN>4260402487939</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence55>
+<sentence56>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>50</orderItemNumber>
+</sentence56>
+<sentence57>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence57>
+<sentence58>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210094278</partnerILN>
+</sentence58>
+<sentence59>
+    <type>580</type>
+    <positionNumber>10</positionNumber>
+    <bestBeforeDate>20230214</bestBeforeDate>
+    <batchNumber>100493-04522A</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence59>
+<sentence60>
+    <type>500</type>
+    <positionNumber>11</positionNumber>
+    <EAN>4260402484495</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence60>
+<sentence61>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>48</orderItemNumber>
+</sentence61>
+<sentence62>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence62>
+<sentence63>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210094278</partnerILN>
+</sentence63>
+<sentence64>
+    <type>580</type>
+    <positionNumber>11</positionNumber>
+    <bestBeforeDate>20240130</bestBeforeDate>
+    <batchNumber>153060-030F</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence64>
+<sentence65>
+    <type>500</type>
+    <positionNumber>12</positionNumber>
+    <EAN>4251725800451</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence65>
+<sentence66>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>372</orderItemNumber>
+</sentence66>
+<sentence67>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence67>
+<sentence68>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210318510</partnerILN>
+</sentence68>
+<sentence69>
+    <type>500</type>
+    <positionNumber>13</positionNumber>
+    <EAN>4251725800277</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence69>
+<sentence70>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>32</orderItemNumber>
+</sentence70>
+<sentence71>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence71>
+<sentence72>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210318510</partnerILN>
+</sentence72>
+<sentence73>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446890</palletNVE>
+</sentence73>
+<sentence74>
+    <type>500</type>
+    <positionNumber>14</positionNumber>
+    <EAN>4251725800475</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence74>
+<sentence75>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>374</orderItemNumber>
+</sentence75>
+<sentence76>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence76>
+<sentence77>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210318510</partnerILN>
+</sentence77>
+<sentence78>
+    <type>580</type>
+    <positionNumber>14</positionNumber>
+    <bestBeforeDate>20220501</bestBeforeDate>
+    <batchNumber>100790-22087</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence78>
+<sentence79>
+    <type>500</type>
+    <positionNumber>15</positionNumber>
+    <EAN>4260402485737</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence79>
+<sentence80>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>368</orderItemNumber>
+</sentence80>
+<sentence81>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence81>
+<sentence82>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210318510</partnerILN>
+</sentence82>
+<sentence83>
+    <type>580</type>
+    <positionNumber>15</positionNumber>
+    <bestBeforeDate>20220620</bestBeforeDate>
+    <batchNumber>162014-1000306114</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence83>
+<sentence84>
+    <type>500</type>
+    <positionNumber>16</positionNumber>
+    <EAN>4260402489551</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence84>
+<sentence85>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>370</orderItemNumber>
+</sentence85>
+<sentence86>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence86>
+<sentence87>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210318510</partnerILN>
+</sentence87>
+<sentence88>
+    <type>580</type>
+    <positionNumber>16</positionNumber>
+    <bestBeforeDate>20220524</bestBeforeDate>
+    <batchNumber>100639-22054067</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence88>
+<sentence89>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446906</palletNVE>
+</sentence89>
+<sentence90>
+    <type>500</type>
+    <positionNumber>17</positionNumber>
+    <EAN>4251725800277</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence90>
+<sentence91>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>28</orderItemNumber>
+</sentence91>
+<sentence92>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence92>
+<sentence93>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210139900</partnerILN>
+</sentence93>
+<sentence94>
+    <type>580</type>
+    <positionNumber>17</positionNumber>
+    <bestBeforeDate>20220504</bestBeforeDate>
+    <batchNumber>100753-0832022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence94>
+<sentence95>
+    <type>500</type>
+    <positionNumber>18</positionNumber>
+    <EAN>4251725800451</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence95>
+<sentence96>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>342</orderItemNumber>
+</sentence96>
+<sentence97>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence97>
+<sentence98>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210053886</partnerILN>
+</sentence98>
+<sentence99>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695537970</palletNVE>
+</sentence99>
+<sentence100>
+    <type>500</type>
+    <positionNumber>19</positionNumber>
+    <EAN>4260402489551</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence100>
+<sentence101>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>324</orderItemNumber>
+</sentence101>
+<sentence102>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence102>
+<sentence103>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210336736</partnerILN>
+</sentence103>
+<sentence104>
+    <type>580</type>
+    <positionNumber>19</positionNumber>
+    <bestBeforeDate>20220524</bestBeforeDate>
+    <batchNumber>100639-22054067</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence104>
+<sentence105>
+    <type>500</type>
+    <positionNumber>20</positionNumber>
+    <EAN>4260402485737</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence105>
+<sentence106>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>322</orderItemNumber>
+</sentence106>
+<sentence107>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence107>
+<sentence108>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210336736</partnerILN>
+</sentence108>
+<sentence109>
+    <type>580</type>
+    <positionNumber>20</positionNumber>
+    <bestBeforeDate>20220620</bestBeforeDate>
+    <batchNumber>162014-1000306114</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence109>
+<sentence110>
+    <type>500</type>
+    <positionNumber>21</positionNumber>
+    <EAN>4251725800277</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence110>
+<sentence111>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>240</orderItemNumber>
+</sentence111>
+<sentence112>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence112>
+<sentence113>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence113>
+<sentence114>
+    <type>500</type>
+    <positionNumber>22</positionNumber>
+    <EAN>4251725800185</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence114>
+<sentence115>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>200</orderItemNumber>
+</sentence115>
+<sentence116>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence116>
+<sentence117>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence117>
+<sentence118>
+    <type>500</type>
+    <positionNumber>23</positionNumber>
+    <EAN>4260402489995</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence118>
+<sentence119>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>232</orderItemNumber>
+</sentence119>
+<sentence120>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence120>
+<sentence121>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence121>
+<sentence122>
+    <type>500</type>
+    <positionNumber>24</positionNumber>
+    <EAN>4260402486352</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence122>
+<sentence123>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>210</orderItemNumber>
+</sentence123>
+<sentence124>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence124>
+<sentence125>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence125>
+<sentence126>
+    <type>500</type>
+    <positionNumber>25</positionNumber>
+    <EAN>4251725801458</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence126>
+<sentence127>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>226</orderItemNumber>
+</sentence127>
+<sentence128>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence128>
+<sentence129>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence129>
+<sentence130>
+    <type>500</type>
+    <positionNumber>26</positionNumber>
+    <EAN>4251725801434</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence130>
+<sentence131>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>228</orderItemNumber>
+</sentence131>
+<sentence132>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence132>
+<sentence133>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence133>
+<sentence134>
+    <type>500</type>
+    <positionNumber>27</positionNumber>
+    <EAN>4251725800451</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence134>
+<sentence135>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>234</orderItemNumber>
+</sentence135>
+<sentence136>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence136>
+<sentence137>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence137>
+<sentence138>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446340</palletNVE>
+</sentence138>
+<sentence139>
+    <type>500</type>
+    <positionNumber>28</positionNumber>
+    <EAN>4260402485027</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence139>
+<sentence140>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>140</orderItemNumber>
+</sentence140>
+<sentence141>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence141>
+<sentence142>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence142>
+<sentence143>
+    <type>580</type>
+    <positionNumber>28</positionNumber>
+    <bestBeforeDate>20230331</bestBeforeDate>
+    <batchNumber>151097-L22034</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence143>
+<sentence144>
+    <type>500</type>
+    <positionNumber>29</positionNumber>
+    <EAN>4260402485065</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence144>
+<sentence145>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>142</orderItemNumber>
+</sentence145>
+<sentence146>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence146>
+<sentence147>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence147>
+<sentence148>
+    <type>580</type>
+    <positionNumber>29</positionNumber>
+    <bestBeforeDate>20230430</bestBeforeDate>
+    <batchNumber>151098-L32073</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence148>
+<sentence149>
+    <type>500</type>
+    <positionNumber>30</positionNumber>
+    <EAN>4260402485003</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence149>
+<sentence150>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>144</orderItemNumber>
+</sentence150>
+<sentence151>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence151>
+<sentence152>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence152>
+<sentence153>
+    <type>580</type>
+    <positionNumber>30</positionNumber>
+    <bestBeforeDate>20230331</bestBeforeDate>
+    <batchNumber>151096-L12034</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence153>
+<sentence154>
+    <type>500</type>
+    <positionNumber>31</positionNumber>
+    <EAN>4260402485652</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence154>
+<sentence155>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>136</orderItemNumber>
+</sentence155>
+<sentence156>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence156>
+<sentence157>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence157>
+<sentence158>
+    <type>580</type>
+    <positionNumber>31</positionNumber>
+    <bestBeforeDate>20230228</bestBeforeDate>
+    <batchNumber>100314-L11512</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence158>
+<sentence159>
+    <type>500</type>
+    <positionNumber>32</positionNumber>
+    <EAN>4260402480367</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence159>
+<sentence160>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>134</orderItemNumber>
+</sentence160>
+<sentence161>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence161>
+<sentence162>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence162>
+<sentence163>
+    <type>580</type>
+    <positionNumber>32</positionNumber>
+    <bestBeforeDate>20230610</bestBeforeDate>
+    <batchNumber>141049-L344G21</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence163>
+<sentence164>
+    <type>500</type>
+    <positionNumber>33</positionNumber>
+    <EAN>4251725800901</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence164>
+<sentence165>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>230</orderItemNumber>
+</sentence165>
+<sentence166>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence166>
+<sentence167>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence167>
+<sentence168>
+    <type>580</type>
+    <positionNumber>33</positionNumber>
+    <bestBeforeDate>20221101</bestBeforeDate>
+    <batchNumber>100875-VE46020</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence168>
+<sentence169>
+    <type>500</type>
+    <positionNumber>34</positionNumber>
+    <EAN>4260402484518</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence169>
+<sentence170>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>158</orderItemNumber>
+</sentence170>
+<sentence171>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence171>
+<sentence172>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence172>
+<sentence173>
+    <type>580</type>
+    <positionNumber>34</positionNumber>
+    <bestBeforeDate>20231201</bestBeforeDate>
+    <batchNumber>153061-335U</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence173>
+<sentence174>
+    <type>500</type>
+    <positionNumber>35</positionNumber>
+    <EAN>4260402486840</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence174>
+<sentence175>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>180</orderItemNumber>
+</sentence175>
+<sentence176>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence176>
+<sentence177>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence177>
+<sentence178>
+    <type>580</type>
+    <positionNumber>35</positionNumber>
+    <bestBeforeDate>20230527</bestBeforeDate>
+    <batchNumber>100399-02722</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence178>
+<sentence179>
+    <type>500</type>
+    <positionNumber>36</positionNumber>
+    <EAN>4260402487212</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence179>
+<sentence180>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>182</orderItemNumber>
+</sentence180>
+<sentence181>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence181>
+<sentence182>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence182>
+<sentence183>
+    <type>580</type>
+    <positionNumber>36</positionNumber>
+    <bestBeforeDate>20221028</bestBeforeDate>
+    <batchNumber>100459-220604/0</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence183>
+<sentence184>
+    <type>500</type>
+    <positionNumber>37</positionNumber>
+    <EAN>4260402485225</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence184>
+<sentence185>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>184</orderItemNumber>
+</sentence185>
+<sentence186>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence186>
+<sentence187>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence187>
+<sentence188>
+    <type>580</type>
+    <positionNumber>37</positionNumber>
+    <bestBeforeDate>20230105</bestBeforeDate>
+    <batchNumber>151099-L22013</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence188>
+<sentence189>
+    <type>500</type>
+    <positionNumber>38</positionNumber>
+    <EAN>4251725800208</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence189>
+<sentence190>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>198</orderItemNumber>
+</sentence190>
+<sentence191>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence191>
+<sentence192>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence192>
+<sentence193>
+    <type>580</type>
+    <positionNumber>38</positionNumber>
+    <bestBeforeDate>20230121</bestBeforeDate>
+    <batchNumber>100744-21012023</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence193>
+<sentence194>
+    <type>500</type>
+    <positionNumber>39</positionNumber>
+    <EAN>4251725800109</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence194>
+<sentence195>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>202</orderItemNumber>
+</sentence195>
+<sentence196>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence196>
+<sentence197>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence197>
+<sentence198>
+    <type>580</type>
+    <positionNumber>39</positionNumber>
+    <bestBeforeDate>20221215</bestBeforeDate>
+    <batchNumber>100723-VE44371</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence198>
+<sentence199>
+    <type>500</type>
+    <positionNumber>40</positionNumber>
+    <EAN>4251725800123</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence199>
+<sentence200>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>204</orderItemNumber>
+</sentence200>
+<sentence201>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence201>
+<sentence202>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence202>
+<sentence203>
+    <type>580</type>
+    <positionNumber>40</positionNumber>
+    <bestBeforeDate>20230101</bestBeforeDate>
+    <batchNumber>100724-VE44387</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence203>
+<sentence204>
+    <type>500</type>
+    <positionNumber>41</positionNumber>
+    <EAN>4251725800086</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence204>
+<sentence205>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>206</orderItemNumber>
+</sentence205>
+<sentence206>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence206>
+<sentence207>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence207>
+<sentence208>
+    <type>580</type>
+    <positionNumber>41</positionNumber>
+    <bestBeforeDate>20230101</bestBeforeDate>
+    <batchNumber>100722-VE44392</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence208>
+<sentence209>
+    <type>500</type>
+    <positionNumber>42</positionNumber>
+    <EAN>4251725801120</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence209>
+<sentence210>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>224</orderItemNumber>
+</sentence210>
+<sentence211>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence211>
+<sentence212>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence212>
+<sentence213>
+    <type>580</type>
+    <positionNumber>42</positionNumber>
+    <bestBeforeDate>20240118</bestBeforeDate>
+    <batchNumber>100896-180124</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence213>
+<sentence214>
+    <type>500</type>
+    <positionNumber>43</positionNumber>
+    <EAN>4251725800499</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence214>
+<sentence215>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>238</orderItemNumber>
+</sentence215>
+<sentence216>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence216>
+<sentence217>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence217>
+<sentence218>
+    <type>580</type>
+    <positionNumber>43</positionNumber>
+    <bestBeforeDate>20220504</bestBeforeDate>
+    <batchNumber>100791-22090</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence218>
+<sentence219>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446357</palletNVE>
+</sentence219>
+<sentence220>
+    <type>500</type>
+    <positionNumber>44</positionNumber>
+    <EAN>4260402485751</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence220>
+<sentence221>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>148</orderItemNumber>
+</sentence221>
+<sentence222>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence222>
+<sentence223>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence223>
+<sentence224>
+    <type>580</type>
+    <positionNumber>44</positionNumber>
+    <bestBeforeDate>20220620</bestBeforeDate>
+    <batchNumber>162015-1000306113</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence224>
+<sentence225>
+    <type>500</type>
+    <positionNumber>45</positionNumber>
+    <EAN>4260402487939</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence225>
+<sentence226>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>212</orderItemNumber>
+</sentence226>
+<sentence227>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence227>
+<sentence228>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence228>
+<sentence229>
+    <type>580</type>
+    <positionNumber>45</positionNumber>
+    <bestBeforeDate>20230214</bestBeforeDate>
+    <batchNumber>100493-04522A</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence229>
+<sentence230>
+    <type>500</type>
+    <positionNumber>46</positionNumber>
+    <EAN>4260402485041</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence230>
+<sentence231>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>162</orderItemNumber>
+</sentence231>
+<sentence232>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence232>
+<sentence233>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence233>
+<sentence234>
+    <type>580</type>
+    <positionNumber>46</positionNumber>
+    <bestBeforeDate>20230201</bestBeforeDate>
+    <batchNumber>161044-C101355</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence234>
+<sentence235>
+    <type>500</type>
+    <positionNumber>47</positionNumber>
+    <EAN>4260402484006</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence235>
+<sentence236>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>150</orderItemNumber>
+</sentence236>
+<sentence237>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence237>
+<sentence238>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence238>
+<sentence239>
+    <type>580</type>
+    <positionNumber>47</positionNumber>
+    <bestBeforeDate>20220918</bestBeforeDate>
+    <batchNumber>271013-180922</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence239>
+<sentence240>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446364</palletNVE>
+</sentence240>
+<sentence241>
+    <type>500</type>
+    <positionNumber>48</positionNumber>
+    <EAN>4260402484495</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence241>
+<sentence242>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>154</orderItemNumber>
+</sentence242>
+<sentence243>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence243>
+<sentence244>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence244>
+<sentence245>
+    <type>580</type>
+    <positionNumber>48</positionNumber>
+    <bestBeforeDate>20240130</bestBeforeDate>
+    <batchNumber>153060-030F</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence245>
+<sentence246>
+    <type>500</type>
+    <positionNumber>49</positionNumber>
+    <EAN>4251725800581</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence246>
+<sentence247>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>172</orderItemNumber>
+</sentence247>
+<sentence248>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence248>
+<sentence249>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence249>
+<sentence250>
+    <type>580</type>
+    <positionNumber>49</positionNumber>
+    <bestBeforeDate>20230102</bestBeforeDate>
+    <batchNumber>100807-C072202022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence250>
+<sentence251>
+    <type>500</type>
+    <positionNumber>50</positionNumber>
+    <EAN>4260402483962</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence251>
+<sentence252>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>152</orderItemNumber>
+</sentence252>
+<sentence253>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence253>
+<sentence254>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence254>
+<sentence255>
+    <type>580</type>
+    <positionNumber>50</positionNumber>
+    <bestBeforeDate>20220913</bestBeforeDate>
+    <batchNumber>271012-130922</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence255>
+<sentence256>
+    <type>500</type>
+    <positionNumber>51</positionNumber>
+    <EAN>4260402485737</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence256>
+<sentence257>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>146</orderItemNumber>
+</sentence257>
+<sentence258>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence258>
+<sentence259>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence259>
+<sentence260>
+    <type>580</type>
+    <positionNumber>51</positionNumber>
+    <bestBeforeDate>20220620</bestBeforeDate>
+    <batchNumber>162014-1000306114</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence260>
+<sentence261>
+    <type>500</type>
+    <positionNumber>52</positionNumber>
+    <EAN>4251725800390</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence261>
+<sentence262>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>216</orderItemNumber>
+</sentence262>
+<sentence263>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence263>
+<sentence264>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence264>
+<sentence265>
+    <type>580</type>
+    <positionNumber>52</positionNumber>
+    <bestBeforeDate>20230125</bestBeforeDate>
+    <batchNumber>100767-C072202251</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence265>
+<sentence266>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446371</palletNVE>
+</sentence266>
+<sentence267>
+    <type>500</type>
+    <positionNumber>53</positionNumber>
+    <EAN>4251725800727</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence267>
+<sentence268>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>222</orderItemNumber>
+</sentence268>
+<sentence269>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence269>
+<sentence270>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence270>
+<sentence271>
+    <type>580</type>
+    <positionNumber>53</positionNumber>
+    <bestBeforeDate>20221115</bestBeforeDate>
+    <batchNumber>100855-VE46227</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence271>
+<sentence272>
+    <type>500</type>
+    <positionNumber>54</positionNumber>
+    <EAN>4260402485447</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence272>
+<sentence273>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>166</orderItemNumber>
+</sentence273>
+<sentence274>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence274>
+<sentence275>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence275>
+<sentence276>
+    <type>580</type>
+    <positionNumber>54</positionNumber>
+    <bestBeforeDate>20230415</bestBeforeDate>
+    <batchNumber>152208-VE47305</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence276>
+<sentence277>
+    <type>500</type>
+    <positionNumber>55</positionNumber>
+    <EAN>4260402485324</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence277>
+<sentence278>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>168</orderItemNumber>
+</sentence278>
+<sentence279>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence279>
+<sentence280>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence280>
+<sentence281>
+    <type>580</type>
+    <positionNumber>55</positionNumber>
+    <bestBeforeDate>20230407</bestBeforeDate>
+    <batchNumber>152204-L22061</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence281>
+<sentence282>
+    <type>500</type>
+    <positionNumber>56</positionNumber>
+    <EAN>4260402484334</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence282>
+<sentence283>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>160</orderItemNumber>
+</sentence283>
+<sentence284>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence284>
+<sentence285>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence285>
+<sentence286>
+    <type>580</type>
+    <positionNumber>56</positionNumber>
+    <bestBeforeDate>20230420</bestBeforeDate>
+    <batchNumber>153059-L2020</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence286>
+<sentence287>
+    <type>500</type>
+    <positionNumber>57</positionNumber>
+    <EAN>4251725800635</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence287>
+<sentence288>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>218</orderItemNumber>
+</sentence288>
+<sentence289>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence289>
+<sentence290>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence290>
+<sentence291>
+    <type>580</type>
+    <positionNumber>57</positionNumber>
+    <bestBeforeDate>20230331</bestBeforeDate>
+    <batchNumber>100820-01/22</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence291>
+<sentence292>
+    <type>500</type>
+    <positionNumber>58</positionNumber>
+    <EAN>4260402486802</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence292>
+<sentence293>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>174</orderItemNumber>
+</sentence293>
+<sentence294>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence294>
+<sentence295>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence295>
+<sentence296>
+    <type>580</type>
+    <positionNumber>58</positionNumber>
+    <bestBeforeDate>20230202</bestBeforeDate>
+    <batchNumber>161047-L2061</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence296>
+<sentence297>
+    <type>500</type>
+    <positionNumber>59</positionNumber>
+    <EAN>4260402489032</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence297>
+<sentence298>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>194</orderItemNumber>
+</sentence298>
+<sentence299>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence299>
+<sentence300>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence300>
+<sentence301>
+    <type>580</type>
+    <positionNumber>59</positionNumber>
+    <bestBeforeDate>20230403</bestBeforeDate>
+    <batchNumber>100596-L22054</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence301>
+<sentence302>
+    <type>500</type>
+    <positionNumber>60</positionNumber>
+    <EAN>4260402486789</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence302>
+<sentence303>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>192</orderItemNumber>
+</sentence303>
+<sentence304>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence304>
+<sentence305>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence305>
+<sentence306>
+    <type>580</type>
+    <positionNumber>60</positionNumber>
+    <bestBeforeDate>20221027</bestBeforeDate>
+    <batchNumber>161046-L1441</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence306>
+<sentence307>
+    <type>500</type>
+    <positionNumber>61</positionNumber>
+    <EAN>4260402484983</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence307>
+<sentence308>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>138</orderItemNumber>
+</sentence308>
+<sentence309>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence309>
+<sentence310>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence310>
+<sentence311>
+    <type>580</type>
+    <positionNumber>61</positionNumber>
+    <bestBeforeDate>20230331</bestBeforeDate>
+    <batchNumber>151095-L32033</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence311>
+<sentence312>
+    <type>500</type>
+    <positionNumber>62</positionNumber>
+    <EAN>4260402487632</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence312>
+<sentence313>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>188</orderItemNumber>
+</sentence313>
+<sentence314>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence314>
+<sentence315>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence315>
+<sentence316>
+    <type>580</type>
+    <positionNumber>62</positionNumber>
+    <bestBeforeDate>20230105</bestBeforeDate>
+    <batchNumber>100480-L22022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence316>
+<sentence317>
+    <type>500</type>
+    <positionNumber>63</positionNumber>
+    <EAN>4260402485249</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence317>
+<sentence318>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>186</orderItemNumber>
+</sentence318>
+<sentence319>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence319>
+<sentence320>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence320>
+<sentence321>
+    <type>580</type>
+    <positionNumber>63</positionNumber>
+    <bestBeforeDate>20230217</bestBeforeDate>
+    <batchNumber>151100-L22074</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence321>
+<sentence322>
+    <type>500</type>
+    <positionNumber>64</positionNumber>
+    <EAN>4260402486765</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence322>
+<sentence323>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>170</orderItemNumber>
+</sentence323>
+<sentence324>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence324>
+<sentence325>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence325>
+<sentence326>
+    <type>580</type>
+    <positionNumber>64</positionNumber>
+    <bestBeforeDate>20230203</bestBeforeDate>
+    <batchNumber>161045-L2062</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence326>
+<sentence327>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446388</palletNVE>
+</sentence327>
+<sentence328>
+    <type>500</type>
+    <positionNumber>65</positionNumber>
+    <EAN>4260402487205</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence328>
+<sentence329>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>178</orderItemNumber>
+</sentence329>
+<sentence330>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence330>
+<sentence331>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence331>
+<sentence332>
+    <type>580</type>
+    <positionNumber>65</positionNumber>
+    <bestBeforeDate>20221211</bestBeforeDate>
+    <batchNumber>100458-221553/0</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence332>
+<sentence333>
+    <type>500</type>
+    <positionNumber>66</positionNumber>
+    <EAN>4260402482576</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence333>
+<sentence334>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>132</orderItemNumber>
+</sentence334>
+<sentence335>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence335>
+<sentence336>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence336>
+<sentence337>
+    <type>580</type>
+    <positionNumber>66</positionNumber>
+    <bestBeforeDate>20221104</bestBeforeDate>
+    <batchNumber>124007-PO08909-10845</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence337>
+<sentence338>
+    <type>500</type>
+    <positionNumber>67</positionNumber>
+    <EAN>4260402485416</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence338>
+<sentence339>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>164</orderItemNumber>
+</sentence339>
+<sentence340>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence340>
+<sentence341>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence341>
+<sentence342>
+    <type>580</type>
+    <positionNumber>67</positionNumber>
+    <bestBeforeDate>20230401</bestBeforeDate>
+    <batchNumber>152207-VE47010</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence342>
+<sentence343>
+    <type>500</type>
+    <positionNumber>68</positionNumber>
+    <EAN>4260402485386</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence343>
+<sentence344>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>156</orderItemNumber>
+</sentence344>
+<sentence345>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence345>
+<sentence346>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence346>
+<sentence347>
+    <type>580</type>
+    <positionNumber>68</positionNumber>
+    <bestBeforeDate>20230409</bestBeforeDate>
+    <batchNumber>152206-L22063</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence347>
+<sentence348>
+    <type>500</type>
+    <positionNumber>69</positionNumber>
+    <EAN>4260402487618</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence348>
+<sentence349>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>190</orderItemNumber>
+</sentence349>
+<sentence350>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence350>
+<sentence351>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence351>
+<sentence352>
+    <type>580</type>
+    <positionNumber>69</positionNumber>
+    <bestBeforeDate>20230308</bestBeforeDate>
+    <batchNumber>100479-L22102</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence352>
+<sentence353>
+    <type>500</type>
+    <positionNumber>70</positionNumber>
+    <EAN>4251725800673</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence353>
+<sentence354>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>220</orderItemNumber>
+</sentence354>
+<sentence355>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence355>
+<sentence356>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence356>
+<sentence357>
+    <type>580</type>
+    <positionNumber>70</positionNumber>
+    <bestBeforeDate>20221231</bestBeforeDate>
+    <batchNumber>100822-09/21</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence357>
+<sentence358>
+    <type>500</type>
+    <positionNumber>71</positionNumber>
+    <EAN>4260402487892</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence358>
+<sentence359>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>214</orderItemNumber>
+</sentence359>
+<sentence360>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence360>
+<sentence361>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence361>
+<sentence362>
+    <type>580</type>
+    <positionNumber>71</positionNumber>
+    <bestBeforeDate>20230211</bestBeforeDate>
+    <batchNumber>100491-04222A</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence362>
+<sentence363>
+    <type>500</type>
+    <positionNumber>72</positionNumber>
+    <EAN>4260402486338</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence363>
+<sentence364>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>208</orderItemNumber>
+</sentence364>
+<sentence365>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence365>
+<sentence366>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence366>
+<sentence367>
+    <type>580</type>
+    <positionNumber>72</positionNumber>
+    <bestBeforeDate>20230121</bestBeforeDate>
+    <batchNumber>100362-21012023</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence367>
+<sentence368>
+    <type>500</type>
+    <positionNumber>73</positionNumber>
+    <EAN>4260402489452</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence368>
+<sentence369>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>196</orderItemNumber>
+</sentence369>
+<sentence370>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence370>
+<sentence371>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence371>
+<sentence372>
+    <type>580</type>
+    <positionNumber>73</positionNumber>
+    <bestBeforeDate>20230404</bestBeforeDate>
+    <batchNumber>100634-L22055</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence372>
+<sentence373>
+    <type>500</type>
+    <positionNumber>74</positionNumber>
+    <EAN>4251725800598</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence373>
+<sentence374>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>176</orderItemNumber>
+</sentence374>
+<sentence375>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence375>
+<sentence376>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence376>
+<sentence377>
+    <type>580</type>
+    <positionNumber>74</positionNumber>
+    <bestBeforeDate>20230103</bestBeforeDate>
+    <batchNumber>100808-C072202032</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence377>
+<sentence378>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695676167</palletNVE>
+</sentence378>
+<sentence379>
+    <type>500</type>
+    <positionNumber>75</positionNumber>
+    <EAN>4251725800475</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence379>
+<sentence380>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>236</orderItemNumber>
+</sentence380>
+<sentence381>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence381>
+<sentence382>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence382>
+<sentence383>
+    <type>580</type>
+    <positionNumber>75</positionNumber>
+    <bestBeforeDate>20220501</bestBeforeDate>
+    <batchNumber>100790-22087</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence383>
+<sentence384>
+    <type>500</type>
+    <positionNumber>76</positionNumber>
+    <EAN>4251725800987</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence384>
+<sentence385>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>242</orderItemNumber>
+</sentence385>
+<sentence386>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence386>
+<sentence387>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313234295132</partnerILN>
+</sentence387>
+<sentence388>
+    <type>580</type>
+    <positionNumber>76</positionNumber>
+    <bestBeforeDate>20220815</bestBeforeDate>
+    <batchNumber>100883-765218032</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence388>
+<sentence389>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695538410</palletNVE>
+</sentence389>
+<sentence390>
+    <type>500</type>
+    <positionNumber>77</positionNumber>
+    <EAN>4251725800437</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence390>
+<sentence391>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>314</orderItemNumber>
+</sentence391>
+<sentence392>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence392>
+<sentence393>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210381590</partnerILN>
+</sentence393>
+<sentence394>
+    <type>580</type>
+    <positionNumber>77</positionNumber>
+    <bestBeforeDate>20220508</bestBeforeDate>
+    <batchNumber>100788-22094</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence394>
+<sentence395>
+    <type>500</type>
+    <positionNumber>78</positionNumber>
+    <EAN>4260402489995</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence395>
+<sentence396>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>64</orderItemNumber>
+</sentence396>
+<sentence397>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence397>
+<sentence398>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210756084</partnerILN>
+</sentence398>
+<sentence399>
+    <type>500</type>
+    <positionNumber>79</positionNumber>
+    <EAN>4251725800451</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence399>
+<sentence400>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>66</orderItemNumber>
+</sentence400>
+<sentence401>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence401>
+<sentence402>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210756084</partnerILN>
+</sentence402>
+<sentence403>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695537987</palletNVE>
+</sentence403>
+<sentence404>
+    <type>500</type>
+    <positionNumber>80</positionNumber>
+    <EAN>4260402489568</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence404>
+<sentence405>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>62</orderItemNumber>
+</sentence405>
+<sentence406>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence406>
+<sentence407>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210756084</partnerILN>
+</sentence407>
+<sentence408>
+    <type>580</type>
+    <positionNumber>80</positionNumber>
+    <bestBeforeDate>20220524</bestBeforeDate>
+    <batchNumber>100640-22054068</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence408>
+<sentence409>
+    <type>500</type>
+    <positionNumber>81</positionNumber>
+    <EAN>4260402487205</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence409>
+<sentence410>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>390</orderItemNumber>
+</sentence410>
+<sentence411>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence411>
+<sentence412>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210756084</partnerILN>
+</sentence412>
+<sentence413>
+    <type>580</type>
+    <positionNumber>81</positionNumber>
+    <bestBeforeDate>20221211</bestBeforeDate>
+    <batchNumber>100458-221553/0</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence413>
+<sentence414>
+    <type>500</type>
+    <positionNumber>82</positionNumber>
+    <EAN>4251725800437</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence414>
+<sentence415>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>68</orderItemNumber>
+</sentence415>
+<sentence416>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence416>
+<sentence417>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210756084</partnerILN>
+</sentence417>
+<sentence418>
+    <type>580</type>
+    <positionNumber>82</positionNumber>
+    <bestBeforeDate>20220508</bestBeforeDate>
+    <batchNumber>100788-22094</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence418>
+<sentence419>
+    <type>500</type>
+    <positionNumber>83</positionNumber>
+    <EAN>4251725800475</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence419>
+<sentence420>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>70</orderItemNumber>
+</sentence420>
+<sentence421>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence421>
+<sentence422>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210756084</partnerILN>
+</sentence422>
+<sentence423>
+    <type>580</type>
+    <positionNumber>83</positionNumber>
+    <bestBeforeDate>20220501</bestBeforeDate>
+    <batchNumber>100790-22087</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence423>
+<sentence424>
+    <type>500</type>
+    <positionNumber>84</positionNumber>
+    <EAN>4251725800499</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence424>
+<sentence425>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>72</orderItemNumber>
+</sentence425>
+<sentence426>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence426>
+<sentence427>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210756084</partnerILN>
+</sentence427>
+<sentence428>
+    <type>580</type>
+    <positionNumber>84</positionNumber>
+    <bestBeforeDate>20220504</bestBeforeDate>
+    <batchNumber>100791-22090</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence428>
+<sentence429>
+    <type>500</type>
+    <positionNumber>85</positionNumber>
+    <EAN>4260402487212</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence429>
+<sentence430>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>392</orderItemNumber>
+</sentence430>
+<sentence431>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence431>
+<sentence432>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210756084</partnerILN>
+</sentence432>
+<sentence433>
+    <type>580</type>
+    <positionNumber>85</positionNumber>
+    <bestBeforeDate>20221028</bestBeforeDate>
+    <batchNumber>100459-220604/0</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence433>
+<sentence434>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446968</palletNVE>
+</sentence434>
+<sentence435>
+    <type>500</type>
+    <positionNumber>86</positionNumber>
+    <EAN>4260402486802</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence435>
+<sentence436>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>288</orderItemNumber>
+</sentence436>
+<sentence437>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence437>
+<sentence438>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210022592</partnerILN>
+</sentence438>
+<sentence439>
+    <type>580</type>
+    <positionNumber>86</positionNumber>
+    <bestBeforeDate>20230202</bestBeforeDate>
+    <batchNumber>161047-L2061</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence439>
+<sentence440>
+    <type>500</type>
+    <positionNumber>87</positionNumber>
+    <EAN>4260402486789</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence440>
+<sentence441>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>290</orderItemNumber>
+</sentence441>
+<sentence442>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence442>
+<sentence443>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210022592</partnerILN>
+</sentence443>
+<sentence444>
+    <type>580</type>
+    <positionNumber>87</positionNumber>
+    <bestBeforeDate>20221027</bestBeforeDate>
+    <batchNumber>161046-L1441</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence444>
+<sentence445>
+    <type>500</type>
+    <positionNumber>88</positionNumber>
+    <EAN>4260402489995</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence445>
+<sentence446>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>14</orderItemNumber>
+</sentence446>
+<sentence447>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence447>
+<sentence448>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210023414</partnerILN>
+</sentence448>
+<sentence449>
+    <type>500</type>
+    <positionNumber>89</positionNumber>
+    <EAN>4251725800451</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence449>
+<sentence450>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>18</orderItemNumber>
+</sentence450>
+<sentence451>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence451>
+<sentence452>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210023414</partnerILN>
+</sentence452>
+<sentence453>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446463</palletNVE>
+</sentence453>
+<sentence454>
+    <type>500</type>
+    <positionNumber>90</positionNumber>
+    <EAN>4251725801250</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence454>
+<sentence455>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>24</orderItemNumber>
+</sentence455>
+<sentence456>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence456>
+<sentence457>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210023414</partnerILN>
+</sentence457>
+<sentence458>
+    <type>580</type>
+    <positionNumber>90</positionNumber>
+    <bestBeforeDate>20220901</bestBeforeDate>
+    <batchNumber>100918-723308022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence458>
+<sentence459>
+    <type>500</type>
+    <positionNumber>91</positionNumber>
+    <EAN>4251725800437</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence459>
+<sentence460>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>22</orderItemNumber>
+</sentence460>
+<sentence461>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence461>
+<sentence462>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210023414</partnerILN>
+</sentence462>
+<sentence463>
+    <type>580</type>
+    <positionNumber>91</positionNumber>
+    <bestBeforeDate>20220508</bestBeforeDate>
+    <batchNumber>100788-22094</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence463>
+<sentence464>
+    <type>500</type>
+    <positionNumber>92</positionNumber>
+    <EAN>4251725801236</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence464>
+<sentence465>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>26</orderItemNumber>
+</sentence465>
+<sentence466>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence466>
+<sentence467>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210023414</partnerILN>
+</sentence467>
+<sentence468>
+    <type>580</type>
+    <positionNumber>92</positionNumber>
+    <bestBeforeDate>20220911</bestBeforeDate>
+    <batchNumber>100917-723218022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence468>
+<sentence469>
+    <type>500</type>
+    <positionNumber>93</positionNumber>
+    <EAN>4251725800871</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence469>
+<sentence470>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>12</orderItemNumber>
+</sentence470>
+<sentence471>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence471>
+<sentence472>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210023414</partnerILN>
+</sentence472>
+<sentence473>
+    <type>580</type>
+    <positionNumber>93</positionNumber>
+    <bestBeforeDate>20220502</bestBeforeDate>
+    <batchNumber>100871-111112</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence473>
+<sentence474>
+    <type>500</type>
+    <positionNumber>94</positionNumber>
+    <EAN>4251725800864</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence474>
+<sentence475>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>16</orderItemNumber>
+</sentence475>
+<sentence476>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence476>
+<sentence477>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210023414</partnerILN>
+</sentence477>
+<sentence478>
+    <type>580</type>
+    <positionNumber>94</positionNumber>
+    <bestBeforeDate>20220509</bestBeforeDate>
+    <batchNumber>100870-111113</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence478>
+<sentence479>
+    <type>500</type>
+    <positionNumber>95</positionNumber>
+    <EAN>4251725800253</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence479>
+<sentence480>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>20</orderItemNumber>
+</sentence480>
+<sentence481>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence481>
+<sentence482>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210023414</partnerILN>
+</sentence482>
+<sentence483>
+    <type>580</type>
+    <positionNumber>95</positionNumber>
+    <bestBeforeDate>20220811</bestBeforeDate>
+    <batchNumber>100752-608518012</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence483>
+<sentence484>
+    <type>500</type>
+    <positionNumber>96</positionNumber>
+    <EAN>4260402489094</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence484>
+<sentence485>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>10</orderItemNumber>
+</sentence485>
+<sentence486>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence486>
+<sentence487>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210023414</partnerILN>
+</sentence487>
+<sentence488>
+    <type>580</type>
+    <positionNumber>96</positionNumber>
+    <bestBeforeDate>20220706</bestBeforeDate>
+    <batchNumber>100599-O070122K</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence488>
+<sentence489>
+    <type>500</type>
+    <positionNumber>97</positionNumber>
+    <EAN>4251725801458</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence489>
+<sentence490>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>128</orderItemNumber>
+</sentence490>
+<sentence491>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence491>
+<sentence492>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210030092</partnerILN>
+</sentence492>
+<sentence493>
+    <type>500</type>
+    <positionNumber>98</positionNumber>
+    <EAN>4251725801458</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence493>
+<sentence494>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>38</orderItemNumber>
+</sentence494>
+<sentence495>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence495>
+<sentence496>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210030092</partnerILN>
+</sentence496>
+<sentence497>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695538403</palletNVE>
+</sentence497>
+<sentence498>
+    <type>500</type>
+    <positionNumber>99</positionNumber>
+    <EAN>4260402489032</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence498>
+<sentence499>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>124</orderItemNumber>
+</sentence499>
+<sentence500>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence500>
+<sentence501>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210030092</partnerILN>
+</sentence501>
+<sentence502>
+    <type>580</type>
+    <positionNumber>99</positionNumber>
+    <bestBeforeDate>20230403</bestBeforeDate>
+    <batchNumber>100596-L22054</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence502>
+<sentence503>
+    <type>500</type>
+    <positionNumber>100</positionNumber>
+    <EAN>4260402489032</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence503>
+<sentence504>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>36</orderItemNumber>
+</sentence504>
+<sentence505>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence505>
+<sentence506>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210030092</partnerILN>
+</sentence506>
+<sentence507>
+    <type>580</type>
+    <positionNumber>100</positionNumber>
+    <bestBeforeDate>20230403</bestBeforeDate>
+    <batchNumber>100596-L22054</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence507>
+<sentence508>
+    <type>500</type>
+    <positionNumber>101</positionNumber>
+    <EAN>4260402486338</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence508>
+<sentence509>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>126</orderItemNumber>
+</sentence509>
+<sentence510>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence510>
+<sentence511>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210030092</partnerILN>
+</sentence511>
+<sentence512>
+    <type>580</type>
+    <positionNumber>101</positionNumber>
+    <bestBeforeDate>20230121</bestBeforeDate>
+    <batchNumber>100362-21012023</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence512>
+<sentence513>
+    <type>500</type>
+    <positionNumber>102</positionNumber>
+    <EAN>4260402486789</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence513>
+<sentence514>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>122</orderItemNumber>
+</sentence514>
+<sentence515>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence515>
+<sentence516>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210030092</partnerILN>
+</sentence516>
+<sentence517>
+    <type>580</type>
+    <positionNumber>102</positionNumber>
+    <bestBeforeDate>20221027</bestBeforeDate>
+    <batchNumber>161046-L1441</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence517>
+<sentence518>
+    <type>500</type>
+    <positionNumber>103</positionNumber>
+    <EAN>4260402485652</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence518>
+<sentence519>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>114</orderItemNumber>
+</sentence519>
+<sentence520>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence520>
+<sentence521>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210030092</partnerILN>
+</sentence521>
+<sentence522>
+    <type>580</type>
+    <positionNumber>103</positionNumber>
+    <bestBeforeDate>20230228</bestBeforeDate>
+    <batchNumber>100314-L11512</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence522>
+<sentence523>
+    <type>500</type>
+    <positionNumber>104</positionNumber>
+    <EAN>4260402485447</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence523>
+<sentence524>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>118</orderItemNumber>
+</sentence524>
+<sentence525>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence525>
+<sentence526>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210030092</partnerILN>
+</sentence526>
+<sentence527>
+    <type>580</type>
+    <positionNumber>104</positionNumber>
+    <bestBeforeDate>20230415</bestBeforeDate>
+    <batchNumber>152208-VE47305</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence527>
+<sentence528>
+    <type>500</type>
+    <positionNumber>105</positionNumber>
+    <EAN>4260402486802</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence528>
+<sentence529>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>120</orderItemNumber>
+</sentence529>
+<sentence530>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence530>
+<sentence531>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210030092</partnerILN>
+</sentence531>
+<sentence532>
+    <type>580</type>
+    <positionNumber>105</positionNumber>
+    <bestBeforeDate>20230202</bestBeforeDate>
+    <batchNumber>161047-L2061</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence532>
+<sentence533>
+    <type>500</type>
+    <positionNumber>106</positionNumber>
+    <EAN>4260402484495</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence533>
+<sentence534>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>116</orderItemNumber>
+</sentence534>
+<sentence535>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence535>
+<sentence536>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210030092</partnerILN>
+</sentence536>
+<sentence537>
+    <type>580</type>
+    <positionNumber>106</positionNumber>
+    <bestBeforeDate>20240130</bestBeforeDate>
+    <batchNumber>153060-030F</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence537>
+<sentence538>
+    <type>500</type>
+    <positionNumber>107</positionNumber>
+    <EAN>4251725800277</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence538>
+<sentence539>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>274</orderItemNumber>
+</sentence539>
+<sentence540>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence540>
+<sentence541>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210047748</partnerILN>
+</sentence541>
+<sentence542>
+    <type>500</type>
+    <positionNumber>108</positionNumber>
+    <EAN>4251725800451</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence542>
+<sentence543>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>284</orderItemNumber>
+</sentence543>
+<sentence544>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence544>
+<sentence545>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210047748</partnerILN>
+</sentence545>
+<sentence546>
+    <type>500</type>
+    <positionNumber>109</positionNumber>
+    <EAN>4260402489995</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence546>
+<sentence547>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>282</orderItemNumber>
+</sentence547>
+<sentence548>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence548>
+<sentence549>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210047748</partnerILN>
+</sentence549>
+<sentence550>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446883</palletNVE>
+</sentence550>
+<sentence551>
+    <type>500</type>
+    <positionNumber>110</positionNumber>
+    <EAN>4251725800727</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence551>
+<sentence552>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>276</orderItemNumber>
+</sentence552>
+<sentence553>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence553>
+<sentence554>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210047748</partnerILN>
+</sentence554>
+<sentence555>
+    <type>580</type>
+    <positionNumber>110</positionNumber>
+    <bestBeforeDate>20221115</bestBeforeDate>
+    <batchNumber>100855-VE46227</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence555>
+<sentence556>
+    <type>500</type>
+    <positionNumber>111</positionNumber>
+    <EAN>4251725800253</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence556>
+<sentence557>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>272</orderItemNumber>
+</sentence557>
+<sentence558>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence558>
+<sentence559>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210047748</partnerILN>
+</sentence559>
+<sentence560>
+    <type>580</type>
+    <positionNumber>111</positionNumber>
+    <bestBeforeDate>20220811</bestBeforeDate>
+    <batchNumber>100752-608518012</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence560>
+<sentence561>
+    <type>500</type>
+    <positionNumber>112</positionNumber>
+    <EAN>4260402485447</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence561>
+<sentence562>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>270</orderItemNumber>
+</sentence562>
+<sentence563>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence563>
+<sentence564>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210047748</partnerILN>
+</sentence564>
+<sentence565>
+    <type>580</type>
+    <positionNumber>112</positionNumber>
+    <bestBeforeDate>20230415</bestBeforeDate>
+    <batchNumber>152208-VE47305</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence565>
+<sentence566>
+    <type>500</type>
+    <positionNumber>113</positionNumber>
+    <EAN>4260402485386</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence566>
+<sentence567>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>268</orderItemNumber>
+</sentence567>
+<sentence568>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence568>
+<sentence569>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210047748</partnerILN>
+</sentence569>
+<sentence570>
+    <type>580</type>
+    <positionNumber>113</positionNumber>
+    <bestBeforeDate>20230409</bestBeforeDate>
+    <batchNumber>152206-L22063</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence570>
+<sentence571>
+    <type>500</type>
+    <positionNumber>114</positionNumber>
+    <EAN>4251725800475</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence571>
+<sentence572>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>286</orderItemNumber>
+</sentence572>
+<sentence573>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence573>
+<sentence574>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210047748</partnerILN>
+</sentence574>
+<sentence575>
+    <type>580</type>
+    <positionNumber>114</positionNumber>
+    <bestBeforeDate>20220501</bestBeforeDate>
+    <batchNumber>100790-22087</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence575>
+<sentence576>
+    <type>500</type>
+    <positionNumber>115</positionNumber>
+    <EAN>4260402489551</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence576>
+<sentence577>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>280</orderItemNumber>
+</sentence577>
+<sentence578>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence578>
+<sentence579>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210047748</partnerILN>
+</sentence579>
+<sentence580>
+    <type>580</type>
+    <positionNumber>115</positionNumber>
+    <bestBeforeDate>20220524</bestBeforeDate>
+    <batchNumber>100639-22054067</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence580>
+<sentence581>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446944</palletNVE>
+</sentence581>
+<sentence582>
+    <type>500</type>
+    <positionNumber>116</positionNumber>
+    <EAN>4251725801120</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence582>
+<sentence583>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>266</orderItemNumber>
+</sentence583>
+<sentence584>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence584>
+<sentence585>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210067012</partnerILN>
+</sentence585>
+<sentence586>
+    <type>580</type>
+    <positionNumber>116</positionNumber>
+    <bestBeforeDate>20240118</bestBeforeDate>
+    <batchNumber>100896-180124</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence586>
+<sentence587>
+    <type>500</type>
+    <positionNumber>117</positionNumber>
+    <EAN>4260402484006</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence587>
+<sentence588>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>256</orderItemNumber>
+</sentence588>
+<sentence589>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence589>
+<sentence590>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210067012</partnerILN>
+</sentence590>
+<sentence591>
+    <type>580</type>
+    <positionNumber>117</positionNumber>
+    <bestBeforeDate>20220918</bestBeforeDate>
+    <batchNumber>271013-180922</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence591>
+<sentence592>
+    <type>500</type>
+    <positionNumber>118</positionNumber>
+    <EAN>4260402480367</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence592>
+<sentence593>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>254</orderItemNumber>
+</sentence593>
+<sentence594>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence594>
+<sentence595>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210067012</partnerILN>
+</sentence595>
+<sentence596>
+    <type>580</type>
+    <positionNumber>118</positionNumber>
+    <bestBeforeDate>20230610</bestBeforeDate>
+    <batchNumber>141049-L344G21</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence596>
+<sentence597>
+    <type>500</type>
+    <positionNumber>119</positionNumber>
+    <EAN>4260402484334</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence597>
+<sentence598>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>260</orderItemNumber>
+</sentence598>
+<sentence599>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence599>
+<sentence600>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210067012</partnerILN>
+</sentence600>
+<sentence601>
+    <type>580</type>
+    <positionNumber>119</positionNumber>
+    <bestBeforeDate>20230420</bestBeforeDate>
+    <batchNumber>153059-L2020</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence601>
+<sentence602>
+    <type>500</type>
+    <positionNumber>120</positionNumber>
+    <EAN>4260402486789</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence602>
+<sentence603>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>262</orderItemNumber>
+</sentence603>
+<sentence604>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence604>
+<sentence605>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210067012</partnerILN>
+</sentence605>
+<sentence606>
+    <type>580</type>
+    <positionNumber>120</positionNumber>
+    <bestBeforeDate>20221027</bestBeforeDate>
+    <batchNumber>161046-L1441</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence606>
+<sentence607>
+    <type>500</type>
+    <positionNumber>121</positionNumber>
+    <EAN>4251725801021</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence607>
+<sentence608>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>264</orderItemNumber>
+</sentence608>
+<sentence609>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence609>
+<sentence610>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210067012</partnerILN>
+</sentence610>
+<sentence611>
+    <type>580</type>
+    <positionNumber>121</positionNumber>
+    <bestBeforeDate>20240120</bestBeforeDate>
+    <batchNumber>100885-0060905</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence611>
+<sentence612>
+    <type>500</type>
+    <positionNumber>122</positionNumber>
+    <EAN>4260402483962</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence612>
+<sentence613>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>258</orderItemNumber>
+</sentence613>
+<sentence614>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence614>
+<sentence615>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210067012</partnerILN>
+</sentence615>
+<sentence616>
+    <type>580</type>
+    <positionNumber>122</positionNumber>
+    <bestBeforeDate>20220913</bestBeforeDate>
+    <batchNumber>271012-130922</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence616>
+<sentence617>
+    <type>500</type>
+    <positionNumber>123</positionNumber>
+    <EAN>4260402486352</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence617>
+<sentence618>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>44</orderItemNumber>
+</sentence618>
+<sentence619>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence619>
+<sentence620>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210095886</partnerILN>
+</sentence620>
+<sentence621>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695536621</palletNVE>
+</sentence621>
+<sentence622>
+    <type>500</type>
+    <positionNumber>124</positionNumber>
+    <EAN>4260402489032</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence622>
+<sentence623>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>42</orderItemNumber>
+</sentence623>
+<sentence624>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence624>
+<sentence625>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210095886</partnerILN>
+</sentence625>
+<sentence626>
+    <type>580</type>
+    <positionNumber>124</positionNumber>
+    <bestBeforeDate>20230403</bestBeforeDate>
+    <batchNumber>100596-L22054</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence626>
+<sentence627>
+    <type>500</type>
+    <positionNumber>125</positionNumber>
+    <EAN>4251725800581</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence627>
+<sentence628>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>40</orderItemNumber>
+</sentence628>
+<sentence629>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence629>
+<sentence630>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210095886</partnerILN>
+</sentence630>
+<sentence631>
+    <type>580</type>
+    <positionNumber>125</positionNumber>
+    <bestBeforeDate>20230102</bestBeforeDate>
+    <batchNumber>100807-C072202022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence631>
+<sentence632>
+    <type>500</type>
+    <positionNumber>126</positionNumber>
+    <EAN>4251725800390</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence632>
+<sentence633>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>46</orderItemNumber>
+</sentence633>
+<sentence634>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence634>
+<sentence635>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210095886</partnerILN>
+</sentence635>
+<sentence636>
+    <type>580</type>
+    <positionNumber>126</positionNumber>
+    <bestBeforeDate>20230125</bestBeforeDate>
+    <batchNumber>100767-C072202251</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence636>
+<sentence637>
+    <type>500</type>
+    <positionNumber>127</positionNumber>
+    <EAN>4251725800277</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence637>
+<sentence638>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>74</orderItemNumber>
+</sentence638>
+<sentence639>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence639>
+<sentence640>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210101204</partnerILN>
+</sentence640>
+<sentence641>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695537956</palletNVE>
+</sentence641>
+<sentence642>
+    <type>500</type>
+    <positionNumber>128</positionNumber>
+    <EAN>4260402484334</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence642>
+<sentence643>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>396</orderItemNumber>
+</sentence643>
+<sentence644>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence644>
+<sentence645>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210101204</partnerILN>
+</sentence645>
+<sentence646>
+    <type>580</type>
+    <positionNumber>128</positionNumber>
+    <bestBeforeDate>20230420</bestBeforeDate>
+    <batchNumber>153059-L2020</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence646>
+<sentence647>
+    <type>500</type>
+    <positionNumber>129</positionNumber>
+    <EAN>4260402485003</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence647>
+<sentence648>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>394</orderItemNumber>
+</sentence648>
+<sentence649>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence649>
+<sentence650>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210101204</partnerILN>
+</sentence650>
+<sentence651>
+    <type>580</type>
+    <positionNumber>129</positionNumber>
+    <bestBeforeDate>20230331</bestBeforeDate>
+    <batchNumber>151096-L12034</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence651>
+<sentence652>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446937</palletNVE>
+</sentence652>
+<sentence653>
+    <type>500</type>
+    <positionNumber>130</positionNumber>
+    <EAN>4260402484518</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence653>
+<sentence654>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>292</orderItemNumber>
+</sentence654>
+<sentence655>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence655>
+<sentence656>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210106568</partnerILN>
+</sentence656>
+<sentence657>
+    <type>580</type>
+    <positionNumber>130</positionNumber>
+    <bestBeforeDate>20231201</bestBeforeDate>
+    <batchNumber>153061-335U</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence657>
+<sentence658>
+    <type>500</type>
+    <positionNumber>131</positionNumber>
+    <EAN>4251725800277</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence658>
+<sentence659>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>130</orderItemNumber>
+</sentence659>
+<sentence660>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence660>
+<sentence661>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210124616</partnerILN>
+</sentence661>
+<sentence662>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695536591</palletNVE>
+</sentence662>
+<sentence663>
+    <type>500</type>
+    <positionNumber>132</positionNumber>
+    <EAN>4251725801007</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence663>
+<sentence664>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>30</orderItemNumber>
+</sentence664>
+<sentence665>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence665>
+<sentence666>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210124616</partnerILN>
+</sentence666>
+<sentence667>
+    <type>580</type>
+    <positionNumber>132</positionNumber>
+    <bestBeforeDate>20220808</bestBeforeDate>
+    <batchNumber>100884-765311032</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence667>
+<sentence668>
+    <type>500</type>
+    <positionNumber>133</positionNumber>
+    <EAN>4251725800185</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence668>
+<sentence669>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>302</orderItemNumber>
+</sentence669>
+<sentence670>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence670>
+<sentence671>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210126450</partnerILN>
+</sentence671>
+<sentence672>
+    <type>500</type>
+    <positionNumber>134</positionNumber>
+    <EAN>4251725800451</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence672>
+<sentence673>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>306</orderItemNumber>
+</sentence673>
+<sentence674>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence674>
+<sentence675>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210126450</partnerILN>
+</sentence675>
+<sentence676>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695538113</palletNVE>
+</sentence676>
+<sentence677>
+    <type>500</type>
+    <positionNumber>135</positionNumber>
+    <EAN>4260402485041</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence677>
+<sentence678>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>296</orderItemNumber>
+</sentence678>
+<sentence679>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence679>
+<sentence680>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210126450</partnerILN>
+</sentence680>
+<sentence681>
+    <type>580</type>
+    <positionNumber>135</positionNumber>
+    <bestBeforeDate>20230201</bestBeforeDate>
+    <batchNumber>161044-C101355</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence681>
+<sentence682>
+    <type>500</type>
+    <positionNumber>136</positionNumber>
+    <EAN>4251725800864</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence682>
+<sentence683>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>304</orderItemNumber>
+</sentence683>
+<sentence684>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence684>
+<sentence685>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210126450</partnerILN>
+</sentence685>
+<sentence686>
+    <type>580</type>
+    <positionNumber>136</positionNumber>
+    <bestBeforeDate>20220509</bestBeforeDate>
+    <batchNumber>100870-111113</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence686>
+<sentence687>
+    <type>500</type>
+    <positionNumber>137</positionNumber>
+    <EAN>4260402489551</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence687>
+<sentence688>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>298</orderItemNumber>
+</sentence688>
+<sentence689>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence689>
+<sentence690>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210126450</partnerILN>
+</sentence690>
+<sentence691>
+    <type>580</type>
+    <positionNumber>137</positionNumber>
+    <bestBeforeDate>20220524</bestBeforeDate>
+    <batchNumber>100639-22054067</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence691>
+<sentence692>
+    <type>500</type>
+    <positionNumber>138</positionNumber>
+    <EAN>4260402486789</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence692>
+<sentence693>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>300</orderItemNumber>
+</sentence693>
+<sentence694>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence694>
+<sentence695>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210126450</partnerILN>
+</sentence695>
+<sentence696>
+    <type>580</type>
+    <positionNumber>138</positionNumber>
+    <bestBeforeDate>20221027</bestBeforeDate>
+    <batchNumber>161046-L1441</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence696>
+<sentence697>
+    <type>500</type>
+    <positionNumber>139</positionNumber>
+    <EAN>4260402484495</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence697>
+<sentence698>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>294</orderItemNumber>
+</sentence698>
+<sentence699>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence699>
+<sentence700>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210126450</partnerILN>
+</sentence700>
+<sentence701>
+    <type>580</type>
+    <positionNumber>139</positionNumber>
+    <bestBeforeDate>20240130</bestBeforeDate>
+    <batchNumber>153060-030F</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence701>
+<sentence702>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446951</palletNVE>
+</sentence702>
+<sentence703>
+    <type>500</type>
+    <positionNumber>140</positionNumber>
+    <EAN>4251725800390</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence703>
+<sentence704>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>310</orderItemNumber>
+</sentence704>
+<sentence705>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence705>
+<sentence706>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210128812</partnerILN>
+</sentence706>
+<sentence707>
+    <type>580</type>
+    <positionNumber>140</positionNumber>
+    <bestBeforeDate>20230125</bestBeforeDate>
+    <batchNumber>100767-C072202251</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence707>
+<sentence708>
+    <type>500</type>
+    <positionNumber>141</positionNumber>
+    <EAN>4260402485386</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence708>
+<sentence709>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>308</orderItemNumber>
+</sentence709>
+<sentence710>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence710>
+<sentence711>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210128812</partnerILN>
+</sentence711>
+<sentence712>
+    <type>580</type>
+    <positionNumber>141</positionNumber>
+    <bestBeforeDate>20230409</bestBeforeDate>
+    <batchNumber>152206-L22063</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence712>
+<sentence713>
+    <type>500</type>
+    <positionNumber>142</positionNumber>
+    <EAN>4251725800451</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence713>
+<sentence714>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>2</orderItemNumber>
+</sentence714>
+<sentence715>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence715>
+<sentence716>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210304834</partnerILN>
+</sentence716>
+<sentence717>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695536409</palletNVE>
+</sentence717>
+<sentence718>
+    <type>500</type>
+    <positionNumber>143</positionNumber>
+    <EAN>4251725801007</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence718>
+<sentence719>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>4</orderItemNumber>
+</sentence719>
+<sentence720>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence720>
+<sentence721>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210304834</partnerILN>
+</sentence721>
+<sentence722>
+    <type>580</type>
+    <positionNumber>143</positionNumber>
+    <bestBeforeDate>20220808</bestBeforeDate>
+    <batchNumber>100884-765311032</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence722>
+<sentence723>
+    <type>500</type>
+    <positionNumber>144</positionNumber>
+    <EAN>4251725800987</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence723>
+<sentence724>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>6</orderItemNumber>
+</sentence724>
+<sentence725>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence725>
+<sentence726>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210304834</partnerILN>
+</sentence726>
+<sentence727>
+    <type>580</type>
+    <positionNumber>144</positionNumber>
+    <bestBeforeDate>20220815</bestBeforeDate>
+    <batchNumber>100883-765218032</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence727>
+<sentence728>
+    <type>500</type>
+    <positionNumber>145</positionNumber>
+    <EAN>4260402482576</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence728>
+<sentence729>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>378</orderItemNumber>
+</sentence729>
+<sentence730>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence730>
+<sentence731>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210314864</partnerILN>
+</sentence731>
+<sentence732>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695536492</palletNVE>
+</sentence732>
+<sentence733>
+    <type>500</type>
+    <positionNumber>146</positionNumber>
+    <EAN>4251725800864</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence733>
+<sentence734>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>386</orderItemNumber>
+</sentence734>
+<sentence735>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence735>
+<sentence736>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210314864</partnerILN>
+</sentence736>
+<sentence737>
+    <type>580</type>
+    <positionNumber>146</positionNumber>
+    <bestBeforeDate>20220509</bestBeforeDate>
+    <batchNumber>100870-111113</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence737>
+<sentence738>
+    <type>500</type>
+    <positionNumber>147</positionNumber>
+    <EAN>4251725800598</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence738>
+<sentence739>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>384</orderItemNumber>
+</sentence739>
+<sentence740>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence740>
+<sentence741>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210314864</partnerILN>
+</sentence741>
+<sentence742>
+    <type>580</type>
+    <positionNumber>147</positionNumber>
+    <bestBeforeDate>20230103</bestBeforeDate>
+    <batchNumber>100808-C072202032</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence742>
+<sentence743>
+    <type>500</type>
+    <positionNumber>148</positionNumber>
+    <EAN>4251725800581</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence743>
+<sentence744>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>382</orderItemNumber>
+</sentence744>
+<sentence745>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence745>
+<sentence746>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210314864</partnerILN>
+</sentence746>
+<sentence747>
+    <type>580</type>
+    <positionNumber>148</positionNumber>
+    <bestBeforeDate>20230102</bestBeforeDate>
+    <batchNumber>100807-C072202022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence747>
+<sentence748>
+    <type>500</type>
+    <positionNumber>149</positionNumber>
+    <EAN>4260402485027</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence748>
+<sentence749>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>380</orderItemNumber>
+</sentence749>
+<sentence750>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence750>
+<sentence751>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210314864</partnerILN>
+</sentence751>
+<sentence752>
+    <type>580</type>
+    <positionNumber>149</positionNumber>
+    <bestBeforeDate>20230331</bestBeforeDate>
+    <batchNumber>151097-L22034</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence752>
+<sentence753>
+    <type>500</type>
+    <positionNumber>150</positionNumber>
+    <EAN>4251725800277</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence753>
+<sentence754>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>252</orderItemNumber>
+</sentence754>
+<sentence755>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence755>
+<sentence756>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210404596</partnerILN>
+</sentence756>
+<sentence757>
+    <type>500</type>
+    <positionNumber>151</positionNumber>
+    <EAN>4251725800451</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence757>
+<sentence758>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>250</orderItemNumber>
+</sentence758>
+<sentence759>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence759>
+<sentence760>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210404596</partnerILN>
+</sentence760>
+<sentence761>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446470</palletNVE>
+</sentence761>
+<sentence762>
+    <type>500</type>
+    <positionNumber>152</positionNumber>
+    <EAN>4260402489070</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence762>
+<sentence763>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>248</orderItemNumber>
+</sentence763>
+<sentence764>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence764>
+<sentence765>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210404596</partnerILN>
+</sentence765>
+<sentence766>
+    <type>580</type>
+    <positionNumber>152</positionNumber>
+    <bestBeforeDate>20220821</bestBeforeDate>
+    <batchNumber>100598-O220222D</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence766>
+<sentence767>
+    <type>500</type>
+    <positionNumber>153</positionNumber>
+    <EAN>4260402489551</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence767>
+<sentence768>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>246</orderItemNumber>
+</sentence768>
+<sentence769>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence769>
+<sentence770>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210404596</partnerILN>
+</sentence770>
+<sentence771>
+    <type>580</type>
+    <positionNumber>153</positionNumber>
+    <bestBeforeDate>20220524</bestBeforeDate>
+    <batchNumber>100639-22054067</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence771>
+<sentence772>
+    <type>500</type>
+    <positionNumber>154</positionNumber>
+    <EAN>4260402489568</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence772>
+<sentence773>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>244</orderItemNumber>
+</sentence773>
+<sentence774>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence774>
+<sentence775>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210404596</partnerILN>
+</sentence775>
+<sentence776>
+    <type>580</type>
+    <positionNumber>154</positionNumber>
+    <bestBeforeDate>20220524</bestBeforeDate>
+    <batchNumber>100640-22054068</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence776>
+<sentence777>
+    <type>500</type>
+    <positionNumber>155</positionNumber>
+    <EAN>4251725800451</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence777>
+<sentence778>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>96</orderItemNumber>
+</sentence778>
+<sentence779>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence779>
+<sentence780>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210432506</partnerILN>
+</sentence780>
+<sentence781>
+    <type>500</type>
+    <positionNumber>156</positionNumber>
+    <EAN>4251725800277</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence781>
+<sentence782>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>104</orderItemNumber>
+</sentence782>
+<sentence783>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence783>
+<sentence784>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210432506</partnerILN>
+</sentence784>
+<sentence785>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695537994</palletNVE>
+</sentence785>
+<sentence786>
+    <type>500</type>
+    <positionNumber>157</positionNumber>
+    <EAN>4251725800437</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence786>
+<sentence787>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>100</orderItemNumber>
+</sentence787>
+<sentence788>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence788>
+<sentence789>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210432506</partnerILN>
+</sentence789>
+<sentence790>
+    <type>580</type>
+    <positionNumber>157</positionNumber>
+    <bestBeforeDate>20220508</bestBeforeDate>
+    <batchNumber>100788-22094</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence790>
+<sentence791>
+    <type>500</type>
+    <positionNumber>158</positionNumber>
+    <EAN>4251725801120</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence791>
+<sentence792>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>112</orderItemNumber>
+</sentence792>
+<sentence793>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence793>
+<sentence794>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210432506</partnerILN>
+</sentence794>
+<sentence795>
+    <type>580</type>
+    <positionNumber>158</positionNumber>
+    <bestBeforeDate>20240118</bestBeforeDate>
+    <batchNumber>100896-180124</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence795>
+<sentence796>
+    <type>500</type>
+    <positionNumber>159</positionNumber>
+    <EAN>4251725801236</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence796>
+<sentence797>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>110</orderItemNumber>
+</sentence797>
+<sentence798>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence798>
+<sentence799>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210432506</partnerILN>
+</sentence799>
+<sentence800>
+    <type>580</type>
+    <positionNumber>159</positionNumber>
+    <bestBeforeDate>20220911</bestBeforeDate>
+    <batchNumber>100917-723218022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence800>
+<sentence801>
+    <type>500</type>
+    <positionNumber>160</positionNumber>
+    <EAN>4260402484006</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence801>
+<sentence802>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>86</orderItemNumber>
+</sentence802>
+<sentence803>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence803>
+<sentence804>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210432506</partnerILN>
+</sentence804>
+<sentence805>
+    <type>580</type>
+    <positionNumber>160</positionNumber>
+    <bestBeforeDate>20220918</bestBeforeDate>
+    <batchNumber>271013-180922</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence805>
+<sentence806>
+    <type>500</type>
+    <positionNumber>161</positionNumber>
+    <EAN>4260402489094</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence806>
+<sentence807>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>90</orderItemNumber>
+</sentence807>
+<sentence808>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence808>
+<sentence809>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210432506</partnerILN>
+</sentence809>
+<sentence810>
+    <type>580</type>
+    <positionNumber>161</positionNumber>
+    <bestBeforeDate>20220706</bestBeforeDate>
+    <batchNumber>100599-O070122K</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence810>
+<sentence811>
+    <type>500</type>
+    <positionNumber>162</positionNumber>
+    <EAN>4251725800871</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence811>
+<sentence812>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>94</orderItemNumber>
+</sentence812>
+<sentence813>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence813>
+<sentence814>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210432506</partnerILN>
+</sentence814>
+<sentence815>
+    <type>580</type>
+    <positionNumber>162</positionNumber>
+    <bestBeforeDate>20220502</bestBeforeDate>
+    <batchNumber>100871-111112</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence815>
+<sentence816>
+    <type>500</type>
+    <positionNumber>163</positionNumber>
+    <EAN>4251725800475</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence816>
+<sentence817>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>102</orderItemNumber>
+</sentence817>
+<sentence818>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence818>
+<sentence819>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210432506</partnerILN>
+</sentence819>
+<sentence820>
+    <type>580</type>
+    <positionNumber>163</positionNumber>
+    <bestBeforeDate>20220501</bestBeforeDate>
+    <batchNumber>100790-22087</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence820>
+<sentence821>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695538106</palletNVE>
+</sentence821>
+<sentence822>
+    <type>500</type>
+    <positionNumber>164</positionNumber>
+    <EAN>4260402489056</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence822>
+<sentence823>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>88</orderItemNumber>
+</sentence823>
+<sentence824>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence824>
+<sentence825>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210432506</partnerILN>
+</sentence825>
+<sentence826>
+    <type>580</type>
+    <positionNumber>164</positionNumber>
+    <bestBeforeDate>20220822</bestBeforeDate>
+    <batchNumber>100597-O230222N</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence826>
+<sentence827>
+    <type>500</type>
+    <positionNumber>165</positionNumber>
+    <EAN>4251725800987</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence827>
+<sentence828>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>108</orderItemNumber>
+</sentence828>
+<sentence829>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence829>
+<sentence830>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210432506</partnerILN>
+</sentence830>
+<sentence831>
+    <type>580</type>
+    <positionNumber>165</positionNumber>
+    <bestBeforeDate>20220815</bestBeforeDate>
+    <batchNumber>100883-765218032</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence831>
+<sentence832>
+    <type>500</type>
+    <positionNumber>166</positionNumber>
+    <EAN>4260402489070</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence832>
+<sentence833>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>92</orderItemNumber>
+</sentence833>
+<sentence834>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence834>
+<sentence835>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210432506</partnerILN>
+</sentence835>
+<sentence836>
+    <type>580</type>
+    <positionNumber>166</positionNumber>
+    <bestBeforeDate>20220821</bestBeforeDate>
+    <batchNumber>100598-O220222D</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence836>
+<sentence837>
+    <type>500</type>
+    <positionNumber>167</positionNumber>
+    <EAN>4251725800772</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence837>
+<sentence838>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>106</orderItemNumber>
+</sentence838>
+<sentence839>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence839>
+<sentence840>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210432506</partnerILN>
+</sentence840>
+<sentence841>
+    <type>580</type>
+    <positionNumber>167</positionNumber>
+    <bestBeforeDate>20220904</bestBeforeDate>
+    <batchNumber>100865-605208032</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence841>
+<sentence842>
+    <type>500</type>
+    <positionNumber>168</positionNumber>
+    <EAN>4251725800253</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence842>
+<sentence843>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>98</orderItemNumber>
+</sentence843>
+<sentence844>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence844>
+<sentence845>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210432506</partnerILN>
+</sentence845>
+<sentence846>
+    <type>580</type>
+    <positionNumber>168</positionNumber>
+    <bestBeforeDate>20220811</bestBeforeDate>
+    <batchNumber>100752-608518012</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence846>
+<sentence847>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695538120</palletNVE>
+</sentence847>
+<sentence848>
+    <type>500</type>
+    <positionNumber>169</positionNumber>
+    <EAN>4260402485041</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence848>
+<sentence849>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>338</orderItemNumber>
+</sentence849>
+<sentence850>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence850>
+<sentence851>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210700162</partnerILN>
+</sentence851>
+<sentence852>
+    <type>580</type>
+    <positionNumber>169</positionNumber>
+    <bestBeforeDate>20230201</bestBeforeDate>
+    <batchNumber>161044-C101355</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence852>
+<sentence853>
+    <type>500</type>
+    <positionNumber>170</positionNumber>
+    <EAN>4260402486352</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence853>
+<sentence854>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>376</orderItemNumber>
+</sentence854>
+<sentence855>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence855>
+<sentence856>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210700780</partnerILN>
+</sentence856>
+<sentence857>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695536607</palletNVE>
+</sentence857>
+<sentence858>
+    <type>500</type>
+    <positionNumber>171</positionNumber>
+    <EAN>4260402485751</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence858>
+<sentence859>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>76</orderItemNumber>
+</sentence859>
+<sentence860>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence860>
+<sentence861>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210700780</partnerILN>
+</sentence861>
+<sentence862>
+    <type>580</type>
+    <positionNumber>171</positionNumber>
+    <bestBeforeDate>20220620</bestBeforeDate>
+    <batchNumber>162015-1000306113</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence862>
+<sentence863>
+    <type>500</type>
+    <positionNumber>172</positionNumber>
+    <EAN>4251725800390</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence863>
+<sentence864>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>84</orderItemNumber>
+</sentence864>
+<sentence865>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence865>
+<sentence866>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210700780</partnerILN>
+</sentence866>
+<sentence867>
+    <type>580</type>
+    <positionNumber>172</positionNumber>
+    <bestBeforeDate>20230125</bestBeforeDate>
+    <batchNumber>100767-C072202251</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence867>
+<sentence868>
+    <type>500</type>
+    <positionNumber>173</positionNumber>
+    <EAN>4260402486802</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence868>
+<sentence869>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>80</orderItemNumber>
+</sentence869>
+<sentence870>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence870>
+<sentence871>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210700780</partnerILN>
+</sentence871>
+<sentence872>
+    <type>580</type>
+    <positionNumber>173</positionNumber>
+    <bestBeforeDate>20230202</bestBeforeDate>
+    <batchNumber>161047-L2061</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence872>
+<sentence873>
+    <type>500</type>
+    <positionNumber>174</positionNumber>
+    <EAN>4251725800598</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence873>
+<sentence874>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>82</orderItemNumber>
+</sentence874>
+<sentence875>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence875>
+<sentence876>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210700780</partnerILN>
+</sentence876>
+<sentence877>
+    <type>580</type>
+    <positionNumber>174</positionNumber>
+    <bestBeforeDate>20230103</bestBeforeDate>
+    <batchNumber>100808-C072202032</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence877>
+<sentence878>
+    <type>500</type>
+    <positionNumber>175</positionNumber>
+    <EAN>4260402486765</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence878>
+<sentence879>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>78</orderItemNumber>
+</sentence879>
+<sentence880>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence880>
+<sentence881>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210700780</partnerILN>
+</sentence881>
+<sentence882>
+    <type>580</type>
+    <positionNumber>175</positionNumber>
+    <bestBeforeDate>20230203</bestBeforeDate>
+    <batchNumber>161045-L2062</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence882>
+<sentence883>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695537925</palletNVE>
+</sentence883>
+<sentence884>
+    <type>500</type>
+    <positionNumber>176</positionNumber>
+    <EAN>4251725801069</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence884>
+<sentence885>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>316</orderItemNumber>
+</sentence885>
+<sentence886>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence886>
+<sentence887>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210706416</partnerILN>
+</sentence887>
+<sentence888>
+    <type>580</type>
+    <positionNumber>176</positionNumber>
+    <bestBeforeDate>20230801</bestBeforeDate>
+    <batchNumber>100887-0061222</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence888>
+<sentence889>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695538380</palletNVE>
+</sentence889>
+<sentence890>
+    <type>500</type>
+    <positionNumber>177</positionNumber>
+    <EAN>4251725801021</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence890>
+<sentence891>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>312</orderItemNumber>
+</sentence891>
+<sentence892>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence892>
+<sentence893>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210715524</partnerILN>
+</sentence893>
+<sentence894>
+    <type>580</type>
+    <positionNumber>177</positionNumber>
+    <bestBeforeDate>20240120</bestBeforeDate>
+    <batchNumber>100885-0060905</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence894>
+<sentence895>
+    <type>500</type>
+    <positionNumber>178</positionNumber>
+    <EAN>4251725800277</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence895>
+<sentence896>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>388</orderItemNumber>
+</sentence896>
+<sentence897>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence897>
+<sentence898>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210717504</partnerILN>
+</sentence898>
+<sentence899>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695537949</palletNVE>
+</sentence899>
+<sentence900>
+    <type>500</type>
+    <positionNumber>179</positionNumber>
+    <EAN>4251725801021</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence900>
+<sentence901>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>352</orderItemNumber>
+</sentence901>
+<sentence902>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence902>
+<sentence903>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046062</partnerILN>
+</sentence903>
+<sentence904>
+    <type>580</type>
+    <positionNumber>179</positionNumber>
+    <bestBeforeDate>20240120</bestBeforeDate>
+    <batchNumber>100885-0060905</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence904>
+<sentence905>
+    <type>500</type>
+    <positionNumber>180</positionNumber>
+    <EAN>4260402485249</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence905>
+<sentence906>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>348</orderItemNumber>
+</sentence906>
+<sentence907>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence907>
+<sentence908>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046062</partnerILN>
+</sentence908>
+<sentence909>
+    <type>580</type>
+    <positionNumber>180</positionNumber>
+    <bestBeforeDate>20230217</bestBeforeDate>
+    <batchNumber>151100-L22074</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence909>
+<sentence910>
+    <type>500</type>
+    <positionNumber>181</positionNumber>
+    <EAN>4251725800390</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence910>
+<sentence911>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>350</orderItemNumber>
+</sentence911>
+<sentence912>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence912>
+<sentence913>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046062</partnerILN>
+</sentence913>
+<sentence914>
+    <type>580</type>
+    <positionNumber>181</positionNumber>
+    <bestBeforeDate>20230125</bestBeforeDate>
+    <batchNumber>100767-C072202251</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence914>
+<sentence915>
+    <type>500</type>
+    <positionNumber>182</positionNumber>
+    <EAN>4260402484334</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence915>
+<sentence916>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>346</orderItemNumber>
+</sentence916>
+<sentence917>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence917>
+<sentence918>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210046062</partnerILN>
+</sentence918>
+<sentence919>
+    <type>580</type>
+    <positionNumber>182</positionNumber>
+    <bestBeforeDate>20230420</bestBeforeDate>
+    <batchNumber>153059-L2020</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence919>
+<sentence920>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446920</palletNVE>
+</sentence920>
+<sentence921>
+    <type>500</type>
+    <positionNumber>183</positionNumber>
+    <EAN>4260402486338</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence921>
+<sentence922>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>340</orderItemNumber>
+</sentence922>
+<sentence923>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence923>
+<sentence924>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210847706</partnerILN>
+</sentence924>
+<sentence925>
+    <type>580</type>
+    <positionNumber>183</positionNumber>
+    <bestBeforeDate>20230121</bestBeforeDate>
+    <batchNumber>100362-21012023</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence925>
+<sentence926>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695537932</palletNVE>
+</sentence926>
+<sentence927>
+    <type>500</type>
+    <positionNumber>184</positionNumber>
+    <EAN>4260402484006</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence927>
+<sentence928>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>58</orderItemNumber>
+</sentence928>
+<sentence929>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence929>
+<sentence930>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210861412</partnerILN>
+</sentence930>
+<sentence931>
+    <type>580</type>
+    <positionNumber>184</positionNumber>
+    <bestBeforeDate>20220918</bestBeforeDate>
+    <batchNumber>271013-180922</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence931>
+<sentence932>
+    <type>500</type>
+    <positionNumber>185</positionNumber>
+    <EAN>4260402483962</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence932>
+<sentence933>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>60</orderItemNumber>
+</sentence933>
+<sentence934>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence934>
+<sentence935>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210861412</partnerILN>
+</sentence935>
+<sentence936>
+    <type>580</type>
+    <positionNumber>185</positionNumber>
+    <bestBeforeDate>20220913</bestBeforeDate>
+    <batchNumber>271012-130922</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence936>
+<sentence937>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695538397</palletNVE>
+</sentence937>
+<sentence938>
+    <type>500</type>
+    <positionNumber>186</positionNumber>
+    <EAN>4251725801212</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence938>
+<sentence939>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>8</orderItemNumber>
+</sentence939>
+<sentence940>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence940>
+<sentence941>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210869500</partnerILN>
+</sentence941>
+<sentence942>
+    <type>580</type>
+    <positionNumber>186</positionNumber>
+    <bestBeforeDate>20240201</bestBeforeDate>
+    <batchNumber>100913-0060906</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence942>
+<sentence943>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695537963</palletNVE>
+</sentence943>
+<sentence944>
+    <type>500</type>
+    <positionNumber>187</positionNumber>
+    <EAN>4251725800871</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence944>
+<sentence945>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>34</orderItemNumber>
+</sentence945>
+<sentence946>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence946>
+<sentence947>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210874726</partnerILN>
+</sentence947>
+<sentence948>
+    <type>580</type>
+    <positionNumber>187</positionNumber>
+    <bestBeforeDate>20220502</bestBeforeDate>
+    <batchNumber>100871-111112</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence948>
+<sentence949>
+    <type>500</type>
+    <positionNumber>188</positionNumber>
+    <EAN>4251725800277</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence949>
+<sentence950>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>344</orderItemNumber>
+</sentence950>
+<sentence951>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence951>
+<sentence952>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313230152798</partnerILN>
+</sentence952>
+<sentence953>
+    <type>500</type>
+    <positionNumber>189</positionNumber>
+    <EAN>4260402482576</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence953>
+<sentence954>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>278</orderItemNumber>
+</sentence954>
+<sentence955>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence955>
+<sentence956>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210056856</partnerILN>
+</sentence956>
+<sentence957>
+    <type>500</type>
+    <positionNumber>190</positionNumber>
+    <EAN>4251725801434</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence957>
+<sentence958>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>318</orderItemNumber>
+</sentence958>
+<sentence959>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence959>
+<sentence960>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210326492</partnerILN>
+</sentence960>
+<sentence961>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695446913</palletNVE>
+</sentence961>
+<sentence962>
+    <type>500</type>
+    <positionNumber>191</positionNumber>
+    <EAN>4251725800390</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence962>
+<sentence963>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>320</orderItemNumber>
+</sentence963>
+<sentence964>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence964>
+<sentence965>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210326188</partnerILN>
+</sentence965>
+<sentence966>
+    <type>580</type>
+    <positionNumber>191</positionNumber>
+    <bestBeforeDate>20230125</bestBeforeDate>
+    <batchNumber>100767-C072202251</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence966>
+<sentence967>
+    <type>500</type>
+    <positionNumber>192</positionNumber>
+    <EAN>4251725800277</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence967>
+<sentence968>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>366</orderItemNumber>
+</sentence968>
+<sentence969>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence969>
+<sentence970>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210029522</partnerILN>
+</sentence970>
+<sentence971>
+    <type>410</type>
+    <palletType>PK</palletType>
+    <palletNVE>340455750695538434</palletNVE>
+</sentence971>
+<sentence972>
+    <type>500</type>
+    <positionNumber>193</positionNumber>
+    <EAN>4260402485027</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence972>
+<sentence973>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>354</orderItemNumber>
+</sentence973>
+<sentence974>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence974>
+<sentence975>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210029522</partnerILN>
+</sentence975>
+<sentence976>
+    <type>580</type>
+    <positionNumber>193</positionNumber>
+    <bestBeforeDate>20230331</bestBeforeDate>
+    <batchNumber>151097-L22034</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence976>
+<sentence977>
+    <type>500</type>
+    <positionNumber>194</positionNumber>
+    <EAN>4251725800109</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence977>
+<sentence978>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>358</orderItemNumber>
+</sentence978>
+<sentence979>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence979>
+<sentence980>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210029522</partnerILN>
+</sentence980>
+<sentence981>
+    <type>580</type>
+    <positionNumber>194</positionNumber>
+    <bestBeforeDate>20221215</bestBeforeDate>
+    <batchNumber>100723-VE44371</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence981>
+<sentence982>
+    <type>500</type>
+    <positionNumber>195</positionNumber>
+    <EAN>4251725800864</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence982>
+<sentence983>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>360</orderItemNumber>
+</sentence983>
+<sentence984>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence984>
+<sentence985>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210029522</partnerILN>
+</sentence985>
+<sentence986>
+    <type>580</type>
+    <positionNumber>195</positionNumber>
+    <bestBeforeDate>20220509</bestBeforeDate>
+    <batchNumber>100870-111113</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence986>
+<sentence987>
+    <type>500</type>
+    <positionNumber>196</positionNumber>
+    <EAN>4251725800475</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence987>
+<sentence988>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>364</orderItemNumber>
+</sentence988>
+<sentence989>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence989>
+<sentence990>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210029522</partnerILN>
+</sentence990>
+<sentence991>
+    <type>580</type>
+    <positionNumber>196</positionNumber>
+    <bestBeforeDate>20220501</bestBeforeDate>
+    <batchNumber>100790-22087</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence991>
+<sentence992>
+    <type>500</type>
+    <positionNumber>197</positionNumber>
+    <EAN>4251725800437</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence992>
+<sentence993>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>362</orderItemNumber>
+</sentence993>
+<sentence994>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence994>
+<sentence995>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210029522</partnerILN>
+</sentence995>
+<sentence996>
+    <type>580</type>
+    <positionNumber>197</positionNumber>
+    <bestBeforeDate>20220508</bestBeforeDate>
+    <batchNumber>100788-22094</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence996>
+<sentence997>
+    <type>500</type>
+    <positionNumber>198</positionNumber>
+    <EAN>4260402489551</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence997>
+<sentence998>
+    <type>511</type>
+    <customerOrderNumber>6320698</customerOrderNumber>
+    <orderItemNumber>356</orderItemNumber>
+</sentence998>
+<sentence999>
+    <type>515</type>
+    <expectedDeliveryDate>20220408</expectedDeliveryDate>
+</sentence999>
+<sentence1000>
+    <type>519</type>
+    <partnerType>UC</partnerType>
+    <partnerILN>4313210029522</partnerILN>
+</sentence1000>
+<sentence1001>
+    <type>580</type>
+    <positionNumber>198</positionNumber>
+    <bestBeforeDate>20220524</bestBeforeDate>
+    <batchNumber>100639-22054067</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence1001>`
 
 export const PARSEDXMLDEASDV6 = 
-`<sentence1>\n    <type>000</type>\n    <senderId>4260402480008</senderId>\n    <recieverId>4311501990018</recieverId>\n    <date>20220407</date>\n    <time>1528</time>\n    <dataExchangeReference>32206325VEGANZ</dataExchangeReference>\n    <fileInterfaceVersionNumber>4.5</fileInterfaceVersionNumber>\n</sentence1>\n<sentence2>\n    <type>100</type>\n    <messageReference>1</messageReference>\n    <messageType>DESADV</messageType>\n    <transactionType>351</transactionType>\n    <documentNumber>22209964</documentNumber>\n    <documentDate>20220407</documentDate>\n</sentence2>\n<sentence3>\n    <type>111</type>\n    <customerOrderNumber>2013008392</customerOrderNumber>\n    <deliveryDate>20220411</deliveryDate>\n    <deliveryReceiptNumber>22209964</deliveryReceiptNumber>\n    <deliveryReceiptDate>20220407</deliveryReceiptDate>\n</sentence3>\n<sentence4>\n    <type>115</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence4>\n<sentence5>\n    <type>119</type>\n    <partnerType>BY</partnerType>\n</sentence5>\n<sentence6>\n    <type>119</type>\n    <partnerType>IV</partnerType>\n</sentence6>\n<sentence7>\n    <type>119</type>\n    <partnerType>DP</partnerType>\n    <partnerILN>4313101086016</partnerILN>\n</sentence7>\n<sentence8>\n    <type>119</type>\n    <partnerType>SU</partnerType>\n    <partnerILN>4260402480008</partnerILN>\n</sentence8>\n<sentence9>\n    <type>400</type>\n    <positionNumber>1</positionNumber>\n    <perShipmentPalletCount>1</perShipmentPalletCount>\n</sentence9>\n<sentence10>\n    <type>500</type>\n    <positionNumber>1</positionNumber>\n    <EAN>4251725800277</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence10>\n<sentence11>\n    <type>511</type>\n    <customerOrderNumber>2013008392</customerOrderNumber>\n</sentence11>\n<sentence12>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence12>\n<sentence13>\n    <type>410</type>\n    <palletType>201</palletType>\n    <palletNVE>340455750695446692</palletNVE>\n</sentence13>\n<sentence14>\n    <type>500</type>\n    <positionNumber>2</positionNumber>\n    <EAN>4251725800253</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence14>\n<sentence15>\n    <type>511</type>\n    <customerOrderNumber>2013008392</customerOrderNumber>\n</sentence15>\n<sentence16>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence16>\n<sentence17>\n    <type>580</type>\n    <positionNumber>2</positionNumber>\n    <bestBeforeDate>20220811</bestBeforeDate>\n    <batchNumber>100752-608518012</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence17>\n<sentence18>\n    <type>500</type>\n    <positionNumber>3</positionNumber>\n    <EAN>4251725800475</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence18>\n<sentence19>\n    <type>511</type>\n    <customerOrderNumber>2013008392</customerOrderNumber>\n</sentence19>\n<sentence20>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence20>\n<sentence21>\n    <type>580</type>\n    <positionNumber>3</positionNumber>\n    <bestBeforeDate>20220504</bestBeforeDate>\n    <batchNumber>100790-22090</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence21>`
+`<sentence1>
+    <type>000</type>
+    <senderId>4260402480008</senderId>
+    <recieverId>4311501990018</recieverId>
+    <date>20220407</date>
+    <time>1528</time>
+    <dataExchangeReference>32206325VEGANZ</dataExchangeReference>
+    <fileInterfaceVersionNumber>4.5</fileInterfaceVersionNumber>
+</sentence1>
+<sentence2>
+    <type>100</type>
+    <messageReference>1</messageReference>
+    <messageType>DESADV</messageType>
+    <transactionType>351</transactionType>
+    <documentNumber>22209964</documentNumber>
+    <documentDate>20220407</documentDate>
+</sentence2>
+<sentence3>
+    <type>111</type>
+    <customerOrderNumber>2013008392</customerOrderNumber>
+    <deliveryDate>20220411</deliveryDate>
+    <deliveryReceiptNumber>22209964</deliveryReceiptNumber>
+    <deliveryReceiptDate>20220407</deliveryReceiptDate>
+</sentence3>
+<sentence4>
+    <type>115</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence4>
+<sentence5>
+    <type>119</type>
+    <partnerType>BY</partnerType>
+</sentence5>
+<sentence6>
+    <type>119</type>
+    <partnerType>IV</partnerType>
+</sentence6>
+<sentence7>
+    <type>119</type>
+    <partnerType>DP</partnerType>
+    <partnerILN>4313101086016</partnerILN>
+</sentence7>
+<sentence8>
+    <type>119</type>
+    <partnerType>SU</partnerType>
+    <partnerILN>4260402480008</partnerILN>
+</sentence8>
+<sentence9>
+    <type>400</type>
+    <positionNumber>1</positionNumber>
+    <perShipmentPalletCount>1</perShipmentPalletCount>
+</sentence9>
+<sentence10>
+    <type>500</type>
+    <positionNumber>1</positionNumber>
+    <EAN>4251725800277</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence10>
+<sentence11>
+    <type>511</type>
+    <customerOrderNumber>2013008392</customerOrderNumber>
+</sentence11>
+<sentence12>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence12>
+<sentence13>
+    <type>410</type>
+    <palletType>201</palletType>
+    <palletNVE>340455750695446692</palletNVE>
+</sentence13>
+<sentence14>
+    <type>500</type>
+    <positionNumber>2</positionNumber>
+    <EAN>4251725800253</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence14>
+<sentence15>
+    <type>511</type>
+    <customerOrderNumber>2013008392</customerOrderNumber>
+</sentence15>
+<sentence16>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence16>
+<sentence17>
+    <type>580</type>
+    <positionNumber>2</positionNumber>
+    <bestBeforeDate>20220811</bestBeforeDate>
+    <batchNumber>100752-608518012</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence17>
+<sentence18>
+    <type>500</type>
+    <positionNumber>3</positionNumber>
+    <EAN>4251725800475</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence18>
+<sentence19>
+    <type>511</type>
+    <customerOrderNumber>2013008392</customerOrderNumber>
+</sentence19>
+<sentence20>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence20>
+<sentence21>
+    <type>580</type>
+    <positionNumber>3</positionNumber>
+    <bestBeforeDate>20220504</bestBeforeDate>
+    <batchNumber>100790-22090</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence21>`
 
 export const PARSEDXMLDEASDV7 = 
-`<sentence1>\n    <type>000</type>\n    <senderId>4260402480008</senderId>\n    <recieverId>4311501990018</recieverId>\n    <date>20220407</date>\n    <time>1535</time>\n    <dataExchangeReference>32206327VEGANZ</dataExchangeReference>\n    <fileInterfaceVersionNumber>4.5</fileInterfaceVersionNumber>\n</sentence1>\n<sentence2>\n    <type>100</type>\n    <messageReference>1</messageReference>\n    <messageType>DESADV</messageType>\n    <transactionType>351</transactionType>\n    <documentNumber>22209405</documentNumber>\n    <documentDate>20220407</documentDate>\n</sentence2>\n<sentence3>\n    <type>111</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n    <deliveryDate>20220411</deliveryDate>\n    <deliveryReceiptNumber>22209405</deliveryReceiptNumber>\n    <deliveryReceiptDate>20220407</deliveryReceiptDate>\n</sentence3>\n<sentence4>\n    <type>115</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence4>\n<sentence5>\n    <type>119</type>\n    <partnerType>BY</partnerType>\n</sentence5>\n<sentence6>\n    <type>119</type>\n    <partnerType>IV</partnerType>\n</sentence6>\n<sentence7>\n    <type>119</type>\n    <partnerType>DP</partnerType>\n    <partnerILN>4314318187596</partnerILN>\n</sentence7>\n<sentence8>\n    <type>119</type>\n    <partnerType>SU</partnerType>\n    <partnerILN>4260402480008</partnerILN>\n</sentence8>\n<sentence9>\n    <type>400</type>\n    <positionNumber>1</positionNumber>\n    <perShipmentPalletCount>1</perShipmentPalletCount>\n</sentence9>\n<sentence10>\n    <type>500</type>\n    <positionNumber>1</positionNumber>\n    <EAN>4260402489995</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence10>\n<sentence11>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence11>\n<sentence12>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence12>\n<sentence13>\n    <type>500</type>\n    <positionNumber>2</positionNumber>\n    <EAN>4251725801434</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence13>\n<sentence14>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence14>\n<sentence15>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence15>\n<sentence16>\n    <type>500</type>\n    <positionNumber>3</positionNumber>\n    <EAN>4251725801458</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence16>\n<sentence17>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence17>\n<sentence18>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence18>\n<sentence19>\n    <type>500</type>\n    <positionNumber>4</positionNumber>\n    <EAN>4251725800277</EAN>\n    <orderQuantity>.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence19>\n<sentence20>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence20>\n<sentence21>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence21>\n<sentence22>\n    <type>410</type>\n    <palletType>201</palletType>\n    <palletNVE>340455750695674828</palletNVE>\n</sentence22>\n<sentence23>\n    <type>500</type>\n    <positionNumber>5</positionNumber>\n    <EAN>4260402485324</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence23>\n<sentence24>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence24>\n<sentence25>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence25>\n<sentence26>\n    <type>580</type>\n    <positionNumber>5</positionNumber>\n    <bestBeforeDate>20230407</bestBeforeDate>\n    <batchNumber>152204-L22061</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence26>\n<sentence27>\n    <type>500</type>\n    <positionNumber>6</positionNumber>\n    <EAN>4260402485386</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence27>\n<sentence28>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence28>\n<sentence29>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence29>\n<sentence30>\n    <type>580</type>\n    <positionNumber>6</positionNumber>\n    <bestBeforeDate>20230409</bestBeforeDate>\n    <batchNumber>152206-L22063</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence30>\n<sentence31>\n    <type>500</type>\n    <positionNumber>7</positionNumber>\n    <EAN>4260402485249</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence31>\n<sentence32>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence32>\n<sentence33>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence33>\n<sentence34>\n    <type>580</type>\n    <positionNumber>7</positionNumber>\n    <bestBeforeDate>20230217</bestBeforeDate>\n    <batchNumber>151100-L22074</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence34>\n<sentence35>\n    <type>500</type>\n    <positionNumber>8</positionNumber>\n    <EAN>4260402487939</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence35>\n<sentence36>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence36>\n<sentence37>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence37>\n<sentence38>\n    <type>580</type>\n    <positionNumber>8</positionNumber>\n    <bestBeforeDate>20230214</bestBeforeDate>\n    <batchNumber>100493-04522A</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence38>\n<sentence39>\n    <type>500</type>\n    <positionNumber>9</positionNumber>\n    <EAN>4260402487892</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence39>\n<sentence40>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence40>\n<sentence41>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence41>\n<sentence42>\n    <type>580</type>\n    <positionNumber>9</positionNumber>\n    <bestBeforeDate>20230211</bestBeforeDate>\n    <batchNumber>100491-04222A</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence42>\n<sentence43>\n    <type>500</type>\n    <positionNumber>10</positionNumber>\n    <EAN>4251725800390</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence43>\n<sentence44>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence44>\n<sentence45>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence45>\n<sentence46>\n    <type>580</type>\n    <positionNumber>10</positionNumber>\n    <bestBeforeDate>20230125</bestBeforeDate>\n    <batchNumber>100767-C072202251</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence46>\n<sentence47>\n    <type>500</type>\n    <positionNumber>11</positionNumber>\n    <EAN>4251725800581</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence47>\n<sentence48>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence48>\n<sentence49>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence49>\n<sentence50>\n    <type>580</type>\n    <positionNumber>11</positionNumber>\n    <bestBeforeDate>20230102</bestBeforeDate>\n    <batchNumber>100807-C072202022</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence50>\n<sentence51>\n    <type>500</type>\n    <positionNumber>12</positionNumber>\n    <EAN>4251725800598</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence51>\n<sentence52>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence52>\n<sentence53>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence53>\n<sentence54>\n    <type>580</type>\n    <positionNumber>12</positionNumber>\n    <bestBeforeDate>20230103</bestBeforeDate>\n    <batchNumber>100808-C072202032</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence54>\n<sentence55>\n    <type>500</type>\n    <positionNumber>13</positionNumber>\n    <EAN>4260402480367</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence55>\n<sentence56>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence56>\n<sentence57>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence57>\n<sentence58>\n    <type>580</type>\n    <positionNumber>13</positionNumber>\n    <bestBeforeDate>20230610</bestBeforeDate>\n    <batchNumber>141049-L344G21</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence58>\n<sentence59>\n    <type>500</type>\n    <positionNumber>14</positionNumber>\n    <EAN>4260402486789</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence59>\n<sentence60>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence60>\n<sentence61>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence61>\n<sentence62>\n    <type>580</type>\n    <positionNumber>14</positionNumber>\n    <bestBeforeDate>20221027</bestBeforeDate>\n    <batchNumber>161046-L1441</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence62>\n<sentence63>\n    <type>500</type>\n    <positionNumber>15</positionNumber>\n    <EAN>4251725801397</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence63>\n<sentence64>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence64>\n<sentence65>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence65>\n<sentence66>\n    <type>580</type>\n    <positionNumber>15</positionNumber>\n    <bestBeforeDate>20230131</bestBeforeDate>\n    <batchNumber>100926-01/22</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence66>\n<sentence67>\n    <type>500</type>\n    <positionNumber>16</positionNumber>\n    <EAN>4260402485027</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence67>\n<sentence68>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence68>\n<sentence69>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence69>\n<sentence70>\n    <type>580</type>\n    <positionNumber>16</positionNumber>\n    <bestBeforeDate>20230331</bestBeforeDate>\n    <batchNumber>151097-L22034</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence70>\n<sentence71>\n    <type>500</type>\n    <positionNumber>17</positionNumber>\n    <EAN>4260402485003</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence71>\n<sentence72>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence72>\n<sentence73>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence73>\n<sentence74>\n    <type>580</type>\n    <positionNumber>17</positionNumber>\n    <bestBeforeDate>20230331</bestBeforeDate>\n    <batchNumber>151096-L12034</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence74>\n<sentence75>\n    <type>500</type>\n    <positionNumber>18</positionNumber>\n    <EAN>4260402489452</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence75>\n<sentence76>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence76>\n<sentence77>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence77>\n<sentence78>\n    <type>580</type>\n    <positionNumber>18</positionNumber>\n    <bestBeforeDate>20230404</bestBeforeDate>\n    <batchNumber>100634-L22055</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence78>\n<sentence79>\n    <type>500</type>\n    <positionNumber>19</positionNumber>\n    <EAN>4260402486840</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence79>\n<sentence80>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence80>\n<sentence81>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence81>\n<sentence82>\n    <type>580</type>\n    <positionNumber>19</positionNumber>\n    <bestBeforeDate>20230527</bestBeforeDate>\n    <batchNumber>100399-02722</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence82>\n<sentence83>\n    <type>500</type>\n    <positionNumber>20</positionNumber>\n    <EAN>4260402486802</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence83>\n<sentence84>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence84>\n<sentence85>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence85>\n<sentence86>\n    <type>580</type>\n    <positionNumber>20</positionNumber>\n    <bestBeforeDate>20230202</bestBeforeDate>\n    <batchNumber>161047-L2061</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence86>\n<sentence87>\n    <type>500</type>\n    <positionNumber>21</positionNumber>\n    <EAN>4260402487205</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence87>\n<sentence88>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence88>\n<sentence89>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence89>\n<sentence90>\n    <type>580</type>\n    <positionNumber>21</positionNumber>\n    <bestBeforeDate>20221211</bestBeforeDate>\n    <batchNumber>100458-221553/0</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence90>\n<sentence91>\n    <type>500</type>\n    <positionNumber>22</positionNumber>\n    <EAN>4260402485652</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence91>\n<sentence92>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence92>\n<sentence93>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence93>\n<sentence94>\n    <type>580</type>\n    <positionNumber>22</positionNumber>\n    <bestBeforeDate>20230228</bestBeforeDate>\n    <batchNumber>100314-L11512</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence94>\n<sentence95>\n    <type>500</type>\n    <positionNumber>23</positionNumber>\n    <EAN>4260402487618</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence95>\n<sentence96>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence96>\n<sentence97>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence97>\n<sentence98>\n    <type>580</type>\n    <positionNumber>23</positionNumber>\n    <bestBeforeDate>20230308</bestBeforeDate>\n    <batchNumber>100479-L22102</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence98>\n<sentence99>\n    <type>500</type>\n    <positionNumber>24</positionNumber>\n    <EAN>4260402484983</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence99>\n<sentence100>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence100>\n<sentence101>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence101>\n<sentence102>\n    <type>580</type>\n    <positionNumber>24</positionNumber>\n    <bestBeforeDate>20230331</bestBeforeDate>\n    <batchNumber>151095-L32033</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence102>\n<sentence103>\n    <type>500</type>\n    <positionNumber>25</positionNumber>\n    <EAN>4260402484495</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence103>\n<sentence104>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence104>\n<sentence105>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence105>\n<sentence106>\n    <type>580</type>\n    <positionNumber>25</positionNumber>\n    <bestBeforeDate>20240130</bestBeforeDate>\n    <batchNumber>153060-030F</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence106>\n<sentence107>\n    <type>500</type>\n    <positionNumber>26</positionNumber>\n    <EAN>4260402484334</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence107>\n<sentence108>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence108>\n<sentence109>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence109>\n<sentence110>\n    <type>580</type>\n    <positionNumber>26</positionNumber>\n    <bestBeforeDate>20230420</bestBeforeDate>\n    <batchNumber>153059-L2020</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence110>\n<sentence111>\n    <type>500</type>\n    <positionNumber>27</positionNumber>\n    <EAN>4260402485737</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence111>\n<sentence112>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence112>\n<sentence113>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence113>\n<sentence114>\n    <type>580</type>\n    <positionNumber>27</positionNumber>\n    <bestBeforeDate>20220620</bestBeforeDate>\n    <batchNumber>162014-1000306114</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence114>\n<sentence115>\n    <type>500</type>\n    <positionNumber>28</positionNumber>\n    <EAN>4251725801069</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence115>\n<sentence116>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence116>\n<sentence117>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence117>\n<sentence118>\n    <type>580</type>\n    <positionNumber>28</positionNumber>\n    <bestBeforeDate>20230801</bestBeforeDate>\n    <batchNumber>100887-0061222</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence118>\n<sentence119>\n    <type>500</type>\n    <positionNumber>29</positionNumber>\n    <EAN>4251725801021</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence119>\n<sentence120>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence120>\n<sentence121>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence121>\n<sentence122>\n    <type>580</type>\n    <positionNumber>29</positionNumber>\n    <bestBeforeDate>20240120</bestBeforeDate>\n    <batchNumber>100885-0060905</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence122>\n<sentence123>\n    <type>500</type>\n    <positionNumber>30</positionNumber>\n    <EAN>4260402484518</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence123>\n<sentence124>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence124>\n<sentence125>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence125>\n<sentence126>\n    <type>580</type>\n    <positionNumber>30</positionNumber>\n    <bestBeforeDate>20231201</bestBeforeDate>\n    <batchNumber>153061-335U</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence126>\n<sentence127>\n    <type>500</type>\n    <positionNumber>31</positionNumber>\n    <EAN>4251725800901</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence127>\n<sentence128>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence128>\n<sentence129>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence129>\n<sentence130>\n    <type>580</type>\n    <positionNumber>31</positionNumber>\n    <bestBeforeDate>20221101</bestBeforeDate>\n    <batchNumber>100875-VE46020</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence130>\n<sentence131>\n    <type>500</type>\n    <positionNumber>32</positionNumber>\n    <EAN>4251725801212</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence131>\n<sentence132>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence132>\n<sentence133>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence133>\n<sentence134>\n    <type>580</type>\n    <positionNumber>32</positionNumber>\n    <bestBeforeDate>20240201</bestBeforeDate>\n    <batchNumber>100913-0060906</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence134>\n<sentence135>\n    <type>500</type>\n    <positionNumber>33</positionNumber>\n    <EAN>4251725801120</EAN>\n    <orderQuantity>4.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence135>\n<sentence136>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence136>\n<sentence137>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence137>\n<sentence138>\n    <type>580</type>\n    <positionNumber>33</positionNumber>\n    <bestBeforeDate>20240118</bestBeforeDate>\n    <batchNumber>100896-180124</batchNumber>\n    <deliveryQuantity>4</deliveryQuantity>\n</sentence138>\n<sentence139>\n    <type>500</type>\n    <positionNumber>34</positionNumber>\n    <EAN>4260402484006</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence139>\n<sentence140>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence140>\n<sentence141>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence141>\n<sentence142>\n    <type>580</type>\n    <positionNumber>34</positionNumber>\n    <bestBeforeDate>20220918</bestBeforeDate>\n    <batchNumber>271013-180922</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence142>\n<sentence143>\n    <type>500</type>\n    <positionNumber>35</positionNumber>\n    <EAN>4260402487632</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence143>\n<sentence144>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence144>\n<sentence145>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence145>\n<sentence146>\n    <type>580</type>\n    <positionNumber>35</positionNumber>\n    <bestBeforeDate>20230105</bestBeforeDate>\n    <batchNumber>100480-L22022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence146>\n<sentence147>\n    <type>500</type>\n    <positionNumber>36</positionNumber>\n    <EAN>4251725800253</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence147>\n<sentence148>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence148>\n<sentence149>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence149>\n<sentence150>\n    <type>580</type>\n    <positionNumber>36</positionNumber>\n    <bestBeforeDate>20220811</bestBeforeDate>\n    <batchNumber>100752-608518012</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence150>\n<sentence151>\n    <type>500</type>\n    <positionNumber>37</positionNumber>\n    <EAN>4251725801236</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence151>\n<sentence152>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence152>\n<sentence153>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence153>\n<sentence154>\n    <type>580</type>\n    <positionNumber>37</positionNumber>\n    <bestBeforeDate>20220911</bestBeforeDate>\n    <batchNumber>100917-723218022</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence154>\n<sentence155>\n    <type>500</type>\n    <positionNumber>38</positionNumber>\n    <EAN>4251725800864</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence155>\n<sentence156>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence156>\n<sentence157>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence157>\n<sentence158>\n    <type>580</type>\n    <positionNumber>38</positionNumber>\n    <bestBeforeDate>20220509</bestBeforeDate>\n    <batchNumber>100870-111113</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence158>\n<sentence159>\n    <type>500</type>\n    <positionNumber>39</positionNumber>\n    <EAN>4260402489094</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence159>\n<sentence160>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence160>\n<sentence161>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence161>\n<sentence162>\n    <type>580</type>\n    <positionNumber>39</positionNumber>\n    <bestBeforeDate>20220706</bestBeforeDate>\n    <batchNumber>100599-O070122K</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence162>\n<sentence163>\n    <type>500</type>\n    <positionNumber>40</positionNumber>\n    <EAN>4251725800987</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence163>\n<sentence164>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence164>\n<sentence165>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence165>\n<sentence166>\n    <type>580</type>\n    <positionNumber>40</positionNumber>\n    <bestBeforeDate>20220815</bestBeforeDate>\n    <batchNumber>100883-765218032</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence166>\n<sentence167>\n    <type>500</type>\n    <positionNumber>41</positionNumber>\n    <EAN>4251725801489</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence167>\n<sentence168>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence168>\n<sentence169>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence169>\n<sentence170>\n    <type>580</type>\n    <positionNumber>41</positionNumber>\n    <bestBeforeDate>20220505</bestBeforeDate>\n    <batchNumber>100935-122133</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence170>\n<sentence171>\n    <type>500</type>\n    <positionNumber>42</positionNumber>\n    <EAN>4251725801502</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence171>\n<sentence172>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence172>\n<sentence173>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence173>\n<sentence174>\n    <type>580</type>\n    <positionNumber>42</positionNumber>\n    <bestBeforeDate>20220505</bestBeforeDate>\n    <batchNumber>100936-122133</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence174>\n<sentence175>\n    <type>500</type>\n    <positionNumber>43</positionNumber>\n    <EAN>4251725800437</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence175>\n<sentence176>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence176>\n<sentence177>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence177>\n<sentence178>\n    <type>580</type>\n    <positionNumber>43</positionNumber>\n    <bestBeforeDate>20220508</bestBeforeDate>\n    <batchNumber>100788-22094</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence178>\n<sentence179>\n    <type>500</type>\n    <positionNumber>44</positionNumber>\n    <EAN>4251725800475</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence179>\n<sentence180>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence180>\n<sentence181>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence181>\n<sentence182>\n    <type>580</type>\n    <positionNumber>44</positionNumber>\n    <bestBeforeDate>20220501</bestBeforeDate>\n    <batchNumber>100790-22087</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence182>\n<sentence183>\n    <type>500</type>\n    <positionNumber>45</positionNumber>\n    <EAN>4260402483962</EAN>\n    <orderQuantity>2.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence183>\n<sentence184>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence184>\n<sentence185>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence185>\n<sentence186>\n    <type>580</type>\n    <positionNumber>45</positionNumber>\n    <bestBeforeDate>20220913</bestBeforeDate>\n    <batchNumber>271012-130922</batchNumber>\n    <deliveryQuantity>2</deliveryQuantity>\n</sentence186>\n<sentence187>\n    <type>500</type>\n    <positionNumber>46</positionNumber>\n    <EAN>4251725800499</EAN>\n    <orderQuantity>1.000</orderQuantity>\n    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>\n</sentence187>\n<sentence188>\n    <type>511</type>\n    <customerOrderNumber>O-2022-006250</customerOrderNumber>\n</sentence188>\n<sentence189>\n    <type>515</type>\n    <expectedDeliveryDate>20220411</expectedDeliveryDate>\n</sentence189>\n<sentence190>\n    <type>580</type>\n    <positionNumber>46</positionNumber>\n    <bestBeforeDate>20220504</bestBeforeDate>\n    <batchNumber>100791-22090</batchNumber>\n    <deliveryQuantity>1</deliveryQuantity>\n</sentence190>`
-// fullTime: 62.418ms
+`<sentence1>
+    <type>000</type>
+    <senderId>4260402480008</senderId>
+    <recieverId>4311501990018</recieverId>
+    <date>20220407</date>
+    <time>1535</time>
+    <dataExchangeReference>32206327VEGANZ</dataExchangeReference>
+    <fileInterfaceVersionNumber>4.5</fileInterfaceVersionNumber>
+</sentence1>
+<sentence2>
+    <type>100</type>
+    <messageReference>1</messageReference>
+    <messageType>DESADV</messageType>
+    <transactionType>351</transactionType>
+    <documentNumber>22209405</documentNumber>
+    <documentDate>20220407</documentDate>
+</sentence2>
+<sentence3>
+    <type>111</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+    <deliveryDate>20220411</deliveryDate>
+    <deliveryReceiptNumber>22209405</deliveryReceiptNumber>
+    <deliveryReceiptDate>20220407</deliveryReceiptDate>
+</sentence3>
+<sentence4>
+    <type>115</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence4>
+<sentence5>
+    <type>119</type>
+    <partnerType>BY</partnerType>
+</sentence5>
+<sentence6>
+    <type>119</type>
+    <partnerType>IV</partnerType>
+</sentence6>
+<sentence7>
+    <type>119</type>
+    <partnerType>DP</partnerType>
+    <partnerILN>4314318187596</partnerILN>
+</sentence7>
+<sentence8>
+    <type>119</type>
+    <partnerType>SU</partnerType>
+    <partnerILN>4260402480008</partnerILN>
+</sentence8>
+<sentence9>
+    <type>400</type>
+    <positionNumber>1</positionNumber>
+    <perShipmentPalletCount>1</perShipmentPalletCount>
+</sentence9>
+<sentence10>
+    <type>500</type>
+    <positionNumber>1</positionNumber>
+    <EAN>4260402489995</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence10>
+<sentence11>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence11>
+<sentence12>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence12>
+<sentence13>
+    <type>500</type>
+    <positionNumber>2</positionNumber>
+    <EAN>4251725801434</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence13>
+<sentence14>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence14>
+<sentence15>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence15>
+<sentence16>
+    <type>500</type>
+    <positionNumber>3</positionNumber>
+    <EAN>4251725801458</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence16>
+<sentence17>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence17>
+<sentence18>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence18>
+<sentence19>
+    <type>500</type>
+    <positionNumber>4</positionNumber>
+    <EAN>4251725800277</EAN>
+    <orderQuantity>.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence19>
+<sentence20>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence20>
+<sentence21>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence21>
+<sentence22>
+    <type>410</type>
+    <palletType>201</palletType>
+    <palletNVE>340455750695674828</palletNVE>
+</sentence22>
+<sentence23>
+    <type>500</type>
+    <positionNumber>5</positionNumber>
+    <EAN>4260402485324</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence23>
+<sentence24>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence24>
+<sentence25>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence25>
+<sentence26>
+    <type>580</type>
+    <positionNumber>5</positionNumber>
+    <bestBeforeDate>20230407</bestBeforeDate>
+    <batchNumber>152204-L22061</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence26>
+<sentence27>
+    <type>500</type>
+    <positionNumber>6</positionNumber>
+    <EAN>4260402485386</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence27>
+<sentence28>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence28>
+<sentence29>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence29>
+<sentence30>
+    <type>580</type>
+    <positionNumber>6</positionNumber>
+    <bestBeforeDate>20230409</bestBeforeDate>
+    <batchNumber>152206-L22063</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence30>
+<sentence31>
+    <type>500</type>
+    <positionNumber>7</positionNumber>
+    <EAN>4260402485249</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence31>
+<sentence32>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence32>
+<sentence33>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence33>
+<sentence34>
+    <type>580</type>
+    <positionNumber>7</positionNumber>
+    <bestBeforeDate>20230217</bestBeforeDate>
+    <batchNumber>151100-L22074</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence34>
+<sentence35>
+    <type>500</type>
+    <positionNumber>8</positionNumber>
+    <EAN>4260402487939</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence35>
+<sentence36>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence36>
+<sentence37>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence37>
+<sentence38>
+    <type>580</type>
+    <positionNumber>8</positionNumber>
+    <bestBeforeDate>20230214</bestBeforeDate>
+    <batchNumber>100493-04522A</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence38>
+<sentence39>
+    <type>500</type>
+    <positionNumber>9</positionNumber>
+    <EAN>4260402487892</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence39>
+<sentence40>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence40>
+<sentence41>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence41>
+<sentence42>
+    <type>580</type>
+    <positionNumber>9</positionNumber>
+    <bestBeforeDate>20230211</bestBeforeDate>
+    <batchNumber>100491-04222A</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence42>
+<sentence43>
+    <type>500</type>
+    <positionNumber>10</positionNumber>
+    <EAN>4251725800390</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence43>
+<sentence44>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence44>
+<sentence45>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence45>
+<sentence46>
+    <type>580</type>
+    <positionNumber>10</positionNumber>
+    <bestBeforeDate>20230125</bestBeforeDate>
+    <batchNumber>100767-C072202251</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence46>
+<sentence47>
+    <type>500</type>
+    <positionNumber>11</positionNumber>
+    <EAN>4251725800581</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence47>
+<sentence48>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence48>
+<sentence49>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence49>
+<sentence50>
+    <type>580</type>
+    <positionNumber>11</positionNumber>
+    <bestBeforeDate>20230102</bestBeforeDate>
+    <batchNumber>100807-C072202022</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence50>
+<sentence51>
+    <type>500</type>
+    <positionNumber>12</positionNumber>
+    <EAN>4251725800598</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence51>
+<sentence52>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence52>
+<sentence53>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence53>
+<sentence54>
+    <type>580</type>
+    <positionNumber>12</positionNumber>
+    <bestBeforeDate>20230103</bestBeforeDate>
+    <batchNumber>100808-C072202032</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence54>
+<sentence55>
+    <type>500</type>
+    <positionNumber>13</positionNumber>
+    <EAN>4260402480367</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence55>
+<sentence56>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence56>
+<sentence57>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence57>
+<sentence58>
+    <type>580</type>
+    <positionNumber>13</positionNumber>
+    <bestBeforeDate>20230610</bestBeforeDate>
+    <batchNumber>141049-L344G21</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence58>
+<sentence59>
+    <type>500</type>
+    <positionNumber>14</positionNumber>
+    <EAN>4260402486789</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence59>
+<sentence60>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence60>
+<sentence61>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence61>
+<sentence62>
+    <type>580</type>
+    <positionNumber>14</positionNumber>
+    <bestBeforeDate>20221027</bestBeforeDate>
+    <batchNumber>161046-L1441</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence62>
+<sentence63>
+    <type>500</type>
+    <positionNumber>15</positionNumber>
+    <EAN>4251725801397</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence63>
+<sentence64>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence64>
+<sentence65>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence65>
+<sentence66>
+    <type>580</type>
+    <positionNumber>15</positionNumber>
+    <bestBeforeDate>20230131</bestBeforeDate>
+    <batchNumber>100926-01/22</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence66>
+<sentence67>
+    <type>500</type>
+    <positionNumber>16</positionNumber>
+    <EAN>4260402485027</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence67>
+<sentence68>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence68>
+<sentence69>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence69>
+<sentence70>
+    <type>580</type>
+    <positionNumber>16</positionNumber>
+    <bestBeforeDate>20230331</bestBeforeDate>
+    <batchNumber>151097-L22034</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence70>
+<sentence71>
+    <type>500</type>
+    <positionNumber>17</positionNumber>
+    <EAN>4260402485003</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence71>
+<sentence72>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence72>
+<sentence73>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence73>
+<sentence74>
+    <type>580</type>
+    <positionNumber>17</positionNumber>
+    <bestBeforeDate>20230331</bestBeforeDate>
+    <batchNumber>151096-L12034</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence74>
+<sentence75>
+    <type>500</type>
+    <positionNumber>18</positionNumber>
+    <EAN>4260402489452</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence75>
+<sentence76>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence76>
+<sentence77>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence77>
+<sentence78>
+    <type>580</type>
+    <positionNumber>18</positionNumber>
+    <bestBeforeDate>20230404</bestBeforeDate>
+    <batchNumber>100634-L22055</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence78>
+<sentence79>
+    <type>500</type>
+    <positionNumber>19</positionNumber>
+    <EAN>4260402486840</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence79>
+<sentence80>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence80>
+<sentence81>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence81>
+<sentence82>
+    <type>580</type>
+    <positionNumber>19</positionNumber>
+    <bestBeforeDate>20230527</bestBeforeDate>
+    <batchNumber>100399-02722</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence82>
+<sentence83>
+    <type>500</type>
+    <positionNumber>20</positionNumber>
+    <EAN>4260402486802</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence83>
+<sentence84>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence84>
+<sentence85>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence85>
+<sentence86>
+    <type>580</type>
+    <positionNumber>20</positionNumber>
+    <bestBeforeDate>20230202</bestBeforeDate>
+    <batchNumber>161047-L2061</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence86>
+<sentence87>
+    <type>500</type>
+    <positionNumber>21</positionNumber>
+    <EAN>4260402487205</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence87>
+<sentence88>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence88>
+<sentence89>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence89>
+<sentence90>
+    <type>580</type>
+    <positionNumber>21</positionNumber>
+    <bestBeforeDate>20221211</bestBeforeDate>
+    <batchNumber>100458-221553/0</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence90>
+<sentence91>
+    <type>500</type>
+    <positionNumber>22</positionNumber>
+    <EAN>4260402485652</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence91>
+<sentence92>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence92>
+<sentence93>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence93>
+<sentence94>
+    <type>580</type>
+    <positionNumber>22</positionNumber>
+    <bestBeforeDate>20230228</bestBeforeDate>
+    <batchNumber>100314-L11512</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence94>
+<sentence95>
+    <type>500</type>
+    <positionNumber>23</positionNumber>
+    <EAN>4260402487618</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence95>
+<sentence96>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence96>
+<sentence97>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence97>
+<sentence98>
+    <type>580</type>
+    <positionNumber>23</positionNumber>
+    <bestBeforeDate>20230308</bestBeforeDate>
+    <batchNumber>100479-L22102</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence98>
+<sentence99>
+    <type>500</type>
+    <positionNumber>24</positionNumber>
+    <EAN>4260402484983</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence99>
+<sentence100>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence100>
+<sentence101>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence101>
+<sentence102>
+    <type>580</type>
+    <positionNumber>24</positionNumber>
+    <bestBeforeDate>20230331</bestBeforeDate>
+    <batchNumber>151095-L32033</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence102>
+<sentence103>
+    <type>500</type>
+    <positionNumber>25</positionNumber>
+    <EAN>4260402484495</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence103>
+<sentence104>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence104>
+<sentence105>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence105>
+<sentence106>
+    <type>580</type>
+    <positionNumber>25</positionNumber>
+    <bestBeforeDate>20240130</bestBeforeDate>
+    <batchNumber>153060-030F</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence106>
+<sentence107>
+    <type>500</type>
+    <positionNumber>26</positionNumber>
+    <EAN>4260402484334</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence107>
+<sentence108>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence108>
+<sentence109>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence109>
+<sentence110>
+    <type>580</type>
+    <positionNumber>26</positionNumber>
+    <bestBeforeDate>20230420</bestBeforeDate>
+    <batchNumber>153059-L2020</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence110>
+<sentence111>
+    <type>500</type>
+    <positionNumber>27</positionNumber>
+    <EAN>4260402485737</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence111>
+<sentence112>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence112>
+<sentence113>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence113>
+<sentence114>
+    <type>580</type>
+    <positionNumber>27</positionNumber>
+    <bestBeforeDate>20220620</bestBeforeDate>
+    <batchNumber>162014-1000306114</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence114>
+<sentence115>
+    <type>500</type>
+    <positionNumber>28</positionNumber>
+    <EAN>4251725801069</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence115>
+<sentence116>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence116>
+<sentence117>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence117>
+<sentence118>
+    <type>580</type>
+    <positionNumber>28</positionNumber>
+    <bestBeforeDate>20230801</bestBeforeDate>
+    <batchNumber>100887-0061222</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence118>
+<sentence119>
+    <type>500</type>
+    <positionNumber>29</positionNumber>
+    <EAN>4251725801021</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence119>
+<sentence120>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence120>
+<sentence121>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence121>
+<sentence122>
+    <type>580</type>
+    <positionNumber>29</positionNumber>
+    <bestBeforeDate>20240120</bestBeforeDate>
+    <batchNumber>100885-0060905</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence122>
+<sentence123>
+    <type>500</type>
+    <positionNumber>30</positionNumber>
+    <EAN>4260402484518</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence123>
+<sentence124>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence124>
+<sentence125>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence125>
+<sentence126>
+    <type>580</type>
+    <positionNumber>30</positionNumber>
+    <bestBeforeDate>20231201</bestBeforeDate>
+    <batchNumber>153061-335U</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence126>
+<sentence127>
+    <type>500</type>
+    <positionNumber>31</positionNumber>
+    <EAN>4251725800901</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence127>
+<sentence128>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence128>
+<sentence129>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence129>
+<sentence130>
+    <type>580</type>
+    <positionNumber>31</positionNumber>
+    <bestBeforeDate>20221101</bestBeforeDate>
+    <batchNumber>100875-VE46020</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence130>
+<sentence131>
+    <type>500</type>
+    <positionNumber>32</positionNumber>
+    <EAN>4251725801212</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence131>
+<sentence132>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence132>
+<sentence133>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence133>
+<sentence134>
+    <type>580</type>
+    <positionNumber>32</positionNumber>
+    <bestBeforeDate>20240201</bestBeforeDate>
+    <batchNumber>100913-0060906</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence134>
+<sentence135>
+    <type>500</type>
+    <positionNumber>33</positionNumber>
+    <EAN>4251725801120</EAN>
+    <orderQuantity>4.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence135>
+<sentence136>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence136>
+<sentence137>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence137>
+<sentence138>
+    <type>580</type>
+    <positionNumber>33</positionNumber>
+    <bestBeforeDate>20240118</bestBeforeDate>
+    <batchNumber>100896-180124</batchNumber>
+    <deliveryQuantity>4</deliveryQuantity>
+</sentence138>
+<sentence139>
+    <type>500</type>
+    <positionNumber>34</positionNumber>
+    <EAN>4260402484006</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence139>
+<sentence140>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence140>
+<sentence141>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence141>
+<sentence142>
+    <type>580</type>
+    <positionNumber>34</positionNumber>
+    <bestBeforeDate>20220918</bestBeforeDate>
+    <batchNumber>271013-180922</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence142>
+<sentence143>
+    <type>500</type>
+    <positionNumber>35</positionNumber>
+    <EAN>4260402487632</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence143>
+<sentence144>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence144>
+<sentence145>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence145>
+<sentence146>
+    <type>580</type>
+    <positionNumber>35</positionNumber>
+    <bestBeforeDate>20230105</bestBeforeDate>
+    <batchNumber>100480-L22022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence146>
+<sentence147>
+    <type>500</type>
+    <positionNumber>36</positionNumber>
+    <EAN>4251725800253</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence147>
+<sentence148>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence148>
+<sentence149>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence149>
+<sentence150>
+    <type>580</type>
+    <positionNumber>36</positionNumber>
+    <bestBeforeDate>20220811</bestBeforeDate>
+    <batchNumber>100752-608518012</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence150>
+<sentence151>
+    <type>500</type>
+    <positionNumber>37</positionNumber>
+    <EAN>4251725801236</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence151>
+<sentence152>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence152>
+<sentence153>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence153>
+<sentence154>
+    <type>580</type>
+    <positionNumber>37</positionNumber>
+    <bestBeforeDate>20220911</bestBeforeDate>
+    <batchNumber>100917-723218022</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence154>
+<sentence155>
+    <type>500</type>
+    <positionNumber>38</positionNumber>
+    <EAN>4251725800864</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence155>
+<sentence156>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence156>
+<sentence157>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence157>
+<sentence158>
+    <type>580</type>
+    <positionNumber>38</positionNumber>
+    <bestBeforeDate>20220509</bestBeforeDate>
+    <batchNumber>100870-111113</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence158>
+<sentence159>
+    <type>500</type>
+    <positionNumber>39</positionNumber>
+    <EAN>4260402489094</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence159>
+<sentence160>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence160>
+<sentence161>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence161>
+<sentence162>
+    <type>580</type>
+    <positionNumber>39</positionNumber>
+    <bestBeforeDate>20220706</bestBeforeDate>
+    <batchNumber>100599-O070122K</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence162>
+<sentence163>
+    <type>500</type>
+    <positionNumber>40</positionNumber>
+    <EAN>4251725800987</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence163>
+<sentence164>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence164>
+<sentence165>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence165>
+<sentence166>
+    <type>580</type>
+    <positionNumber>40</positionNumber>
+    <bestBeforeDate>20220815</bestBeforeDate>
+    <batchNumber>100883-765218032</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence166>
+<sentence167>
+    <type>500</type>
+    <positionNumber>41</positionNumber>
+    <EAN>4251725801489</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence167>
+<sentence168>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence168>
+<sentence169>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence169>
+<sentence170>
+    <type>580</type>
+    <positionNumber>41</positionNumber>
+    <bestBeforeDate>20220505</bestBeforeDate>
+    <batchNumber>100935-122133</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence170>
+<sentence171>
+    <type>500</type>
+    <positionNumber>42</positionNumber>
+    <EAN>4251725801502</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence171>
+<sentence172>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence172>
+<sentence173>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence173>
+<sentence174>
+    <type>580</type>
+    <positionNumber>42</positionNumber>
+    <bestBeforeDate>20220505</bestBeforeDate>
+    <batchNumber>100936-122133</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence174>
+<sentence175>
+    <type>500</type>
+    <positionNumber>43</positionNumber>
+    <EAN>4251725800437</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence175>
+<sentence176>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence176>
+<sentence177>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence177>
+<sentence178>
+    <type>580</type>
+    <positionNumber>43</positionNumber>
+    <bestBeforeDate>20220508</bestBeforeDate>
+    <batchNumber>100788-22094</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence178>
+<sentence179>
+    <type>500</type>
+    <positionNumber>44</positionNumber>
+    <EAN>4251725800475</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence179>
+<sentence180>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence180>
+<sentence181>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence181>
+<sentence182>
+    <type>580</type>
+    <positionNumber>44</positionNumber>
+    <bestBeforeDate>20220501</bestBeforeDate>
+    <batchNumber>100790-22087</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence182>
+<sentence183>
+    <type>500</type>
+    <positionNumber>45</positionNumber>
+    <EAN>4260402483962</EAN>
+    <orderQuantity>2.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence183>
+<sentence184>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence184>
+<sentence185>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence185>
+<sentence186>
+    <type>580</type>
+    <positionNumber>45</positionNumber>
+    <bestBeforeDate>20220913</bestBeforeDate>
+    <batchNumber>271012-130922</batchNumber>
+    <deliveryQuantity>2</deliveryQuantity>
+</sentence186>
+<sentence187>
+    <type>500</type>
+    <positionNumber>46</positionNumber>
+    <EAN>4251725800499</EAN>
+    <orderQuantity>1.000</orderQuantity>
+    <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+</sentence187>
+<sentence188>
+    <type>511</type>
+    <customerOrderNumber>O-2022-006250</customerOrderNumber>
+</sentence188>
+<sentence189>
+    <type>515</type>
+    <expectedDeliveryDate>20220411</expectedDeliveryDate>
+</sentence189>
+<sentence190>
+    <type>580</type>
+    <positionNumber>46</positionNumber>
+    <bestBeforeDate>20220504</bestBeforeDate>
+    <batchNumber>100791-22090</batchNumber>
+    <deliveryQuantity>1</deliveryQuantity>
+</sentence190>`
