@@ -20,6 +20,7 @@ export class Reader {
         const ast = this._parser.parse(string, fileType);
         const { ast : {value: document}, errors} = ast;
 
+        console.log("Errors: ", errors);
         return readFormat === "JSON" ? this.constructJson(document, fileType) : this.constructXML(document, fileType);
     }
 

@@ -87,10 +87,10 @@ export class Tokenizer {
         this._tokenType = tokenType;
         this._cursor += matched.length;
 
-        // const validateError = this.validateToken(matched);
-        // if(validateError) {
-        //     this._errors.push(validateError);
-        // }
+        const validateError = this.validateToken(matched);
+        if(validateError) {
+            this._errors.push(validateError);
+        }
 
         return {
             type: this._tokenType,
