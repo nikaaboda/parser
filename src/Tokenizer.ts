@@ -14,10 +14,11 @@ export class Tokenizer {
     _errors: any[];
 
     //StratEDIpart
-    FILETYPE: any;
+    SPEC: any;
     _section: string;
     _tokenIndex: number;
     _sectionIndex: number;
+    _fileType: Filetype;
     
 
     constructor() {
@@ -33,7 +34,8 @@ export class Tokenizer {
         this._section = "";
         this._sectionIndex = 0;
         this._tokenIndex = 0;
-        this.FILETYPE = {}
+        this.SPEC = {};
+        this._fileType = "DEASDV";
     }
 
     init(string: string, fileType: Filetype) {
@@ -42,13 +44,14 @@ export class Tokenizer {
 
         //StratEDIpart
         const {ORDER, INVOICE, DEASDV} = STRATEDI;
-        this.FILETYPE = fileType === FILETYPES[0] ? ORDER : fileType === FILETYPES[1] ? INVOICE : DEASDV;
+        this.SPEC = fileType === FILETYPES[0] ? ORDER : fileType === FILETYPES[1] ? INVOICE : DEASDV;
+        this._fileType = fileType;
 
         this._section = string.slice(0, 3);
-        this._sectionIndex = this.FILETYPE.LENGTHLIST.indexOf(this._section) + 1;
+        this._sectionIndex = this.SPEC.LENGTHLIST.indexOf(this._section) + 1;
 
-        if(!this.FILETYPE.SECTIONS.includes(this._section)) {
-            throw new SyntaxError(`Unexpected Section enountered ${this._section}, Expected one of these ${this.FILETYPE.SECTIONS}`)
+        if(!this.SPEC.SECTIONS.includes(this._section)) {
+            throw new SyntaxError(`Unexpected Section enountered ${this._section}, Expected one of these ${this.SPEC.SECTIONS}`)
         }
     }
 
@@ -74,7 +77,7 @@ export class Tokenizer {
 
     validateToken(token: string) {
         if(this._section && this._tokenIndex) {
-            return this._validator.validate(token, this._section, this._tokenIndex - 1, this.FILETYPE); 
+            return this._validator.validate(token, this._section, this._tokenIndex - 1, this._fileType); 
         }
     }
 
@@ -108,18 +111,18 @@ export class Tokenizer {
             this._tokenIndex = 0;
             this._section = this._leftover.slice(matched.length, matched.length + 3);
             
-            if(!this.FILETYPE.SECTIONS.includes(this._section) && this._section !== "") {
-                throw new SyntaxError(`Unexpected Section enountered ${this._section}, Expected one of these ${this.FILETYPE.SECTIONS}`)
+            if(!this.SPEC.SECTIONS.includes(this._section) && this._section !== "") {
+                throw new SyntaxError(`Unexpected Section enountered ${this._section}, Expected one of these ${this.SPEC.SECTIONS}`)
             }
 
-            this._sectionIndex = this.FILETYPE.LENGTHLIST.indexOf(this._section) + 1;
+            this._sectionIndex = this.SPEC.LENGTHLIST.indexOf(this._section) + 1;
         }
 
         return this.createNewToken(matched, tokenType)
     }
 
     getTokenLength() {
-        return this.FILETYPE.LENGTHLIST[this._sectionIndex][this._tokenIndex];
+        return this.SPEC.LENGTHLIST[this._sectionIndex][this._tokenIndex];
     }
     /**
      * StratEDI Specific functions end here
@@ -137,7 +140,7 @@ export class Tokenizer {
 
         this._leftover = this._string.slice(this._cursor);
 
-        for(const [rawRegex, tokenType] of this.FILETYPE.REGEXES) {
+        for(const [rawRegex, tokenType] of this.SPEC.REGEXES) {
             let regexLength = tokenType === 'WORD' ? this.getTokenLength() : null;
 
             // This block handles cases when the last word of some section ends unexpectedly 

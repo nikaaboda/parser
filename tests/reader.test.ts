@@ -44,14 +44,14 @@ describe("Reader", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWORDER1, "ORDER");
-                    expect(result).toEqual(PARSEDJSONORDER1)
+                    expect(result.file).toEqual(PARSEDJSONORDER1)
                 })
         
                 test("Parses Order 2 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWORDER2, "ORDER");
-                    expect(result).toEqual(PARSEDJSONORDER2)
+                    expect(result.file).toEqual(PARSEDJSONORDER2)
                 })
         
                 test("Parses Order 3 correctly", () => {
@@ -59,63 +59,63 @@ describe("Reader", () => {
     
     
                     const result = reader.read(RAWORDER3, "ORDER");
-                    expect(result).toEqual(PARSEDJSONORDER3)
+                    expect(result.file).toEqual(PARSEDJSONORDER3)
                 })
         
                 test("Parses Order 4 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWORDER4, "ORDER");
-                    expect(result).toEqual(PARSEDJSONORDER4)
+                    expect(result.file).toEqual(PARSEDJSONORDER4)
                 })
         
                 test("Parses Order 5 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWORDER5, "ORDER");
-                    expect(result).toEqual(PARSEDJSONORDER5)
+                    expect(result.file).toEqual(PARSEDJSONORDER5)
                 })
         
                 test("Parses Order 6 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWORDER6, "ORDER");
-                    expect(result).toEqual(PARSEDJSONORDER6)
+                    expect(result.file).toEqual(PARSEDJSONORDER6)
                 })
         
                 test("Parses Order 7 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWORDER7, "ORDER");
-                    expect(result).toEqual(PARSEDJSONORDER7)
+                    expect(result.file).toEqual(PARSEDJSONORDER7)
                 })
         
                 test("Parses Order 8 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWORDER8, "ORDER")
-                    expect(result).toEqual(PARSEDJSONORDER8)
+                    expect(result.file).toEqual(PARSEDJSONORDER8)
                 })
         
                 test("Parses Order 9 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWORDER9, "ORDER");
-                    expect(result).toEqual(PARSEDJSONORDER9)
+                    expect(result.file).toEqual(PARSEDJSONORDER9)
                 })
         
                 test("Parses Order 10 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWORDER10, "ORDER");
-                    expect(result).toEqual(PARSEDJSONORDER10)
+                    expect(result.file).toEqual(PARSEDJSONORDER10)
                 })
         
                 test("Parses Order 11 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWORDER11, "ORDER");
-                    expect(result).toEqual(PARSEDJSONORDER11)
+                    expect(result.file).toEqual(PARSEDJSONORDER11)
                 })
             });
         
@@ -124,77 +124,77 @@ describe("Reader", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Orders/Raw/Order1.txt", "ORDER", true);
-                    expect(result).toEqual(PARSEDJSONORDER1)
+                    expect(result.file).toEqual(PARSEDJSONORDER1)
                 })
         
                 test("Parses Order 2 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Orders/Raw/Order2.txt", "ORDER", true);
-                    expect(result).toEqual(PARSEDJSONORDER2)
+                    expect(result.file).toEqual(PARSEDJSONORDER2)
                 })
         
                 test("Parses Order 3 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Orders/Raw/Order3.txt", "ORDER", true);
-                    expect(result).toEqual(PARSEDJSONORDER3)
+                    expect(result.file).toEqual(PARSEDJSONORDER3)
                 })
         
                 test("Parses Order 4 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Orders/Raw/Order4.txt", "ORDER", true);
-                    expect(result).toEqual(PARSEDJSONORDER4)
+                    expect(result.file).toEqual(PARSEDJSONORDER4)
                 })
         
                 test("Parses Order 5 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Orders/Raw/Order5.txt", "ORDER", true);
-                    expect(result).toEqual(PARSEDJSONORDER5)
+                    expect(result.file).toEqual(PARSEDJSONORDER5)
                 })
         
                 test("Parses Order 6 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Orders/Raw/Order6.txt", "ORDER", true);
-                    expect(result).toEqual(PARSEDJSONORDER6)
+                    expect(result.file).toEqual(PARSEDJSONORDER6)
                 })
         
                 test("Parses Order 7 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Orders/Raw/Order7.txt", "ORDER", true);
-                    expect(result).toEqual(PARSEDJSONORDER7)
+                    expect(result.file).toEqual(PARSEDJSONORDER7)
                 })
         
                 test("Parses Order 8 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Orders/Raw/Order8.txt", "ORDER", true);
-                    expect(result).toEqual(PARSEDJSONORDER8)
+                    expect(result.file).toEqual(PARSEDJSONORDER8)
                 })
         
                 test("Parses Order 9 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Orders/Raw/Order9.txt", "ORDER", true);
-                    expect(result).toEqual(PARSEDJSONORDER9)
+                    expect(result.file).toEqual(PARSEDJSONORDER9)
                 })
         
                 test("Parses Order 10 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Orders/Raw/Order10.txt", "ORDER", true);
-                    expect(result).toEqual(PARSEDJSONORDER10)
+                    expect(result.file).toEqual(PARSEDJSONORDER10)
                 })
         
                 test("Parses Order 11 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Orders/Raw/Order11.txt", "ORDER", true);
-                    expect(result).toEqual(PARSEDJSONORDER11)
+                    expect(result.file).toEqual(PARSEDJSONORDER11)
                 })
             });
             
@@ -203,14 +203,14 @@ describe("Reader", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWINVOICE1, "INVOICE");
-                    expect(result).toEqual(PARSEDJSONINVOICE1)
+                    expect(result.file).toEqual(PARSEDJSONINVOICE1)
                 })
         
                 test("Parses Invoice 2 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWINVOICE2, "INVOICE");
-                    expect(result).toEqual(PARSEDJSONINVOICE2)
+                    expect(result.file).toEqual(PARSEDJSONINVOICE2)
                 })
         
                 test("Parses Invoice 3 correctly", () => {
@@ -218,49 +218,49 @@ describe("Reader", () => {
     
     
                     const result = reader.read(RAWINVOICE3, "INVOICE");
-                    expect(result).toEqual(PARSEDJSONINVOICE3)
+                    expect(result.file).toEqual(PARSEDJSONINVOICE3)
                 })
         
                 test("Parses Invoice 4 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWINVOICE4, "INVOICE");
-                    expect(result).toEqual(PARSEDJSONINVOICE4)
+                    expect(result.file).toEqual(PARSEDJSONINVOICE4)
                 })
         
                 test("Parses Invoice 5 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWINVOICE5, "INVOICE");
-                    expect(result).toEqual(PARSEDJSONINVOICE5)
+                    expect(result.file).toEqual(PARSEDJSONINVOICE5)
                 })
         
                 test("Parses Invoice 6 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWINVOICE6, "INVOICE");
-                    expect(result).toEqual(PARSEDJSONINVOICE6)
+                    expect(result.file).toEqual(PARSEDJSONINVOICE6)
                 })
         
                 test("Parses Invoice 7 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWINVOICE7, "INVOICE");
-                    expect(result).toEqual(PARSEDJSONINVOICE7)
+                    expect(result.file).toEqual(PARSEDJSONINVOICE7)
                 })
         
                 test("Parses Invoice 8 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWINVOICE8, "INVOICE")
-                    expect(result).toEqual(PARSEDJSONINVOICE8)
+                    expect(result.file).toEqual(PARSEDJSONINVOICE8)
                 })
         
                 test("Parses Invoice 9 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWINVOICE9, "INVOICE");
-                    expect(result).toEqual(PARSEDJSONINVOICE9)
+                    expect(result.file).toEqual(PARSEDJSONINVOICE9)
                 })
         
             });
@@ -270,63 +270,63 @@ describe("Reader", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Invoices/Raw/Invoice1.txt", "INVOICE", true);
-                    expect(result).toEqual(PARSEDJSONINVOICE1)
+                    expect(result.file).toEqual(PARSEDJSONINVOICE1)
                 })
         
                 test("Parses Invoice 2 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Invoices/Raw/Invoice2.txt", "INVOICE", true);
-                    expect(result).toEqual(PARSEDJSONINVOICE2)
+                    expect(result.file).toEqual(PARSEDJSONINVOICE2)
                 })
         
                 test("Parses Invoice 3 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Invoices/Raw/Invoice3.txt", "INVOICE", true);
-                    expect(result).toEqual(PARSEDJSONINVOICE3)
+                    expect(result.file).toEqual(PARSEDJSONINVOICE3)
                 })
         
                 test("Parses Invoice 4 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Invoices/Raw/Invoice4.txt", "INVOICE", true);
-                    expect(result).toEqual(PARSEDJSONINVOICE4)
+                    expect(result.file).toEqual(PARSEDJSONINVOICE4)
                 })
         
                 test("Parses Invoice 5 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Invoices/Raw/Invoice5.txt", "INVOICE", true);
-                    expect(result).toEqual(PARSEDJSONINVOICE5)
+                    expect(result.file).toEqual(PARSEDJSONINVOICE5)
                 })
         
                 test("Parses Invoice 6 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Invoices/Raw/Invoice6.txt", "INVOICE", true);
-                    expect(result).toEqual(PARSEDJSONINVOICE6)
+                    expect(result.file).toEqual(PARSEDJSONINVOICE6)
                 })
         
                 test("Parses Invoice 7 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Invoices/Raw/Invoice7.txt", "INVOICE", true);
-                    expect(result).toEqual(PARSEDJSONINVOICE7)
+                    expect(result.file).toEqual(PARSEDJSONINVOICE7)
                 })
         
                 test("Parses Invoice 8 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Invoices/Raw/Invoice8.txt", "INVOICE", true);
-                    expect(result).toEqual(PARSEDJSONINVOICE8)
+                    expect(result.file).toEqual(PARSEDJSONINVOICE8)
                 })
         
                 test("Parses Invoice 9 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Invoices/Raw/Invoice9.txt", "INVOICE", true);
-                    expect(result).toEqual(PARSEDJSONINVOICE9)
+                    expect(result.file).toEqual(PARSEDJSONINVOICE9)
                 })
             });
     
@@ -335,14 +335,14 @@ describe("Reader", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWDEASDV1, "DEASDV");
-                    expect(result).toEqual(PARSEDJSONDEASDV1)
+                    expect(result.file).toEqual(PARSEDJSONDEASDV1)
                 })
         
                 test("Parses Deasdv 2 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWDEASDV2, "DEASDV");
-                    expect(result).toEqual(PARSEDJSONDEASDV2)
+                    expect(result.file).toEqual(PARSEDJSONDEASDV2)
                 })
         
                 test("Parses Deasdv 3 correctly", () => {
@@ -350,35 +350,35 @@ describe("Reader", () => {
     
     
                     const result = reader.read(RAWDEASDV3, "DEASDV");
-                    expect(result).toEqual(PARSEDJSONDEASDV3)
+                    expect(result.file).toEqual(PARSEDJSONDEASDV3)
                 })
         
                 test("Parses Deasdv 4 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWDEASDV4, "DEASDV");
-                    expect(result).toEqual(PARSEDJSONDEASDV4)
+                    expect(result.file).toEqual(PARSEDJSONDEASDV4)
                 })
         
                 test("Parses Deasdv 5 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWDEASDV5, "DEASDV");
-                    expect(result).toEqual(PARSEDJSONDEASDV5)
+                    expect(result.file).toEqual(PARSEDJSONDEASDV5)
                 })
         
                 test("Parses Deasdv 6 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWDEASDV6, "DEASDV");
-                    expect(result).toEqual(PARSEDJSONDEASDV6)
+                    expect(result.file).toEqual(PARSEDJSONDEASDV6)
                 })
         
                 test("Parses Deasdv 7 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWDEASDV7, "DEASDV");
-                    expect(result).toEqual(PARSEDJSONDEASDV7)
+                    expect(result.file).toEqual(PARSEDJSONDEASDV7)
                 })
         
             });
@@ -388,49 +388,49 @@ describe("Reader", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Deasdvs/Raw/Deasdv1.txt", "DEASDV", true);
-                    expect(result).toEqual(PARSEDJSONDEASDV1)
+                    expect(result.file).toEqual(PARSEDJSONDEASDV1)
                 })
         
                 test("Parses Deasdv 2 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Deasdvs/Raw/Deasdv2.txt", "DEASDV", true);
-                    expect(result).toEqual(PARSEDJSONDEASDV2)
+                    expect(result.file).toEqual(PARSEDJSONDEASDV2)
                 })
         
                 test("Parses Deasdv 3 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Deasdvs/Raw/Deasdv3.txt", "DEASDV", true);
-                    expect(result).toEqual(PARSEDJSONDEASDV3)
+                    expect(result.file).toEqual(PARSEDJSONDEASDV3)
                 })
         
                 test("Parses Deasdv 4 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Deasdvs/Raw/Deasdv4.txt", "DEASDV", true);
-                    expect(result).toEqual(PARSEDJSONDEASDV4)
+                    expect(result.file).toEqual(PARSEDJSONDEASDV4)
                 })
         
                 test("Parses Deasdv 5 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Deasdvs/Raw/Deasdv5.txt", "DEASDV", true);
-                    expect(result).toEqual(PARSEDJSONDEASDV5)
+                    expect(result.file).toEqual(PARSEDJSONDEASDV5)
                 })
         
                 test("Parses Deasdv 6 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Deasdvs/Raw/Deasdv6.txt", "DEASDV", true);
-                    expect(result).toEqual(PARSEDJSONDEASDV6)
+                    expect(result.file).toEqual(PARSEDJSONDEASDV6)
                 })
         
                 test("Parses Deasdv 7 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Deasdvs/Raw/Deasdv7.txt", "DEASDV", true);
-                    expect(result).toEqual(PARSEDJSONDEASDV7)
+                    expect(result.file).toEqual(PARSEDJSONDEASDV7)
                 })
             });
         })
@@ -441,14 +441,14 @@ describe("Reader", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWORDER1, "ORDER", false, "XML");
-                    expect(result).toEqual(PARSEDXMLORDER1)
+                    expect(result.file).toEqual(PARSEDXMLORDER1)
                 })
         
                 test("Parses Order 2 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWORDER2, "ORDER", false, "XML");
-                    expect(result).toEqual(PARSEDXMLORDER2)
+                    expect(result.file).toEqual(PARSEDXMLORDER2)
                 })
         
                 test("Parses Order 3 correctly", () => {
@@ -456,63 +456,63 @@ describe("Reader", () => {
     
     
                     const result = reader.read(RAWORDER3, "ORDER", false, "XML");
-                    expect(result).toEqual(PARSEDXMLORDER3)
+                    expect(result.file).toEqual(PARSEDXMLORDER3)
                 })
         
                 test("Parses Order 4 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWORDER4, "ORDER", false, "XML");
-                    expect(result).toEqual(PARSEDXMLORDER4)
+                    expect(result.file).toEqual(PARSEDXMLORDER4)
                 })
         
                 test("Parses Order 5 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWORDER5, "ORDER", false, "XML");
-                    expect(result).toEqual(PARSEDXMLORDER5)
+                    expect(result.file).toEqual(PARSEDXMLORDER5)
                 })
         
                 test("Parses Order 6 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWORDER6, "ORDER", false, "XML");
-                    expect(result).toEqual(PARSEDXMLORDER6)
+                    expect(result.file).toEqual(PARSEDXMLORDER6)
                 })
         
                 test("Parses Order 7 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWORDER7, "ORDER", false, "XML");
-                    expect(result).toEqual(PARSEDXMLORDER7)
+                    expect(result.file).toEqual(PARSEDXMLORDER7)
                 })
         
                 test("Parses Order 8 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWORDER8, "ORDER", false, "XML")
-                    expect(result).toEqual(PARSEDXMLORDER8)
+                    expect(result.file).toEqual(PARSEDXMLORDER8)
                 })
         
                 test("Parses Order 9 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWORDER9, "ORDER", false, "XML");
-                    expect(result).toEqual(PARSEDXMLORDER9)
+                    expect(result.file).toEqual(PARSEDXMLORDER9)
                 })
         
                 test("Parses Order 10 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWORDER10, "ORDER", false, "XML");
-                    expect(result).toEqual(PARSEDXMLORDER10)
+                    expect(result.file).toEqual(PARSEDXMLORDER10)
                 })
         
                 test("Parses Order 11 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWORDER11, "ORDER", false, "XML");
-                    expect(result).toEqual(PARSEDXMLORDER11)
+                    expect(result.file).toEqual(PARSEDXMLORDER11)
                 })
             });
         
@@ -521,77 +521,77 @@ describe("Reader", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Orders/Raw/Order1.txt", "ORDER", true, "XML");
-                    expect(result).toEqual(PARSEDXMLORDER1)
+                    expect(result.file).toEqual(PARSEDXMLORDER1)
                 })
         
                 test("Parses Order 2 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Orders/Raw/Order2.txt", "ORDER", true, "XML");
-                    expect(result).toEqual(PARSEDXMLORDER2)
+                    expect(result.file).toEqual(PARSEDXMLORDER2)
                 })
         
                 test("Parses Order 3 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Orders/Raw/Order3.txt", "ORDER", true, "XML");
-                    expect(result).toEqual(PARSEDXMLORDER3)
+                    expect(result.file).toEqual(PARSEDXMLORDER3)
                 })
         
                 test("Parses Order 4 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Orders/Raw/Order4.txt", "ORDER", true, "XML");
-                    expect(result).toEqual(PARSEDXMLORDER4)
+                    expect(result.file).toEqual(PARSEDXMLORDER4)
                 })
         
                 test("Parses Order 5 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Orders/Raw/Order5.txt", "ORDER", true, "XML");
-                    expect(result).toEqual(PARSEDXMLORDER5)
+                    expect(result.file).toEqual(PARSEDXMLORDER5)
                 })
         
                 test("Parses Order 6 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Orders/Raw/Order6.txt", "ORDER", true, "XML");
-                    expect(result).toEqual(PARSEDXMLORDER6)
+                    expect(result.file).toEqual(PARSEDXMLORDER6)
                 })
         
                 test("Parses Order 7 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Orders/Raw/Order7.txt", "ORDER", true, "XML");
-                    expect(result).toEqual(PARSEDXMLORDER7)
+                    expect(result.file).toEqual(PARSEDXMLORDER7)
                 })
         
                 test("Parses Order 8 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Orders/Raw/Order8.txt", "ORDER", true, "XML");
-                    expect(result).toEqual(PARSEDXMLORDER8)
+                    expect(result.file).toEqual(PARSEDXMLORDER8)
                 })
         
                 test("Parses Order 9 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Orders/Raw/Order9.txt", "ORDER", true, "XML");
-                    expect(result).toEqual(PARSEDXMLORDER9)
+                    expect(result.file).toEqual(PARSEDXMLORDER9)
                 })
         
                 test("Parses Order 10 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Orders/Raw/Order10.txt", "ORDER", true, "XML");
-                    expect(result).toEqual(PARSEDXMLORDER10)
+                    expect(result.file).toEqual(PARSEDXMLORDER10)
                 })
         
                 test("Parses Order 11 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Orders/Raw/Order11.txt", "ORDER", true, "XML");
-                    expect(result).toEqual(PARSEDXMLORDER11)
+                    expect(result.file).toEqual(PARSEDXMLORDER11)
                 })
             });
             
@@ -600,14 +600,14 @@ describe("Reader", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWINVOICE1, "INVOICE", false, "XML");
-                    expect(result).toEqual(PARSEDXMLINVOICE1)
+                    expect(result.file).toEqual(PARSEDXMLINVOICE1)
                 })
         
                 test("Parses Invoice 2 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWINVOICE2, "INVOICE", false, "XML");
-                    expect(result).toEqual(PARSEDXMLINVOICE2)
+                    expect(result.file).toEqual(PARSEDXMLINVOICE2)
                 })
         
                 test("Parses Invoice 3 correctly", () => {
@@ -615,49 +615,49 @@ describe("Reader", () => {
     
     
                     const result = reader.read(RAWINVOICE3, "INVOICE", false, "XML");
-                    expect(result).toEqual(PARSEDXMLINVOICE3)
+                    expect(result.file).toEqual(PARSEDXMLINVOICE3)
                 })
         
                 test("Parses Invoice 4 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWINVOICE4, "INVOICE", false, "XML");
-                    expect(result).toEqual(PARSEDXMLINVOICE4)
+                    expect(result.file).toEqual(PARSEDXMLINVOICE4)
                 })
         
                 test("Parses Invoice 5 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWINVOICE5, "INVOICE", false, "XML");
-                    expect(result).toEqual(PARSEDXMLINVOICE5)
+                    expect(result.file).toEqual(PARSEDXMLINVOICE5)
                 })
         
                 test("Parses Invoice 6 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWINVOICE6, "INVOICE", false, "XML");
-                    expect(result).toEqual(PARSEDXMLINVOICE6)
+                    expect(result.file).toEqual(PARSEDXMLINVOICE6)
                 })
         
                 test("Parses Invoice 7 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWINVOICE7, "INVOICE", false, "XML");
-                    expect(result).toEqual(PARSEDXMLINVOICE7)
+                    expect(result.file).toEqual(PARSEDXMLINVOICE7)
                 })
         
                 test("Parses Invoice 8 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWINVOICE8, "INVOICE", false, "XML")
-                    expect(result).toEqual(PARSEDXMLINVOICE8)
+                    expect(result.file).toEqual(PARSEDXMLINVOICE8)
                 })
         
                 test("Parses Invoice 9 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWINVOICE9, "INVOICE", false, "XML");
-                    expect(result).toEqual(PARSEDXMLINVOICE9)
+                    expect(result.file).toEqual(PARSEDXMLINVOICE9)
                 })
         
             });
@@ -667,63 +667,63 @@ describe("Reader", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Invoices/Raw/Invoice1.txt", "INVOICE", true, "XML");
-                    expect(result).toEqual(PARSEDXMLINVOICE1)
+                    expect(result.file).toEqual(PARSEDXMLINVOICE1)
                 })
         
                 test("Parses Invoice 2 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Invoices/Raw/Invoice2.txt", "INVOICE", true, "XML");
-                    expect(result).toEqual(PARSEDXMLINVOICE2)
+                    expect(result.file).toEqual(PARSEDXMLINVOICE2)
                 })
         
                 test("Parses Invoice 3 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Invoices/Raw/Invoice3.txt", "INVOICE", true, "XML");
-                    expect(result).toEqual(PARSEDXMLINVOICE3)
+                    expect(result.file).toEqual(PARSEDXMLINVOICE3)
                 })
         
                 test("Parses Invoice 4 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Invoices/Raw/Invoice4.txt", "INVOICE", true, "XML");
-                    expect(result).toEqual(PARSEDXMLINVOICE4)
+                    expect(result.file).toEqual(PARSEDXMLINVOICE4)
                 })
         
                 test("Parses Invoice 5 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Invoices/Raw/Invoice5.txt", "INVOICE", true, "XML");
-                    expect(result).toEqual(PARSEDXMLINVOICE5)
+                    expect(result.file).toEqual(PARSEDXMLINVOICE5)
                 })
         
                 test("Parses Invoice 6 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Invoices/Raw/Invoice6.txt", "INVOICE", true, "XML");
-                    expect(result).toEqual(PARSEDXMLINVOICE6)
+                    expect(result.file).toEqual(PARSEDXMLINVOICE6)
                 })
         
                 test("Parses Invoice 7 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Invoices/Raw/Invoice7.txt", "INVOICE", true, "XML");
-                    expect(result).toEqual(PARSEDXMLINVOICE7)
+                    expect(result.file).toEqual(PARSEDXMLINVOICE7)
                 })
         
                 test("Parses Invoice 8 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Invoices/Raw/Invoice8.txt", "INVOICE", true, "XML");
-                    expect(result).toEqual(PARSEDXMLINVOICE8)
+                    expect(result.file).toEqual(PARSEDXMLINVOICE8)
                 })
         
                 test("Parses Invoice 9 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Invoices/Raw/Invoice9.txt", "INVOICE", true, "XML");
-                    expect(result).toEqual(PARSEDXMLINVOICE9)
+                    expect(result.file).toEqual(PARSEDXMLINVOICE9)
                 })
             });
     
@@ -732,14 +732,14 @@ describe("Reader", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWDEASDV1, "DEASDV", false, "XML");
-                    expect(result).toEqual(PARSEDXMLDEASDV1)
+                    expect(result.file).toEqual(PARSEDXMLDEASDV1)
                 })
         
                 test("Parses Deasdv 2 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWDEASDV2, "DEASDV", false, "XML");
-                    expect(result).toEqual(PARSEDXMLDEASDV2)
+                    expect(result.file).toEqual(PARSEDXMLDEASDV2)
                 })
         
                 test("Parses Deasdv 3 correctly", () => {
@@ -747,35 +747,35 @@ describe("Reader", () => {
     
     
                     const result = reader.read(RAWDEASDV3, "DEASDV", false, "XML");
-                    expect(result).toEqual(PARSEDXMLDEASDV3)
+                    expect(result.file).toEqual(PARSEDXMLDEASDV3)
                 })
         
                 test("Parses Deasdv 4 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWDEASDV4, "DEASDV", false, "XML");
-                    expect(result).toEqual(PARSEDXMLDEASDV4)
+                    expect(result.file).toEqual(PARSEDXMLDEASDV4)
                 })
         
                 test("Parses Deasdv 5 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWDEASDV5, "DEASDV", false, "XML");
-                    expect(result).toEqual(PARSEDXMLDEASDV5)
+                    expect(result.file).toEqual(PARSEDXMLDEASDV5)
                 })
         
                 test("Parses Deasdv 6 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWDEASDV6, "DEASDV", false, "XML");
-                    expect(result).toEqual(PARSEDXMLDEASDV6)
+                    expect(result.file).toEqual(PARSEDXMLDEASDV6)
                 })
         
                 test("Parses Deasdv 7 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read(RAWDEASDV7, "DEASDV", false, "XML");
-                    expect(result).toEqual(PARSEDXMLDEASDV7)
+                    expect(result.file).toEqual(PARSEDXMLDEASDV7)
                 })
         
             });
@@ -785,49 +785,49 @@ describe("Reader", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Deasdvs/Raw/Deasdv1.txt", "DEASDV", true, "XML");
-                    expect(result).toEqual(PARSEDXMLDEASDV1)
+                    expect(result.file).toEqual(PARSEDXMLDEASDV1)
                 })
         
                 test("Parses Deasdv 2 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Deasdvs/Raw/Deasdv2.txt", "DEASDV", true, "XML");
-                    expect(result).toEqual(PARSEDXMLDEASDV2)
+                    expect(result.file).toEqual(PARSEDXMLDEASDV2)
                 })
         
                 test("Parses Deasdv 3 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Deasdvs/Raw/Deasdv3.txt", "DEASDV", true, "XML");
-                    expect(result).toEqual(PARSEDXMLDEASDV3)
+                    expect(result.file).toEqual(PARSEDXMLDEASDV3)
                 })
         
                 test("Parses Deasdv 4 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Deasdvs/Raw/Deasdv4.txt", "DEASDV", true, "XML");
-                    expect(result).toEqual(PARSEDXMLDEASDV4)
+                    expect(result.file).toEqual(PARSEDXMLDEASDV4)
                 })
         
                 test("Parses Deasdv 5 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Deasdvs/Raw/Deasdv5.txt", "DEASDV", true, "XML");
-                    expect(result).toEqual(PARSEDXMLDEASDV5)
+                    expect(result.file).toEqual(PARSEDXMLDEASDV5)
                 })
         
                 test("Parses Deasdv 6 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Deasdvs/Raw/Deasdv6.txt", "DEASDV", true, "XML");
-                    expect(result).toEqual(PARSEDXMLDEASDV6)
+                    expect(result.file).toEqual(PARSEDXMLDEASDV6)
                 })
         
                 test("Parses Deasdv 7 correctly", () => {
                     const reader = new Reader();
     
                     const result = reader.read("../static/StratEDI/Deasdvs/Raw/Deasdv7.txt", "DEASDV", true, "XML");
-                    expect(result).toEqual(PARSEDXMLDEASDV7)
+                    expect(result.file).toEqual(PARSEDXMLDEASDV7)
                 })
             });
         })
