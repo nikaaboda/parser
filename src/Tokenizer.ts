@@ -1,4 +1,5 @@
 import { STRATEDI, FILETYPES, TOKENTYPES } from './constants';
+import {Validator} from "./Validator"
 
 type Filetype = "ORDER" | "INVOICE" | "DEASDV";
 type Tokentype = "WORD" | "CRLF";
@@ -9,6 +10,8 @@ export class Tokenizer {
     _cursor: number;
     _token: string;
     _tokenType: string;
+    _validator: Validator;
+    _errors: any[];
 
     //StratEDIpart
     FILETYPE: any;
@@ -23,6 +26,8 @@ export class Tokenizer {
         this._cursor = 0;
         this._token = "";
         this._tokenType = "";
+        this._validator = new Validator();
+        this._errors = [];
 
         //StratEDIpart
         this._section = "";
@@ -67,6 +72,12 @@ export class Tokenizer {
         return producedRgx;
     }
 
+    validateToken(token: string) {
+        if(this._section && this._tokenIndex) {
+            return this._validator.validate(token, this._section, this._tokenIndex - 1, this.FILETYPE); 
+        }
+    }
+
     createNewToken(matched: string, tokenType: string) {
         if(matched.length === 0) {
             throw new Error('New token has a length of zero')
@@ -75,6 +86,11 @@ export class Tokenizer {
         this._token = matched;
         this._tokenType = tokenType;
         this._cursor += matched.length;
+
+        // const validateError = this.validateToken(matched);
+        // if(validateError) {
+        //     this._errors.push(validateError);
+        // }
 
         return {
             type: this._tokenType,
@@ -111,7 +127,12 @@ export class Tokenizer {
 
     getNextToken() {
         if(!this.hasMoreTokens()) {
-            return null;
+            return {
+                type: "",
+                value: "",
+                errors: this._errors,
+                flag: 'EOF'
+            };
         }
 
         this._leftover = this._string.slice(this._cursor);

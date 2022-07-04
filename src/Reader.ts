@@ -18,8 +18,8 @@ export class Reader {
         const string = isPath ? fs.readFileSync(file).toString('utf-8') : file;
     
         const ast = this._parser.parse(string, fileType);
-        const {value: document} = ast;
-        
+        const { ast : {value: document}, errors} = ast;
+
         return readFormat === "JSON" ? this.constructJson(document, fileType) : this.constructXML(document, fileType);
     }
 
