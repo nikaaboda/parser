@@ -30,7 +30,7 @@ export class Reader {
 
         const xml = this.constructXML(document, fileType);
 
-        console.log(xml)
+        // console.log(xml)
         return {
             file: xml,
             errors
