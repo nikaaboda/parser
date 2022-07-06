@@ -7,6 +7,26 @@ export const STRATEDI: any = {
     
         SECTIONS: ["000", "100", "111", "115", "119", "120", "130", "140", "500", "511", "513", "515", "519", "530", "580", "900", "913"],
     
+        SECTIONNAME: {
+            "000": "interchangeHeader", 
+            "100": "transactionHeader", 
+            "111": "transactionReference", 
+            "115": "dates", 
+            "119": "partnerAddresses", 
+            "120": "paymentInfo", 
+            "130": "transactionText", 
+            "140": "discountsPackingInsuranceInfo", 
+            "500": "orderLine", 
+            "511": "itemReferences", 
+            "513": "itemDiscounts", 
+            "515": "itemDates", 
+            "519": "partnerAddresses", 
+            "530": "itemText", 
+            "580": "additionalInfo", 
+            "900": "receiptTotal", 
+            "913": "discounts"
+        },
+
         LENGTHLIST:  [
             "000", [3, 35, 35, 8, 4, 14, 14, 14, 1, 5, 467],
             "100", [3, 14, 6, 3, 3, 2, 6, 3, 3, 35, 8, 3, 1, 35, 1, 474],
@@ -82,6 +102,30 @@ export const STRATEDI: any = {
             "991": ["type", "totalAmount", "VATamount", "netValue", "taxableAmount", "discountableAmount", "totalDiscounts", "VATRate", "miscellaneousIndicator", "filler"]
         },
 
+        SECTIONNAME: {
+            "000": "interchangeHeader", 
+            "100": "transactionHeader", 
+            "111": "transactionReference", 
+            "115": "dates", 
+            "119": "partnerAddresses", 
+            "120": "paymentInfo", 
+            "121": "partnerBankDetails",
+            "130": "transactionText", 
+            "140": "discountsPackingInsuranceInfo", 
+            "150": "otherHeaderInfo",
+            "500": "orderLine", 
+            "511": "itemReferences", 
+            "513": "itemDiscounts", 
+            "519": "partnerAddresses", 
+            "530": "itemText", 
+            "601": "itemResolution",
+            "900": "receiptTotal", 
+            "901": "vatInfo",
+            "913": "discounts",
+            "990": "invoiceList",
+            "991": "finalAmounts"
+        },
+
         LENGTHLIST: [
             "000", [3, 35, 35, 8, 4, 14, 14, 14, 1, 5, 467],
             "100", [3, 14, 6, 3, 3, 2, 6, 3, 3, 35, 8, 3, 1, 35, 1, 3, 3, 468],
@@ -114,7 +158,29 @@ export const STRATEDI: any = {
         ],
 
         SECTIONS: ["000", "100", "111", "115", "119", "120", "130", "400", "410", "415", "420", "500", "502", "511", "515", "519", "580", "601"],
-            
+        
+        SECTIONNAME: {
+            "000": "interchangeHeader", 
+            "100": "transactionHeader", 
+            "111": "transactionReference", 
+            "115": "dates", 
+            "119": "partnerAddresses", 
+            "120": "paymentInfo", 
+            "121": "partnerBankDetails",
+            "130": "transactionText", 
+            "400": "shipmentInfo",
+            "410": "palletSSCC",
+            "415": "layerSSCC",
+            "420": "packageSSCC",
+            "500": "orderLine", 
+            "502": "itemDimensions",
+            "511": "itemReferences", 
+            "515": "itemDates", 
+            "519": "partnerAddresses",
+            "580": "additionalInfo",  
+            "601": "itemResolution",
+        },
+
         LENGTHLIST:  [
             "000", [3, 35, 35, 8, 4, 14, 14, 14, 1, 5, 467],
             "100", [3, 14, 6, 3, 3, 2, 6, 3, 3, 35, 8, 3, 1, 35, 1, 474],

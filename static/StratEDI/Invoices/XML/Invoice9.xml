@@ -1,13 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0"?>
 <document>
-    <sentence1>
-        <type>000</type>
-        <senderId>4260402480008</senderId>
-        <recieverId>4304449000000</recieverId>
-        <date>20220407</date>
-        <time>1519</time>
-    </sentence1>
-    <sentence2>
+  <interchangeHeader>
+    <type>000</type>
+    <senderId>4260402480008</senderId>
+    <recieverId>4304449000000</recieverId>
+    <date>20220407</date>
+    <time>1519</time>
+  </interchangeHeader>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>1</messageReference>
         <messageType>INVOIC</messageType>
@@ -19,8 +21,8 @@
         <documentNumber>42205662</documentNumber>
         <documentDate>20220407</documentDate>
         <serviceProviderIndicator>BA</serviceProviderIndicator>
-    </sentence2>
-    <sentence3>
+      </transactionHeader>
+      <transactionReference>
         <type>111</type>
         <customerOrderNumber>0117615</customerOrderNumber>
         <internalOrderNumber>42205662</internalOrderNumber>
@@ -28,13 +30,13 @@
         <deliveryDate>20220406</deliveryDate>
         <deliveryReceiptNumber>22209290</deliveryReceiptNumber>
         <deliveryReceiptDate>20220405</deliveryReceiptDate>
-    </sentence3>
-    <sentence4>
+      </transactionReference>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4304768000002</partnerILN>
-    </sentence4>
-    <sentence5>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4260402480008</partnerILN>
@@ -46,8 +48,8 @@
         <country>DE</country>
         <affiliateVatId>DE326968646</affiliateVatId>
         <taxNumber>1137/124/41160</taxNumber>
-    </sentence5>
-    <sentence6>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4304768000002</partnerILN>
@@ -57,18 +59,20 @@
         <postalCode>26771</postalCode>
         <city>Leer</city>
         <country>DE</country>
-    </sentence6>
-    <sentence7>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4399902307260</partnerILN>
-    </sentence7>
-    <sentence8>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>UC</partnerType>
         <partnerILN>4399902307260</partnerILN>
-    </sentence8>
-    <sentence9>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>001</positionNumber>
         <GTIN>4260402489056</GTIN>
@@ -82,8 +86,10 @@
         <netValue>000022.740</netValue>
         <referenceNumberIndicator>XC1</referenceNumberIndicator>
         <referenceNumber>DE-�ko-039</referenceNumber>
-    </sentence9>
-    <sentence10>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>002</positionNumber>
         <GTIN>4260402489070</GTIN>
@@ -97,8 +103,10 @@
         <netValue>000022.740</netValue>
         <referenceNumberIndicator>XC1</referenceNumberIndicator>
         <referenceNumber>DE-�ko-039</referenceNumber>
-    </sentence10>
-    <sentence11>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>003</positionNumber>
         <GTIN>4260402489551</GTIN>
@@ -110,8 +118,10 @@
         <itemVatRate>07.00</itemVatRate>
         <grossUnitPrice>00010.4500</grossUnitPrice>
         <netValue>000020.900</netValue>
-    </sentence11>
-    <sentence12>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>004</positionNumber>
         <GTIN>4260402489568</GTIN>
@@ -123,8 +133,10 @@
         <itemVatRate>07.00</itemVatRate>
         <grossUnitPrice>00010.4500</grossUnitPrice>
         <netValue>000020.900</netValue>
-    </sentence12>
-    <sentence13>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>005</positionNumber>
         <GTIN>4251725800864</GTIN>
@@ -136,8 +148,10 @@
         <itemVatRate>07.00</itemVatRate>
         <grossUnitPrice>00007.8000</grossUnitPrice>
         <netValue>000007.800</netValue>
-    </sentence13>
-    <sentence14>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>006</positionNumber>
         <GTIN>4251725800253</GTIN>
@@ -149,8 +163,10 @@
         <itemVatRate>07.00</itemVatRate>
         <grossUnitPrice>00014.0000</grossUnitPrice>
         <netValue>000014.000</netValue>
-    </sentence14>
-    <sentence15>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>007</positionNumber>
         <GTIN>4251725800437</GTIN>
@@ -162,8 +178,10 @@
         <itemVatRate>07.00</itemVatRate>
         <grossUnitPrice>00008.3600</grossUnitPrice>
         <netValue>000016.720</netValue>
-    </sentence15>
-    <sentence16>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>008</positionNumber>
         <GTIN>4251725800772</GTIN>
@@ -175,8 +193,10 @@
         <itemVatRate>07.00</itemVatRate>
         <grossUnitPrice>00018.6700</grossUnitPrice>
         <netValue>000018.670</netValue>
-    </sentence16>
-    <sentence17>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>009</positionNumber>
         <GTIN>4251725801250</GTIN>
@@ -188,20 +208,24 @@
         <itemVatRate>07.00</itemVatRate>
         <grossUnitPrice>00014.0000</grossUnitPrice>
         <netValue>000014.000</netValue>
-    </sentence17>
-    <sentence18>
+      </orderLine>
+      <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000169.56</finalInvoiceAmount>
         <receiptTotalAmountVAT>000000000000011.09</receiptTotalAmountVAT>
         <totalNetValue>000000000000158.47</totalNetValue>
         <totalTaxableAmount>000000000000158.47</totalTaxableAmount>
-    </sentence18>
-    <sentence19>
+      </receiptTotal>
+    </itemInfo>
+    <transactionFooter>
+      <vatInfo>
         <type>901</type>
         <totalAmount>000000000000169.56</totalAmount>
         <vatAmount>000000000000011.09</vatAmount>
         <netValue>000000000000158.47</netValue>
         <taxableAmount>000000000000158.47</taxableAmount>
         <VATRate>07.00</VATRate>
-    </sentence19>
+      </vatInfo>
+    </transactionFooter>
+  </transaction>
 </document>

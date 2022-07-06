@@ -1,93 +1,109 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0"?>
 <document>
-    <sentence1>
-        <type>000</type>
-        <senderId>4260402480008</senderId>
-        <recieverId>4388800000007</recieverId>
-        <date>20220407</date>
-        <time>0545</time>
-        <dataExchangeReference>32206221VEGANZ</dataExchangeReference>
-        <fileInterfaceVersionNumber>4.5</fileInterfaceVersionNumber>
-    </sentence1>
-    <sentence2>
+  <interchangeHeader>
+    <type>000</type>
+    <senderId>4260402480008</senderId>
+    <recieverId>4388800000007</recieverId>
+    <date>20220407</date>
+    <time>0545</time>
+    <dataExchangeReference>32206221VEGANZ</dataExchangeReference>
+    <fileInterfaceVersionNumber>4.5</fileInterfaceVersionNumber>
+  </interchangeHeader>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>1</messageReference>
         <messageType>DESADV</messageType>
         <documentNumber>22207836</documentNumber>
         <documentDate>20220407</documentDate>
-    </sentence2>
-    <sentence3>
+      </transactionHeader>
+      <transactionReference>
         <type>111</type>
         <customerOrderNumber>2015170052</customerOrderNumber>
         <customerOrcerDate>20220317</customerOrcerDate>
         <deliveryDate>20220408</deliveryDate>
         <deliveryReceiptNumber>22207836</deliveryReceiptNumber>
         <deliveryReceiptDate>20220407</deliveryReceiptDate>
-    </sentence3>
-    <sentence4>
+      </transactionReference>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence4>
-    <sentence5>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4388100000004</partnerILN>
-    </sentence5>
-    <sentence6>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4388100000004</partnerILN>
-    </sentence6>
-    <sentence7>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4388100200411</partnerILN>
-    </sentence7>
-    <sentence8>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4260402480008</partnerILN>
-    </sentence8>
-    <sentence9>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4251725801137</EAN>
         <orderQuantity>9.000</orderQuantity>
         <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
-    </sentence9>
-    <sentence10>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>2</positionNumber>
         <EAN>4251725801021</EAN>
         <orderQuantity>27.000</orderQuantity>
         <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
-    </sentence10>
-    <sentence11>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>3</positionNumber>
         <EAN>4251725801045</EAN>
         <orderQuantity>27.000</orderQuantity>
         <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
-    </sentence11>
-    <sentence12>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>4</positionNumber>
         <EAN>4251725801069</EAN>
         <orderQuantity>27.000</orderQuantity>
         <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
-    </sentence12>
-    <sentence13>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>5</positionNumber>
         <EAN>4260402483962</EAN>
         <orderQuantity>18.000</orderQuantity>
         <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
-    </sentence13>
-    <sentence14>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>6</positionNumber>
         <EAN>4260402484006</EAN>
         <orderQuantity>18.000</orderQuantity>
         <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
-    </sentence14>
+      </orderLine>
+    </itemInfo>
+  </transaction>
 </document>

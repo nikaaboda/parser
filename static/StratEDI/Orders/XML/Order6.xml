@@ -1,15 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0"?>
 <document>
-    <sentence1>
-        <type>000</type>
-        <senderId>4311501990018</senderId>
-        <recieverId>4260402480008</recieverId>
-        <date>20220406</date>
-        <time>0939</time>
-        <dataExchangeReference>5814</dataExchangeReference>
-        <fileInterfaceVersionNumber>4.5</fileInterfaceVersionNumber>
-    </sentence1>
-    <sentence2>
+  <interchangeHeader>
+    <type>000</type>
+    <senderId>4311501990018</senderId>
+    <recieverId>4260402480008</recieverId>
+    <date>20220406</date>
+    <time>0939</time>
+    <dataExchangeReference>5814</dataExchangeReference>
+    <fileInterfaceVersionNumber>4.5</fileInterfaceVersionNumber>
+  </interchangeHeader>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>1</messageReference>
         <messageType>ORDERS</messageType>
@@ -21,28 +23,30 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>6320698</documentNumber>
         <documentDate>20220406</documentDate>
-    </sentence2>
-    <sentence3>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence3>
-    <sentence4>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4311560000000</partnerILN>
         <contactPartner>SUESSWAREN</contactPartner>
-    </sentence4>
-    <sentence5>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4260402480008</partnerILN>
-    </sentence5>
-    <sentence6>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4313280901100</partnerILN>
-    </sentence6>
-    <sentence7>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>2</positionNumber>
         <EAN>4251725800451</EAN>
@@ -62,12 +66,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence7>
-    <sentence8>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence8>
-    <sentence9>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210304834</partnerILN>
@@ -75,8 +79,10 @@
         <partnerStreet1>JULIUS BRECHT STRASSE 5A</partnerStreet1>
         <postalCode>22609</postalCode>
         <city>HAMBURG</city>
-    </sentence9>
-    <sentence10>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>4</positionNumber>
         <EAN>4251725801007</EAN>
@@ -96,12 +102,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence10>
-    <sentence11>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence11>
-    <sentence12>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210304834</partnerILN>
@@ -109,8 +115,10 @@
         <partnerStreet1>JULIUS BRECHT STRASSE 5A</partnerStreet1>
         <postalCode>22609</postalCode>
         <city>HAMBURG</city>
-    </sentence12>
-    <sentence13>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>6</positionNumber>
         <EAN>4251725800987</EAN>
@@ -130,12 +138,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence13>
-    <sentence14>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence14>
-    <sentence15>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210304834</partnerILN>
@@ -143,8 +151,10 @@
         <partnerStreet1>JULIUS BRECHT STRASSE 5A</partnerStreet1>
         <postalCode>22609</postalCode>
         <city>HAMBURG</city>
-    </sentence15>
-    <sentence16>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>8</positionNumber>
         <EAN>4251725801212</EAN>
@@ -164,12 +174,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence16>
-    <sentence17>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence17>
-    <sentence18>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210869500</partnerILN>
@@ -177,8 +187,10 @@
         <partnerStreet1>PAUL-ROOSEN-STR. 8</partnerStreet1>
         <postalCode>22767</postalCode>
         <city>HAMBURG</city>
-    </sentence18>
-    <sentence19>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>10</positionNumber>
         <EAN>4260402489094</EAN>
@@ -198,12 +210,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence19>
-    <sentence20>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence20>
-    <sentence21>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210023414</partnerILN>
@@ -211,8 +223,10 @@
         <partnerStreet1>BOLDIXUMER STR. 13-15</partnerStreet1>
         <postalCode>25938</postalCode>
         <city>WYK AUF FOEHR</city>
-    </sentence21>
-    <sentence22>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>12</positionNumber>
         <EAN>4251725800871</EAN>
@@ -232,12 +246,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence22>
-    <sentence23>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence23>
-    <sentence24>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210023414</partnerILN>
@@ -245,8 +259,10 @@
         <partnerStreet1>BOLDIXUMER STR. 13-15</partnerStreet1>
         <postalCode>25938</postalCode>
         <city>WYK AUF FOEHR</city>
-    </sentence24>
-    <sentence25>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>14</positionNumber>
         <EAN>4260402489995</EAN>
@@ -266,12 +282,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence25>
-    <sentence26>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence26>
-    <sentence27>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210023414</partnerILN>
@@ -279,8 +295,10 @@
         <partnerStreet1>BOLDIXUMER STR. 13-15</partnerStreet1>
         <postalCode>25938</postalCode>
         <city>WYK AUF FOEHR</city>
-    </sentence27>
-    <sentence28>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>16</positionNumber>
         <EAN>4251725800864</EAN>
@@ -300,12 +318,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence28>
-    <sentence29>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence29>
-    <sentence30>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210023414</partnerILN>
@@ -313,8 +331,10 @@
         <partnerStreet1>BOLDIXUMER STR. 13-15</partnerStreet1>
         <postalCode>25938</postalCode>
         <city>WYK AUF FOEHR</city>
-    </sentence30>
-    <sentence31>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>18</positionNumber>
         <EAN>4251725800451</EAN>
@@ -334,12 +354,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence31>
-    <sentence32>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence32>
-    <sentence33>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210023414</partnerILN>
@@ -347,8 +367,10 @@
         <partnerStreet1>BOLDIXUMER STR. 13-15</partnerStreet1>
         <postalCode>25938</postalCode>
         <city>WYK AUF FOEHR</city>
-    </sentence33>
-    <sentence34>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>20</positionNumber>
         <EAN>4251725800253</EAN>
@@ -368,12 +390,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence34>
-    <sentence35>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence35>
-    <sentence36>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210023414</partnerILN>
@@ -381,8 +403,10 @@
         <partnerStreet1>BOLDIXUMER STR. 13-15</partnerStreet1>
         <postalCode>25938</postalCode>
         <city>WYK AUF FOEHR</city>
-    </sentence36>
-    <sentence37>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>22</positionNumber>
         <EAN>4251725800437</EAN>
@@ -402,12 +426,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence37>
-    <sentence38>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence38>
-    <sentence39>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210023414</partnerILN>
@@ -415,8 +439,10 @@
         <partnerStreet1>BOLDIXUMER STR. 13-15</partnerStreet1>
         <postalCode>25938</postalCode>
         <city>WYK AUF FOEHR</city>
-    </sentence39>
-    <sentence40>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>24</positionNumber>
         <EAN>4251725801250</EAN>
@@ -436,12 +462,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence40>
-    <sentence41>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence41>
-    <sentence42>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210023414</partnerILN>
@@ -449,8 +475,10 @@
         <partnerStreet1>BOLDIXUMER STR. 13-15</partnerStreet1>
         <postalCode>25938</postalCode>
         <city>WYK AUF FOEHR</city>
-    </sentence42>
-    <sentence43>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>26</positionNumber>
         <EAN>4251725801236</EAN>
@@ -470,12 +498,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence43>
-    <sentence44>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence44>
-    <sentence45>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210023414</partnerILN>
@@ -483,8 +511,10 @@
         <partnerStreet1>BOLDIXUMER STR. 13-15</partnerStreet1>
         <postalCode>25938</postalCode>
         <city>WYK AUF FOEHR</city>
-    </sentence45>
-    <sentence46>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>28</positionNumber>
         <EAN>4251725800277</EAN>
@@ -504,12 +534,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence46>
-    <sentence47>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence47>
-    <sentence48>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210139900</partnerILN>
@@ -517,8 +547,10 @@
         <partnerStreet1>STRANDSTR. 22</partnerStreet1>
         <postalCode>25980</postalCode>
         <city>WESTERLAND / SYLT</city>
-    </sentence48>
-    <sentence49>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>30</positionNumber>
         <EAN>4251725801007</EAN>
@@ -538,12 +570,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence49>
-    <sentence50>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence50>
-    <sentence51>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210124616</partnerILN>
@@ -551,8 +583,10 @@
         <partnerStreet1>FUENF-SEEN-ALLEE 22</partnerStreet1>
         <postalCode>24306</postalCode>
         <city>PLOEN</city>
-    </sentence51>
-    <sentence52>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>32</positionNumber>
         <EAN>4251725800277</EAN>
@@ -572,12 +606,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence52>
-    <sentence53>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence53>
-    <sentence54>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210318510</partnerILN>
@@ -585,8 +619,10 @@
         <partnerStreet1>RATHAUSALLEE 35-39</partnerStreet1>
         <postalCode>22846</postalCode>
         <city>NORDERSTEDT</city>
-    </sentence54>
-    <sentence55>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>34</positionNumber>
         <EAN>4251725800871</EAN>
@@ -606,12 +642,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence55>
-    <sentence56>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence56>
-    <sentence57>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210874726</partnerILN>
@@ -619,8 +655,10 @@
         <partnerStreet1>OSTERSTRASSE 86-90</partnerStreet1>
         <postalCode>20259</postalCode>
         <city>HAMBURG</city>
-    </sentence57>
-    <sentence58>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>36</positionNumber>
         <EAN>4260402489032</EAN>
@@ -640,12 +678,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence58>
-    <sentence59>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence59>
-    <sentence60>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210030092</partnerILN>
@@ -653,8 +691,10 @@
         <partnerStreet1>LANDKIRCHENER WEG 57</partnerStreet1>
         <postalCode>23769</postalCode>
         <city>BURG/ FEHMARN</city>
-    </sentence60>
-    <sentence61>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>38</positionNumber>
         <EAN>4251725801458</EAN>
@@ -674,12 +714,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence61>
-    <sentence62>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence62>
-    <sentence63>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210030092</partnerILN>
@@ -687,8 +727,10 @@
         <partnerStreet1>LANDKIRCHENER WEG 57</partnerStreet1>
         <postalCode>23769</postalCode>
         <city>BURG/ FEHMARN</city>
-    </sentence63>
-    <sentence64>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>40</positionNumber>
         <EAN>4251725800581</EAN>
@@ -708,12 +750,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence64>
-    <sentence65>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence65>
-    <sentence66>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210095886</partnerILN>
@@ -721,8 +763,10 @@
         <partnerStreet1>UHLEBUELLER STRASSE 6</partnerStreet1>
         <postalCode>25899</postalCode>
         <city>NIEBUELL</city>
-    </sentence66>
-    <sentence67>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>42</positionNumber>
         <EAN>4260402489032</EAN>
@@ -742,12 +786,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence67>
-    <sentence68>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence68>
-    <sentence69>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210095886</partnerILN>
@@ -755,8 +799,10 @@
         <partnerStreet1>UHLEBUELLER STRASSE 6</partnerStreet1>
         <postalCode>25899</postalCode>
         <city>NIEBUELL</city>
-    </sentence69>
-    <sentence70>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>44</positionNumber>
         <EAN>4260402486352</EAN>
@@ -776,12 +822,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence70>
-    <sentence71>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence71>
-    <sentence72>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210095886</partnerILN>
@@ -789,8 +835,10 @@
         <partnerStreet1>UHLEBUELLER STRASSE 6</partnerStreet1>
         <postalCode>25899</postalCode>
         <city>NIEBUELL</city>
-    </sentence72>
-    <sentence73>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>46</positionNumber>
         <EAN>4251725800390</EAN>
@@ -810,12 +858,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence73>
-    <sentence74>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence74>
-    <sentence75>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210095886</partnerILN>
@@ -823,8 +871,10 @@
         <partnerStreet1>UHLEBUELLER STRASSE 6</partnerStreet1>
         <postalCode>25899</postalCode>
         <city>NIEBUELL</city>
-    </sentence75>
-    <sentence76>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>48</positionNumber>
         <EAN>4260402484495</EAN>
@@ -844,12 +894,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence76>
-    <sentence77>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence77>
-    <sentence78>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210094278</partnerILN>
@@ -857,8 +907,10 @@
         <partnerStreet1>CHRISTIAN-IV-STRASSE 23</partnerStreet1>
         <postalCode>25348</postalCode>
         <city>GLUECKSTADT</city>
-    </sentence78>
-    <sentence79>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>50</positionNumber>
         <EAN>4260402487939</EAN>
@@ -878,12 +930,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence79>
-    <sentence80>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence80>
-    <sentence81>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210094278</partnerILN>
@@ -891,8 +943,10 @@
         <partnerStreet1>CHRISTIAN-IV-STRASSE 23</partnerStreet1>
         <postalCode>25348</postalCode>
         <city>GLUECKSTADT</city>
-    </sentence81>
-    <sentence82>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>52</positionNumber>
         <EAN>4260402487892</EAN>
@@ -912,12 +966,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence82>
-    <sentence83>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence83>
-    <sentence84>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210094278</partnerILN>
@@ -925,8 +979,10 @@
         <partnerStreet1>CHRISTIAN-IV-STRASSE 23</partnerStreet1>
         <postalCode>25348</postalCode>
         <city>GLUECKSTADT</city>
-    </sentence84>
-    <sentence85>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>54</positionNumber>
         <EAN>4251725800390</EAN>
@@ -946,12 +1002,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence85>
-    <sentence86>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence86>
-    <sentence87>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210094278</partnerILN>
@@ -959,8 +1015,10 @@
         <partnerStreet1>CHRISTIAN-IV-STRASSE 23</partnerStreet1>
         <postalCode>25348</postalCode>
         <city>GLUECKSTADT</city>
-    </sentence87>
-    <sentence88>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>56</positionNumber>
         <EAN>4251725801120</EAN>
@@ -980,12 +1038,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence88>
-    <sentence89>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence89>
-    <sentence90>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210094278</partnerILN>
@@ -993,8 +1051,10 @@
         <partnerStreet1>CHRISTIAN-IV-STRASSE 23</partnerStreet1>
         <postalCode>25348</postalCode>
         <city>GLUECKSTADT</city>
-    </sentence90>
-    <sentence91>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>58</positionNumber>
         <EAN>4260402484006</EAN>
@@ -1014,12 +1074,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence91>
-    <sentence92>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence92>
-    <sentence93>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210861412</partnerILN>
@@ -1027,8 +1087,10 @@
         <partnerStreet1>WINTERHUDER MARKTPLATZ 18</partnerStreet1>
         <postalCode>22299</postalCode>
         <city>HAMBURG</city>
-    </sentence93>
-    <sentence94>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>60</positionNumber>
         <EAN>4260402483962</EAN>
@@ -1048,12 +1110,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence94>
-    <sentence95>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence95>
-    <sentence96>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210861412</partnerILN>
@@ -1061,8 +1123,10 @@
         <partnerStreet1>WINTERHUDER MARKTPLATZ 18</partnerStreet1>
         <postalCode>22299</postalCode>
         <city>HAMBURG</city>
-    </sentence96>
-    <sentence97>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>62</positionNumber>
         <EAN>4260402489568</EAN>
@@ -1082,12 +1146,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence97>
-    <sentence98>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence98>
-    <sentence99>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210756084</partnerILN>
@@ -1095,8 +1159,10 @@
         <partnerStreet1>RAMSKAMP 102</partnerStreet1>
         <postalCode>25337</postalCode>
         <city>ELMSHORN</city>
-    </sentence99>
-    <sentence100>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>64</positionNumber>
         <EAN>4260402489995</EAN>
@@ -1116,12 +1182,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence100>
-    <sentence101>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence101>
-    <sentence102>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210756084</partnerILN>
@@ -1129,8 +1195,10 @@
         <partnerStreet1>RAMSKAMP 102</partnerStreet1>
         <postalCode>25337</postalCode>
         <city>ELMSHORN</city>
-    </sentence102>
-    <sentence103>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>66</positionNumber>
         <EAN>4251725800451</EAN>
@@ -1150,12 +1218,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence103>
-    <sentence104>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence104>
-    <sentence105>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210756084</partnerILN>
@@ -1163,8 +1231,10 @@
         <partnerStreet1>RAMSKAMP 102</partnerStreet1>
         <postalCode>25337</postalCode>
         <city>ELMSHORN</city>
-    </sentence105>
-    <sentence106>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>68</positionNumber>
         <EAN>4251725800437</EAN>
@@ -1184,12 +1254,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence106>
-    <sentence107>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence107>
-    <sentence108>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210756084</partnerILN>
@@ -1197,8 +1267,10 @@
         <partnerStreet1>RAMSKAMP 102</partnerStreet1>
         <postalCode>25337</postalCode>
         <city>ELMSHORN</city>
-    </sentence108>
-    <sentence109>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>70</positionNumber>
         <EAN>4251725800475</EAN>
@@ -1218,12 +1290,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence109>
-    <sentence110>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence110>
-    <sentence111>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210756084</partnerILN>
@@ -1231,8 +1303,10 @@
         <partnerStreet1>RAMSKAMP 102</partnerStreet1>
         <postalCode>25337</postalCode>
         <city>ELMSHORN</city>
-    </sentence111>
-    <sentence112>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>72</positionNumber>
         <EAN>4251725800499</EAN>
@@ -1252,12 +1326,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence112>
-    <sentence113>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence113>
-    <sentence114>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210756084</partnerILN>
@@ -1265,8 +1339,10 @@
         <partnerStreet1>RAMSKAMP 102</partnerStreet1>
         <postalCode>25337</postalCode>
         <city>ELMSHORN</city>
-    </sentence114>
-    <sentence115>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>74</positionNumber>
         <EAN>4251725800277</EAN>
@@ -1286,12 +1362,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence115>
-    <sentence116>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence116>
-    <sentence117>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210101204</partnerILN>
@@ -1299,8 +1375,10 @@
         <partnerStreet1>BERLINER DAMM 3-11</partnerStreet1>
         <postalCode>25479</postalCode>
         <city>ELLERAU</city>
-    </sentence117>
-    <sentence118>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>76</positionNumber>
         <EAN>4260402485751</EAN>
@@ -1320,21 +1398,23 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence118>
-    <sentence119>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence119>
-    <sentence120>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210700780</partnerILN>
-        <partnerName1>HAYUNGA\`S E-CENTER GMBH</partnerName1>
+        <partnerName1>HAYUNGA`S E-CENTER GMBH</partnerName1>
         <partnerStreet1>WEDENKAMP 9A</partnerStreet1>
         <postalCode>25335</postalCode>
         <city>ELMSHORN</city>
-    </sentence120>
-    <sentence121>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>78</positionNumber>
         <EAN>4260402486765</EAN>
@@ -1354,21 +1434,23 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence121>
-    <sentence122>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence122>
-    <sentence123>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210700780</partnerILN>
-        <partnerName1>HAYUNGA\`S E-CENTER GMBH</partnerName1>
+        <partnerName1>HAYUNGA`S E-CENTER GMBH</partnerName1>
         <partnerStreet1>WEDENKAMP 9A</partnerStreet1>
         <postalCode>25335</postalCode>
         <city>ELMSHORN</city>
-    </sentence123>
-    <sentence124>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>80</positionNumber>
         <EAN>4260402486802</EAN>
@@ -1388,21 +1470,23 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence124>
-    <sentence125>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence125>
-    <sentence126>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210700780</partnerILN>
-        <partnerName1>HAYUNGA\`S E-CENTER GMBH</partnerName1>
+        <partnerName1>HAYUNGA`S E-CENTER GMBH</partnerName1>
         <partnerStreet1>WEDENKAMP 9A</partnerStreet1>
         <postalCode>25335</postalCode>
         <city>ELMSHORN</city>
-    </sentence126>
-    <sentence127>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>82</positionNumber>
         <EAN>4251725800598</EAN>
@@ -1422,21 +1506,23 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence127>
-    <sentence128>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence128>
-    <sentence129>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210700780</partnerILN>
-        <partnerName1>HAYUNGA\`S E-CENTER GMBH</partnerName1>
+        <partnerName1>HAYUNGA`S E-CENTER GMBH</partnerName1>
         <partnerStreet1>WEDENKAMP 9A</partnerStreet1>
         <postalCode>25335</postalCode>
         <city>ELMSHORN</city>
-    </sentence129>
-    <sentence130>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>84</positionNumber>
         <EAN>4251725800390</EAN>
@@ -1456,21 +1542,23 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence130>
-    <sentence131>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence131>
-    <sentence132>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210700780</partnerILN>
-        <partnerName1>HAYUNGA\`S E-CENTER GMBH</partnerName1>
+        <partnerName1>HAYUNGA`S E-CENTER GMBH</partnerName1>
         <partnerStreet1>WEDENKAMP 9A</partnerStreet1>
         <postalCode>25335</postalCode>
         <city>ELMSHORN</city>
-    </sentence132>
-    <sentence133>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>86</positionNumber>
         <EAN>4260402484006</EAN>
@@ -1490,12 +1578,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence133>
-    <sentence134>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence134>
-    <sentence135>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210432506</partnerILN>
@@ -1503,8 +1591,10 @@
         <partnerStreet1>MAX BRAUER ALLEE 163</partnerStreet1>
         <postalCode>22765</postalCode>
         <city>HAMBURG</city>
-    </sentence135>
-    <sentence136>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>88</positionNumber>
         <EAN>4260402489056</EAN>
@@ -1524,12 +1614,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence136>
-    <sentence137>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence137>
-    <sentence138>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210432506</partnerILN>
@@ -1537,8 +1627,10 @@
         <partnerStreet1>MAX BRAUER ALLEE 163</partnerStreet1>
         <postalCode>22765</postalCode>
         <city>HAMBURG</city>
-    </sentence138>
-    <sentence139>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>90</positionNumber>
         <EAN>4260402489094</EAN>
@@ -1558,12 +1650,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence139>
-    <sentence140>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence140>
-    <sentence141>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210432506</partnerILN>
@@ -1571,8 +1663,10 @@
         <partnerStreet1>MAX BRAUER ALLEE 163</partnerStreet1>
         <postalCode>22765</postalCode>
         <city>HAMBURG</city>
-    </sentence141>
-    <sentence142>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>92</positionNumber>
         <EAN>4260402489070</EAN>
@@ -1592,12 +1686,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence142>
-    <sentence143>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence143>
-    <sentence144>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210432506</partnerILN>
@@ -1605,8 +1699,10 @@
         <partnerStreet1>MAX BRAUER ALLEE 163</partnerStreet1>
         <postalCode>22765</postalCode>
         <city>HAMBURG</city>
-    </sentence144>
-    <sentence145>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>94</positionNumber>
         <EAN>4251725800871</EAN>
@@ -1626,12 +1722,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence145>
-    <sentence146>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence146>
-    <sentence147>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210432506</partnerILN>
@@ -1639,8 +1735,10 @@
         <partnerStreet1>MAX BRAUER ALLEE 163</partnerStreet1>
         <postalCode>22765</postalCode>
         <city>HAMBURG</city>
-    </sentence147>
-    <sentence148>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>96</positionNumber>
         <EAN>4251725800451</EAN>
@@ -1660,12 +1758,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence148>
-    <sentence149>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence149>
-    <sentence150>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210432506</partnerILN>
@@ -1673,8 +1771,10 @@
         <partnerStreet1>MAX BRAUER ALLEE 163</partnerStreet1>
         <postalCode>22765</postalCode>
         <city>HAMBURG</city>
-    </sentence150>
-    <sentence151>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>98</positionNumber>
         <EAN>4251725800253</EAN>
@@ -1694,12 +1794,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence151>
-    <sentence152>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence152>
-    <sentence153>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210432506</partnerILN>
@@ -1707,8 +1807,10 @@
         <partnerStreet1>MAX BRAUER ALLEE 163</partnerStreet1>
         <postalCode>22765</postalCode>
         <city>HAMBURG</city>
-    </sentence153>
-    <sentence154>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>100</positionNumber>
         <EAN>4251725800437</EAN>
@@ -1728,12 +1830,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence154>
-    <sentence155>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence155>
-    <sentence156>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210432506</partnerILN>
@@ -1741,8 +1843,10 @@
         <partnerStreet1>MAX BRAUER ALLEE 163</partnerStreet1>
         <postalCode>22765</postalCode>
         <city>HAMBURG</city>
-    </sentence156>
-    <sentence157>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>102</positionNumber>
         <EAN>4251725800475</EAN>
@@ -1762,12 +1866,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence157>
-    <sentence158>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence158>
-    <sentence159>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210432506</partnerILN>
@@ -1775,8 +1879,10 @@
         <partnerStreet1>MAX BRAUER ALLEE 163</partnerStreet1>
         <postalCode>22765</postalCode>
         <city>HAMBURG</city>
-    </sentence159>
-    <sentence160>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>104</positionNumber>
         <EAN>4251725800277</EAN>
@@ -1796,12 +1902,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence160>
-    <sentence161>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence161>
-    <sentence162>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210432506</partnerILN>
@@ -1809,8 +1915,10 @@
         <partnerStreet1>MAX BRAUER ALLEE 163</partnerStreet1>
         <postalCode>22765</postalCode>
         <city>HAMBURG</city>
-    </sentence162>
-    <sentence163>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>106</positionNumber>
         <EAN>4251725800772</EAN>
@@ -1830,12 +1938,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence163>
-    <sentence164>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence164>
-    <sentence165>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210432506</partnerILN>
@@ -1843,8 +1951,10 @@
         <partnerStreet1>MAX BRAUER ALLEE 163</partnerStreet1>
         <postalCode>22765</postalCode>
         <city>HAMBURG</city>
-    </sentence165>
-    <sentence166>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>108</positionNumber>
         <EAN>4251725800987</EAN>
@@ -1864,12 +1974,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence166>
-    <sentence167>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence167>
-    <sentence168>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210432506</partnerILN>
@@ -1877,8 +1987,10 @@
         <partnerStreet1>MAX BRAUER ALLEE 163</partnerStreet1>
         <postalCode>22765</postalCode>
         <city>HAMBURG</city>
-    </sentence168>
-    <sentence169>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>110</positionNumber>
         <EAN>4251725801236</EAN>
@@ -1898,12 +2010,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence169>
-    <sentence170>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence170>
-    <sentence171>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210432506</partnerILN>
@@ -1911,8 +2023,10 @@
         <partnerStreet1>MAX BRAUER ALLEE 163</partnerStreet1>
         <postalCode>22765</postalCode>
         <city>HAMBURG</city>
-    </sentence171>
-    <sentence172>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>112</positionNumber>
         <EAN>4251725801120</EAN>
@@ -1932,12 +2046,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence172>
-    <sentence173>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence173>
-    <sentence174>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210432506</partnerILN>
@@ -1945,8 +2059,10 @@
         <partnerStreet1>MAX BRAUER ALLEE 163</partnerStreet1>
         <postalCode>22765</postalCode>
         <city>HAMBURG</city>
-    </sentence174>
-    <sentence175>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>114</positionNumber>
         <EAN>4260402485652</EAN>
@@ -1966,12 +2082,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence175>
-    <sentence176>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence176>
-    <sentence177>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210030092</partnerILN>
@@ -1979,8 +2095,10 @@
         <partnerStreet1>LANDKIRCHENER WEG 57</partnerStreet1>
         <postalCode>23769</postalCode>
         <city>BURG/ FEHMARN</city>
-    </sentence177>
-    <sentence178>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>116</positionNumber>
         <EAN>4260402484495</EAN>
@@ -2000,12 +2118,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence178>
-    <sentence179>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence179>
-    <sentence180>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210030092</partnerILN>
@@ -2013,8 +2131,10 @@
         <partnerStreet1>LANDKIRCHENER WEG 57</partnerStreet1>
         <postalCode>23769</postalCode>
         <city>BURG/ FEHMARN</city>
-    </sentence180>
-    <sentence181>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>118</positionNumber>
         <EAN>4260402485447</EAN>
@@ -2034,12 +2154,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence181>
-    <sentence182>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence182>
-    <sentence183>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210030092</partnerILN>
@@ -2047,8 +2167,10 @@
         <partnerStreet1>LANDKIRCHENER WEG 57</partnerStreet1>
         <postalCode>23769</postalCode>
         <city>BURG/ FEHMARN</city>
-    </sentence183>
-    <sentence184>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>120</positionNumber>
         <EAN>4260402486802</EAN>
@@ -2068,12 +2190,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence184>
-    <sentence185>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence185>
-    <sentence186>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210030092</partnerILN>
@@ -2081,8 +2203,10 @@
         <partnerStreet1>LANDKIRCHENER WEG 57</partnerStreet1>
         <postalCode>23769</postalCode>
         <city>BURG/ FEHMARN</city>
-    </sentence186>
-    <sentence187>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>122</positionNumber>
         <EAN>4260402486789</EAN>
@@ -2102,12 +2226,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence187>
-    <sentence188>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence188>
-    <sentence189>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210030092</partnerILN>
@@ -2115,8 +2239,10 @@
         <partnerStreet1>LANDKIRCHENER WEG 57</partnerStreet1>
         <postalCode>23769</postalCode>
         <city>BURG/ FEHMARN</city>
-    </sentence189>
-    <sentence190>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>124</positionNumber>
         <EAN>4260402489032</EAN>
@@ -2136,12 +2262,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence190>
-    <sentence191>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence191>
-    <sentence192>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210030092</partnerILN>
@@ -2149,8 +2275,10 @@
         <partnerStreet1>LANDKIRCHENER WEG 57</partnerStreet1>
         <postalCode>23769</postalCode>
         <city>BURG/ FEHMARN</city>
-    </sentence192>
-    <sentence193>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>126</positionNumber>
         <EAN>4260402486338</EAN>
@@ -2170,12 +2298,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence193>
-    <sentence194>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence194>
-    <sentence195>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210030092</partnerILN>
@@ -2183,8 +2311,10 @@
         <partnerStreet1>LANDKIRCHENER WEG 57</partnerStreet1>
         <postalCode>23769</postalCode>
         <city>BURG/ FEHMARN</city>
-    </sentence195>
-    <sentence196>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>128</positionNumber>
         <EAN>4251725801458</EAN>
@@ -2204,12 +2334,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence196>
-    <sentence197>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence197>
-    <sentence198>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210030092</partnerILN>
@@ -2217,8 +2347,10 @@
         <partnerStreet1>LANDKIRCHENER WEG 57</partnerStreet1>
         <postalCode>23769</postalCode>
         <city>BURG/ FEHMARN</city>
-    </sentence198>
-    <sentence199>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>130</positionNumber>
         <EAN>4251725800277</EAN>
@@ -2238,12 +2370,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence199>
-    <sentence200>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence200>
-    <sentence201>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210124616</partnerILN>
@@ -2251,8 +2383,10 @@
         <partnerStreet1>FUENF-SEEN-ALLEE 22</partnerStreet1>
         <postalCode>24306</postalCode>
         <city>PLOEN</city>
-    </sentence201>
-    <sentence202>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>132</positionNumber>
         <EAN>4260402482576</EAN>
@@ -2272,12 +2406,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence202>
-    <sentence203>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence203>
-    <sentence204>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -2285,8 +2419,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence204>
-    <sentence205>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>134</positionNumber>
         <EAN>4260402480367</EAN>
@@ -2306,12 +2442,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence205>
-    <sentence206>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence206>
-    <sentence207>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -2319,8 +2455,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence207>
-    <sentence208>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>136</positionNumber>
         <EAN>4260402485652</EAN>
@@ -2340,12 +2478,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence208>
-    <sentence209>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence209>
-    <sentence210>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -2353,8 +2491,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence210>
-    <sentence211>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>138</positionNumber>
         <EAN>4260402484983</EAN>
@@ -2374,12 +2514,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence211>
-    <sentence212>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence212>
-    <sentence213>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -2387,8 +2527,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence213>
-    <sentence214>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>140</positionNumber>
         <EAN>4260402485027</EAN>
@@ -2408,12 +2550,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence214>
-    <sentence215>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence215>
-    <sentence216>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -2421,8 +2563,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence216>
-    <sentence217>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>142</positionNumber>
         <EAN>4260402485065</EAN>
@@ -2442,12 +2586,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence217>
-    <sentence218>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence218>
-    <sentence219>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -2455,8 +2599,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence219>
-    <sentence220>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>144</positionNumber>
         <EAN>4260402485003</EAN>
@@ -2476,12 +2622,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence220>
-    <sentence221>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence221>
-    <sentence222>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -2489,8 +2635,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence222>
-    <sentence223>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>146</positionNumber>
         <EAN>4260402485737</EAN>
@@ -2510,12 +2658,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence223>
-    <sentence224>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence224>
-    <sentence225>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -2523,8 +2671,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence225>
-    <sentence226>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>148</positionNumber>
         <EAN>4260402485751</EAN>
@@ -2544,12 +2694,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence226>
-    <sentence227>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence227>
-    <sentence228>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -2557,8 +2707,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence228>
-    <sentence229>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>150</positionNumber>
         <EAN>4260402484006</EAN>
@@ -2578,12 +2730,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence229>
-    <sentence230>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence230>
-    <sentence231>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -2591,8 +2743,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence231>
-    <sentence232>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>152</positionNumber>
         <EAN>4260402483962</EAN>
@@ -2612,12 +2766,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence232>
-    <sentence233>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence233>
-    <sentence234>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -2625,8 +2779,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence234>
-    <sentence235>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>154</positionNumber>
         <EAN>4260402484495</EAN>
@@ -2646,12 +2802,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence235>
-    <sentence236>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence236>
-    <sentence237>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -2659,8 +2815,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence237>
-    <sentence238>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>156</positionNumber>
         <EAN>4260402485386</EAN>
@@ -2680,12 +2838,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence238>
-    <sentence239>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence239>
-    <sentence240>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -2693,8 +2851,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence240>
-    <sentence241>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>158</positionNumber>
         <EAN>4260402484518</EAN>
@@ -2714,12 +2874,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence241>
-    <sentence242>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence242>
-    <sentence243>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -2727,8 +2887,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence243>
-    <sentence244>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>160</positionNumber>
         <EAN>4260402484334</EAN>
@@ -2748,12 +2910,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence244>
-    <sentence245>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence245>
-    <sentence246>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -2761,8 +2923,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence246>
-    <sentence247>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>162</positionNumber>
         <EAN>4260402485041</EAN>
@@ -2782,12 +2946,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence247>
-    <sentence248>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence248>
-    <sentence249>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -2795,8 +2959,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence249>
-    <sentence250>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>164</positionNumber>
         <EAN>4260402485416</EAN>
@@ -2816,12 +2982,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence250>
-    <sentence251>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence251>
-    <sentence252>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -2829,8 +2995,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence252>
-    <sentence253>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>166</positionNumber>
         <EAN>4260402485447</EAN>
@@ -2850,12 +3018,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence253>
-    <sentence254>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence254>
-    <sentence255>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -2863,8 +3031,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence255>
-    <sentence256>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>168</positionNumber>
         <EAN>4260402485324</EAN>
@@ -2884,12 +3054,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence256>
-    <sentence257>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence257>
-    <sentence258>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -2897,8 +3067,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence258>
-    <sentence259>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>170</positionNumber>
         <EAN>4260402486765</EAN>
@@ -2918,12 +3090,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence259>
-    <sentence260>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence260>
-    <sentence261>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -2931,8 +3103,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence261>
-    <sentence262>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>172</positionNumber>
         <EAN>4251725800581</EAN>
@@ -2952,12 +3126,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence262>
-    <sentence263>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence263>
-    <sentence264>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -2965,8 +3139,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence264>
-    <sentence265>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>174</positionNumber>
         <EAN>4260402486802</EAN>
@@ -2986,12 +3162,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence265>
-    <sentence266>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence266>
-    <sentence267>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -2999,8 +3175,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence267>
-    <sentence268>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>176</positionNumber>
         <EAN>4251725800598</EAN>
@@ -3020,12 +3198,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence268>
-    <sentence269>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence269>
-    <sentence270>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3033,8 +3211,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence270>
-    <sentence271>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>178</positionNumber>
         <EAN>4260402487205</EAN>
@@ -3054,12 +3234,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence271>
-    <sentence272>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence272>
-    <sentence273>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3067,8 +3247,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence273>
-    <sentence274>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>180</positionNumber>
         <EAN>4260402486840</EAN>
@@ -3088,12 +3270,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence274>
-    <sentence275>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence275>
-    <sentence276>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3101,8 +3283,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence276>
-    <sentence277>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>182</positionNumber>
         <EAN>4260402487212</EAN>
@@ -3122,12 +3306,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence277>
-    <sentence278>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence278>
-    <sentence279>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3135,8 +3319,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence279>
-    <sentence280>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>184</positionNumber>
         <EAN>4260402485225</EAN>
@@ -3156,12 +3342,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence280>
-    <sentence281>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence281>
-    <sentence282>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3169,8 +3355,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence282>
-    <sentence283>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>186</positionNumber>
         <EAN>4260402485249</EAN>
@@ -3190,12 +3378,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence283>
-    <sentence284>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence284>
-    <sentence285>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3203,8 +3391,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence285>
-    <sentence286>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>188</positionNumber>
         <EAN>4260402487632</EAN>
@@ -3224,12 +3414,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence286>
-    <sentence287>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence287>
-    <sentence288>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3237,8 +3427,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence288>
-    <sentence289>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>190</positionNumber>
         <EAN>4260402487618</EAN>
@@ -3258,12 +3450,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence289>
-    <sentence290>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence290>
-    <sentence291>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3271,8 +3463,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence291>
-    <sentence292>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>192</positionNumber>
         <EAN>4260402486789</EAN>
@@ -3292,12 +3486,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence292>
-    <sentence293>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence293>
-    <sentence294>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3305,8 +3499,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence294>
-    <sentence295>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>194</positionNumber>
         <EAN>4260402489032</EAN>
@@ -3326,12 +3522,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence295>
-    <sentence296>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence296>
-    <sentence297>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3339,8 +3535,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence297>
-    <sentence298>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>196</positionNumber>
         <EAN>4260402489452</EAN>
@@ -3360,12 +3558,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence298>
-    <sentence299>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence299>
-    <sentence300>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3373,8 +3571,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence300>
-    <sentence301>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>198</positionNumber>
         <EAN>4251725800208</EAN>
@@ -3394,12 +3594,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence301>
-    <sentence302>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence302>
-    <sentence303>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3407,8 +3607,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence303>
-    <sentence304>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>200</positionNumber>
         <EAN>4251725800185</EAN>
@@ -3428,12 +3630,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence304>
-    <sentence305>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence305>
-    <sentence306>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3441,8 +3643,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence306>
-    <sentence307>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>202</positionNumber>
         <EAN>4251725800109</EAN>
@@ -3462,12 +3666,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence307>
-    <sentence308>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence308>
-    <sentence309>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3475,8 +3679,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence309>
-    <sentence310>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>204</positionNumber>
         <EAN>4251725800123</EAN>
@@ -3496,12 +3702,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence310>
-    <sentence311>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence311>
-    <sentence312>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3509,8 +3715,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence312>
-    <sentence313>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>206</positionNumber>
         <EAN>4251725800086</EAN>
@@ -3530,12 +3738,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence313>
-    <sentence314>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence314>
-    <sentence315>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3543,8 +3751,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence315>
-    <sentence316>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>208</positionNumber>
         <EAN>4260402486338</EAN>
@@ -3564,12 +3774,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence316>
-    <sentence317>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence317>
-    <sentence318>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3577,8 +3787,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence318>
-    <sentence319>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>210</positionNumber>
         <EAN>4260402486352</EAN>
@@ -3598,12 +3810,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence319>
-    <sentence320>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence320>
-    <sentence321>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3611,8 +3823,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence321>
-    <sentence322>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>212</positionNumber>
         <EAN>4260402487939</EAN>
@@ -3632,12 +3846,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence322>
-    <sentence323>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence323>
-    <sentence324>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3645,8 +3859,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence324>
-    <sentence325>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>214</positionNumber>
         <EAN>4260402487892</EAN>
@@ -3666,12 +3882,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence325>
-    <sentence326>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence326>
-    <sentence327>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3679,8 +3895,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence327>
-    <sentence328>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>216</positionNumber>
         <EAN>4251725800390</EAN>
@@ -3700,12 +3918,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence328>
-    <sentence329>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence329>
-    <sentence330>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3713,8 +3931,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence330>
-    <sentence331>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>218</positionNumber>
         <EAN>4251725800635</EAN>
@@ -3734,12 +3954,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence331>
-    <sentence332>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence332>
-    <sentence333>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3747,8 +3967,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence333>
-    <sentence334>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>220</positionNumber>
         <EAN>4251725800673</EAN>
@@ -3768,12 +3990,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence334>
-    <sentence335>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence335>
-    <sentence336>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3781,8 +4003,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence336>
-    <sentence337>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>222</positionNumber>
         <EAN>4251725800727</EAN>
@@ -3802,12 +4026,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence337>
-    <sentence338>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence338>
-    <sentence339>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3815,8 +4039,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence339>
-    <sentence340>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>224</positionNumber>
         <EAN>4251725801120</EAN>
@@ -3836,12 +4062,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence340>
-    <sentence341>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence341>
-    <sentence342>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3849,8 +4075,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence342>
-    <sentence343>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>226</positionNumber>
         <EAN>4251725801458</EAN>
@@ -3870,12 +4098,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence343>
-    <sentence344>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence344>
-    <sentence345>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3883,8 +4111,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence345>
-    <sentence346>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>228</positionNumber>
         <EAN>4251725801434</EAN>
@@ -3904,12 +4134,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence346>
-    <sentence347>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence347>
-    <sentence348>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3917,8 +4147,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence348>
-    <sentence349>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>230</positionNumber>
         <EAN>4251725800901</EAN>
@@ -3938,12 +4170,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence349>
-    <sentence350>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence350>
-    <sentence351>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3951,8 +4183,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence351>
-    <sentence352>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>232</positionNumber>
         <EAN>4260402489995</EAN>
@@ -3972,12 +4206,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence352>
-    <sentence353>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence353>
-    <sentence354>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -3985,8 +4219,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence354>
-    <sentence355>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>234</positionNumber>
         <EAN>4251725800451</EAN>
@@ -4006,12 +4242,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence355>
-    <sentence356>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence356>
-    <sentence357>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -4019,8 +4255,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence357>
-    <sentence358>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>236</positionNumber>
         <EAN>4251725800475</EAN>
@@ -4040,12 +4278,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence358>
-    <sentence359>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence359>
-    <sentence360>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -4053,8 +4291,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence360>
-    <sentence361>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>238</positionNumber>
         <EAN>4251725800499</EAN>
@@ -4074,12 +4314,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence361>
-    <sentence362>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence362>
-    <sentence363>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -4087,8 +4327,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence363>
-    <sentence364>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>240</positionNumber>
         <EAN>4251725800277</EAN>
@@ -4108,12 +4350,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence364>
-    <sentence365>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence365>
-    <sentence366>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -4121,8 +4363,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence366>
-    <sentence367>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>242</positionNumber>
         <EAN>4251725800987</EAN>
@@ -4142,12 +4386,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence367>
-    <sentence368>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence368>
-    <sentence369>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313234295132</partnerILN>
@@ -4155,8 +4399,10 @@
         <partnerStreet1>GUTENBERGSTRASSE 7</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT-ULZBURG</city>
-    </sentence369>
-    <sentence370>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>244</positionNumber>
         <EAN>4260402489568</EAN>
@@ -4176,12 +4422,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence370>
-    <sentence371>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence371>
-    <sentence372>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210404596</partnerILN>
@@ -4189,8 +4435,10 @@
         <partnerStreet1>WESTERSTR. 1</partnerStreet1>
         <postalCode>25923</postalCode>
         <city>SUEDERLUEGUM</city>
-    </sentence372>
-    <sentence373>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>246</positionNumber>
         <EAN>4260402489551</EAN>
@@ -4210,12 +4458,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence373>
-    <sentence374>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence374>
-    <sentence375>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210404596</partnerILN>
@@ -4223,8 +4471,10 @@
         <partnerStreet1>WESTERSTR. 1</partnerStreet1>
         <postalCode>25923</postalCode>
         <city>SUEDERLUEGUM</city>
-    </sentence375>
-    <sentence376>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>248</positionNumber>
         <EAN>4260402489070</EAN>
@@ -4244,12 +4494,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence376>
-    <sentence377>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence377>
-    <sentence378>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210404596</partnerILN>
@@ -4257,8 +4507,10 @@
         <partnerStreet1>WESTERSTR. 1</partnerStreet1>
         <postalCode>25923</postalCode>
         <city>SUEDERLUEGUM</city>
-    </sentence378>
-    <sentence379>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>250</positionNumber>
         <EAN>4251725800451</EAN>
@@ -4278,12 +4530,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence379>
-    <sentence380>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence380>
-    <sentence381>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210404596</partnerILN>
@@ -4291,8 +4543,10 @@
         <partnerStreet1>WESTERSTR. 1</partnerStreet1>
         <postalCode>25923</postalCode>
         <city>SUEDERLUEGUM</city>
-    </sentence381>
-    <sentence382>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>252</positionNumber>
         <EAN>4251725800277</EAN>
@@ -4312,12 +4566,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence382>
-    <sentence383>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence383>
-    <sentence384>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210404596</partnerILN>
@@ -4325,8 +4579,10 @@
         <partnerStreet1>WESTERSTR. 1</partnerStreet1>
         <postalCode>25923</postalCode>
         <city>SUEDERLUEGUM</city>
-    </sentence384>
-    <sentence385>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>254</positionNumber>
         <EAN>4260402480367</EAN>
@@ -4346,12 +4602,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence385>
-    <sentence386>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence386>
-    <sentence387>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210067012</partnerILN>
@@ -4359,8 +4615,10 @@
         <partnerStreet1>SIEMENSSTRASSE 34-36</partnerStreet1>
         <postalCode>25813</postalCode>
         <city>HUSUM</city>
-    </sentence387>
-    <sentence388>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>256</positionNumber>
         <EAN>4260402484006</EAN>
@@ -4380,12 +4638,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence388>
-    <sentence389>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence389>
-    <sentence390>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210067012</partnerILN>
@@ -4393,8 +4651,10 @@
         <partnerStreet1>SIEMENSSTRASSE 34-36</partnerStreet1>
         <postalCode>25813</postalCode>
         <city>HUSUM</city>
-    </sentence390>
-    <sentence391>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>258</positionNumber>
         <EAN>4260402483962</EAN>
@@ -4414,12 +4674,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence391>
-    <sentence392>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence392>
-    <sentence393>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210067012</partnerILN>
@@ -4427,8 +4687,10 @@
         <partnerStreet1>SIEMENSSTRASSE 34-36</partnerStreet1>
         <postalCode>25813</postalCode>
         <city>HUSUM</city>
-    </sentence393>
-    <sentence394>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>260</positionNumber>
         <EAN>4260402484334</EAN>
@@ -4448,12 +4710,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence394>
-    <sentence395>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence395>
-    <sentence396>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210067012</partnerILN>
@@ -4461,8 +4723,10 @@
         <partnerStreet1>SIEMENSSTRASSE 34-36</partnerStreet1>
         <postalCode>25813</postalCode>
         <city>HUSUM</city>
-    </sentence396>
-    <sentence397>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>262</positionNumber>
         <EAN>4260402486789</EAN>
@@ -4482,12 +4746,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence397>
-    <sentence398>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence398>
-    <sentence399>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210067012</partnerILN>
@@ -4495,8 +4759,10 @@
         <partnerStreet1>SIEMENSSTRASSE 34-36</partnerStreet1>
         <postalCode>25813</postalCode>
         <city>HUSUM</city>
-    </sentence399>
-    <sentence400>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>264</positionNumber>
         <EAN>4251725801021</EAN>
@@ -4516,12 +4782,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence400>
-    <sentence401>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence401>
-    <sentence402>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210067012</partnerILN>
@@ -4529,8 +4795,10 @@
         <partnerStreet1>SIEMENSSTRASSE 34-36</partnerStreet1>
         <postalCode>25813</postalCode>
         <city>HUSUM</city>
-    </sentence402>
-    <sentence403>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>266</positionNumber>
         <EAN>4251725801120</EAN>
@@ -4550,12 +4818,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence403>
-    <sentence404>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence404>
-    <sentence405>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210067012</partnerILN>
@@ -4563,8 +4831,10 @@
         <partnerStreet1>SIEMENSSTRASSE 34-36</partnerStreet1>
         <postalCode>25813</postalCode>
         <city>HUSUM</city>
-    </sentence405>
-    <sentence406>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>268</positionNumber>
         <EAN>4260402485386</EAN>
@@ -4584,12 +4854,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence406>
-    <sentence407>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence407>
-    <sentence408>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210047748</partnerILN>
@@ -4597,8 +4867,10 @@
         <partnerStreet1>DAMMSTUECKEN 29-33</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT ULZBURG</city>
-    </sentence408>
-    <sentence409>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>270</positionNumber>
         <EAN>4260402485447</EAN>
@@ -4618,12 +4890,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence409>
-    <sentence410>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence410>
-    <sentence411>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210047748</partnerILN>
@@ -4631,8 +4903,10 @@
         <partnerStreet1>DAMMSTUECKEN 29-33</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT ULZBURG</city>
-    </sentence411>
-    <sentence412>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>272</positionNumber>
         <EAN>4251725800253</EAN>
@@ -4652,12 +4926,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence412>
-    <sentence413>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence413>
-    <sentence414>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210047748</partnerILN>
@@ -4665,8 +4939,10 @@
         <partnerStreet1>DAMMSTUECKEN 29-33</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT ULZBURG</city>
-    </sentence414>
-    <sentence415>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>274</positionNumber>
         <EAN>4251725800277</EAN>
@@ -4686,12 +4962,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence415>
-    <sentence416>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence416>
-    <sentence417>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210047748</partnerILN>
@@ -4699,8 +4975,10 @@
         <partnerStreet1>DAMMSTUECKEN 29-33</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT ULZBURG</city>
-    </sentence417>
-    <sentence418>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>276</positionNumber>
         <EAN>4251725800727</EAN>
@@ -4720,12 +4998,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence418>
-    <sentence419>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence419>
-    <sentence420>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210047748</partnerILN>
@@ -4733,8 +5011,10 @@
         <partnerStreet1>DAMMSTUECKEN 29-33</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT ULZBURG</city>
-    </sentence420>
-    <sentence421>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>278</positionNumber>
         <EAN>4260402482576</EAN>
@@ -4754,12 +5034,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence421>
-    <sentence422>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence422>
-    <sentence423>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210056856</partnerILN>
@@ -4767,8 +5047,10 @@
         <partnerStreet1>HAUPTSTRASSE 96</partnerStreet1>
         <postalCode>24980</postalCode>
         <city>SCHAFFLUND</city>
-    </sentence423>
-    <sentence424>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>280</positionNumber>
         <EAN>4260402489551</EAN>
@@ -4788,12 +5070,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence424>
-    <sentence425>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence425>
-    <sentence426>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210047748</partnerILN>
@@ -4801,8 +5083,10 @@
         <partnerStreet1>DAMMSTUECKEN 29-33</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT ULZBURG</city>
-    </sentence426>
-    <sentence427>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>282</positionNumber>
         <EAN>4260402489995</EAN>
@@ -4822,12 +5106,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence427>
-    <sentence428>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence428>
-    <sentence429>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210047748</partnerILN>
@@ -4835,8 +5119,10 @@
         <partnerStreet1>DAMMSTUECKEN 29-33</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT ULZBURG</city>
-    </sentence429>
-    <sentence430>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>284</positionNumber>
         <EAN>4251725800451</EAN>
@@ -4856,12 +5142,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence430>
-    <sentence431>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence431>
-    <sentence432>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210047748</partnerILN>
@@ -4869,8 +5155,10 @@
         <partnerStreet1>DAMMSTUECKEN 29-33</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT ULZBURG</city>
-    </sentence432>
-    <sentence433>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>286</positionNumber>
         <EAN>4251725800475</EAN>
@@ -4890,12 +5178,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence433>
-    <sentence434>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence434>
-    <sentence435>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210047748</partnerILN>
@@ -4903,8 +5191,10 @@
         <partnerStreet1>DAMMSTUECKEN 29-33</partnerStreet1>
         <postalCode>24558</postalCode>
         <city>HENSTEDT ULZBURG</city>
-    </sentence435>
-    <sentence436>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>288</positionNumber>
         <EAN>4260402486802</EAN>
@@ -4924,12 +5214,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence436>
-    <sentence437>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence437>
-    <sentence438>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210022592</partnerILN>
@@ -4937,8 +5227,10 @@
         <partnerStreet1>GABLONZER STR. 18</partnerStreet1>
         <postalCode>24610</postalCode>
         <city>TRAPPENKAMP</city>
-    </sentence438>
-    <sentence439>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>290</positionNumber>
         <EAN>4260402486789</EAN>
@@ -4958,12 +5250,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence439>
-    <sentence440>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence440>
-    <sentence441>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210022592</partnerILN>
@@ -4971,8 +5263,10 @@
         <partnerStreet1>GABLONZER STR. 18</partnerStreet1>
         <postalCode>24610</postalCode>
         <city>TRAPPENKAMP</city>
-    </sentence441>
-    <sentence442>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>292</positionNumber>
         <EAN>4260402484518</EAN>
@@ -4992,12 +5286,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence442>
-    <sentence443>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence443>
-    <sentence444>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210106568</partnerILN>
@@ -5005,8 +5299,10 @@
         <partnerStreet1>RAVENSBERG 2</partnerStreet1>
         <postalCode>24214</postalCode>
         <city>GETTORF</city>
-    </sentence444>
-    <sentence445>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>294</positionNumber>
         <EAN>4260402484495</EAN>
@@ -5026,12 +5322,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence445>
-    <sentence446>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence446>
-    <sentence447>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210126450</partnerILN>
@@ -5039,8 +5335,10 @@
         <partnerStreet1>KIELER STRASSE 29</partnerStreet1>
         <postalCode>24211</postalCode>
         <city>PREETZ</city>
-    </sentence447>
-    <sentence448>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>296</positionNumber>
         <EAN>4260402485041</EAN>
@@ -5060,12 +5358,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence448>
-    <sentence449>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence449>
-    <sentence450>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210126450</partnerILN>
@@ -5073,8 +5371,10 @@
         <partnerStreet1>KIELER STRASSE 29</partnerStreet1>
         <postalCode>24211</postalCode>
         <city>PREETZ</city>
-    </sentence450>
-    <sentence451>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>298</positionNumber>
         <EAN>4260402489551</EAN>
@@ -5094,12 +5394,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence451>
-    <sentence452>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence452>
-    <sentence453>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210126450</partnerILN>
@@ -5107,8 +5407,10 @@
         <partnerStreet1>KIELER STRASSE 29</partnerStreet1>
         <postalCode>24211</postalCode>
         <city>PREETZ</city>
-    </sentence453>
-    <sentence454>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>300</positionNumber>
         <EAN>4260402486789</EAN>
@@ -5128,12 +5430,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence454>
-    <sentence455>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence455>
-    <sentence456>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210126450</partnerILN>
@@ -5141,8 +5443,10 @@
         <partnerStreet1>KIELER STRASSE 29</partnerStreet1>
         <postalCode>24211</postalCode>
         <city>PREETZ</city>
-    </sentence456>
-    <sentence457>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>302</positionNumber>
         <EAN>4251725800185</EAN>
@@ -5162,12 +5466,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence457>
-    <sentence458>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence458>
-    <sentence459>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210126450</partnerILN>
@@ -5175,8 +5479,10 @@
         <partnerStreet1>KIELER STRASSE 29</partnerStreet1>
         <postalCode>24211</postalCode>
         <city>PREETZ</city>
-    </sentence459>
-    <sentence460>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>304</positionNumber>
         <EAN>4251725800864</EAN>
@@ -5196,12 +5502,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence460>
-    <sentence461>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence461>
-    <sentence462>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210126450</partnerILN>
@@ -5209,8 +5515,10 @@
         <partnerStreet1>KIELER STRASSE 29</partnerStreet1>
         <postalCode>24211</postalCode>
         <city>PREETZ</city>
-    </sentence462>
-    <sentence463>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>306</positionNumber>
         <EAN>4251725800451</EAN>
@@ -5230,12 +5538,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence463>
-    <sentence464>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence464>
-    <sentence465>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210126450</partnerILN>
@@ -5243,8 +5551,10 @@
         <partnerStreet1>KIELER STRASSE 29</partnerStreet1>
         <postalCode>24211</postalCode>
         <city>PREETZ</city>
-    </sentence465>
-    <sentence466>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>308</positionNumber>
         <EAN>4260402485386</EAN>
@@ -5264,12 +5574,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence466>
-    <sentence467>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence467>
-    <sentence468>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210128812</partnerILN>
@@ -5277,8 +5587,10 @@
         <partnerStreet1>ANDREAS-NIELSEN STR.3</partnerStreet1>
         <postalCode>25980</postalCode>
         <city>WESTERLAND/SYLT</city>
-    </sentence468>
-    <sentence469>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>310</positionNumber>
         <EAN>4251725800390</EAN>
@@ -5298,12 +5610,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence469>
-    <sentence470>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence470>
-    <sentence471>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210128812</partnerILN>
@@ -5311,8 +5623,10 @@
         <partnerStreet1>ANDREAS-NIELSEN STR.3</partnerStreet1>
         <postalCode>25980</postalCode>
         <city>WESTERLAND/SYLT</city>
-    </sentence471>
-    <sentence472>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>312</positionNumber>
         <EAN>4251725801021</EAN>
@@ -5332,12 +5646,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence472>
-    <sentence473>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence473>
-    <sentence474>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210715524</partnerILN>
@@ -5345,8 +5659,10 @@
         <partnerStreet1>KIELER STR. 98A</partnerStreet1>
         <postalCode>24783</postalCode>
         <city>OSTERROENFELD</city>
-    </sentence474>
-    <sentence475>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>314</positionNumber>
         <EAN>4251725800437</EAN>
@@ -5366,21 +5682,23 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence475>
-    <sentence476>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence476>
-    <sentence477>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210381590</partnerILN>
-        <partnerName1>MEYER\`S FRISCHECENTER PRISDORF GMBH</partnerName1>
+        <partnerName1>MEYER`S FRISCHECENTER PRISDORF GMBH</partnerName1>
         <partnerStreet1>PEINER HAG 1</partnerStreet1>
         <postalCode>25497</postalCode>
         <city>PRISDORF</city>
-    </sentence477>
-    <sentence478>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>316</positionNumber>
         <EAN>4251725801069</EAN>
@@ -5400,21 +5718,23 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence478>
-    <sentence479>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence479>
-    <sentence480>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210706416</partnerILN>
-        <partnerName1>HAYUNGA\`S RUGENBARG GMBH</partnerName1>
+        <partnerName1>HAYUNGA`S RUGENBARG GMBH</partnerName1>
         <partnerStreet1>RUGENBARG 19</partnerStreet1>
         <postalCode>22848</postalCode>
         <city>NORDERSTEDT</city>
-    </sentence480>
-    <sentence481>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>318</positionNumber>
         <EAN>4251725801434</EAN>
@@ -5434,12 +5754,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence481>
-    <sentence482>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence482>
-    <sentence483>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210326492</partnerILN>
@@ -5447,8 +5767,10 @@
         <partnerStreet1>HARKORTSTRASSE 81D</partnerStreet1>
         <postalCode>22765</postalCode>
         <city>HAMBURG</city>
-    </sentence483>
-    <sentence484>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>320</positionNumber>
         <EAN>4251725800390</EAN>
@@ -5468,12 +5790,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence484>
-    <sentence485>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence485>
-    <sentence486>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210326188</partnerILN>
@@ -5481,8 +5803,10 @@
         <partnerStreet1>HARKORTSTRASSE 81C</partnerStreet1>
         <postalCode>22765</postalCode>
         <city>HAMBURG</city>
-    </sentence486>
-    <sentence487>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>322</positionNumber>
         <EAN>4260402485737</EAN>
@@ -5502,12 +5826,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence487>
-    <sentence488>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence488>
-    <sentence489>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210336736</partnerILN>
@@ -5515,8 +5839,10 @@
         <partnerStreet1>AM MARIENHOF 3</partnerStreet1>
         <postalCode>22880</postalCode>
         <city>WEDEL</city>
-    </sentence489>
-    <sentence490>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>324</positionNumber>
         <EAN>4260402489551</EAN>
@@ -5536,12 +5862,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence490>
-    <sentence491>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence491>
-    <sentence492>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210336736</partnerILN>
@@ -5549,8 +5875,10 @@
         <partnerStreet1>AM MARIENHOF 3</partnerStreet1>
         <postalCode>22880</postalCode>
         <city>WEDEL</city>
-    </sentence492>
-    <sentence493>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>326</positionNumber>
         <EAN>4260402485386</EAN>
@@ -5570,12 +5898,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence493>
-    <sentence494>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence494>
-    <sentence495>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210108234</partnerILN>
@@ -5583,8 +5911,10 @@
         <partnerStreet1>WERFTSTRASSE 29</partnerStreet1>
         <postalCode>24939</postalCode>
         <city>FLENSBURG</city>
-    </sentence495>
-    <sentence496>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>328</positionNumber>
         <EAN>4251725800598</EAN>
@@ -5604,12 +5934,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence496>
-    <sentence497>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence497>
-    <sentence498>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210108234</partnerILN>
@@ -5617,8 +5947,10 @@
         <partnerStreet1>WERFTSTRASSE 29</partnerStreet1>
         <postalCode>24939</postalCode>
         <city>FLENSBURG</city>
-    </sentence498>
-    <sentence499>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>330</positionNumber>
         <EAN>4251725800390</EAN>
@@ -5638,12 +5970,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence499>
-    <sentence500>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence500>
-    <sentence501>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210108234</partnerILN>
@@ -5651,8 +5983,10 @@
         <partnerStreet1>WERFTSTRASSE 29</partnerStreet1>
         <postalCode>24939</postalCode>
         <city>FLENSBURG</city>
-    </sentence501>
-    <sentence502>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>332</positionNumber>
         <EAN>4251725800277</EAN>
@@ -5672,12 +6006,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence502>
-    <sentence503>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence503>
-    <sentence504>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210108234</partnerILN>
@@ -5685,8 +6019,10 @@
         <partnerStreet1>WERFTSTRASSE 29</partnerStreet1>
         <postalCode>24939</postalCode>
         <city>FLENSBURG</city>
-    </sentence504>
-    <sentence505>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>334</positionNumber>
         <EAN>4251725800987</EAN>
@@ -5706,12 +6042,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence505>
-    <sentence506>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence506>
-    <sentence507>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210108234</partnerILN>
@@ -5719,8 +6055,10 @@
         <partnerStreet1>WERFTSTRASSE 29</partnerStreet1>
         <postalCode>24939</postalCode>
         <city>FLENSBURG</city>
-    </sentence507>
-    <sentence508>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>336</positionNumber>
         <EAN>4251725801434</EAN>
@@ -5740,12 +6078,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence508>
-    <sentence509>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence509>
-    <sentence510>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210108234</partnerILN>
@@ -5753,8 +6091,10 @@
         <partnerStreet1>WERFTSTRASSE 29</partnerStreet1>
         <postalCode>24939</postalCode>
         <city>FLENSBURG</city>
-    </sentence510>
-    <sentence511>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>338</positionNumber>
         <EAN>4260402485041</EAN>
@@ -5774,12 +6114,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence511>
-    <sentence512>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence512>
-    <sentence513>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210700162</partnerILN>
@@ -5787,8 +6127,10 @@
         <partnerStreet1>INDUSTRIESTR. 1A</partnerStreet1>
         <postalCode>24848</postalCode>
         <city>KROPP</city>
-    </sentence513>
-    <sentence514>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>340</positionNumber>
         <EAN>4260402486338</EAN>
@@ -5808,12 +6150,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence514>
-    <sentence515>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence515>
-    <sentence516>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210847706</partnerILN>
@@ -5821,8 +6163,10 @@
         <partnerStreet1>HUSUMER STR. 28B</partnerStreet1>
         <postalCode>25821</postalCode>
         <city>BREKLUM</city>
-    </sentence516>
-    <sentence517>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>342</positionNumber>
         <EAN>4251725800451</EAN>
@@ -5842,12 +6186,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence517>
-    <sentence518>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence518>
-    <sentence519>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210053886</partnerILN>
@@ -5855,8 +6199,10 @@
         <partnerStreet1>TUEKESLIH 4</partnerStreet1>
         <postalCode>24887</postalCode>
         <city>SILBERSTEDT</city>
-    </sentence519>
-    <sentence520>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>344</positionNumber>
         <EAN>4251725800277</EAN>
@@ -5876,12 +6222,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence520>
-    <sentence521>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence521>
-    <sentence522>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313230152798</partnerILN>
@@ -5889,8 +6235,10 @@
         <partnerStreet1>SOPHIENBLATT 20</partnerStreet1>
         <postalCode>24103</postalCode>
         <city>KIEL</city>
-    </sentence522>
-    <sentence523>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>346</positionNumber>
         <EAN>4260402484334</EAN>
@@ -5910,12 +6258,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence523>
-    <sentence524>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence524>
-    <sentence525>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210046062</partnerILN>
@@ -5923,8 +6271,10 @@
         <partnerStreet1>MEIEREISTRASSE 10</partnerStreet1>
         <postalCode>24972</postalCode>
         <city>STEINBERGKIRCHE</city>
-    </sentence525>
-    <sentence526>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>348</positionNumber>
         <EAN>4260402485249</EAN>
@@ -5944,12 +6294,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence526>
-    <sentence527>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence527>
-    <sentence528>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210046062</partnerILN>
@@ -5957,8 +6307,10 @@
         <partnerStreet1>MEIEREISTRASSE 10</partnerStreet1>
         <postalCode>24972</postalCode>
         <city>STEINBERGKIRCHE</city>
-    </sentence528>
-    <sentence529>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>350</positionNumber>
         <EAN>4251725800390</EAN>
@@ -5978,12 +6330,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence529>
-    <sentence530>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence530>
-    <sentence531>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210046062</partnerILN>
@@ -5991,8 +6343,10 @@
         <partnerStreet1>MEIEREISTRASSE 10</partnerStreet1>
         <postalCode>24972</postalCode>
         <city>STEINBERGKIRCHE</city>
-    </sentence531>
-    <sentence532>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>352</positionNumber>
         <EAN>4251725801021</EAN>
@@ -6012,12 +6366,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence532>
-    <sentence533>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence533>
-    <sentence534>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210046062</partnerILN>
@@ -6025,8 +6379,10 @@
         <partnerStreet1>MEIEREISTRASSE 10</partnerStreet1>
         <postalCode>24972</postalCode>
         <city>STEINBERGKIRCHE</city>
-    </sentence534>
-    <sentence535>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>354</positionNumber>
         <EAN>4260402485027</EAN>
@@ -6046,21 +6402,23 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence535>
-    <sentence536>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence536>
-    <sentence537>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210029522</partnerILN>
-        <partnerName1>MEYER\`S IM FREESEN CENTER GMBH</partnerName1>
+        <partnerName1>MEYER`S IM FREESEN CENTER GMBH</partnerName1>
         <partnerStreet1>WASBEKER STRASSE 330</partnerStreet1>
         <postalCode>24537</postalCode>
         <city>NEUMUENSTER</city>
-    </sentence537>
-    <sentence538>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>356</positionNumber>
         <EAN>4260402489551</EAN>
@@ -6080,21 +6438,23 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence538>
-    <sentence539>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence539>
-    <sentence540>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210029522</partnerILN>
-        <partnerName1>MEYER\`S IM FREESEN CENTER GMBH</partnerName1>
+        <partnerName1>MEYER`S IM FREESEN CENTER GMBH</partnerName1>
         <partnerStreet1>WASBEKER STRASSE 330</partnerStreet1>
         <postalCode>24537</postalCode>
         <city>NEUMUENSTER</city>
-    </sentence540>
-    <sentence541>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>358</positionNumber>
         <EAN>4251725800109</EAN>
@@ -6114,21 +6474,23 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence541>
-    <sentence542>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence542>
-    <sentence543>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210029522</partnerILN>
-        <partnerName1>MEYER\`S IM FREESEN CENTER GMBH</partnerName1>
+        <partnerName1>MEYER`S IM FREESEN CENTER GMBH</partnerName1>
         <partnerStreet1>WASBEKER STRASSE 330</partnerStreet1>
         <postalCode>24537</postalCode>
         <city>NEUMUENSTER</city>
-    </sentence543>
-    <sentence544>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>360</positionNumber>
         <EAN>4251725800864</EAN>
@@ -6148,21 +6510,23 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence544>
-    <sentence545>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence545>
-    <sentence546>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210029522</partnerILN>
-        <partnerName1>MEYER\`S IM FREESEN CENTER GMBH</partnerName1>
+        <partnerName1>MEYER`S IM FREESEN CENTER GMBH</partnerName1>
         <partnerStreet1>WASBEKER STRASSE 330</partnerStreet1>
         <postalCode>24537</postalCode>
         <city>NEUMUENSTER</city>
-    </sentence546>
-    <sentence547>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>362</positionNumber>
         <EAN>4251725800437</EAN>
@@ -6182,21 +6546,23 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence547>
-    <sentence548>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence548>
-    <sentence549>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210029522</partnerILN>
-        <partnerName1>MEYER\`S IM FREESEN CENTER GMBH</partnerName1>
+        <partnerName1>MEYER`S IM FREESEN CENTER GMBH</partnerName1>
         <partnerStreet1>WASBEKER STRASSE 330</partnerStreet1>
         <postalCode>24537</postalCode>
         <city>NEUMUENSTER</city>
-    </sentence549>
-    <sentence550>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>364</positionNumber>
         <EAN>4251725800475</EAN>
@@ -6216,21 +6582,23 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence550>
-    <sentence551>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence551>
-    <sentence552>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210029522</partnerILN>
-        <partnerName1>MEYER\`S IM FREESEN CENTER GMBH</partnerName1>
+        <partnerName1>MEYER`S IM FREESEN CENTER GMBH</partnerName1>
         <partnerStreet1>WASBEKER STRASSE 330</partnerStreet1>
         <postalCode>24537</postalCode>
         <city>NEUMUENSTER</city>
-    </sentence552>
-    <sentence553>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>366</positionNumber>
         <EAN>4251725800277</EAN>
@@ -6250,21 +6618,23 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence553>
-    <sentence554>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence554>
-    <sentence555>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210029522</partnerILN>
-        <partnerName1>MEYER\`S IM FREESEN CENTER GMBH</partnerName1>
+        <partnerName1>MEYER`S IM FREESEN CENTER GMBH</partnerName1>
         <partnerStreet1>WASBEKER STRASSE 330</partnerStreet1>
         <postalCode>24537</postalCode>
         <city>NEUMUENSTER</city>
-    </sentence555>
-    <sentence556>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>368</positionNumber>
         <EAN>4260402485737</EAN>
@@ -6284,12 +6654,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence556>
-    <sentence557>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence557>
-    <sentence558>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210318510</partnerILN>
@@ -6297,8 +6667,10 @@
         <partnerStreet1>RATHAUSALLEE 35-39</partnerStreet1>
         <postalCode>22846</postalCode>
         <city>NORDERSTEDT</city>
-    </sentence558>
-    <sentence559>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>370</positionNumber>
         <EAN>4260402489551</EAN>
@@ -6318,12 +6690,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence559>
-    <sentence560>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence560>
-    <sentence561>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210318510</partnerILN>
@@ -6331,8 +6703,10 @@
         <partnerStreet1>RATHAUSALLEE 35-39</partnerStreet1>
         <postalCode>22846</postalCode>
         <city>NORDERSTEDT</city>
-    </sentence561>
-    <sentence562>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>372</positionNumber>
         <EAN>4251725800451</EAN>
@@ -6352,12 +6726,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence562>
-    <sentence563>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence563>
-    <sentence564>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210318510</partnerILN>
@@ -6365,8 +6739,10 @@
         <partnerStreet1>RATHAUSALLEE 35-39</partnerStreet1>
         <postalCode>22846</postalCode>
         <city>NORDERSTEDT</city>
-    </sentence564>
-    <sentence565>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>374</positionNumber>
         <EAN>4251725800475</EAN>
@@ -6386,12 +6762,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence565>
-    <sentence566>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence566>
-    <sentence567>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210318510</partnerILN>
@@ -6399,8 +6775,10 @@
         <partnerStreet1>RATHAUSALLEE 35-39</partnerStreet1>
         <postalCode>22846</postalCode>
         <city>NORDERSTEDT</city>
-    </sentence567>
-    <sentence568>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>376</positionNumber>
         <EAN>4260402486352</EAN>
@@ -6420,21 +6798,23 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence568>
-    <sentence569>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence569>
-    <sentence570>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210700780</partnerILN>
-        <partnerName1>HAYUNGA\`S E-CENTER GMBH</partnerName1>
+        <partnerName1>HAYUNGA`S E-CENTER GMBH</partnerName1>
         <partnerStreet1>WEDENKAMP 9A</partnerStreet1>
         <postalCode>25335</postalCode>
         <city>ELMSHORN</city>
-    </sentence570>
-    <sentence571>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>378</positionNumber>
         <EAN>4260402482576</EAN>
@@ -6454,12 +6834,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence571>
-    <sentence572>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence572>
-    <sentence573>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210314864</partnerILN>
@@ -6467,8 +6847,10 @@
         <partnerStreet1>KAISER FRIEDRICH UFER 30</partnerStreet1>
         <postalCode>20253</postalCode>
         <city>HAMBURG</city>
-    </sentence573>
-    <sentence574>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>380</positionNumber>
         <EAN>4260402485027</EAN>
@@ -6488,12 +6870,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence574>
-    <sentence575>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence575>
-    <sentence576>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210314864</partnerILN>
@@ -6501,8 +6883,10 @@
         <partnerStreet1>KAISER FRIEDRICH UFER 30</partnerStreet1>
         <postalCode>20253</postalCode>
         <city>HAMBURG</city>
-    </sentence576>
-    <sentence577>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>382</positionNumber>
         <EAN>4251725800581</EAN>
@@ -6522,12 +6906,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence577>
-    <sentence578>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence578>
-    <sentence579>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210314864</partnerILN>
@@ -6535,8 +6919,10 @@
         <partnerStreet1>KAISER FRIEDRICH UFER 30</partnerStreet1>
         <postalCode>20253</postalCode>
         <city>HAMBURG</city>
-    </sentence579>
-    <sentence580>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>384</positionNumber>
         <EAN>4251725800598</EAN>
@@ -6556,12 +6942,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence580>
-    <sentence581>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence581>
-    <sentence582>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210314864</partnerILN>
@@ -6569,8 +6955,10 @@
         <partnerStreet1>KAISER FRIEDRICH UFER 30</partnerStreet1>
         <postalCode>20253</postalCode>
         <city>HAMBURG</city>
-    </sentence582>
-    <sentence583>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>386</positionNumber>
         <EAN>4251725800864</EAN>
@@ -6590,12 +6978,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence583>
-    <sentence584>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence584>
-    <sentence585>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210314864</partnerILN>
@@ -6603,8 +6991,10 @@
         <partnerStreet1>KAISER FRIEDRICH UFER 30</partnerStreet1>
         <postalCode>20253</postalCode>
         <city>HAMBURG</city>
-    </sentence585>
-    <sentence586>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>388</positionNumber>
         <EAN>4251725800277</EAN>
@@ -6624,12 +7014,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence586>
-    <sentence587>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence587>
-    <sentence588>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210717504</partnerILN>
@@ -6637,8 +7027,10 @@
         <partnerStreet1>AM MARKT 1</partnerStreet1>
         <postalCode>24594</postalCode>
         <city>HOHENWESTEDT</city>
-    </sentence588>
-    <sentence589>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>390</positionNumber>
         <EAN>4260402487205</EAN>
@@ -6658,12 +7050,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence589>
-    <sentence590>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence590>
-    <sentence591>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210756084</partnerILN>
@@ -6671,8 +7063,10 @@
         <partnerStreet1>RAMSKAMP 102</partnerStreet1>
         <postalCode>25337</postalCode>
         <city>ELMSHORN</city>
-    </sentence591>
-    <sentence592>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>392</positionNumber>
         <EAN>4260402487212</EAN>
@@ -6692,12 +7086,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence592>
-    <sentence593>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence593>
-    <sentence594>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210756084</partnerILN>
@@ -6705,8 +7099,10 @@
         <partnerStreet1>RAMSKAMP 102</partnerStreet1>
         <postalCode>25337</postalCode>
         <city>ELMSHORN</city>
-    </sentence594>
-    <sentence595>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>394</positionNumber>
         <EAN>4260402485003</EAN>
@@ -6726,12 +7122,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence595>
-    <sentence596>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence596>
-    <sentence597>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210101204</partnerILN>
@@ -6739,8 +7135,10 @@
         <partnerStreet1>BERLINER DAMM 3-11</partnerStreet1>
         <postalCode>25479</postalCode>
         <city>ELLERAU</city>
-    </sentence597>
-    <sentence598>
+      </partnerAddresses>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>396</positionNumber>
         <EAN>4260402484334</EAN>
@@ -6760,12 +7158,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence598>
-    <sentence599>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220408</expectedDeliveryDate>
-    </sentence599>
-    <sentence600>
+      </itemDates>
+      <partnerAddresses>
         <type>519</type>
         <partnerType>UC</partnerType>
         <partnerILN>4313210101204</partnerILN>
@@ -6773,5 +7171,7 @@
         <partnerStreet1>BERLINER DAMM 3-11</partnerStreet1>
         <postalCode>25479</postalCode>
         <city>ELLERAU</city>
-    </sentence600>
+      </partnerAddresses>
+    </itemInfo>
+  </transaction>
 </document>

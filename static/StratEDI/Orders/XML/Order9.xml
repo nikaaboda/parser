@@ -1,16 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0"?>
 <document>
-    <sentence1>
-        <type>000</type>
-        <senderId>4331016000002</senderId>
-        <recieverId>4399902272933</recieverId>
-        <date>20180831</date>
-        <time>1057</time>
-        <dataExchangeReference>1000004369</dataExchangeReference>
-        <testIndicator>1</testIndicator>
-        <fileInterfaceVersionNumber>4.5</fileInterfaceVersionNumber>
-    </sentence1>
-    <sentence2>
+  <interchangeHeader>
+    <type>000</type>
+    <senderId>4331016000002</senderId>
+    <recieverId>4399902272933</recieverId>
+    <date>20180831</date>
+    <time>1057</time>
+    <dataExchangeReference>1000004369</dataExchangeReference>
+    <testIndicator>1</testIndicator>
+    <fileInterfaceVersionNumber>4.5</fileInterfaceVersionNumber>
+  </interchangeHeader>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>1</messageReference>
         <messageType>ORDERS</messageType>
@@ -22,33 +24,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence2>
-    <sentence3>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence3>
-    <sentence4>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence4>
-    <sentence5>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence5>
-    <sentence6>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942082113</partnerILN>
-    </sentence6>
-    <sentence7>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence7>
-    <sentence8>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -68,8 +72,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence8>
-    <sentence9>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>2</messageReference>
         <messageType>ORDERS</messageType>
@@ -81,33 +89,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence9>
-    <sentence10>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence10>
-    <sentence11>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence11>
-    <sentence12>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence12>
-    <sentence13>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942087804</partnerILN>
-    </sentence13>
-    <sentence14>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence14>
-    <sentence15>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -127,8 +137,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence15>
-    <sentence16>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>3</messageReference>
         <messageType>ORDERS</messageType>
@@ -140,33 +154,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence16>
-    <sentence17>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence17>
-    <sentence18>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence18>
-    <sentence19>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence19>
-    <sentence20>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942080294</partnerILN>
-    </sentence20>
-    <sentence21>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence21>
-    <sentence22>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -186,8 +202,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence22>
-    <sentence23>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>4</messageReference>
         <messageType>ORDERS</messageType>
@@ -199,33 +219,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence23>
-    <sentence24>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence24>
-    <sentence25>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence25>
-    <sentence26>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence26>
-    <sentence27>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942083950</partnerILN>
-    </sentence27>
-    <sentence28>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence28>
-    <sentence29>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -245,8 +267,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence29>
-    <sentence30>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>5</messageReference>
         <messageType>ORDERS</messageType>
@@ -258,33 +284,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence30>
-    <sentence31>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence31>
-    <sentence32>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence32>
-    <sentence33>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence33>
-    <sentence34>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942082083</partnerILN>
-    </sentence34>
-    <sentence35>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence35>
-    <sentence36>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -304,8 +332,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence36>
-    <sentence37>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>6</messageReference>
         <messageType>ORDERS</messageType>
@@ -317,33 +349,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence37>
-    <sentence38>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence38>
-    <sentence39>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence39>
-    <sentence40>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence40>
-    <sentence41>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942082755</partnerILN>
-    </sentence41>
-    <sentence42>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence42>
-    <sentence43>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -363,8 +397,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence43>
-    <sentence44>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>7</messageReference>
         <messageType>ORDERS</messageType>
@@ -376,33 +414,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence44>
-    <sentence45>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence45>
-    <sentence46>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence46>
-    <sentence47>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence47>
-    <sentence48>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942087019</partnerILN>
-    </sentence48>
-    <sentence49>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence49>
-    <sentence50>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -422,8 +462,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence50>
-    <sentence51>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>8</messageReference>
         <messageType>ORDERS</messageType>
@@ -435,33 +479,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence51>
-    <sentence52>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence52>
-    <sentence53>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence53>
-    <sentence54>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence54>
-    <sentence55>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942086838</partnerILN>
-    </sentence55>
-    <sentence56>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence56>
-    <sentence57>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -481,8 +527,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence57>
-    <sentence58>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>9</messageReference>
         <messageType>ORDERS</messageType>
@@ -494,33 +544,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence58>
-    <sentence59>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence59>
-    <sentence60>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence60>
-    <sentence61>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence61>
-    <sentence62>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942082120</partnerILN>
-    </sentence62>
-    <sentence63>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence63>
-    <sentence64>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -540,8 +592,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence64>
-    <sentence65>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>10</messageReference>
         <messageType>ORDERS</messageType>
@@ -553,33 +609,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence65>
-    <sentence66>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence66>
-    <sentence67>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence67>
-    <sentence68>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence68>
-    <sentence69>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942082748</partnerILN>
-    </sentence69>
-    <sentence70>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence70>
-    <sentence71>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -599,8 +657,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence71>
-    <sentence72>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>11</messageReference>
         <messageType>ORDERS</messageType>
@@ -612,33 +674,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence72>
-    <sentence73>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence73>
-    <sentence74>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence74>
-    <sentence75>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence75>
-    <sentence76>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942082106</partnerILN>
-    </sentence76>
-    <sentence77>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence77>
-    <sentence78>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -658,8 +722,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence78>
-    <sentence79>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>12</messageReference>
         <messageType>ORDERS</messageType>
@@ -671,33 +739,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence79>
-    <sentence80>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence80>
-    <sentence81>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence81>
-    <sentence82>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence82>
-    <sentence83>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942082489</partnerILN>
-    </sentence83>
-    <sentence84>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence84>
-    <sentence85>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -717,8 +787,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence85>
-    <sentence86>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>13</messageReference>
         <messageType>ORDERS</messageType>
@@ -730,33 +804,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence86>
-    <sentence87>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence87>
-    <sentence88>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence88>
-    <sentence89>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence89>
-    <sentence90>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942087514</partnerILN>
-    </sentence90>
-    <sentence91>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence91>
-    <sentence92>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -776,8 +852,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence92>
-    <sentence93>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>14</messageReference>
         <messageType>ORDERS</messageType>
@@ -789,33 +869,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence93>
-    <sentence94>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence94>
-    <sentence95>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence95>
-    <sentence96>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence96>
-    <sentence97>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942086746</partnerILN>
-    </sentence97>
-    <sentence98>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence98>
-    <sentence99>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -835,8 +917,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence99>
-    <sentence100>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>15</messageReference>
         <messageType>ORDERS</messageType>
@@ -848,33 +934,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence100>
-    <sentence101>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence101>
-    <sentence102>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence102>
-    <sentence103>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence103>
-    <sentence104>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942082472</partnerILN>
-    </sentence104>
-    <sentence105>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence105>
-    <sentence106>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -894,8 +982,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence106>
-    <sentence107>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>16</messageReference>
         <messageType>ORDERS</messageType>
@@ -907,33 +999,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence107>
-    <sentence108>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence108>
-    <sentence109>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence109>
-    <sentence110>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence110>
-    <sentence111>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942082588</partnerILN>
-    </sentence111>
-    <sentence112>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence112>
-    <sentence113>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -953,8 +1047,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence113>
-    <sentence114>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>17</messageReference>
         <messageType>ORDERS</messageType>
@@ -966,33 +1064,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence114>
-    <sentence115>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence115>
-    <sentence116>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence116>
-    <sentence117>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence117>
-    <sentence118>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942086609</partnerILN>
-    </sentence118>
-    <sentence119>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence119>
-    <sentence120>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -1012,8 +1112,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence120>
-    <sentence121>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>18</messageReference>
         <messageType>ORDERS</messageType>
@@ -1025,33 +1129,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence121>
-    <sentence122>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence122>
-    <sentence123>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence123>
-    <sentence124>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence124>
-    <sentence125>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942086500</partnerILN>
-    </sentence125>
-    <sentence126>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence126>
-    <sentence127>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -1071,8 +1177,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence127>
-    <sentence128>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>19</messageReference>
         <messageType>ORDERS</messageType>
@@ -1084,33 +1194,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence128>
-    <sentence129>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence129>
-    <sentence130>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence130>
-    <sentence131>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence131>
-    <sentence132>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942083943</partnerILN>
-    </sentence132>
-    <sentence133>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence133>
-    <sentence134>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -1130,8 +1242,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence134>
-    <sentence135>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>20</messageReference>
         <messageType>ORDERS</messageType>
@@ -1143,33 +1259,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence135>
-    <sentence136>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence136>
-    <sentence137>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence137>
-    <sentence138>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence138>
-    <sentence139>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942085831</partnerILN>
-    </sentence139>
-    <sentence140>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence140>
-    <sentence141>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -1189,8 +1307,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence141>
-    <sentence142>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>21</messageReference>
         <messageType>ORDERS</messageType>
@@ -1202,33 +1324,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence142>
-    <sentence143>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence143>
-    <sentence144>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence144>
-    <sentence145>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence145>
-    <sentence146>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942082076</partnerILN>
-    </sentence146>
-    <sentence147>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence147>
-    <sentence148>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -1248,8 +1372,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence148>
-    <sentence149>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>22</messageReference>
         <messageType>ORDERS</messageType>
@@ -1261,33 +1389,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>824300184</documentNumber>
         <documentDate>20180831</documentDate>
-    </sentence149>
-    <sentence150>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180906</expectedDeliveryDate>
-    </sentence150>
-    <sentence151>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence151>
-    <sentence152>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330942089815</partnerILN>
-    </sentence152>
-    <sentence153>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942089815</partnerILN>
-    </sentence153>
-    <sentence154>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence154>
-    <sentence155>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402481395</EAN>
@@ -1307,8 +1437,10 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence155>
-    <sentence156>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>2</positionNumber>
         <EAN>4260402480589</EAN>
@@ -1328,8 +1460,10 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence156>
-    <sentence157>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>3</positionNumber>
         <EAN>4260402480619</EAN>
@@ -1349,8 +1483,10 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence157>
-    <sentence158>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>4</positionNumber>
         <EAN>4260402480879</EAN>
@@ -1370,8 +1506,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence158>
-    <sentence159>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>23</messageReference>
         <messageType>ORDERS</messageType>
@@ -1383,33 +1523,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence159>
-    <sentence160>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence160>
-    <sentence161>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence161>
-    <sentence162>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence162>
-    <sentence163>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942082649</partnerILN>
-    </sentence163>
-    <sentence164>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence164>
-    <sentence165>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -1429,8 +1571,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence165>
-    <sentence166>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>24</messageReference>
         <messageType>ORDERS</messageType>
@@ -1442,33 +1588,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence166>
-    <sentence167>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence167>
-    <sentence168>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence168>
-    <sentence169>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence169>
-    <sentence170>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942080072</partnerILN>
-    </sentence170>
-    <sentence171>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence171>
-    <sentence172>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -1488,8 +1636,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence172>
-    <sentence173>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>25</messageReference>
         <messageType>ORDERS</messageType>
@@ -1501,33 +1653,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence173>
-    <sentence174>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence174>
-    <sentence175>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence175>
-    <sentence176>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence176>
-    <sentence177>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942080874</partnerILN>
-    </sentence177>
-    <sentence178>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence178>
-    <sentence179>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -1547,8 +1701,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence179>
-    <sentence180>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>26</messageReference>
         <messageType>ORDERS</messageType>
@@ -1560,33 +1718,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence180>
-    <sentence181>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence181>
-    <sentence182>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence182>
-    <sentence183>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence183>
-    <sentence184>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942089013</partnerILN>
-    </sentence184>
-    <sentence185>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence185>
-    <sentence186>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -1606,8 +1766,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence186>
-    <sentence187>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>27</messageReference>
         <messageType>ORDERS</messageType>
@@ -1619,33 +1783,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence187>
-    <sentence188>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence188>
-    <sentence189>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence189>
-    <sentence190>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence190>
-    <sentence191>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942082694</partnerILN>
-    </sentence191>
-    <sentence192>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence192>
-    <sentence193>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -1665,8 +1831,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence193>
-    <sentence194>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>28</messageReference>
         <messageType>ORDERS</messageType>
@@ -1678,33 +1848,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence194>
-    <sentence195>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence195>
-    <sentence196>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence196>
-    <sentence197>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence197>
-    <sentence198>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942087156</partnerILN>
-    </sentence198>
-    <sentence199>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence199>
-    <sentence200>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -1724,8 +1896,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence200>
-    <sentence201>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>29</messageReference>
         <messageType>ORDERS</messageType>
@@ -1737,33 +1913,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence201>
-    <sentence202>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence202>
-    <sentence203>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence203>
-    <sentence204>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence204>
-    <sentence205>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942083462</partnerILN>
-    </sentence205>
-    <sentence206>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence206>
-    <sentence207>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -1783,8 +1961,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence207>
-    <sentence208>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>30</messageReference>
         <messageType>ORDERS</messageType>
@@ -1796,33 +1978,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence208>
-    <sentence209>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence209>
-    <sentence210>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence210>
-    <sentence211>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence211>
-    <sentence212>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942082465</partnerILN>
-    </sentence212>
-    <sentence213>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence213>
-    <sentence214>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -1842,8 +2026,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence214>
-    <sentence215>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>31</messageReference>
         <messageType>ORDERS</messageType>
@@ -1855,33 +2043,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence215>
-    <sentence216>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence216>
-    <sentence217>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence217>
-    <sentence218>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence218>
-    <sentence219>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942086531</partnerILN>
-    </sentence219>
-    <sentence220>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence220>
-    <sentence221>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -1901,8 +2091,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence221>
-    <sentence222>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>32</messageReference>
         <messageType>ORDERS</messageType>
@@ -1914,33 +2108,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence222>
-    <sentence223>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence223>
-    <sentence224>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence224>
-    <sentence225>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence225>
-    <sentence226>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942080263</partnerILN>
-    </sentence226>
-    <sentence227>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence227>
-    <sentence228>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -1960,8 +2156,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence228>
-    <sentence229>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>33</messageReference>
         <messageType>ORDERS</messageType>
@@ -1973,33 +2173,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence229>
-    <sentence230>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence230>
-    <sentence231>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence231>
-    <sentence232>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence232>
-    <sentence233>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942082731</partnerILN>
-    </sentence233>
-    <sentence234>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence234>
-    <sentence235>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -2019,8 +2221,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence235>
-    <sentence236>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>34</messageReference>
         <messageType>ORDERS</messageType>
@@ -2032,33 +2238,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence236>
-    <sentence237>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence237>
-    <sentence238>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence238>
-    <sentence239>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence239>
-    <sentence240>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942080270</partnerILN>
-    </sentence240>
-    <sentence241>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence241>
-    <sentence242>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -2078,8 +2286,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence242>
-    <sentence243>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>35</messageReference>
         <messageType>ORDERS</messageType>
@@ -2091,33 +2303,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence243>
-    <sentence244>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence244>
-    <sentence245>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence245>
-    <sentence246>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence246>
-    <sentence247>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942085763</partnerILN>
-    </sentence247>
-    <sentence248>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence248>
-    <sentence249>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -2137,8 +2351,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence249>
-    <sentence250>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>36</messageReference>
         <messageType>ORDERS</messageType>
@@ -2150,33 +2368,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence250>
-    <sentence251>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence251>
-    <sentence252>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence252>
-    <sentence253>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence253>
-    <sentence254>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942080331</partnerILN>
-    </sentence254>
-    <sentence255>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence255>
-    <sentence256>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -2196,8 +2416,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence256>
-    <sentence257>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>37</messageReference>
         <messageType>ORDERS</messageType>
@@ -2209,33 +2433,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence257>
-    <sentence258>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence258>
-    <sentence259>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence259>
-    <sentence260>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence260>
-    <sentence261>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942083714</partnerILN>
-    </sentence261>
-    <sentence262>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence262>
-    <sentence263>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -2255,8 +2481,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence263>
-    <sentence264>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>38</messageReference>
         <messageType>ORDERS</messageType>
@@ -2268,33 +2498,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence264>
-    <sentence265>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence265>
-    <sentence266>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence266>
-    <sentence267>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence267>
-    <sentence268>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942089150</partnerILN>
-    </sentence268>
-    <sentence269>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence269>
-    <sentence270>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -2314,8 +2546,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence270>
-    <sentence271>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>39</messageReference>
         <messageType>ORDERS</messageType>
@@ -2327,33 +2563,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence271>
-    <sentence272>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence272>
-    <sentence273>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence273>
-    <sentence274>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence274>
-    <sentence275>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942085732</partnerILN>
-    </sentence275>
-    <sentence276>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence276>
-    <sentence277>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -2373,8 +2611,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence277>
-    <sentence278>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>40</messageReference>
         <messageType>ORDERS</messageType>
@@ -2386,33 +2628,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence278>
-    <sentence279>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence279>
-    <sentence280>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence280>
-    <sentence281>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence281>
-    <sentence282>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942085886</partnerILN>
-    </sentence282>
-    <sentence283>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence283>
-    <sentence284>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -2432,8 +2676,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence284>
-    <sentence285>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>41</messageReference>
         <messageType>ORDERS</messageType>
@@ -2445,33 +2693,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence285>
-    <sentence286>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence286>
-    <sentence287>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence287>
-    <sentence288>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence288>
-    <sentence289>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942082212</partnerILN>
-    </sentence289>
-    <sentence290>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence290>
-    <sentence291>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -2491,8 +2741,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence291>
-    <sentence292>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>42</messageReference>
         <messageType>ORDERS</messageType>
@@ -2504,33 +2758,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence292>
-    <sentence293>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence293>
-    <sentence294>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence294>
-    <sentence295>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence295>
-    <sentence296>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942080256</partnerILN>
-    </sentence296>
-    <sentence297>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence297>
-    <sentence298>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -2550,8 +2806,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence298>
-    <sentence299>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>43</messageReference>
         <messageType>ORDERS</messageType>
@@ -2563,33 +2823,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence299>
-    <sentence300>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence300>
-    <sentence301>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence301>
-    <sentence302>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence302>
-    <sentence303>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942086654</partnerILN>
-    </sentence303>
-    <sentence304>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence304>
-    <sentence305>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -2609,8 +2871,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence305>
-    <sentence306>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>44</messageReference>
         <messageType>ORDERS</messageType>
@@ -2622,33 +2888,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence306>
-    <sentence307>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence307>
-    <sentence308>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence308>
-    <sentence309>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence309>
-    <sentence310>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942087071</partnerILN>
-    </sentence310>
-    <sentence311>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence311>
-    <sentence312>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -2668,8 +2936,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence312>
-    <sentence313>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>45</messageReference>
         <messageType>ORDERS</messageType>
@@ -2681,33 +2953,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence313>
-    <sentence314>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence314>
-    <sentence315>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence315>
-    <sentence316>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence316>
-    <sentence317>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942082618</partnerILN>
-    </sentence317>
-    <sentence318>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence318>
-    <sentence319>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -2727,8 +3001,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence319>
-    <sentence320>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>46</messageReference>
         <messageType>ORDERS</messageType>
@@ -2740,33 +3018,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence320>
-    <sentence321>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence321>
-    <sentence322>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence322>
-    <sentence323>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence323>
-    <sentence324>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942082526</partnerILN>
-    </sentence324>
-    <sentence325>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence325>
-    <sentence326>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -2786,8 +3066,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence326>
-    <sentence327>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>47</messageReference>
         <messageType>ORDERS</messageType>
@@ -2799,33 +3083,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence327>
-    <sentence328>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence328>
-    <sentence329>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence329>
-    <sentence330>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence330>
-    <sentence331>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942083172</partnerILN>
-    </sentence331>
-    <sentence332>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence332>
-    <sentence333>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -2845,8 +3131,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence333>
-    <sentence334>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>48</messageReference>
         <messageType>ORDERS</messageType>
@@ -2858,33 +3148,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence334>
-    <sentence335>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence335>
-    <sentence336>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence336>
-    <sentence337>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence337>
-    <sentence338>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942086227</partnerILN>
-    </sentence338>
-    <sentence339>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence339>
-    <sentence340>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -2904,8 +3196,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence340>
-    <sentence341>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>49</messageReference>
         <messageType>ORDERS</messageType>
@@ -2917,33 +3213,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence341>
-    <sentence342>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence342>
-    <sentence343>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence343>
-    <sentence344>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence344>
-    <sentence345>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942086586</partnerILN>
-    </sentence345>
-    <sentence346>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence346>
-    <sentence347>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -2963,8 +3261,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence347>
-    <sentence348>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>50</messageReference>
         <messageType>ORDERS</messageType>
@@ -2976,33 +3278,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence348>
-    <sentence349>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence349>
-    <sentence350>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence350>
-    <sentence351>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence351>
-    <sentence352>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942087149</partnerILN>
-    </sentence352>
-    <sentence353>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence353>
-    <sentence354>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -3022,8 +3326,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence354>
-    <sentence355>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>51</messageReference>
         <messageType>ORDERS</messageType>
@@ -3035,33 +3343,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence355>
-    <sentence356>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence356>
-    <sentence357>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence357>
-    <sentence358>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence358>
-    <sentence359>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942082496</partnerILN>
-    </sentence359>
-    <sentence360>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence360>
-    <sentence361>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -3081,8 +3391,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence361>
-    <sentence362>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>52</messageReference>
         <messageType>ORDERS</messageType>
@@ -3094,33 +3408,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence362>
-    <sentence363>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence363>
-    <sentence364>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence364>
-    <sentence365>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence365>
-    <sentence366>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4333504086116</partnerILN>
-    </sentence366>
-    <sentence367>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence367>
-    <sentence368>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -3140,8 +3456,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence368>
-    <sentence369>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>53</messageReference>
         <messageType>ORDERS</messageType>
@@ -3153,33 +3473,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence369>
-    <sentence370>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence370>
-    <sentence371>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence371>
-    <sentence372>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence372>
-    <sentence373>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4333504083658</partnerILN>
-    </sentence373>
-    <sentence374>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence374>
-    <sentence375>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -3199,8 +3521,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence375>
-    <sentence376>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>54</messageReference>
         <messageType>ORDERS</messageType>
@@ -3212,33 +3538,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence376>
-    <sentence377>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence377>
-    <sentence378>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence378>
-    <sentence379>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence379>
-    <sentence380>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4333504083641</partnerILN>
-    </sentence380>
-    <sentence381>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence381>
-    <sentence382>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -3258,8 +3586,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence382>
-    <sentence383>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>55</messageReference>
         <messageType>ORDERS</messageType>
@@ -3271,33 +3603,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence383>
-    <sentence384>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence384>
-    <sentence385>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence385>
-    <sentence386>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence386>
-    <sentence387>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4333504089384</partnerILN>
-    </sentence387>
-    <sentence388>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence388>
-    <sentence389>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -3317,8 +3651,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence389>
-    <sentence390>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>56</messageReference>
         <messageType>ORDERS</messageType>
@@ -3330,33 +3668,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence390>
-    <sentence391>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence391>
-    <sentence392>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence392>
-    <sentence393>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence393>
-    <sentence394>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942083349</partnerILN>
-    </sentence394>
-    <sentence395>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence395>
-    <sentence396>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -3376,8 +3716,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence396>
-    <sentence397>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>57</messageReference>
         <messageType>ORDERS</messageType>
@@ -3389,33 +3733,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence397>
-    <sentence398>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence398>
-    <sentence399>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence399>
-    <sentence400>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence400>
-    <sentence401>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942085602</partnerILN>
-    </sentence401>
-    <sentence402>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence402>
-    <sentence403>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -3435,8 +3781,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence403>
-    <sentence404>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>58</messageReference>
         <messageType>ORDERS</messageType>
@@ -3448,33 +3798,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence404>
-    <sentence405>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence405>
-    <sentence406>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence406>
-    <sentence407>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence407>
-    <sentence408>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942086647</partnerILN>
-    </sentence408>
-    <sentence409>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence409>
-    <sentence410>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -3494,8 +3846,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence410>
-    <sentence411>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>59</messageReference>
         <messageType>ORDERS</messageType>
@@ -3507,33 +3863,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence411>
-    <sentence412>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence412>
-    <sentence413>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence413>
-    <sentence414>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence414>
-    <sentence415>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942082052</partnerILN>
-    </sentence415>
-    <sentence416>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence416>
-    <sentence417>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -3553,8 +3911,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence417>
-    <sentence418>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>60</messageReference>
         <messageType>ORDERS</messageType>
@@ -3566,33 +3928,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence418>
-    <sentence419>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence419>
-    <sentence420>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence420>
-    <sentence421>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence421>
-    <sentence422>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942086548</partnerILN>
-    </sentence422>
-    <sentence423>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence423>
-    <sentence424>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -3612,8 +3976,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence424>
-    <sentence425>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>61</messageReference>
         <messageType>ORDERS</messageType>
@@ -3625,33 +3993,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence425>
-    <sentence426>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence426>
-    <sentence427>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence427>
-    <sentence428>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence428>
-    <sentence429>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942082823</partnerILN>
-    </sentence429>
-    <sentence430>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence430>
-    <sentence431>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -3671,8 +4041,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence431>
-    <sentence432>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>62</messageReference>
         <messageType>ORDERS</messageType>
@@ -3684,33 +4058,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence432>
-    <sentence433>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence433>
-    <sentence434>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence434>
-    <sentence435>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence435>
-    <sentence436>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4333504089469</partnerILN>
-    </sentence436>
-    <sentence437>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence437>
-    <sentence438>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -3730,8 +4106,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence438>
-    <sentence439>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>63</messageReference>
         <messageType>ORDERS</messageType>
@@ -3743,33 +4123,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence439>
-    <sentence440>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence440>
-    <sentence441>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence441>
-    <sentence442>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence442>
-    <sentence443>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942087132</partnerILN>
-    </sentence443>
-    <sentence444>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence444>
-    <sentence445>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -3789,8 +4171,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence445>
-    <sentence446>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>64</messageReference>
         <messageType>ORDERS</messageType>
@@ -3802,33 +4188,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence446>
-    <sentence447>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence447>
-    <sentence448>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence448>
-    <sentence449>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence449>
-    <sentence450>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4333504083634</partnerILN>
-    </sentence450>
-    <sentence451>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence451>
-    <sentence452>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -3848,8 +4236,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence452>
-    <sentence453>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>65</messageReference>
         <messageType>ORDERS</messageType>
@@ -3861,33 +4253,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence453>
-    <sentence454>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence454>
-    <sentence455>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence455>
-    <sentence456>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence456>
-    <sentence457>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4333504083672</partnerILN>
-    </sentence457>
-    <sentence458>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence458>
-    <sentence459>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -3907,8 +4301,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence459>
-    <sentence460>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>66</messageReference>
         <messageType>ORDERS</messageType>
@@ -3920,33 +4318,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence460>
-    <sentence461>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence461>
-    <sentence462>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence462>
-    <sentence463>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence463>
-    <sentence464>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942086401</partnerILN>
-    </sentence464>
-    <sentence465>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence465>
-    <sentence466>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -3966,8 +4366,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence466>
-    <sentence467>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>67</messageReference>
         <messageType>ORDERS</messageType>
@@ -3979,33 +4383,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence467>
-    <sentence468>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence468>
-    <sentence469>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence469>
-    <sentence470>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence470>
-    <sentence471>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4333504083665</partnerILN>
-    </sentence471>
-    <sentence472>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence472>
-    <sentence473>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -4025,8 +4431,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence473>
-    <sentence474>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>68</messageReference>
         <messageType>ORDERS</messageType>
@@ -4038,33 +4448,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence474>
-    <sentence475>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence475>
-    <sentence476>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence476>
-    <sentence477>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence477>
-    <sentence478>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4333504089377</partnerILN>
-    </sentence478>
-    <sentence479>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence479>
-    <sentence480>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -4084,8 +4496,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence480>
-    <sentence481>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>69</messageReference>
         <messageType>ORDERS</messageType>
@@ -4097,33 +4513,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence481>
-    <sentence482>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence482>
-    <sentence483>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence483>
-    <sentence484>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence484>
-    <sentence485>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4333504089452</partnerILN>
-    </sentence485>
-    <sentence486>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence486>
-    <sentence487>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -4143,8 +4561,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence487>
-    <sentence488>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>70</messageReference>
         <messageType>ORDERS</messageType>
@@ -4156,33 +4578,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence488>
-    <sentence489>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence489>
-    <sentence490>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence490>
-    <sentence491>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence491>
-    <sentence492>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942086005</partnerILN>
-    </sentence492>
-    <sentence493>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence493>
-    <sentence494>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -4202,8 +4626,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence494>
-    <sentence495>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>71</messageReference>
         <messageType>ORDERS</messageType>
@@ -4215,33 +4643,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence495>
-    <sentence496>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence496>
-    <sentence497>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence497>
-    <sentence498>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence498>
-    <sentence499>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4333504082910</partnerILN>
-    </sentence499>
-    <sentence500>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence500>
-    <sentence501>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -4261,8 +4691,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence501>
-    <sentence502>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>72</messageReference>
         <messageType>ORDERS</messageType>
@@ -4274,33 +4708,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence502>
-    <sentence503>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence503>
-    <sentence504>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence504>
-    <sentence505>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence505>
-    <sentence506>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4333504080183</partnerILN>
-    </sentence506>
-    <sentence507>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence507>
-    <sentence508>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -4320,8 +4756,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence508>
-    <sentence509>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>73</messageReference>
         <messageType>ORDERS</messageType>
@@ -4333,33 +4773,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence509>
-    <sentence510>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence510>
-    <sentence511>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence511>
-    <sentence512>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence512>
-    <sentence513>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4333504086062</partnerILN>
-    </sentence513>
-    <sentence514>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence514>
-    <sentence515>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -4379,8 +4821,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence515>
-    <sentence516>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>74</messageReference>
         <messageType>ORDERS</messageType>
@@ -4392,33 +4838,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence516>
-    <sentence517>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence517>
-    <sentence518>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence518>
-    <sentence519>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence519>
-    <sentence520>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4333504089414</partnerILN>
-    </sentence520>
-    <sentence521>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence521>
-    <sentence522>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -4438,8 +4886,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence522>
-    <sentence523>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>75</messageReference>
         <messageType>ORDERS</messageType>
@@ -4451,33 +4903,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence523>
-    <sentence524>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence524>
-    <sentence525>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence525>
-    <sentence526>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence526>
-    <sentence527>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4333504082408</partnerILN>
-    </sentence527>
-    <sentence528>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence528>
-    <sentence529>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -4497,8 +4951,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence529>
-    <sentence530>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>76</messageReference>
         <messageType>ORDERS</messageType>
@@ -4510,33 +4968,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence530>
-    <sentence531>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence531>
-    <sentence532>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence532>
-    <sentence533>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence533>
-    <sentence534>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4333504089353</partnerILN>
-    </sentence534>
-    <sentence535>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence535>
-    <sentence536>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -4556,8 +5016,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence536>
-    <sentence537>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>77</messageReference>
         <messageType>ORDERS</messageType>
@@ -4569,33 +5033,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence537>
-    <sentence538>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence538>
-    <sentence539>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence539>
-    <sentence540>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence540>
-    <sentence541>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4333504082293</partnerILN>
-    </sentence541>
-    <sentence542>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence542>
-    <sentence543>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -4615,8 +5081,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence543>
-    <sentence544>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>78</messageReference>
         <messageType>ORDERS</messageType>
@@ -4628,33 +5098,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence544>
-    <sentence545>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence545>
-    <sentence546>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence546>
-    <sentence547>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence547>
-    <sentence548>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4333504086086</partnerILN>
-    </sentence548>
-    <sentence549>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence549>
-    <sentence550>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -4674,8 +5146,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence550>
-    <sentence551>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>79</messageReference>
         <messageType>ORDERS</messageType>
@@ -4687,33 +5163,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence551>
-    <sentence552>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence552>
-    <sentence553>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence553>
-    <sentence554>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence554>
-    <sentence555>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942089822</partnerILN>
-    </sentence555>
-    <sentence556>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence556>
-    <sentence557>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -4733,8 +5211,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence557>
-    <sentence558>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>80</messageReference>
         <messageType>ORDERS</messageType>
@@ -4746,33 +5228,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence558>
-    <sentence559>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence559>
-    <sentence560>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence560>
-    <sentence561>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence561>
-    <sentence562>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4333504082972</partnerILN>
-    </sentence562>
-    <sentence563>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence563>
-    <sentence564>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -4792,8 +5276,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence564>
-    <sentence565>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>81</messageReference>
         <messageType>ORDERS</messageType>
@@ -4805,33 +5293,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence565>
-    <sentence566>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence566>
-    <sentence567>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence567>
-    <sentence568>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence568>
-    <sentence569>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4333504086611</partnerILN>
-    </sentence569>
-    <sentence570>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence570>
-    <sentence571>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -4851,8 +5341,12 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence571>
-    <sentence572>
+      </orderLine>
+    </itemInfo>
+  </transaction>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>82</messageReference>
         <messageType>ORDERS</messageType>
@@ -4864,33 +5358,35 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>261481011</documentNumber>
         <documentDate>20180830</documentDate>
-    </sentence572>
-    <sentence573>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20180917</expectedDeliveryDate>
-    </sentence573>
-    <sentence574>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4399902272933</partnerILN>
         <byPartnerAssignedId>87680</byPartnerAssignedId>
-    </sentence574>
-    <sentence575>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330939084908</partnerILN>
-    </sentence575>
-    <sentence576>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4333504089247</partnerILN>
-    </sentence576>
-    <sentence577>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence577>
-    <sentence578>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402488080</EAN>
@@ -4910,5 +5406,7 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence578>
+      </orderLine>
+    </itemInfo>
+  </transaction>
 </document>

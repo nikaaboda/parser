@@ -1,13 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0"?>
 <document>
-    <sentence1>
-        <type>000</type>
-        <senderId>4260402480008</senderId>
-        <recieverId>4304449000000</recieverId>
-        <date>20220407</date>
-        <time>1519</time>
-    </sentence1>
-    <sentence2>
+  <interchangeHeader>
+    <type>000</type>
+    <senderId>4260402480008</senderId>
+    <recieverId>4304449000000</recieverId>
+    <date>20220407</date>
+    <time>1519</time>
+  </interchangeHeader>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>1</messageReference>
         <messageType>INVOIC</messageType>
@@ -19,8 +21,8 @@
         <documentNumber>42205646</documentNumber>
         <documentDate>20220407</documentDate>
         <serviceProviderIndicator>BA</serviceProviderIndicator>
-    </sentence2>
-    <sentence3>
+      </transactionHeader>
+      <transactionReference>
         <type>111</type>
         <customerOrderNumber>0232335</customerOrderNumber>
         <internalOrderNumber>42205646</internalOrderNumber>
@@ -28,13 +30,13 @@
         <deliveryDate>20220406</deliveryDate>
         <deliveryReceiptNumber>22209173</deliveryReceiptNumber>
         <deliveryReceiptDate>20220405</deliveryReceiptDate>
-    </sentence3>
-    <sentence4>
+      </transactionReference>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4327958000002</partnerILN>
-    </sentence4>
-    <sentence5>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4260402480008</partnerILN>
@@ -46,8 +48,8 @@
         <country>DE</country>
         <affiliateVatId>DE326968646</affiliateVatId>
         <taxNumber>1137/124/41160</taxNumber>
-    </sentence5>
-    <sentence6>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4327958000002</partnerILN>
@@ -57,18 +59,20 @@
         <postalCode>26845</postalCode>
         <city>Nortmoor</city>
         <country>DE</country>
-    </sentence6>
-    <sentence7>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4327958000897</partnerILN>
-    </sentence7>
-    <sentence8>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>UC</partnerType>
         <partnerILN>4327958000897</partnerILN>
-    </sentence8>
-    <sentence9>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>001</positionNumber>
         <GTIN>4251725800390</GTIN>
@@ -83,8 +87,8 @@
         <discountSum>-0000000000050.430</discountSum>
         <referenceNumberIndicator>XC1</referenceNumberIndicator>
         <referenceNumber>DE-�ko-039</referenceNumber>
-    </sentence9>
-    <sentence10>
+      </orderLine>
+      <itemDiscounts>
         <type>513</type>
         <discountIndicator>A</discountIndicator>
         <codedDiscountType>TD</codedDiscountType>
@@ -92,8 +96,10 @@
         <discountPercent>00003.00</discountPercent>
         <discountAmount>000000000000050.43</discountAmount>
         <discountBasis>0000720.36</discountBasis>
-    </sentence10>
-    <sentence11>
+      </itemDiscounts>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>002</positionNumber>
         <GTIN>4260402480381</GTIN>
@@ -108,8 +114,8 @@
         <discountSum>-0000000000017.950</discountSum>
         <referenceNumberIndicator>XC1</referenceNumberIndicator>
         <referenceNumber>DE-�ko-039</referenceNumber>
-    </sentence11>
-    <sentence12>
+      </orderLine>
+      <itemDiscounts>
         <type>513</type>
         <discountIndicator>A</discountIndicator>
         <codedDiscountType>TD</codedDiscountType>
@@ -117,8 +123,10 @@
         <discountPercent>00003.00</discountPercent>
         <discountAmount>000000000000017.95</discountAmount>
         <discountBasis>0000256.50</discountBasis>
-    </sentence12>
-    <sentence13>
+      </itemDiscounts>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>003</positionNumber>
         <GTIN>4260402484334</GTIN>
@@ -131,8 +139,8 @@
         <grossUnitPrice>00008.9000</grossUnitPrice>
         <netValue>000331.080</netValue>
         <discountSum>-0000000000024.920</discountSum>
-    </sentence13>
-    <sentence14>
+      </orderLine>
+      <itemDiscounts>
         <type>513</type>
         <discountIndicator>A</discountIndicator>
         <codedDiscountType>TD</codedDiscountType>
@@ -140,8 +148,10 @@
         <discountPercent>00003.00</discountPercent>
         <discountAmount>000000000000024.92</discountAmount>
         <discountBasis>0000356.00</discountBasis>
-    </sentence14>
-    <sentence15>
+      </itemDiscounts>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>004</positionNumber>
         <GTIN>4260402486765</GTIN>
@@ -156,8 +166,8 @@
         <discountSum>-0000000000030.710</discountSum>
         <referenceNumberIndicator>XC1</referenceNumberIndicator>
         <referenceNumber>DE-�ko-039</referenceNumber>
-    </sentence15>
-    <sentence16>
+      </orderLine>
+      <itemDiscounts>
         <type>513</type>
         <discountIndicator>A</discountIndicator>
         <codedDiscountType>TD</codedDiscountType>
@@ -165,8 +175,10 @@
         <discountPercent>00003.00</discountPercent>
         <discountAmount>000000000000030.71</discountAmount>
         <discountBasis>0000438.75</discountBasis>
-    </sentence16>
-    <sentence17>
+      </itemDiscounts>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>005</positionNumber>
         <GTIN>4260402487618</GTIN>
@@ -181,8 +193,8 @@
         <discountSum>-0000000000059.620</discountSum>
         <referenceNumberIndicator>XC1</referenceNumberIndicator>
         <referenceNumber>DE-�ko-039</referenceNumber>
-    </sentence17>
-    <sentence18>
+      </orderLine>
+      <itemDiscounts>
         <type>513</type>
         <discountIndicator>A</discountIndicator>
         <codedDiscountType>TD</codedDiscountType>
@@ -190,20 +202,24 @@
         <discountPercent>00003.00</discountPercent>
         <discountAmount>000000000000059.62</discountAmount>
         <discountBasis>0000851.76</discountBasis>
-    </sentence18>
-    <sentence19>
+      </itemDiscounts>
+      <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000002610.52</finalInvoiceAmount>
         <receiptTotalAmountVAT>000000000000170.78</receiptTotalAmountVAT>
         <totalNetValue>000000000002439.74</totalNetValue>
         <totalTaxableAmount>000000000002439.74</totalTaxableAmount>
-    </sentence19>
-    <sentence20>
+      </receiptTotal>
+    </itemInfo>
+    <transactionFooter>
+      <vatInfo>
         <type>901</type>
         <totalAmount>000000000002610.52</totalAmount>
         <vatAmount>000000000000170.78</vatAmount>
         <netValue>000000000002439.74</netValue>
         <taxableAmount>000000000002439.74</taxableAmount>
         <VATRate>07.00</VATRate>
-    </sentence20>
+      </vatInfo>
+    </transactionFooter>
+  </transaction>
 </document>

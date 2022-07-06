@@ -1,111 +1,121 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0"?>
 <document>
-    <sentence1>
+  <interchangeHeader>
     <type>000</type>
-        <senderId>4260402480008</senderId>
-        <recieverId>4311501990018</recieverId>
-        <date>20220401</date>
-        <time>1345</time>
-        <dataExchangeReference>32205908VEGANZ</dataExchangeReference>
-        <fileInterfaceVersionNumber>4.5</fileInterfaceVersionNumber>
-    </sentence1>
-    <sentence2>
+    <senderId>4260402480008</senderId>
+    <recieverId>4311501990018</recieverId>
+    <date>20220401</date>
+    <time>1345</time>
+    <dataExchangeReference>32205908VEGANZ</dataExchangeReference>
+    <fileInterfaceVersionNumber>4.5</fileInterfaceVersionNumber>
+  </interchangeHeader>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>1</messageReference>
         <messageType>DESADV</messageType>
         <transactionType>351</transactionType>
         <documentNumber>22209209</documentNumber>
         <documentDate>20220401</documentDate>
-    </sentence2>
-    <sentence3>
+      </transactionHeader>
+      <transactionReference>
         <type>111</type>
         <customerOrderNumber>112041</customerOrderNumber>
         <customerOrcerDate>20220331</customerOrcerDate>
         <deliveryDate>20220405</deliveryDate>
         <deliveryReceiptNumber>22209209</deliveryReceiptNumber>
         <deliveryReceiptDate>20220401</deliveryReceiptDate>
-    </sentence3>
-    <sentence4>
+      </transactionReference>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20220405</expectedDeliveryDate>
-    </sentence4>
-    <sentence5>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4314187000002</partnerILN>
-    </sentence5>
-    <sentence6>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4314187000002</partnerILN>
-    </sentence6>
-    <sentence7>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4314187001306</partnerILN>
-    </sentence7>
-    <sentence8>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4260402480008</partnerILN>
-    </sentence8>
-    <sentence9>
+      </partnerAddresses>
+    </transactionInfo>
+    <shipmentInfo>
+      <shipmentInfo>
         <type>400</type>
         <positionNumber>1</positionNumber>
         <perShipmentPalletCount>2</perShipmentPalletCount>
-    </sentence9>
-    <sentence10>
+      </shipmentInfo>
+      <palletSSCC>
         <type>410</type>
         <palletType>201</palletType>
         <palletNVE>340455750695614954</palletNVE>
-    </sentence10>
-    <sentence11>
+      </palletSSCC>
+      <palletSSCC>
+        <type>410</type>
+        <palletType>201</palletType>
+        <palletNVE>340455750695614961</palletNVE>
+      </palletSSCC>
+    </shipmentInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>1</positionNumber>
         <EAN>4260402489995</EAN>
         <orderQuantity>64.000</orderQuantity>
         <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
-    </sentence11>
-    <sentence12>
+      </orderLine>
+      <itemReferences>
         <type>511</type>
         <customerOrderNumber>112041</customerOrderNumber>
-    </sentence12>
-    <sentence13>
+      </itemReferences>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220405</expectedDeliveryDate>
-    </sentence13>
-    <sentence14>
+      </itemDates>
+      <additionalInfo>
         <type>580</type>
         <positionNumber>1</positionNumber>
         <bestBeforeDate>20220706</bestBeforeDate>
         <batchNumber>100701-220706P05</batchNumber>
         <deliveryQuantity>64</deliveryQuantity>
-    </sentence14>
-    <sentence15>
-        <type>410</type>
-        <palletType>201</palletType>
-        <palletNVE>340455750695614961</palletNVE>
-    </sentence15>
-    <sentence16>
+      </additionalInfo>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>2</positionNumber>
         <EAN>4251725800277</EAN>
         <orderQuantity>32.000</orderQuantity>
         <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
-    </sentence16>
-    <sentence17>
+      </orderLine>
+      <itemReferences>
         <type>511</type>
         <customerOrderNumber>112041</customerOrderNumber>
-    </sentence17>
-    <sentence18>
+      </itemReferences>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220405</expectedDeliveryDate>
-    </sentence18>
-    <sentence19>
+      </itemDates>
+      <additionalInfo>
         <type>580</type>
         <positionNumber>2</positionNumber>
         <bestBeforeDate>20220427</bestBeforeDate>
         <batchNumber>100753-0762022</batchNumber>
         <deliveryQuantity>32</deliveryQuantity>
-    </sentence19>
+      </additionalInfo>
+    </itemInfo>
+  </transaction>
 </document>

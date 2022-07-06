@@ -1,15 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0"?>
 <document>
-    <sentence1>
-        <type>000</type>
-        <senderId>4311501990018</senderId>
-        <recieverId>4260402480008</recieverId>
-        <date>20220321</date>
-        <time>0900</time>
-        <dataExchangeReference>5671</dataExchangeReference>
-        <fileInterfaceVersionNumber>4.5</fileInterfaceVersionNumber>
-    </sentence1>
-    <sentence2>
+  <interchangeHeader>
+    <type>000</type>
+    <senderId>4311501990018</senderId>
+    <recieverId>4260402480008</recieverId>
+    <date>20220321</date>
+    <time>0900</time>
+    <dataExchangeReference>5671</dataExchangeReference>
+    <fileInterfaceVersionNumber>4.5</fileInterfaceVersionNumber>
+  </interchangeHeader>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>1</messageReference>
         <messageType>ORDERS</messageType>
@@ -21,28 +23,30 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>1016559351</documentNumber>
         <documentDate>20220321</documentDate>
-    </sentence2>
-    <sentence3>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20220324</expectedDeliveryDate>
-    </sentence3>
-    <sentence4>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4311560000000</partnerILN>
         <contactPartner>EKG_EH_BESCHAFFUNG</contactPartner>
-    </sentence4>
-    <sentence5>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4260402480008</partnerILN>
-    </sentence5>
-    <sentence6>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4314210506921</partnerILN>
-    </sentence6>
-    <sentence7>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>10</positionNumber>
         <EAN>4260402480367</EAN>
@@ -62,12 +66,14 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence7>
-    <sentence8>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220324</expectedDeliveryDate>
-    </sentence8>
-    <sentence9>
+      </itemDates>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>20</positionNumber>
         <EAN>4260402485027</EAN>
@@ -87,12 +93,14 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence9>
-    <sentence10>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220324</expectedDeliveryDate>
-    </sentence10>
-    <sentence11>
+      </itemDates>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>30</positionNumber>
         <EAN>4260402484006</EAN>
@@ -112,12 +120,14 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence11>
-    <sentence12>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220324</expectedDeliveryDate>
-    </sentence12>
-    <sentence13>
+      </itemDates>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>40</positionNumber>
         <EAN>4260402484495</EAN>
@@ -137,12 +147,14 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence13>
-    <sentence14>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220324</expectedDeliveryDate>
-    </sentence14>
-    <sentence15>
+      </itemDates>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>50</positionNumber>
         <EAN>4260402485416</EAN>
@@ -162,12 +174,14 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence15>
-    <sentence16>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220324</expectedDeliveryDate>
-    </sentence16>
-    <sentence17>
+      </itemDates>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>60</positionNumber>
         <EAN>4260402485324</EAN>
@@ -187,12 +201,14 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence17>
-    <sentence18>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220324</expectedDeliveryDate>
-    </sentence18>
-    <sentence19>
+      </itemDates>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>70</positionNumber>
         <EAN>4251725800581</EAN>
@@ -212,12 +228,14 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence19>
-    <sentence20>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220324</expectedDeliveryDate>
-    </sentence20>
-    <sentence21>
+      </itemDates>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>80</positionNumber>
         <EAN>4251725800598</EAN>
@@ -237,12 +255,14 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence21>
-    <sentence22>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220324</expectedDeliveryDate>
-    </sentence22>
-    <sentence23>
+      </itemDates>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>90</positionNumber>
         <EAN>4251725800864</EAN>
@@ -262,12 +282,14 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence23>
-    <sentence24>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220324</expectedDeliveryDate>
-    </sentence24>
-    <sentence25>
+      </itemDates>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>100</positionNumber>
         <EAN>4260402486338</EAN>
@@ -287,12 +309,14 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence25>
-    <sentence26>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220324</expectedDeliveryDate>
-    </sentence26>
-    <sentence27>
+      </itemDates>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>110</positionNumber>
         <EAN>4251725800451</EAN>
@@ -312,12 +336,14 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence27>
-    <sentence28>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220324</expectedDeliveryDate>
-    </sentence28>
-    <sentence29>
+      </itemDates>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>120</positionNumber>
         <EAN>4260402487939</EAN>
@@ -337,12 +363,14 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence29>
-    <sentence30>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220324</expectedDeliveryDate>
-    </sentence30>
-    <sentence31>
+      </itemDates>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>130</positionNumber>
         <EAN>4251725800475</EAN>
@@ -362,12 +390,14 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence31>
-    <sentence32>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220324</expectedDeliveryDate>
-    </sentence32>
-    <sentence33>
+      </itemDates>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>140</positionNumber>
         <EAN>4251725800277</EAN>
@@ -387,12 +417,14 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence33>
-    <sentence34>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220324</expectedDeliveryDate>
-    </sentence34>
-    <sentence35>
+      </itemDates>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>150</positionNumber>
         <EAN>4251725800987</EAN>
@@ -412,9 +444,11 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence35>
-    <sentence36>
+      </orderLine>
+      <itemDates>
         <type>515</type>
         <expectedDeliveryDate>20220324</expectedDeliveryDate>
-    </sentence36>
+      </itemDates>
+    </itemInfo>
+  </transaction>
 </document>

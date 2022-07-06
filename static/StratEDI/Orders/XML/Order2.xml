@@ -1,16 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0"?>
 <document>
-    <sentence1>
-        <type>000</type>
-        <senderId>9100000000015</senderId>
-        <recieverId>4260402480008</recieverId>
-        <date>20220321</date>
-        <time>0922</time>
-        <dataExchangeReference>CXONJQIVB6K1L</dataExchangeReference>
-        <applicationReference>ORDERS</applicationReference>
-        <fileInterfaceVersionNumber>4.5</fileInterfaceVersionNumber>
-    </sentence1>
-    <sentence2>
+  <interchangeHeader>
+    <type>000</type>
+    <senderId>9100000000015</senderId>
+    <recieverId>4260402480008</recieverId>
+    <date>20220321</date>
+    <time>0922</time>
+    <dataExchangeReference>CXONJQIVB6K1L</dataExchangeReference>
+    <applicationReference>ORDERS</applicationReference>
+    <fileInterfaceVersionNumber>4.5</fileInterfaceVersionNumber>
+  </interchangeHeader>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>CXONNA4T0ZMRD</messageReference>
         <messageType>ORDERS</messageType>
@@ -22,48 +24,50 @@
         <transactionFunction>9</transactionFunction>
         <documentNumber>4514653031</documentNumber>
         <documentDate>20220321</documentDate>
-    </sentence2>
-    <sentence3>
+      </transactionHeader>
+      <dates>
         <type>115</type>
         <expectedDeliveryDate>20220324</expectedDeliveryDate>
         <expectedDeliveryTime>0300</expectedDeliveryTime>
-    </sentence3>
-    <sentence4>
+      </dates>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>9100000000015</partnerILN>
-    </sentence4>
-    <sentence5>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4260402480008</partnerILN>
-    </sentence5>
-    <sentence6>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>9100020000002</partnerILN>
-    </sentence6>
-    <sentence7>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>CN</partnerType>
         <partnerILN>9100020000002</partnerILN>
-    </sentence7>
-    <sentence8>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>OB</partnerType>
         <partnerILN>9100000000015</partnerILN>
-    </sentence8>
-    <sentence9>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>UC</partnerType>
         <partnerILN>9100020000002</partnerILN>
-    </sentence9>
-    <sentence10>
+      </partnerAddresses>
+      <transactionText>
         <type>130</type>
         <textMapping>PUR</textMapping>
         <text>ACHTUNG AKTIONSBESTELLUNG</text>
-    </sentence10>
-    <sentence11>
+      </transactionText>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>10</positionNumber>
         <EAN>4260402489551</EAN>
@@ -80,8 +84,10 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence11>
-    <sentence12>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>20</positionNumber>
         <EAN>4251725800451</EAN>
@@ -98,8 +104,10 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence12>
-    <sentence13>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>30</positionNumber>
         <EAN>4251725800437</EAN>
@@ -116,8 +124,10 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence13>
-    <sentence14>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>40</positionNumber>
         <EAN>4251725800475</EAN>
@@ -134,8 +144,10 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence14>
-    <sentence15>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>50</positionNumber>
         <EAN>4251725800864</EAN>
@@ -152,8 +164,10 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence15>
-    <sentence16>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>60</positionNumber>
         <EAN>4251725800871</EAN>
@@ -170,8 +184,10 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence16>
-    <sentence17>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>70</positionNumber>
         <EAN>4251725800253</EAN>
@@ -188,8 +204,10 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence17>
-    <sentence18>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>80</positionNumber>
         <EAN>4251725800772</EAN>
@@ -206,8 +224,10 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence18>
-    <sentence19>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>90</positionNumber>
         <EAN>4251725800987</EAN>
@@ -224,8 +244,10 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence19>
-    <sentence20>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>100</positionNumber>
         <EAN>4251725801007</EAN>
@@ -242,8 +264,10 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence20>
-    <sentence21>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>110</positionNumber>
         <EAN>4260402489995</EAN>
@@ -260,8 +284,10 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence21>
-    <sentence22>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>120</positionNumber>
         <EAN>4251725801489</EAN>
@@ -278,8 +304,10 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence22>
-    <sentence23>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>130</positionNumber>
         <EAN>4251725801502</EAN>
@@ -296,5 +324,7 @@
         <grossValue>000000000000000000</grossValue>
         <discountSum>000000000000000000</discountSum>
         <packagesCount>0000000</packagesCount>
-    </sentence23>
+      </orderLine>
+    </itemInfo>
+  </transaction>
 </document>

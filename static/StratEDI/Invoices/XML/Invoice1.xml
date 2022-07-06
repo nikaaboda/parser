@@ -1,13 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0"?>
 <document>
-    <sentence1>
-        <type>000</type>
-        <senderId>4260402480008</senderId>
-        <recieverId>4300175000000</recieverId>
-        <date>20191108</date>
-        <time>1317</time>
-    </sentence1>
-    <sentence2>
+  <interchangeHeader>
+    <type>000</type>
+    <senderId>4260402480008</senderId>
+    <recieverId>4300175000000</recieverId>
+    <date>20191108</date>
+    <time>1317</time>
+  </interchangeHeader>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>1</messageReference>
         <messageType>INVOIC</messageType>
@@ -19,21 +21,21 @@
         <documentNumber>41900021</documentNumber>
         <documentDate>20190103</documentDate>
         <serviceProviderIndicator>BA</serviceProviderIndicator>
-    </sentence2>
-    <sentence3>
+      </transactionHeader>
+      <transactionReference>
         <type>111</type>
         <customerOrderNumber>7026520708</customerOrderNumber>
         <internalOrderNumber>41900021</internalOrderNumber>
         <deliveryDate>20190102</deliveryDate>
         <deliveryReceiptNumber>31804841</deliveryReceiptNumber>
         <deliveryReceiptDate>20181227</deliveryReceiptDate>
-    </sentence3>
-    <sentence4>
+      </transactionReference>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4300175000000</partnerILN>
-    </sentence4>
-    <sentence5>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4260402480008</partnerILN>
@@ -45,28 +47,30 @@
         <country>DE</country>
         <affiliateVatId>DE285647873</affiliateVatId>
         <taxNumber>37/124/41004</taxNumber>
-    </sentence5>
-    <sentence6>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4300175000000</partnerILN>
-    </sentence6>
-    <sentence7>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4300175690690</partnerILN>
-    </sentence7>
-    <sentence8>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>UC</partnerType>
         <partnerILN>4300175690690</partnerILN>
-    </sentence8>
-    <sentence9>
+      </partnerAddresses>
+      <paymentInfo>
         <type>120</type>
         <currencry>EUR</currencry>
         <vatRate>07.00</vatRate>
-    </sentence9>
-    <sentence10>
+      </paymentInfo>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>001</positionNumber>
         <GTIN>4260402486864</GTIN>
@@ -78,20 +82,24 @@
         <itemVatRate>07.00</itemVatRate>
         <grossUnitPrice>00017.6000</grossUnitPrice>
         <netValue>002534.400</netValue>
-    </sentence10>
-    <sentence11>
+      </orderLine>
+      <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000002711.81</finalInvoiceAmount>
         <receiptTotalAmountVAT>000000000000177.41</receiptTotalAmountVAT>
         <totalNetValue>000000000002534.40</totalNetValue>
         <totalTaxableAmount>000000000002534.40</totalTaxableAmount>
-    </sentence11>
-    <sentence12>
+      </receiptTotal>
+    </itemInfo>
+    <transactionFooter>
+      <vatInfo>
         <type>901</type>
         <totalAmount>000000000002711.81</totalAmount>
         <vatAmount>000000000000177.41</vatAmount>
         <netValue>000000000002534.40</netValue>
         <taxableAmount>000000000002534.40</taxableAmount>
         <VATRate>07.00</VATRate>
-    </sentence12>
+      </vatInfo>
+    </transactionFooter>
+  </transaction>
 </document>

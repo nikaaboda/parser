@@ -1,13 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0"?>
 <document>
-    <sentence1>
-        <type>000</type>
-        <senderId>4260402480008</senderId>
-        <recieverId>4304449000000</recieverId>
-        <date>20220407</date>
-        <time>1519</time>
-    </sentence1>
-    <sentence2>
+  <interchangeHeader>
+    <type>000</type>
+    <senderId>4260402480008</senderId>
+    <recieverId>4304449000000</recieverId>
+    <date>20220407</date>
+    <time>1519</time>
+  </interchangeHeader>
+  <transaction>
+    <transactionInfo>
+      <transactionHeader>
         <type>100</type>
         <messageReference>1</messageReference>
         <messageType>INVOIC</messageType>
@@ -19,8 +21,8 @@
         <documentNumber>42205648</documentNumber>
         <documentDate>20220407</documentDate>
         <serviceProviderIndicator>BA</serviceProviderIndicator>
-    </sentence2>
-    <sentence3>
+      </transactionHeader>
+      <transactionReference>
         <type>111</type>
         <customerOrderNumber>209000028</customerOrderNumber>
         <internalOrderNumber>42205648</internalOrderNumber>
@@ -28,13 +30,13 @@
         <deliveryDate>20220406</deliveryDate>
         <deliveryReceiptNumber>22209414</deliveryReceiptNumber>
         <deliveryReceiptDate>20220405</deliveryReceiptDate>
-    </sentence3>
-    <sentence4>
+      </transactionReference>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>BY</partnerType>
         <partnerILN>4330942000001</partnerILN>
-    </sentence4>
-    <sentence5>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>SU</partnerType>
         <partnerILN>4260402480008</partnerILN>
@@ -47,8 +49,8 @@
         <byPartnerAssignedId>87680</byPartnerAssignedId>
         <affiliateVatId>DE326968646</affiliateVatId>
         <taxNumber>1137/124/41160</taxNumber>
-    </sentence5>
-    <sentence6>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>IV</partnerType>
         <partnerILN>4330942000001</partnerILN>
@@ -57,18 +59,20 @@
         <postalCode>40235</postalCode>
         <city>D�sseldorf</city>
         <country>DE</country>
-    </sentence6>
-    <sentence7>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>DP</partnerType>
         <partnerILN>4330942086548</partnerILN>
-    </sentence7>
-    <sentence8>
+      </partnerAddresses>
+      <partnerAddresses>
         <type>119</type>
         <partnerType>UC</partnerType>
         <partnerILN>4330942086548</partnerILN>
-    </sentence8>
-    <sentence9>
+      </partnerAddresses>
+    </transactionInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>001</positionNumber>
         <GTIN>4260402484518</GTIN>
@@ -80,8 +84,10 @@
         <itemVatRate>07.00</itemVatRate>
         <grossUnitPrice>00008.7000</grossUnitPrice>
         <netValue>000008.700</netValue>
-    </sentence9>
-    <sentence10>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>002</positionNumber>
         <GTIN>4260402487205</GTIN>
@@ -95,8 +101,10 @@
         <netValue>000006.480</netValue>
         <referenceNumberIndicator>XC1</referenceNumberIndicator>
         <referenceNumber>DE-�ko-039</referenceNumber>
-    </sentence10>
-    <sentence11>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>003</positionNumber>
         <GTIN>4251725801212</GTIN>
@@ -108,8 +116,10 @@
         <itemVatRate>07.00</itemVatRate>
         <grossUnitPrice>00009.7500</grossUnitPrice>
         <netValue>000029.250</netValue>
-    </sentence11>
-    <sentence12>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>004</positionNumber>
         <GTIN>4260402485027</GTIN>
@@ -123,8 +133,10 @@
         <netValue>000015.360</netValue>
         <referenceNumberIndicator>XC1</referenceNumberIndicator>
         <referenceNumber>DE-�ko-039</referenceNumber>
-    </sentence12>
-    <sentence13>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>005</positionNumber>
         <GTIN>4260402485652</GTIN>
@@ -138,8 +150,10 @@
         <netValue>000017.400</netValue>
         <referenceNumberIndicator>XC1</referenceNumberIndicator>
         <referenceNumber>DE-�ko-039</referenceNumber>
-    </sentence13>
-    <sentence14>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>006</positionNumber>
         <GTIN>4260402484556</GTIN>
@@ -151,8 +165,10 @@
         <itemVatRate>07.00</itemVatRate>
         <grossUnitPrice>00008.7000</grossUnitPrice>
         <netValue>000017.400</netValue>
-    </sentence14>
-    <sentence15>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>007</positionNumber>
         <GTIN>4260402484495</GTIN>
@@ -164,8 +180,10 @@
         <itemVatRate>07.00</itemVatRate>
         <grossUnitPrice>00008.7000</grossUnitPrice>
         <netValue>000008.700</netValue>
-    </sentence15>
-    <sentence16>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>008</positionNumber>
         <GTIN>4251725800598</GTIN>
@@ -179,8 +197,10 @@
         <netValue>000012.300</netValue>
         <referenceNumberIndicator>XC1</referenceNumberIndicator>
         <referenceNumber>DE-�ko-039</referenceNumber>
-    </sentence16>
-    <sentence17>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>009</positionNumber>
         <GTIN>4251725800727</GTIN>
@@ -194,8 +214,10 @@
         <netValue>000020.640</netValue>
         <referenceNumberIndicator>XC1</referenceNumberIndicator>
         <referenceNumber>DE-�ko-039</referenceNumber>
-    </sentence17>
-    <sentence18>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>010</positionNumber>
         <GTIN>4251725800635</GTIN>
@@ -210,8 +232,10 @@
         <netValue>000047.520</netValue>
         <referenceNumberIndicator>XC1</referenceNumberIndicator>
         <referenceNumber>DE-�ko-039</referenceNumber>
-    </sentence18>
-    <sentence19>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>011</positionNumber>
         <GTIN>4260402482576</GTIN>
@@ -225,8 +249,10 @@
         <netValue>000013.200</netValue>
         <referenceNumberIndicator>XC1</referenceNumberIndicator>
         <referenceNumber>DE-�ko-039</referenceNumber>
-    </sentence19>
-    <sentence20>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>012</positionNumber>
         <GTIN>4251725800390</GTIN>
@@ -240,8 +266,10 @@
         <netValue>000012.300</netValue>
         <referenceNumberIndicator>XC1</referenceNumberIndicator>
         <referenceNumber>DE-�ko-039</referenceNumber>
-    </sentence20>
-    <sentence21>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>013</positionNumber>
         <GTIN>4260402483962</GTIN>
@@ -253,8 +281,10 @@
         <itemVatRate>07.00</itemVatRate>
         <grossUnitPrice>00007.8000</grossUnitPrice>
         <netValue>000031.200</netValue>
-    </sentence21>
-    <sentence22>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>014</positionNumber>
         <GTIN>4260402487892</GTIN>
@@ -268,8 +298,10 @@
         <netValue>000006.450</netValue>
         <referenceNumberIndicator>XC1</referenceNumberIndicator>
         <referenceNumber>DE-�ko-039</referenceNumber>
-    </sentence22>
-    <sentence23>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>015</positionNumber>
         <GTIN>4251725800123</GTIN>
@@ -283,8 +315,10 @@
         <netValue>000037.800</netValue>
         <referenceNumberIndicator>XC1</referenceNumberIndicator>
         <referenceNumber>DE-�ko-039</referenceNumber>
-    </sentence23>
-    <sentence24>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>016</positionNumber>
         <GTIN>4260402485386</GTIN>
@@ -298,8 +332,10 @@
         <netValue>000036.000</netValue>
         <referenceNumberIndicator>XC1</referenceNumberIndicator>
         <referenceNumber>DE-�ko-039</referenceNumber>
-    </sentence24>
-    <sentence25>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>017</positionNumber>
         <GTIN>4260402489452</GTIN>
@@ -313,8 +349,10 @@
         <netValue>000018.000</netValue>
         <referenceNumberIndicator>XC1</referenceNumberIndicator>
         <referenceNumber>DE-�ko-039</referenceNumber>
-    </sentence25>
-    <sentence26>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>018</positionNumber>
         <GTIN>4260402485751</GTIN>
@@ -326,8 +364,10 @@
         <itemVatRate>07.00</itemVatRate>
         <grossUnitPrice>00010.8000</grossUnitPrice>
         <netValue>000010.800</netValue>
-    </sentence26>
-    <sentence27>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>019</positionNumber>
         <GTIN>4260402484006</GTIN>
@@ -339,8 +379,10 @@
         <itemVatRate>07.00</itemVatRate>
         <grossUnitPrice>00007.8000</grossUnitPrice>
         <netValue>000007.800</netValue>
-    </sentence27>
-    <sentence28>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>020</positionNumber>
         <GTIN>4260402487632</GTIN>
@@ -354,8 +396,10 @@
         <netValue>000017.100</netValue>
         <referenceNumberIndicator>XC1</referenceNumberIndicator>
         <referenceNumber>DE-�ko-039</referenceNumber>
-    </sentence28>
-    <sentence29>
+      </orderLine>
+    </itemInfo>
+    <itemInfo>
+      <orderLine>
         <type>500</type>
         <positionNumber>021</positionNumber>
         <GTIN>4251725800109</GTIN>
@@ -369,20 +413,24 @@
         <netValue>000018.900</netValue>
         <referenceNumberIndicator>XC1</referenceNumberIndicator>
         <referenceNumber>DE-�ko-039</referenceNumber>
-    </sentence29>
-    <sentence30>
+      </orderLine>
+      <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000420.83</finalInvoiceAmount>
         <receiptTotalAmountVAT>000000000000027.53</receiptTotalAmountVAT>
         <totalNetValue>000000000000393.30</totalNetValue>
         <totalTaxableAmount>000000000000393.30</totalTaxableAmount>
-    </sentence30>
-    <sentence31>
+      </receiptTotal>
+    </itemInfo>
+    <transactionFooter>
+      <vatInfo>
         <type>901</type>
         <totalAmount>000000000000420.83</totalAmount>
         <vatAmount>000000000000027.53</vatAmount>
         <netValue>000000000000393.30</netValue>
         <taxableAmount>000000000000393.30</taxableAmount>
         <VATRate>07.00</VATRate>
-    </sentence31>
+      </vatInfo>
+    </transactionFooter>
+  </transaction>
 </document>
