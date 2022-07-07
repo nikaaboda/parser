@@ -4,7 +4,7 @@ import {Parser} from './Parser';
 import { STRATEDI, FILETYPES } from './constants';
 
 const TRANSACTIONINFOKEYS = ["100", "111", "115", "119", "120", "121", "130", "140", "150"];
-const SHIPMENTINFOKEYS = ["400", "410", "415", "420"];
+const SHIPMENTINFOKEYS = ["410", "415", "420"];
 const ITEMINFOKEYS = ["500", "502", "511", "513", "515", "519", "530", "580", "900", "913"];
 const FOOTERKEYS = ["900", "901", "913"];
 const INVOICELISTKEYS = ["990", "991"];
@@ -46,8 +46,11 @@ export class Reader {
 
         let transaction;
         let transactionInfo;
+        let shipmentDetails;
+        let itemAndShipmentInfo;
         let shipmentInfo;
         let itemInfo;
+        let itemResolutionInfo;
         let transactionFooter;
         let invoiceList;
 
@@ -63,10 +66,19 @@ export class Reader {
                     transactionInfo = transaction.ele('transactionInfo');
                     break;
                 case('400'):
-                    shipmentInfo = transaction?.ele('shipmentInfo');
+                    shipmentDetails = transaction?.ele('shipmentDetails');
                     break;
+                case('410'): 
+                    itemAndShipmentInfo = transaction?.ele('itemAndShipementInfo')
+                    shipmentInfo = itemAndShipmentInfo?.ele('shipmentInfo');
+                    break
                 case('500'):
-                    itemInfo = transaction?.ele('itemInfo');
+                    itemInfo = itemAndShipmentInfo === undefined 
+                        ? transaction?.ele('itemInfo') 
+                        : itemAndShipmentInfo?.ele('itemInfo')
+                    break;
+                case('601'):
+                    itemResolutionInfo = transaction?.ele('itemResolutionInfo');
                     break;
                 case('900'):
                     transactionFooter = transaction?.ele('transactionFooter');
@@ -78,10 +90,14 @@ export class Reader {
  
             const section = TRANSACTIONINFOKEYS.includes(sectionKey) ? 
                             transactionInfo?.ele(`${SECTIONNAME[sectionKey]}`) 
+                            : sectionKey === '400' ?
+                            shipmentDetails?.ele(`${SECTIONNAME[sectionKey]}`)
                             : SHIPMENTINFOKEYS.includes(sectionKey) ?
                             shipmentInfo?.ele(`${SECTIONNAME[sectionKey]}`)
                             : ITEMINFOKEYS.includes(sectionKey) ?
                             itemInfo?.ele(`${SECTIONNAME[sectionKey]}`) 
+                            : sectionKey === '601' ?
+                            itemResolutionInfo?.ele(`${SECTIONNAME[sectionKey]}`)
                             : FOOTERKEYS.includes(sectionKey) ?
                             transactionFooter?.ele(`${SECTIONNAME[sectionKey]}`) 
                             : INVOICELISTKEYS.includes(sectionKey) ?

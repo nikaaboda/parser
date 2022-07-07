@@ -6,7 +6,8 @@ const reader = new Reader();
 
 console.time("parseTime");
 
-const result = reader.read("../static/StratEDI/Deasdvs/Raw/Deasdv7.txt", "DEASDV", true, "XML")
+const result = reader.read("../static/StratEDI/Deasdvs/Raw/Deasdv7.txt",  "DEASDV", true, "XML")
 
+// console.log(result.file)
 // console.log(JSON.stringify(result, null, 2));
 // console.timeEnd("fullTime");

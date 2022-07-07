@@ -49,18 +49,13 @@
         <partnerILN>4260402480008</partnerILN>
       </partnerAddresses>
     </transactionInfo>
-    <shipmentInfo>
+    <shipmentDetails>
       <shipmentInfo>
         <type>400</type>
         <positionNumber>1</positionNumber>
         <perShipmentPalletCount>1</perShipmentPalletCount>
       </shipmentInfo>
-      <palletSSCC>
-        <type>410</type>
-        <palletType>201</palletType>
-        <palletNVE>340455750695446692</palletNVE>
-      </palletSSCC>
-    </shipmentInfo>
+    </shipmentDetails>
     <itemInfo>
       <orderLine>
         <type>500</type>
@@ -78,53 +73,62 @@
         <expectedDeliveryDate>20220411</expectedDeliveryDate>
       </itemDates>
     </itemInfo>
-    <itemInfo>
-      <orderLine>
-        <type>500</type>
-        <positionNumber>2</positionNumber>
-        <EAN>4251725800253</EAN>
-        <orderQuantity>2.000</orderQuantity>
-        <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
-      </orderLine>
-      <itemReferences>
-        <type>511</type>
-        <customerOrderNumber>2013008392</customerOrderNumber>
-      </itemReferences>
-      <itemDates>
-        <type>515</type>
-        <expectedDeliveryDate>20220411</expectedDeliveryDate>
-      </itemDates>
-      <additionalInfo>
-        <type>580</type>
-        <positionNumber>2</positionNumber>
-        <bestBeforeDate>20220811</bestBeforeDate>
-        <batchNumber>100752-608518012</batchNumber>
-        <deliveryQuantity>2</deliveryQuantity>
-      </additionalInfo>
-    </itemInfo>
-    <itemInfo>
-      <orderLine>
-        <type>500</type>
-        <positionNumber>3</positionNumber>
-        <EAN>4251725800475</EAN>
-        <orderQuantity>2.000</orderQuantity>
-        <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
-      </orderLine>
-      <itemReferences>
-        <type>511</type>
-        <customerOrderNumber>2013008392</customerOrderNumber>
-      </itemReferences>
-      <itemDates>
-        <type>515</type>
-        <expectedDeliveryDate>20220411</expectedDeliveryDate>
-      </itemDates>
-      <additionalInfo>
-        <type>580</type>
-        <positionNumber>3</positionNumber>
-        <bestBeforeDate>20220504</bestBeforeDate>
-        <batchNumber>100790-22090</batchNumber>
-        <deliveryQuantity>2</deliveryQuantity>
-      </additionalInfo>
-    </itemInfo>
+    <itemAndShipementInfo>
+      <shipmentInfo>
+        <palletSSCC>
+          <type>410</type>
+          <palletType>201</palletType>
+          <palletNVE>340455750695446692</palletNVE>
+        </palletSSCC>
+      </shipmentInfo>
+      <itemInfo>
+        <orderLine>
+          <type>500</type>
+          <positionNumber>2</positionNumber>
+          <EAN>4251725800253</EAN>
+          <orderQuantity>2.000</orderQuantity>
+          <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+        </orderLine>
+        <itemReferences>
+          <type>511</type>
+          <customerOrderNumber>2013008392</customerOrderNumber>
+        </itemReferences>
+        <itemDates>
+          <type>515</type>
+          <expectedDeliveryDate>20220411</expectedDeliveryDate>
+        </itemDates>
+        <additionalInfo>
+          <type>580</type>
+          <positionNumber>2</positionNumber>
+          <bestBeforeDate>20220811</bestBeforeDate>
+          <batchNumber>100752-608518012</batchNumber>
+          <deliveryQuantity>2</deliveryQuantity>
+        </additionalInfo>
+      </itemInfo>
+      <itemInfo>
+        <orderLine>
+          <type>500</type>
+          <positionNumber>3</positionNumber>
+          <EAN>4251725800475</EAN>
+          <orderQuantity>2.000</orderQuantity>
+          <amountWithoutCalculation>000000000000000</amountWithoutCalculation>
+        </orderLine>
+        <itemReferences>
+          <type>511</type>
+          <customerOrderNumber>2013008392</customerOrderNumber>
+        </itemReferences>
+        <itemDates>
+          <type>515</type>
+          <expectedDeliveryDate>20220411</expectedDeliveryDate>
+        </itemDates>
+        <additionalInfo>
+          <type>580</type>
+          <positionNumber>3</positionNumber>
+          <bestBeforeDate>20220504</bestBeforeDate>
+          <batchNumber>100790-22090</batchNumber>
+          <deliveryQuantity>2</deliveryQuantity>
+        </additionalInfo>
+      </itemInfo>
+    </itemAndShipementInfo>
   </transaction>
 </document>

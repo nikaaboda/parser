@@ -1,8 +1,20 @@
 import fs from "fs";
+import util from "util"
 import convert from 'xml-js'
 import {STRATEDI} from "./constants";
 
-const OPTIONS = {compact: true, spaces: 2};
+const OPTIONS = {compact: true, spaces: 2, textFn: RemoveJsonTextAttribute};
+
+function RemoveJsonTextAttribute(value: any, parentElement: any){
+    try{
+        var keyNo = Object.keys(parentElement._parent).length;
+        var keyName = Object.keys(parentElement._parent)[keyNo-1];
+        parentElement._parent[keyName] = value;
+    }
+    catch(e){
+
+    }
+}
 
 type Filetype = "ORDER" | "INVOICE" | "DEASDV";
 type ReadFormat = "XML" | "JSON";
@@ -16,43 +28,72 @@ export class Writer {
 
         let parseString: any = isPath ? fs.readFileSync(file).toString('utf-8') : file;
 
-        if(readFormat !== "JSON") {
-            parseString = convert.xml2json(parseString, OPTIONS);
-        }
+        parseString = convert.xml2json(parseString, OPTIONS);
 
         const document = JSON.parse(parseString).document;
+
+        // console.log(util.inspect(document, {showHidden: false, depth: null, colors: true}))
+
         
         const stratEDIString = this.constructStratEDIString(document);
-
 
         return stratEDIString;
     }
 
     constructStratEDIString(document: any) {
         let finalStratEDIString = '';
-        const sentences = Object.keys(document)
-
-        sentences.forEach((sentence) => { 
-            const [currentSentence, currentSentenceAllWords, currentSentenceActualWords, currentSentenceTypeIndex] = this.getSentenceInfo(document, sentence);
-            
-            currentSentenceAllWords.forEach((currentWordKey: string, wordIndex: number) => {
-                const delimitedWordLength = this.FILETYPE.LENGTHLIST[currentSentenceTypeIndex + 1][wordIndex];
-
-                if(currentSentenceActualWords.includes(currentWordKey)) {
-                    finalStratEDIString += this.handleWord(currentSentence, currentWordKey, delimitedWordLength);
-                } else {
-                    finalStratEDIString += ' '.repeat(delimitedWordLength);
-                }
-            })
-
-            finalStratEDIString += '\n';
+        const sentenceNames = Object.keys(document)
+        // interchangeheader, transaction : {transactionInfo, shipmentInfo, itemInfo, transactionFooter}, itemResolution, invoiceList, 
+        sentenceNames.forEach((sentenceName) => { 
+            const node = document[sentenceName];
+            finalStratEDIString = this.handleNode(finalStratEDIString, node);
         })
 
         return finalStratEDIString;
     }
 
+
+    handleNode(finalStratEDIString: string, node: any) {
+        if(Array.isArray(node)) {
+            node.forEach((sentence: any) => {
+                finalStratEDIString = this.handleNode(finalStratEDIString, sentence);
+            })
+        } else {
+            const nodeValues = Object.values(node);
+
+            if(typeof nodeValues[0] === 'object' && nodeValues[0] !== null) {
+                nodeValues.forEach((value) => {
+
+                    finalStratEDIString = this.handleNode(finalStratEDIString, value);
+                })
+            } else {
+                return this.handleSentence(finalStratEDIString, node);
+            }
+        }
+
+        return finalStratEDIString;
+    }
+
+    handleSentence(finalStratEDIString: string, sentence: any) {
+        const [currentSentence, currentSentenceAllWords, currentSentenceActualWords, currentSentenceTypeIndex] = this.getSentenceInfo(sentence);
+            
+        currentSentenceAllWords.forEach((currentWordKey: string, wordIndex: number) => {
+            const delimitedWordLength = this.FILETYPE.LENGTHLIST[currentSentenceTypeIndex + 1][wordIndex];
+
+            if(currentSentenceActualWords.includes(currentWordKey)) {
+                finalStratEDIString += this.handleWord(currentSentence, currentWordKey, delimitedWordLength);
+            } else {
+                finalStratEDIString += ' '.repeat(delimitedWordLength);
+            }
+        })
+
+        finalStratEDIString += '\n';
+
+        return finalStratEDIString;
+    }
+
     handleWord(currentSentence: any, currentWordKey: any, delimitedWordLength: number) {
-        const currentWordValue = currentSentence[currentWordKey]._text;
+        const currentWordValue = currentSentence[currentWordKey];
         const backslashRemovedValue = currentWordValue.replace(/\\/g, '');
 
         const actualWordLength = backslashRemovedValue.length;
@@ -67,14 +108,13 @@ export class Writer {
         return finalWord;
     }
 
-    getSentenceInfo(document: any, sentence: string) {
-        const currentSentence = document[sentence];
-        const currentSentenceType = currentSentence.type._text;
+    getSentenceInfo(sentence: any) {
+        const currentSentenceType = sentence.type;
         const currentSentenceAllWords = this.FILETYPE.KEYS[currentSentenceType];
-        const currentSentenceActualWords = Object.keys(currentSentence);
+        const currentSentenceActualWords = Object.keys(sentence);
         const currentSentenceTypeIndex = this.FILETYPE.LENGTHLIST.indexOf(currentSentenceType);
 
-        return [currentSentence, currentSentenceAllWords, currentSentenceActualWords, currentSentenceTypeIndex];
+        return [sentence, currentSentenceAllWords, currentSentenceActualWords, currentSentenceTypeIndex];
     }
 }
 
