@@ -5,58 +5,58 @@ type Filetype = "ORDER" | "INVOICE" | "DEASDV";
 type Tokentype = "WORD" | "CRLF";
 
 export class Tokenizer {
-    _string: string;
-    _leftover: string;
-    _cursor: number;
-    _token: string;
-    _tokenType: string;
-    _validator: Validator;
-    _errors: any[];
+    string: string;
+    leftover: string;
+    cursor: number;
+    token: string;
+    tokenType: string;
+    validator: Validator;
+    errors: any[];
 
     //StratEDIpart
     SPEC: any;
-    _section: string;
-    _tokenIndex: number;
-    _sectionIndex: number;
-    _fileType: Filetype;
+    section: string;
+    tokenIndex: number;
+    sectionIndex: number;
+    fileType: Filetype;
     
 
     constructor() {
-        this._string = "";
-        this._leftover = "";
-        this._cursor = 0;
-        this._token = "";
-        this._tokenType = "";
-        this._validator = new Validator();
-        this._errors = [];
+        this.string = "";
+        this.leftover = "";
+        this.cursor = 0;
+        this.token = "";
+        this.tokenType = "";
+        this.validator = new Validator();
+        this.errors = [];
 
         //StratEDIpart
-        this._section = "";
-        this._sectionIndex = 0;
-        this._tokenIndex = 0;
+        this.section = "";
+        this.sectionIndex = 0;
+        this.tokenIndex = 0;
         this.SPEC = {};
-        this._fileType = "DEASDV";
+        this.fileType = "DEASDV";
     }
 
     init(string: string, fileType: Filetype) {
-        this._string = string;
-        this._leftover = string;
+        this.string = string;
+        this.leftover = string;
 
         //StratEDIpart
         const {ORDER, INVOICE, DEASDV} = STRATEDI;
         this.SPEC = fileType === FILETYPES[0] ? ORDER : fileType === FILETYPES[1] ? INVOICE : DEASDV;
-        this._fileType = fileType;
+        this.fileType = fileType;
 
-        this._section = string.slice(0, 3);
-        this._sectionIndex = this.SPEC.LENGTHLIST.indexOf(this._section) + 1;
+        this.section = string.slice(0, 3);
+        this.sectionIndex = this.SPEC.LENGTHLIST.indexOf(this.section) + 1;
 
-        if(!this.SPEC.SECTIONS.includes(this._section)) {
-            throw new SyntaxError(`Unexpected Section enountered ${this._section}, Expected one of these ${this.SPEC.SECTIONS}`)
+        if(!this.SPEC.SECTIONS.includes(this.section)) {
+            throw new SyntaxError(`Unexpected Section enountered ${this.section}, Expected one of these ${this.SPEC.SECTIONS}`)
         }
     }
 
     hasMoreTokens() {
-        return this._cursor < this._string.length;
+        return this.cursor < this.string.length;
     }
 
     match(regexp: RegExp, string: string) {
@@ -76,8 +76,8 @@ export class Tokenizer {
     }
 
     validateToken(token: string) {
-        if(this._section && this._tokenIndex) {
-            return this._validator.validate(token, this._section, this._tokenIndex - 1, this._fileType); 
+        if(this.section && this.tokenIndex) {
+            return this.validator.validate(token, this.section, this.tokenIndex - 1, this.fileType); 
         }
     }
 
@@ -86,18 +86,18 @@ export class Tokenizer {
             throw new Error('New token has a length of zero')
         }
 
-        this._token = matched;
-        this._tokenType = tokenType;
-        this._cursor += matched.length;
+        this.token = matched;
+        this.tokenType = tokenType;
+        this.cursor += matched.length;
 
         const validateError = this.validateToken(matched);
         if(validateError) {
-            this._errors.push(validateError);
+            this.errors.push(validateError);
         }
 
         return {
-            type: this._tokenType,
-            value: this._token
+            type: this.tokenType,
+            value: this.token
         };
     }
 
@@ -106,23 +106,23 @@ export class Tokenizer {
      */
     handleNewToken(tokenType: Tokentype, matched: string) {
         if(tokenType === TOKENTYPES[0]) {
-            this._tokenIndex++;
+            this.tokenIndex++;
         } else if(tokenType === TOKENTYPES[1]) {
-            this._tokenIndex = 0;
-            this._section = this._leftover.slice(matched.length, matched.length + 3);
+            this.tokenIndex = 0;
+            this.section = this.leftover.slice(matched.length, matched.length + 3);
             
-            if(!this.SPEC.SECTIONS.includes(this._section) && this._section !== "") {
-                throw new SyntaxError(`Unexpected Section enountered ${this._section}, Expected one of these ${this.SPEC.SECTIONS}`)
+            if(!this.SPEC.SECTIONS.includes(this.section) && this.section !== "") {
+                throw new SyntaxError(`Unexpected Section enountered ${this.section}, Expected one of these ${this.SPEC.SECTIONS}`)
             }
 
-            this._sectionIndex = this.SPEC.LENGTHLIST.indexOf(this._section) + 1;
+            this.sectionIndex = this.SPEC.LENGTHLIST.indexOf(this.section) + 1;
         }
 
         return this.createNewToken(matched, tokenType)
     }
 
     getTokenLength() {
-        return this.SPEC.LENGTHLIST[this._sectionIndex][this._tokenIndex];
+        return this.SPEC.LENGTHLIST[this.sectionIndex][this.tokenIndex];
     }
     /**
      * StratEDI Specific functions end here
@@ -133,12 +133,12 @@ export class Tokenizer {
             return {
                 type: "",
                 value: "",
-                errors: this._errors,
+                errors: this.errors,
                 flag: 'EOF'
             };
         }
 
-        this._leftover = this._string.slice(this._cursor);
+        this.leftover = this.string.slice(this.cursor);
 
         for(const [rawRegex, tokenType] of this.SPEC.REGEXES) {
             let regexLength = tokenType === 'WORD' ? this.getTokenLength() : null;
@@ -148,17 +148,17 @@ export class Tokenizer {
             // To handle it, match the left characters until linebreak and count the length.
             if(regexLength !== null && regexLength !== 1) {
                 const sectionLeftoverRegex = new RegExp(`^.{1,${regexLength - 1}}(\n|\r\n)`);
-                const sectionLeftover = sectionLeftoverRegex.exec(this._leftover);
+                const sectionLeftover = sectionLeftoverRegex.exec(this.leftover);
 
                 if(sectionLeftover !== null) {
-                    const crlfIndex = this._leftover.indexOf('\r\n');
-                    const lfIndex = this._leftover.indexOf('\n') 
+                    const crlfIndex = this.leftover.indexOf('\r\n');
+                    const lfIndex = this.leftover.indexOf('\n') 
                     regexLength = crlfIndex === - 1 ? lfIndex : crlfIndex;  
                 }
             }
             const regex = this.produceRegex(rawRegex, regexLength)
 
-            const matched = this.match(regex, this._leftover);
+            const matched = this.match(regex, this.leftover);
 
             if(matched) {
                 return this.handleNewToken(tokenType, matched)

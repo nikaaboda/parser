@@ -12,8 +12,7 @@ interface Spec {
 
 export class Validator {
     validate(token: string, section: string, tokenIndex: number, fileType: Filetype) {
-        const {ORDER, INVOICE, DEASDV} = STRATEDIVALIDATOR
-        const SPEC: any = fileType === FILETYPES[0] ? ORDER : fileType === FILETYPES[1] ? INVOICE : DEASDV;
+        const SPEC: any = STRATEDIVALIDATOR[fileType];
 
         const tokenFieldName = STRATEDI[fileType].KEYS[section][tokenIndex];
         const specification = SPEC[section][tokenIndex];

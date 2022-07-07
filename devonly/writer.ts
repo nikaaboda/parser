@@ -6,7 +6,7 @@ const writer = new Writer();
 
 console.time("parseTime");
 
-const result = writer.write("../static/StratEDI/Deasdvs/XML/Deasdv4.xml", "DEASDV", true, "XML")
+const result = writer.write("../static/StratEDI/Deasdvs/XML/Deasdv4.xml", "DEASDV", true)
 
 console.log(result);
 

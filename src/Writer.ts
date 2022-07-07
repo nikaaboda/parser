@@ -3,17 +3,15 @@ import util from "util"
 import convert from 'xml-js'
 import {STRATEDI} from "./constants";
 
-const OPTIONS = {compact: true, spaces: 2, textFn: RemoveJsonTextAttribute};
+const OPTIONS = {compact: true, spaces: 2, textFn: removeJsonTextAttribute};
 
-function RemoveJsonTextAttribute(value: any, parentElement: any){
+function removeJsonTextAttribute(value: any, parentElement: any){
     try{
-        var keyNo = Object.keys(parentElement._parent).length;
-        var keyName = Object.keys(parentElement._parent)[keyNo-1];
+        const keyNo = Object.keys(parentElement._parent).length;
+        const keyName = Object.keys(parentElement._parent)[keyNo-1];
         parentElement._parent[keyName] = value;
     }
-    catch(e){
-
-    }
+    catch(e){}
 }
 
 type Filetype = "ORDER" | "INVOICE" | "DEASDV";
@@ -23,8 +21,8 @@ export class Writer {
     FILETYPE: any;
     
 
-    write(file: string, fileType: Filetype, isPath = false, readFormat: ReadFormat = "XML") {
-        this.FILETYPE = fileType === "ORDER" ? STRATEDI.ORDER : fileType === "INVOICE" ? STRATEDI.INVOICE : STRATEDI.DEASDV;
+    write(file: string, fileType: Filetype, isPath = false) {
+        this.FILETYPE = STRATEDI[fileType];
 
         let parseString: any = isPath ? fs.readFileSync(file).toString('utf-8') : file;
 
@@ -92,7 +90,7 @@ export class Writer {
         return finalStratEDIString;
     }
 
-    handleWord(currentSentence: any, currentWordKey: any, delimitedWordLength: number) {
+    handleWord(currentSentence: any, currentWordKey: string, delimitedWordLength: number) {
         const currentWordValue = currentSentence[currentWordKey];
         const backslashRemovedValue = currentWordValue.replace(/\\/g, '');
 

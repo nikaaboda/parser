@@ -10,26 +10,26 @@ export interface ASTNode {
 }
 
 export class Parser {
-    _file: string;
-    _lookahead: ASTNode;
-    _tokenizer: Tokenizer;
-    _errors: any[];
+    file: string;
+    lookahead: ASTNode;
+    tokenizer: Tokenizer;
+    errors: any[];
 
     constructor() {
-        this._file = "";
-        this._lookahead = {type: "", value: ""};
-        this._tokenizer = new Tokenizer();
-        this._errors = [];
+        this.file = "";
+        this.lookahead = {type: "", value: ""};
+        this.tokenizer = new Tokenizer();
+        this.errors = [];
     }
 
     parse(string: string, fileType: Filetype) {
-        this._file = string;
-        this._tokenizer.init(this._file, fileType);
-        this._lookahead = this._tokenizer.getNextToken();
+        this.file = string;
+        this.tokenizer.init(this.file, fileType);
+        this.lookahead = this.tokenizer.getNextToken();
 
         return {
             ast: this.Document(),
-            errors: this._errors
+            errors: this.errors
         }
     }
 
@@ -43,11 +43,11 @@ export class Parser {
     SentenceList() {
         const sentences = [this.Sentence()];
         
-        while(this._lookahead.flag !== 'EOF') {
+        while(this.lookahead.flag !== 'EOF') {
             sentences.push(this.Sentence()) 
         }
 
-        this._errors = this._lookahead.errors || [];
+        this.errors = this.lookahead.errors || [];
 
         return sentences
     }
@@ -59,11 +59,11 @@ export class Parser {
     WordList() {
         const words = [this.Word()];
 
-        while(this._lookahead?.type !== 'CRLF' && this._lookahead.flag !== 'EOF') {
+        while(this.lookahead?.type !== 'CRLF' && this.lookahead.flag !== 'EOF') {
             words.push(this.Word());
         }
         // Eat CRLF
-        while(this._lookahead?.type === 'CRLF') {
+        while(this.lookahead?.type === 'CRLF') {
             this._eat();
         }
 
@@ -78,9 +78,9 @@ export class Parser {
     }
 
     _eat() {
-        const token = this._lookahead;
+        const token = this.lookahead;
 
-        this._lookahead = this._tokenizer.getNextToken();
+        this.lookahead = this.tokenizer.getNextToken();
 
         return token;
     }

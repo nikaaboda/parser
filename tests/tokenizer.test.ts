@@ -6,28 +6,28 @@ const tokenizer = new Tokenizer();
 
 describe("Tokenizer", () => {
     test("Constructor works properly", () => {
-        expect(tokenizer._string).toEqual("");
-        expect(tokenizer._leftover).toEqual("");
-        expect(tokenizer._cursor).toEqual(0);
-        expect(tokenizer._token).toEqual("");
-        expect(tokenizer._tokenType).toEqual("");
-        expect(tokenizer._section).toEqual("");
-        expect(tokenizer._sectionIndex).toEqual(0);
-        expect(tokenizer._tokenIndex).toEqual(0);
+        expect(tokenizer.string).toEqual("");
+        expect(tokenizer.leftover).toEqual("");
+        expect(tokenizer.cursor).toEqual(0);
+        expect(tokenizer.token).toEqual("");
+        expect(tokenizer.tokenType).toEqual("");
+        expect(tokenizer.section).toEqual("");
+        expect(tokenizer.sectionIndex).toEqual(0);
+        expect(tokenizer.tokenIndex).toEqual(0);
     });
 
     test("Init function works properly", () => {
         tokenizer.init(RAWORDER1, "ORDER");
 
-        expect(tokenizer._string).toEqual(RAWORDER1);
-        expect(tokenizer._leftover).toEqual(RAWORDER1);
-        expect(tokenizer._section).toEqual("000");
-        expect(tokenizer._sectionIndex).toEqual(1);
+        expect(tokenizer.string).toEqual(RAWORDER1);
+        expect(tokenizer.leftover).toEqual(RAWORDER1);
+        expect(tokenizer.section).toEqual("000");
+        expect(tokenizer.sectionIndex).toEqual(1);
     })
 
     test("getTokenLength function works properly", () => {
-        tokenizer._sectionIndex = 33;
-        tokenizer._tokenIndex = 5;
+        tokenizer.sectionIndex = 33;
+        tokenizer.tokenIndex = 5;
         
         let length = tokenizer.getTokenLength();
 

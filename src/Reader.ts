@@ -1,36 +1,47 @@
 import builder from 'xmlbuilder';
 import fs from "fs";
 import {Parser} from './Parser';
-import { STRATEDI, FILETYPES } from './constants';
-
-const TRANSACTIONINFOKEYS = ["100", "111", "115", "119", "120", "121", "130", "140", "150"];
-const SHIPMENTINFOKEYS = ["410", "415", "420"];
-const ITEMINFOKEYS = ["500", "502", "511", "513", "515", "519", "530", "580", "900", "913"];
-const FOOTERKEYS = ["900", "901", "913"];
-const INVOICELISTKEYS = ["990", "991"];
-
-
+import { STRATEDI, TRANSACTIONINFOKEYS, SHIPMENTINFOKEYS, ITEMINFOKEYS, FOOTERKEYS, INVOICELISTKEYS } from './constants';
 
 type Filetype = "ORDER" | "INVOICE" | "DEASDV";
-type ReadFormat = "XML" | "JSON";
 
 export class Reader {
-    _parser: Parser;
+    parser: Parser;
+    doc: builder.XMLElement;
+    transaction: builder.XMLElement | undefined;
+    transactionInfo: builder.XMLElement | undefined;
+    shipmentDetails: builder.XMLElement | undefined;
+    itemAndShipmentInfo: builder.XMLElement | undefined;
+    shipmentInfo: builder.XMLElement | undefined;
+    itemInfo: builder.XMLElement | undefined;
+    itemResolutionInfo: builder.XMLElement | undefined;
+    transactionFooter: builder.XMLElement | undefined;
+    invoiceList: builder.XMLElement | undefined;
+
 
     constructor() {
-        this._parser = new Parser();
+        this.parser = new Parser();
+        this.doc = builder.create('document');
+        this.transaction = undefined;
+        this.transactionInfo = undefined;
+        this.shipmentDetails = undefined;
+        this.itemAndShipmentInfo = undefined;
+        this.shipmentInfo = undefined;
+        this.itemInfo = undefined;
+        this.itemResolutionInfo = undefined;
+        this.transactionFooter = undefined;
+        this.invoiceList = undefined;
     }
 
     //read function can take either string or file path to parse
-    read(file: string, fileType: Filetype, isPath = false, readFormat: ReadFormat = "JSON") {
+    read(file: string, fileType: Filetype, isPath = false) {
         const string = isPath ? fs.readFileSync(file).toString('utf-8') : file;
     
-        const ast = this._parser.parse(string, fileType);
+        const ast = this.parser.parse(string, fileType);
         const { ast : {value: document}, errors} = ast;
 
         const xml = this.constructXML(document, fileType);
 
-        // console.log(xml)
         return {
             file: xml,
             errors
@@ -38,21 +49,8 @@ export class Reader {
     }
 
     constructXML(documentAst: any, fileType: Filetype) {
-        const {ORDER, INVOICE, DEASDV} = STRATEDI
-        const FILETYPE = fileType === FILETYPES[0] ? ORDER : fileType === FILETYPES[1] ? INVOICE : DEASDV;
-        const {SECTIONNAME} = FILETYPE;
-
-        const doc = builder.create('document');
-
-        let transaction;
-        let transactionInfo;
-        let shipmentDetails;
-        let itemAndShipmentInfo;
-        let shipmentInfo;
-        let itemInfo;
-        let itemResolutionInfo;
-        let transactionFooter;
-        let invoiceList;
+        const {SECTIONNAMES, KEYS} = STRATEDI[fileType]
+        
 
         for(let i = 0; i < documentAst.length; i++) {
             const {value: words} = documentAst[i];
@@ -60,66 +58,78 @@ export class Reader {
             const sectionKey = words[0]?.value;
             const sectionLength = words.length;
 
-            switch(sectionKey) {
-                case('100'):
-                    transaction = doc.ele('transaction')
-                    transactionInfo = transaction.ele('transactionInfo');
-                    break;
-                case('400'):
-                    shipmentDetails = transaction?.ele('shipmentDetails');
-                    break;
-                case('410'): 
-                    itemAndShipmentInfo = transaction?.ele('itemAndShipementInfo')
-                    shipmentInfo = itemAndShipmentInfo?.ele('shipmentInfo');
-                    break
-                case('500'):
-                    itemInfo = itemAndShipmentInfo === undefined 
-                        ? transaction?.ele('itemInfo') 
-                        : itemAndShipmentInfo?.ele('itemInfo')
-                    break;
-                case('601'):
-                    itemResolutionInfo = transaction?.ele('itemResolutionInfo');
-                    break;
-                case('900'):
-                    transactionFooter = transaction?.ele('transactionFooter');
-                    break;
-                case('990'):
-                    invoiceList = doc.ele('invoiceList');
-                    break;
-            }
- 
-            const section = TRANSACTIONINFOKEYS.includes(sectionKey) ? 
-                            transactionInfo?.ele(`${SECTIONNAME[sectionKey]}`) 
-                            : sectionKey === '400' ?
-                            shipmentDetails?.ele(`${SECTIONNAME[sectionKey]}`)
-                            : SHIPMENTINFOKEYS.includes(sectionKey) ?
-                            shipmentInfo?.ele(`${SECTIONNAME[sectionKey]}`)
-                            : ITEMINFOKEYS.includes(sectionKey) ?
-                            itemInfo?.ele(`${SECTIONNAME[sectionKey]}`) 
-                            : sectionKey === '601' ?
-                            itemResolutionInfo?.ele(`${SECTIONNAME[sectionKey]}`)
-                            : FOOTERKEYS.includes(sectionKey) ?
-                            transactionFooter?.ele(`${SECTIONNAME[sectionKey]}`) 
-                            : INVOICELISTKEYS.includes(sectionKey) ?
-                            invoiceList?.ele(`${SECTIONNAME[sectionKey]}`) :
-                            doc.ele(`${SECTIONNAME[sectionKey]}`)
+            this.createNode(sectionKey);
+            const section = this.createSentence(sectionKey, SECTIONNAMES);
+
+            this.createWord(sectionLength, words, KEYS, sectionKey, section);
             
-            for(let j = 0; j < sectionLength; j++) {   
-                const currentWord = words[j];       
-
-                const tokenValue = currentWord?.value?.trim();
-                
-                const correspondingKey = FILETYPE.KEYS[sectionKey][j];
-
-                if(tokenValue && tokenValue !== "") {
-                    section?.ele(`${correspondingKey}`)
-                                        .text(`${tokenValue}`)
-                } 
-            }
         }
 
-        const xml = doc.end({ pretty: true});
+        const xml = this.doc.end({ pretty: true});
 
         return xml
+    }
+
+    createNode(sectionKey: string) {
+        switch(sectionKey) {
+            case('100'):
+                this.transaction = this.doc.ele('transaction')
+                this.transactionInfo = this.transaction.ele('transactionInfo');
+                break;
+            case('400'):
+                this.shipmentDetails = this.transaction?.ele('shipmentDetails');
+                break;
+            case('410'): 
+                this.itemAndShipmentInfo = this.transaction?.ele('itemAndShipementInfo')
+                this.shipmentInfo = this.itemAndShipmentInfo?.ele('shipmentInfo');
+                break
+            case('500'):
+                this.itemInfo = this.itemAndShipmentInfo === undefined 
+                    ? this.transaction?.ele('itemInfo') 
+                    : this.itemAndShipmentInfo?.ele('itemInfo')
+                break;
+            case('601'):
+                this.itemResolutionInfo = this.transaction?.ele('itemResolutionInfo');
+                break;
+            case('900'):
+                this.transactionFooter = this.transaction?.ele('transactionFooter');
+                break;
+            case('990'):
+                this.invoiceList = this.doc.ele('invoiceList');
+                break;
+        }
+    }
+
+    createSentence(sectionKey: string, SECTIONNAMES: any) {
+        return TRANSACTIONINFOKEYS.includes(sectionKey) ? 
+        this.transactionInfo?.ele(`${SECTIONNAMES[sectionKey]}`) 
+        : sectionKey === '400' ?
+        this.shipmentDetails?.ele(`${SECTIONNAMES[sectionKey]}`)
+        : SHIPMENTINFOKEYS.includes(sectionKey) ?
+        this.shipmentInfo?.ele(`${SECTIONNAMES[sectionKey]}`)
+        : ITEMINFOKEYS.includes(sectionKey) ?
+        this.itemInfo?.ele(`${SECTIONNAMES[sectionKey]}`) 
+        : sectionKey === '601' ?
+        this.itemResolutionInfo?.ele(`${SECTIONNAMES[sectionKey]}`)
+        : FOOTERKEYS.includes(sectionKey) ?
+        this.transactionFooter?.ele(`${SECTIONNAMES[sectionKey]}`) 
+        : INVOICELISTKEYS.includes(sectionKey) ?
+        this.invoiceList?.ele(`${SECTIONNAMES[sectionKey]}`) :
+        this.doc.ele(`${SECTIONNAMES[sectionKey]}`)
+    }
+
+    createWord(sectionLength: number, words: any, KEYS: any, sectionKey: string, section: builder.XMLElement | undefined) {
+        for(let j = 0; j < sectionLength; j++) {   
+            const currentWord = words[j];       
+
+            const tokenValue = currentWord?.value?.trim();
+            
+            const correspondingKey = KEYS[sectionKey][j];
+
+            if(tokenValue && tokenValue !== "") {
+                section?.ele(`${correspondingKey}`)
+                                    .text(`${tokenValue}`)
+            } 
+        }
     }
 }
