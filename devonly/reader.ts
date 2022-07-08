@@ -6,7 +6,7 @@ const reader = new Reader();
 
 console.time("parseTime");
 
-const result = reader.read("../static/StratEDI/Invoices/Raw/Invoice9.txt",  "INVOICE", true)
+const result = reader.read("../static/StratEDI/Invoices/Raw/Invoice8.txt",  "INVOICE", true)
 
 // console.log(result.file)
 // console.log(JSON.stringify(result, null, 2));
