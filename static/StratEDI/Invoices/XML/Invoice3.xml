@@ -100,6 +100,8 @@
         <referenceNumberIndicator>XC1</referenceNumberIndicator>
         <referenceNumber>DE-�ko-039</referenceNumber>
       </orderLine>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000561.22</finalInvoiceAmount>
@@ -107,8 +109,6 @@
         <totalNetValue>000000000000524.50</totalNetValue>
         <totalTaxableAmount>000000000000524.50</totalTaxableAmount>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000561.22</totalAmount>

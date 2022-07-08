@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="document">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="interchangeHeader">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="type" fixed="000" />
+                            <xs:element name="senderId" />
+                            <xs:element name="recieverId" />
+                            <xs:element name="date" />
+                            <xs:element name="time" />
+                            <xs:element name="dataExchangeReference" minOccurs="0" />
+                            <xs:element name="referenceNumber" minOccurs="0" />
+                            <xs:element name="applicationReference" minOccurs="0" />
+                            <xs:element name="testIndicator" minOccurs="0" />
+                            <xs:element name="fileInterfaceVersionNumber" minOccurs="0" />
+                            <xs:element name="filler" minOccurs="0" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="transaction" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="transactionInfo">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="transactionHeader">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="type" />
+                                                    <xs:element name="messageReference" />
+                                                    <xs:element name="messageType" />
+                                                    <xs:element name="messageTypeVersion" />
+                                                    <xs:element name="messageTypeRelease" />
+                                                    <xs:element name="managingOrganization" />
+                                                    <xs:element name="responsibleOrganization" minOccurs="0" />
+                                                    <xs:element name="transactionType" />
+                                                    <xs:element name="transactionFunction" minOccurs="0" />
+                                                    <xs:element name="documentNumber" />
+                                                    <xs:element name="documentDate" />
+                                                    <xs:element name="responseType" minOccurs="0" />
+                                                    <xs:element name="pickupIndicator" minOccurs="0" />
+                                                    <xs:element name="documenName" minOccurs="0" />
+                                                    <xs:element name="deliveryIndicator" minOccurs="0" />
+                                                    <xs:element name="serviceProviderIndicator" minOccurs="0" />
+                                                    <xs:element name="invoiceCorrectionIndactor" minOccurs="0" />
+                                                    <xs:element name="filler" minOccurs="0" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="transactionReference" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="type" fixed="111" />
+                                                    <xs:element name="offerNumber" minOccurs="0" />
+                                                    <xs:element name="offerDate" minOccurs="0" />
+                                                    <xs:element name="campaignNumber" minOccurs="0" />
+                                                    <xs:element name="priceListNumber" minOccurs="0" />
+                                                    <xs:element name="customerOrderNumber" minOccurs="0" />
+                                                    <xs:element name="customerOrcerDate" minOccurs="0" />
+                                                    <xs:element name="internalOrderNumber" minOccurs="0" />
+                                                    <xs:element name="internalOrderDate" minOccurs="0" />
+                                                    <xs:element name="deliveryDate" minOccurs="0" />
+                                                    <xs:element name="deliveryReceiptNumber" minOccurs="0" />
+                                                    <xs:element name="deliveryReceiptDate" minOccurs="0" />
+                                                    <xs:element name="invoiceListNumber" minOccurs="0" />
+                                                    <xs:element name="invoiceListDate" minOccurs="0" />
+                                                    <xs:element name="agreementNumber" minOccurs="0" />
+                                                    <xs:element name="bankAccountNumber" minOccurs="0" />
+                                                    <xs:element name="performancePeriodUntil" minOccurs="0" />
+                                                    <xs:element name="referenceNumber" minOccurs="0" />
+                                                    <xs:element name="referenceDate" minOccurs="0" />
+                                                    <xs:element name="returnsNumber" minOccurs="0" />
+                                                    <xs:element name="returnsDate" minOccurs="0" />
+                                                    <xs:element name="notUsed" minOccurs="0" />
+                                                    <xs:element name="codeReference1" minOccurs="0" />
+                                                    <xs:element name="reference1" minOccurs="0" />
+                                                    <xs:element name="reference1Date" minOccurs="0" />
+                                                    <xs:element name="codeReference2" minOccurs="0" />
+                                                    <xs:element name="reference2" minOccurs="0" />
+                                                    <xs:element name="reference2Date" minOccurs="0" />
+                                                    <xs:element name="codeReference3" minOccurs="0" />
+                                                    <xs:element name="reference3" minOccurs="0" />
+                                                    <xs:element name="reference3Date" minOccurs="0" />
+                                                    <xs:element name="filler" minOccurs="0" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="dates" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="type" fixed="115" />
+                                                    <xs:element name="expectedDeliveryDate" minOccurs="0" />
+                                                    <xs:element name="earliestDeliveryDate" minOccurs="0" />
+                                                    <xs:element name="latestDeliveryDate" minOccurs="0" />
+                                                    <xs:element name="promisedDeliveryDate" minOccurs="0" />
+                                                    <xs:element name="scheduledDeliveryDate" minOccurs="0" />
+                                                    <xs:element name="shippingDate" minOccurs="0" />
+                                                    <xs:element name="pickUpDate" minOccurs="0" />
+                                                    <xs:element name="cancellationDate" minOccurs="0" />
+                                                    <xs:element name="expectedDeliveryWeek" minOccurs="0" />
+                                                    <xs:element name="earliestDeliveryWeek" minOccurs="0" />
+                                                    <xs:element name="latestDeliveryWeek" minOccurs="0" />
+                                                    <xs:element name="promisedDeliveryWeek" minOccurs="0" />
+                                                    <xs:element name="expectedDeliveryTime" minOccurs="0" />
+                                                    <xs:element name="earliestDeliveryTime" minOccurs="0" />
+                                                    <xs:element name="latestDeliveryTime" minOccurs="0" />
+                                                    <xs:element name="promisedDeliveryTime" minOccurs="0" />
+                                                    <xs:element name="scheduledDeliveryTime" minOccurs="0" />
+                                                    <xs:element name="shippingTime" minOccurs="0" />
+                                                    <xs:element name="pickUpTime" minOccurs="0" />
+                                                    <xs:element name="filler" minOccurs="0" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element maxOccurs="unbounded" name="partnerAddresses">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="type" fixed="119" />
+                                                    <xs:element name="partnerType" />
+                                                    <xs:element name="partnerILN" minOccurs="0" />
+                                                    <xs:element name="partnerName1" minOccurs="0" />
+                                                    <xs:element name="partnerName2" minOccurs="0" />
+                                                    <xs:element name="partnerName3" minOccurs="0" />
+                                                    <xs:element name="partnerStreet1" minOccurs="0" />
+                                                    <xs:element name="partnerStreet2" minOccurs="0" />
+                                                    <xs:element name="partnerStreet3" minOccurs="0" />
+                                                    <xs:element name="postalCode" minOccurs="0" />
+                                                    <xs:element name="city" minOccurs="0" />
+                                                    <xs:element name="country" minOccurs="0" />
+                                                    <xs:element name="partnerId" minOccurs="0" />
+                                                    <xs:element name="byPartnerAssignedId" minOccurs="0" />
+                                                    <xs:element name="affiliateVatId" minOccurs="0" />
+                                                    <xs:element name="partnerDepartment" minOccurs="0" />
+                                                    <xs:element name="taxNumber" minOccurs="0" />
+                                                    <xs:element name="contactPartner" minOccurs="0" />
+                                                    <xs:element name="phone" minOccurs="0" />
+                                                    <xs:element name="fax" minOccurs="0" />
+                                                    <xs:element name="referenceNumberIndicator" minOccurs="0" />
+                                                    <xs:element name="referenceNumber" minOccurs="0" />
+                                                    <xs:element name="filler" minOccurs="0" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="paymentInfo" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="type" fixed="120" />
+                                                    <xs:element name="currencry" />
+                                                    <xs:element name="vatRate" />
+                                                    <xs:element name="paymentTerm" minOccurs="0" />
+                                                    <xs:element name="valueDate" minOccurs="0" />
+                                                    <xs:element name="dueDate" minOccurs="0" />
+                                                    <xs:element name="deliveryTerms" minOccurs="0" />
+                                                    <xs:element name="valueDays" minOccurs="0" />
+                                                    <xs:element name="free" minOccurs="0" />
+                                                    <xs:element name="conditionLockIndicator" minOccurs="0" />
+                                                    <xs:element name="taxExemptIndicator" minOccurs="0" />
+                                                    <xs:element name="deliveryCondition" minOccurs="0" />
+                                                    <xs:element name="transportType" minOccurs="0" />
+                                                    <xs:element name="transportPaymentMethod" minOccurs="0" />
+                                                    <xs:element name="paymentTerms" minOccurs="0" />
+                                                    <xs:element name="consignmentNumber" minOccurs="0" />
+                                                    <xs:element name="trailerNumber" minOccurs="0" />
+                                                    <xs:element name="filler" minOccurs="0" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="partnerBankDetails" minOccurs="0" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="type" fixed="121" />
+                                                    <xs:element name="partnerType" />
+                                                    <xs:element name="bankAccountNumber" minOccurs="0" />
+                                                    <xs:element name="bankAccountOwner" minOccurs="0" />
+                                                    <xs:element name="bankCode" minOccurs="0" />
+                                                    <xs:element name="BIC" minOccurs="0" />
+                                                    <xs:element name="bankName" minOccurs="0" />
+                                                    <xs:element name="countryCode" minOccurs="0" />
+                                                    <xs:element name="IBAN" minOccurs="0" />
+                                                    <xs:element name="stock" minOccurs="0" />
+                                                    <xs:element name="stockCurrency" minOccurs="0" />
+                                                    <xs:element name="companyRegisterCourt" minOccurs="0" />
+                                                    <xs:element name="companyRegisterNumber" minOccurs="0" />
+                                                    <xs:element name="legalForm" minOccurs="0" />
+                                                    <xs:element name="headquarters" minOccurs="0" />
+                                                    <xs:element name="bankBranchLocation" minOccurs="0" />
+                                                    <xs:element name="filler" minOccurs="0" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="transactionText" minOccurs="0" maxOccurs="10">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="type" fixed="130" />
+                                                    <xs:element name="textMapping" />
+                                                    <xs:element name="text" />
+                                                    <xs:element name="filler" minOccurs="0" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="discountsPackingInsuranceInfo" minOccurs="0" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="type" fixed="140" />
+                                                    <xs:element name="vatRate" minOccurs="0" />
+                                                    <xs:element name="percentDiscount" minOccurs="0" />
+                                                    <xs:element name="discountAmount" minOccurs="0" />
+                                                    <xs:element name="freightAmount" minOccurs="0" />
+                                                    <xs:element name="packagingCostContribution" minOccurs="0" />
+                                                    <xs:element name="insuranceCostContribution" minOccurs="0" />
+                                                    <xs:element name="discountDays" minOccurs="0" />
+                                                    <xs:element name="discountDate" minOccurs="0" />
+                                                    <xs:element name="percentDiscount2" minOccurs="0" />
+                                                    <xs:element name="discountDate2" minOccurs="0" />
+                                                    <xs:element name="percentDiscount3" minOccurs="0" />
+                                                    <xs:element name="discountDate3" minOccurs="0" />
+                                                    <xs:element name="discountDays2" minOccurs="0" />
+                                                    <xs:element name="discountDays3" minOccurs="0" />
+                                                    <xs:element name="filler" minOccurs="0" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="otherHeaderInfo" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="type" fixed="150" />
+                                                    <xs:element name="code1" />
+                                                    <xs:element name="value1" />
+                                                    <xs:element name="date1" />
+                                                    <xs:element name="time1" />
+                                                    <xs:element name="code2" minOccurs="0" />
+                                                    <xs:element name="value2" minOccurs="0" />
+                                                    <xs:element name="date2" minOccurs="0" />
+                                                    <xs:element name="time2" minOccurs="0" />
+                                                    <xs:element name="code3" minOccurs="0" />
+                                                    <xs:element name="value3" minOccurs="0" />
+                                                    <xs:element name="date3" minOccurs="0" />
+                                                    <xs:element name="time3" minOccurs="0" />
+                                                    <xs:element name="code4" minOccurs="0" />
+                                                    <xs:element name="value4" minOccurs="0" />
+                                                    <xs:element name="date4" minOccurs="0" />
+                                                    <xs:element name="time4" minOccurs="0" />
+                                                    <xs:element name="code5" minOccurs="0" />
+                                                    <xs:element name="value5" minOccurs="0" />
+                                                    <xs:element name="date5" minOccurs="0" />
+                                                    <xs:element name="time5" minOccurs="0" />
+                                                    <xs:element name="code6" minOccurs="0" />
+                                                    <xs:element name="value6" minOccurs="0" />
+                                                    <xs:element name="date6" minOccurs="0" />
+                                                    <xs:element name="time6" minOccurs="0" />
+                                                    <xs:element name="code7" minOccurs="0" />
+                                                    <xs:element name="value7" minOccurs="0" />
+                                                    <xs:element name="date7" minOccurs="0" />
+                                                    <xs:element name="time7" minOccurs="0" />
+                                                    <xs:element name="code8" minOccurs="0" />
+                                                    <xs:element name="value8" minOccurs="0" />
+                                                    <xs:element name="date8" minOccurs="0" />
+                                                    <xs:element name="time8" minOccurs="0" />
+                                                    <xs:element name="code9" minOccurs="0" />
+                                                    <xs:element name="value9" minOccurs="0" />
+                                                    <xs:element name="date9" minOccurs="0" />
+                                                    <xs:element name="time9" minOccurs="0" />
+                                                    <xs:element name="code10" minOccurs="0" />
+                                                    <xs:element name="value10" minOccurs="0" />
+                                                    <xs:element name="date10" minOccurs="0" />
+                                                    <xs:element name="time10" minOccurs="0" />
+                                                    <xs:element name="filler" minOccurs="0" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element maxOccurs="unbounded" name="itemInfo">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="orderLine">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="type" fixed="500" />
+                                                    <xs:element name="positionNumber" minOccurs="0" />
+                                                    <xs:element name="activationType" minOccurs="0" />
+                                                    <xs:element name="GTIN" />
+                                                    <xs:element name="supplierItemNumber" minOccurs="0" />
+                                                    <xs:element name="clientItemNumber" minOccurs="0" />
+                                                    <xs:element name="productGroup" minOccurs="0" />
+                                                    <xs:element name="itemDescription1" minOccurs="0" />
+                                                    <xs:element name="itemDescription2" minOccurs="0" />
+                                                    <xs:element name="itemSize" minOccurs="0" />
+                                                    <xs:element name="itemColor" minOccurs="0" />
+                                                    <xs:element name="calculatedQuantity" minOccurs="0" />
+                                                    <xs:element name="amountWithoutCalculation" minOccurs="0" />
+                                                    <xs:element name="currencyCode" minOccurs="0" />
+                                                    <xs:element name="itemVatRate" minOccurs="0" />
+                                                    <xs:element name="netUnitPrice" minOccurs="0" />
+                                                    <xs:element name="grossUnitPrice" minOccurs="0" />
+                                                    <xs:element name="unitSellingPrice" minOccurs="0" />
+                                                    <xs:element name="unitPromotionPrice" minOccurs="0" />
+                                                    <xs:element name="unitCatalogPrice" minOccurs="0" />
+                                                    <xs:element name="priceBasis" minOccurs="0" />
+                                                    <xs:element name="measureUnit" minOccurs="0" />
+                                                    <xs:element name="netValue" />
+                                                    <xs:element name="grossValue" minOccurs="0" />
+                                                    <xs:element name="discountSum" minOccurs="0" />
+                                                    <xs:element name="packageType" minOccurs="0" />
+                                                    <xs:element name="packagesCount" minOccurs="0" />
+                                                    <xs:element name="displayIndicator" minOccurs="0" />
+                                                    <xs:element name="deliveredQuantity" minOccurs="0" />
+                                                    <xs:element name="promotionVariantNumber" minOccurs="0" />
+                                                    <xs:element name="taxExemptIndicator" minOccurs="0" />
+                                                    <xs:element name="miscellaneousIndicator" minOccurs="0" />
+                                                    <xs:element name="subsequentDeliveryIndicator" minOccurs="0" />
+                                                    <xs:element name="discrepancyReason" minOccurs="0" />
+                                                    <xs:element name="itemAmountVAT" minOccurs="0" />
+                                                    <xs:element name="billingUnitEAN" minOccurs="0" />
+                                                    <xs:element name="conditionLockIndicator" minOccurs="0" />
+                                                    <xs:element name="referenceNumberIndicator" minOccurs="0" />
+                                                    <xs:element name="referenceNumber" minOccurs="0" />
+                                                    <xs:element name="originCountry" minOccurs="0" />
+                                                    <xs:element name="filler" minOccurs="0" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="itemReferences" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="type" fixed="511" />
+                                                    <xs:element name="offerNumber" minOccurs="0" />
+                                                    <xs:element name="offerDate" minOccurs="0" />
+                                                    <xs:element name="campaignNumber" minOccurs="0" />
+                                                    <xs:element name="priceListNumber" minOccurs="0" />
+                                                    <xs:element name="customerOrderNumber" minOccurs="0" />
+                                                    <xs:element name="customerOrcerDate" minOccurs="0" />
+                                                    <xs:element name="internalOrderNumber" minOccurs="0" />
+                                                    <xs:element name="internalOrderDate" minOccurs="0" />
+                                                    <xs:element name="deliveryDate" minOccurs="0" />
+                                                    <xs:element name="deliveryReceiptNumber" minOccurs="0" />
+                                                    <xs:element name="deliveryReceiptDate" minOccurs="0" />
+                                                    <xs:element name="invoiceListNumber" minOccurs="0" />
+                                                    <xs:element name="invoiceListDate" minOccurs="0" />
+                                                    <xs:element name="agreementNumber" minOccurs="0" />
+                                                    <xs:element name="bankAccountNumber" minOccurs="0" />
+                                                    <xs:element name="performancePeriod" minOccurs="0" />
+                                                    <xs:element name="referenceNumber" minOccurs="0" />
+                                                    <xs:element name="referenceDate" minOccurs="0" />
+                                                    <xs:element name="returnNumber" minOccurs="0" />
+                                                    <xs:element name="returnDate" minOccurs="0" />
+                                                    <xs:element name="orderItemNumber" minOccurs="0" />
+                                                    <xs:element name="deliveryReceiptItemNumber" minOccurs="0" />
+                                                    <xs:element name="codeReference1" minOccurs="0" />
+                                                    <xs:element name="reference1" minOccurs="0" />
+                                                    <xs:element name="reference1Date" minOccurs="0" />
+                                                    <xs:element name="codeReference2" minOccurs="0" />
+                                                    <xs:element name="reference2" minOccurs="0" />
+                                                    <xs:element name="reference2Date" minOccurs="0" />
+                                                    <xs:element name="codeReference3" minOccurs="0" />
+                                                    <xs:element name="reference3" minOccurs="0" />
+                                                    <xs:element name="reference3Date" minOccurs="0" />
+                                                    <xs:element name="filler" minOccurs="0" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="itemDiscounts" minOccurs="0" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="type" fixed="513" />
+                                                    <xs:element name="discountIndicator" />
+                                                    <xs:element name="codedDiscountType" />
+                                                    <xs:element name="calculationSequenceDisplay" minOccurs="0" />
+                                                    <xs:element name="discountVatRate" />
+                                                    <xs:element name="discountPercent" minOccurs="0" />
+                                                    <xs:element name="discountAmount" minOccurs="0" />
+                                                    <xs:element name="quantityDiscount" minOccurs="0" />
+                                                    <xs:element name="discountPerUnit" minOccurs="0" />
+                                                    <xs:element name="discountBasis" minOccurs="0" />
+                                                    <xs:element name="textDiscountType" minOccurs="0" />
+                                                    <xs:element name="discountAmountVat" minOccurs="0" />
+                                                    <xs:element name="filler" minOccurs="0" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="partnerAddresses" minOccurs="0" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="type" fixed="519" />
+                                                    <xs:element name="partnerType" />
+                                                    <xs:element name="partnerILN" />
+                                                    <xs:element name="partnerName1" minOccurs="0" />
+                                                    <xs:element name="partnerName2" minOccurs="0" />
+                                                    <xs:element name="partnerName3" minOccurs="0" />
+                                                    <xs:element name="partnerStreet1" minOccurs="0" />
+                                                    <xs:element name="partnerStreet2" minOccurs="0" />
+                                                    <xs:element name="partnerStreet3" minOccurs="0" />
+                                                    <xs:element name="postalCode" minOccurs="0" />
+                                                    <xs:element name="city" minOccurs="0" />
+                                                    <xs:element name="country" minOccurs="0" />
+                                                    <xs:element name="partnerId" minOccurs="0" />
+                                                    <xs:element name="byPartnerAssignedId" minOccurs="0" />
+                                                    <xs:element name="affiliateVatId" minOccurs="0" />
+                                                    <xs:element name="partnerDepartment" minOccurs="0" />
+                                                    <xs:element name="taxNumber" minOccurs="0" />
+                                                    <xs:element name="contactPartner" minOccurs="0" />
+                                                    <xs:element name="phone" minOccurs="0" />
+                                                    <xs:element name="fax" minOccurs="0" />
+                                                    <xs:element name="referenceNumberIndicator" minOccurs="0" />
+                                                    <xs:element name="referenceNumber" minOccurs="0" />
+                                                    <xs:element name="filler" minOccurs="0" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="itemText" minOccurs="0" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="type" fixed="530" />
+                                                    <xs:element name="textMapping" />
+                                                    <xs:element name="text" />
+                                                    <xs:element name="filler" minOccurs="0" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="itemResolutionInfo" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="itemResolution" minOccurs="0" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="type" fixed="601" />
+                                                    <xs:element name="subItemNumber" />
+                                                    <xs:element name="GTIN" />
+                                                    <xs:element name="consumerUnitsNumber" />
+                                                    <xs:element name="consumerUnitDesignation" minOccurs="0" />
+                                                    <xs:element name="supplierItemNumber" minOccurs="0" />
+                                                    <xs:element name="EAN" minOccurs="0" />
+                                                    <xs:element name="filler" minOccurs="0" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="transactionFooter">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="receiptTotal">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="type" fixed="900" />
+                                                    <xs:element name="finalInvoiceAmount" />
+                                                    <xs:element name="receiptTotalAmountVAT" />
+                                                    <xs:element name="totalNetValue" />
+                                                    <xs:element name="totalTaxableAmount" minOccurs="0" />
+                                                    <xs:element name="totalDiscountableAmount" minOccurs="0" />
+                                                    <xs:element name="totalDiscounts" minOccurs="0" />
+                                                    <xs:element name="totalAdditionalCosts" minOccurs="0" />
+                                                    <xs:element name="filler" minOccurs="0" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="vatInfo" minOccurs="0" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="type" fixed="901" />
+                                                    <xs:element name="totalAmount" />
+                                                    <xs:element name="vatAmount" />
+                                                    <xs:element name="netValue" />
+                                                    <xs:element name="taxableAmount" minOccurs="0" />
+                                                    <xs:element name="discountableAmount" minOccurs="0" />
+                                                    <xs:element name="discountsAmount" minOccurs="0" />
+                                                    <xs:element name="VATRate" />
+                                                    <xs:element name="miscellaneousIndicator" minOccurs="0" />
+                                                    <xs:element name="filler" minOccurs="0" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="discounts" minOccurs="0" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="type" fixed="913" />
+                                                    <xs:element name="discountIndicator" />
+                                                    <xs:element name="codedDiscountType" />
+                                                    <xs:element name="calculationSequenceDisplay" minOccurs="0" />
+                                                    <xs:element name="discountVatRate" />
+                                                    <xs:element name="discountProzent" minOccurs="0" />
+                                                    <xs:element name="discountAmount" minOccurs="0" />
+                                                    <xs:element name="discountQuantity" minOccurs="0" />
+                                                    <xs:element name="discountPerUnit" minOccurs="0" />
+                                                    <xs:element name="discountBasis" minOccurs="0" />
+                                                    <xs:element name="textDiscountType" minOccurs="0" />
+                                                    <xs:element name="discountAmountVAT" minOccurs="0" />
+                                                    <xs:element name="filler" minOccurs="0" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="invoiceList" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="invoiceList">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="type" fixed="990" />
+                                        <xs:element name="invoiceListType" />
+                                        <xs:element name="invoiceListNumber" />
+                                        <xs:element name="invoiceListDate" />
+                                        <xs:element name="agreementNumber" minOccurs="0" />
+                                        <xs:element name="RLCreatorGLN" />
+                                        <xs:element name="customerInternalSupplierNumber" minOccurs="0" />
+                                        <xs:element name="RLReceiverGLN" />
+                                        <xs:element name="payeeGLN" />
+                                        <xs:element name="payerGLN" />
+                                        <xs:element name="currencyCode" />
+                                        <xs:element name="valueDate" minOccurs="0" />
+                                        <xs:element name="dueDate" minOccurs="0" />
+                                        <xs:element name="invoiceListFinalAmount" />
+                                        <xs:element name="RLTotalAmountVAT" />
+                                        <xs:element name="RLtotalNetValue" />
+                                        <xs:element name="RLtotalTaxableAmount" minOccurs="0" />
+                                        <xs:element name="RLtotalDiscountableAmount" minOccurs="0" />
+                                        <xs:element name="RLtotalDiscounts" minOccurs="0" />
+                                        <xs:element name="VATRate" minOccurs="0" />
+                                        <xs:element name="billingPeriodStartDate" minOccurs="0" />
+                                        <xs:element name="billingPeriodEndDate" minOccurs="0" />
+                                        <xs:element name="filler" minOccurs="0" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="finalAmounts" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="type" fixed="991" />
+                                        <xs:element name="totalAmount" />
+                                        <xs:element name="VATamount" />
+                                        <xs:element name="netValue" />
+                                        <xs:element name="taxableAmount" minOccurs="0" />
+                                        <xs:element name="discountableAmount" minOccurs="0" />
+                                        <xs:element name="totalDiscounts" minOccurs="0" />
+                                        <xs:element name="VATRate" />
+                                        <xs:element name="miscellaneousIndicator" minOccurs="0" />
+                                        <xs:element name="filler" minOccurs="0" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

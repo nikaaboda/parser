@@ -203,6 +203,8 @@
         <discountAmount>000000000000059.62</discountAmount>
         <discountBasis>0000851.76</discountBasis>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000002610.52</finalInvoiceAmount>
@@ -210,8 +212,6 @@
         <totalNetValue>000000000002439.74</totalNetValue>
         <totalTaxableAmount>000000000002439.74</totalTaxableAmount>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000002610.52</totalAmount>

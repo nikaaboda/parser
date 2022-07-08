@@ -231,7 +231,7 @@ export const FILETYPES = ["ORDER", "INVOICE", "DEASDV"];
 
 export const TRANSACTIONINFOKEYS = ["100", "111", "115", "119", "120", "121", "130", "140", "150"];
 export const SHIPMENTINFOKEYS = ["410", "415", "420"];
-export const ITEMINFOKEYS = ["500", "502", "511", "513", "515", "519", "530", "580", "900", "913"];
+export const ITEMINFOKEYS = ["500", "502", "511", "513", "515", "519", "530", "580"];
 export const FOOTERKEYS = ["900", "901", "913"];
 export const INVOICELISTKEYS = ["990", "991"];
 

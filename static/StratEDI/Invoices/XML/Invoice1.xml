@@ -83,6 +83,8 @@
         <grossUnitPrice>00017.6000</grossUnitPrice>
         <netValue>002534.400</netValue>
       </orderLine>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000002711.81</finalInvoiceAmount>
@@ -90,8 +92,6 @@
         <totalNetValue>000000000002534.40</totalNetValue>
         <totalTaxableAmount>000000000002534.40</totalTaxableAmount>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000002711.81</totalAmount>

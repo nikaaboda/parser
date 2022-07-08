@@ -598,6 +598,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.22</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000262.87</finalInvoiceAmount>
@@ -606,8 +608,6 @@
         <totalTaxableAmount>000000000000244.79</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000253.54</totalAmount>
@@ -1419,6 +1419,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.27</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000309.70</finalInvoiceAmount>
@@ -1427,8 +1429,6 @@
         <totalTaxableAmount>000000000000288.56</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000300.37</totalAmount>
@@ -1979,6 +1979,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.32</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000227.45</finalInvoiceAmount>
@@ -1987,8 +1989,6 @@
         <totalTaxableAmount>000000000000212.57</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000227.45</totalAmount>
@@ -2415,6 +2415,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.49</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000331.73</finalInvoiceAmount>
@@ -2423,8 +2425,6 @@
         <totalTaxableAmount>000000000000310.03</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000331.73</totalAmount>
@@ -2851,6 +2851,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.60</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000162.74</finalInvoiceAmount>
@@ -2859,8 +2861,6 @@
         <totalTaxableAmount>000000000000152.09</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000162.74</totalAmount>
@@ -3316,6 +3316,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.22</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000264.25</finalInvoiceAmount>
@@ -3324,8 +3326,6 @@
         <totalTaxableAmount>000000000000246.96</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000264.25</totalAmount>
@@ -3752,6 +3752,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.19</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000166.30</finalInvoiceAmount>
@@ -3760,8 +3762,6 @@
         <totalTaxableAmount>000000000000155.42</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000166.30</totalAmount>
@@ -4101,6 +4101,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.30</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000123.95</finalInvoiceAmount>
@@ -4109,8 +4111,6 @@
         <totalTaxableAmount>000000000000115.84</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000123.95</totalAmount>
@@ -4624,6 +4624,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.44</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000240.97</finalInvoiceAmount>
@@ -4632,8 +4634,6 @@
         <totalTaxableAmount>000000000000225.21</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000240.97</totalAmount>
@@ -5060,6 +5060,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.26</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000156.98</finalInvoiceAmount>
@@ -5068,8 +5070,6 @@
         <totalTaxableAmount>000000000000145.83</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000147.65</totalAmount>
@@ -5446,6 +5446,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.24</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000119.18</finalInvoiceAmount>
@@ -5454,8 +5456,6 @@
         <totalTaxableAmount>000000000000111.38</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000119.18</totalAmount>
@@ -5940,6 +5940,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.60</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000240.35</finalInvoiceAmount>
@@ -5948,8 +5950,6 @@
         <totalTaxableAmount>000000000000224.63</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000240.35</totalAmount>
@@ -6463,6 +6463,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.37</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000203.27</finalInvoiceAmount>
@@ -6471,8 +6473,6 @@
         <totalTaxableAmount>000000000000189.97</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000203.27</totalAmount>
@@ -6928,6 +6928,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.30</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000198.31</finalInvoiceAmount>
@@ -6936,8 +6938,6 @@
         <totalTaxableAmount>000000000000185.34</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000198.31</totalAmount>
@@ -7248,6 +7248,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.55</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000118.16</finalInvoiceAmount>
@@ -7256,8 +7258,6 @@
         <totalTaxableAmount>000000000000110.43</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000118.16</totalAmount>
@@ -7510,6 +7510,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.72</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000128.44</finalInvoiceAmount>
@@ -7518,8 +7520,6 @@
         <totalTaxableAmount>000000000000120.04</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000128.44</totalAmount>
@@ -7946,6 +7946,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.41</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000183.38</finalInvoiceAmount>
@@ -7954,8 +7956,6 @@
         <totalTaxableAmount>000000000000171.38</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000183.38</totalAmount>
@@ -8208,6 +8208,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.46</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000166.72</finalInvoiceAmount>
@@ -8216,8 +8218,6 @@
         <totalTaxableAmount>000000000000155.81</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000166.72</totalAmount>
@@ -8615,6 +8615,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.32</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000247.03</finalInvoiceAmount>
@@ -8623,8 +8625,6 @@
         <totalTaxableAmount>000000000000230.87</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000247.03</totalAmount>
@@ -8848,6 +8848,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.77</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000150.75</finalInvoiceAmount>
@@ -8856,8 +8858,6 @@
         <totalTaxableAmount>000000000000140.89</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000150.75</totalAmount>
@@ -9226,6 +9226,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.32</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000174.22</finalInvoiceAmount>
@@ -9234,8 +9236,6 @@
         <totalTaxableAmount>000000000000162.82</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000174.22</totalAmount>
@@ -9749,6 +9749,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.46</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000180.27</finalInvoiceAmount>
@@ -9757,8 +9759,6 @@
         <totalTaxableAmount>000000000000168.48</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000180.27</totalAmount>
@@ -10011,6 +10011,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.77</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000211.57</finalInvoiceAmount>
@@ -10019,8 +10021,6 @@
         <totalTaxableAmount>000000000000197.73</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000211.57</totalAmount>
@@ -10331,6 +10331,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.32</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000099.97</finalInvoiceAmount>
@@ -10339,8 +10341,6 @@
         <totalTaxableAmount>000000000000093.43</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000099.97</totalAmount>
@@ -11144,6 +11144,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.16</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000289.56</finalInvoiceAmount>
@@ -11152,8 +11154,6 @@
         <totalTaxableAmount>000000000000270.62</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000289.56</totalAmount>
@@ -11899,6 +11899,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.27</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000333.43</finalInvoiceAmount>
@@ -11907,8 +11909,6 @@
         <totalTaxableAmount>000000000000311.62</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000333.43</totalAmount>
@@ -12074,6 +12074,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000001.84</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000230.35</finalInvoiceAmount>
@@ -12082,8 +12084,6 @@
         <totalTaxableAmount>000000000000215.28</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000230.35</totalAmount>
@@ -12307,6 +12307,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.92</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000163.27</finalInvoiceAmount>
@@ -12315,8 +12317,6 @@
         <totalTaxableAmount>000000000000152.59</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000163.27</totalAmount>
@@ -12482,6 +12482,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000001.38</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000115.17</finalInvoiceAmount>
@@ -12490,8 +12492,6 @@
         <totalTaxableAmount>000000000000107.64</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000115.17</totalAmount>
@@ -12860,6 +12860,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.17</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000121.35</finalInvoiceAmount>
@@ -12868,8 +12870,6 @@
         <totalTaxableAmount>000000000000112.53</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000112.02</totalAmount>
@@ -13710,6 +13710,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.49</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000377.62</finalInvoiceAmount>
@@ -13718,8 +13720,6 @@
         <totalTaxableAmount>000000000000352.04</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000368.29</totalAmount>
@@ -14502,6 +14502,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.64</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000264.77</finalInvoiceAmount>
@@ -14510,8 +14512,6 @@
         <totalTaxableAmount>000000000000246.57</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000255.44</totalAmount>
@@ -14859,6 +14859,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.37</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000127.87</finalInvoiceAmount>
@@ -14867,8 +14869,6 @@
         <totalTaxableAmount>000000000000119.50</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000127.87</totalAmount>
@@ -15353,6 +15353,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.25</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000172.25</finalInvoiceAmount>
@@ -15361,8 +15363,6 @@
         <totalTaxableAmount>000000000000160.98</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000172.25</totalAmount>
@@ -16253,6 +16253,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.46</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000415.74</finalInvoiceAmount>
@@ -16261,8 +16263,6 @@
         <totalTaxableAmount>000000000000386.78</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000397.08</totalAmount>
@@ -17045,6 +17045,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.92</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000558.72</finalInvoiceAmount>
@@ -17053,8 +17055,6 @@
         <totalTaxableAmount>000000000000519.53</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000530.73</totalAmount>
@@ -17634,6 +17634,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.31</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000213.96</finalInvoiceAmount>
@@ -17642,8 +17644,6 @@
         <totalTaxableAmount>000000000000199.96</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000213.96</totalAmount>
@@ -17896,6 +17896,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.62</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000137.72</finalInvoiceAmount>
@@ -17904,8 +17906,6 @@
         <totalTaxableAmount>000000000000128.71</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000137.72</totalAmount>
@@ -18332,6 +18332,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.43</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000143.71</finalInvoiceAmount>
@@ -18340,8 +18342,6 @@
         <totalTaxableAmount>000000000000133.43</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000134.38</totalAmount>
@@ -18718,6 +18718,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.24</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000104.19</finalInvoiceAmount>
@@ -18726,8 +18728,6 @@
         <totalTaxableAmount>000000000000097.37</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000104.19</totalAmount>
@@ -19038,6 +19038,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.27</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000095.24</finalInvoiceAmount>
@@ -19046,8 +19048,6 @@
         <totalTaxableAmount>000000000000089.01</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000095.24</totalAmount>
@@ -19561,6 +19561,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.22</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000203.92</finalInvoiceAmount>
@@ -19569,8 +19571,6 @@
         <totalTaxableAmount>000000000000190.58</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000203.92</totalAmount>
@@ -19910,6 +19910,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.15</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000125.41</finalInvoiceAmount>
@@ -19918,8 +19920,6 @@
         <totalTaxableAmount>000000000000117.21</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000125.41</totalAmount>
@@ -20404,6 +20404,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.22</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000217.55</finalInvoiceAmount>
@@ -20412,8 +20414,6 @@
         <totalTaxableAmount>000000000000203.32</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000217.55</totalAmount>
@@ -21014,6 +21014,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.32</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000219.71</finalInvoiceAmount>
@@ -21022,8 +21024,6 @@
         <totalTaxableAmount>000000000000205.34</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000219.71</totalAmount>
@@ -21537,6 +21537,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.32</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000230.31</finalInvoiceAmount>
@@ -21545,8 +21547,6 @@
         <totalTaxableAmount>000000000000214.36</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000220.98</totalAmount>
@@ -22010,6 +22010,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.36</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000172.41</finalInvoiceAmount>
@@ -22018,8 +22020,6 @@
         <totalTaxableAmount>000000000000161.13</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000172.41</totalAmount>
@@ -22301,6 +22301,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.26</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000141.61</finalInvoiceAmount>
@@ -22309,8 +22311,6 @@
         <totalTaxableAmount>000000000000132.35</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000141.61</totalAmount>
@@ -22824,6 +22824,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.64</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000210.42</finalInvoiceAmount>
@@ -22832,8 +22834,6 @@
         <totalTaxableAmount>000000000000196.65</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000210.42</totalAmount>
@@ -23521,6 +23521,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.64</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000278.74</finalInvoiceAmount>
@@ -23529,8 +23531,6 @@
         <totalTaxableAmount>000000000000260.50</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000278.74</totalAmount>
@@ -23899,6 +23899,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.20</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000245.10</finalInvoiceAmount>
@@ -23907,8 +23909,6 @@
         <totalTaxableAmount>000000000000228.19</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000235.77</totalAmount>
@@ -24691,6 +24691,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.36</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000420.00</finalInvoiceAmount>
@@ -24699,8 +24701,6 @@
         <totalTaxableAmount>000000000000392.52</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000420.00</totalAmount>
@@ -24924,6 +24924,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.76</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000166.72</finalInvoiceAmount>
@@ -24932,8 +24934,6 @@
         <totalTaxableAmount>000000000000155.81</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000166.72</totalAmount>
@@ -25186,6 +25186,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.76</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000172.98</finalInvoiceAmount>
@@ -25194,8 +25196,6 @@
         <totalTaxableAmount>000000000000161.66</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000172.98</totalAmount>
@@ -25680,6 +25680,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.64</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000335.05</finalInvoiceAmount>
@@ -25688,8 +25690,6 @@
         <totalTaxableAmount>000000000000313.13</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000335.05</totalAmount>
@@ -26116,6 +26116,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.26</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000120.89</finalInvoiceAmount>
@@ -26124,8 +26126,6 @@
         <totalTaxableAmount>000000000000112.98</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000120.89</totalAmount>
@@ -26987,6 +26987,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.18</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000375.39</finalInvoiceAmount>
@@ -26995,8 +26997,6 @@
         <totalTaxableAmount>000000000000349.95</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000366.06</totalAmount>
@@ -27576,6 +27576,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.16</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000318.70</finalInvoiceAmount>
@@ -27584,8 +27586,6 @@
         <totalTaxableAmount>000000000000297.85</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000318.70</totalAmount>
@@ -27896,6 +27896,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.57</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000137.83</finalInvoiceAmount>
@@ -27904,8 +27906,6 @@
         <totalTaxableAmount>000000000000128.81</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000137.83</totalAmount>
@@ -28216,6 +28216,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.33</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000131.92</finalInvoiceAmount>
@@ -28224,8 +28226,6 @@
         <totalTaxableAmount>000000000000123.29</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000131.92</totalAmount>
@@ -28478,6 +28478,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.44</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000085.30</finalInvoiceAmount>
@@ -28486,8 +28488,6 @@
         <totalTaxableAmount>000000000000079.72</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000085.30</totalAmount>
@@ -28943,6 +28943,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.36</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000156.71</finalInvoiceAmount>
@@ -28951,8 +28953,6 @@
         <totalTaxableAmount>000000000000146.46</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000156.71</totalAmount>
@@ -29408,6 +29408,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.15</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000155.86</finalInvoiceAmount>
@@ -29416,8 +29418,6 @@
         <totalTaxableAmount>000000000000144.78</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000146.53</totalAmount>
@@ -29736,6 +29736,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.92</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000132.24</finalInvoiceAmount>
@@ -29744,8 +29746,6 @@
         <totalTaxableAmount>000000000000123.59</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000132.24</totalAmount>
@@ -30288,6 +30288,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.30</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000240.36</finalInvoiceAmount>
@@ -30296,8 +30298,6 @@
         <totalTaxableAmount>000000000000224.64</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000240.36</totalAmount>
@@ -30956,6 +30956,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.33</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000348.40</finalInvoiceAmount>
@@ -30964,8 +30966,6 @@
         <totalTaxableAmount>000000000000325.61</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000348.40</totalAmount>
@@ -31711,6 +31711,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.64</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000344.24</finalInvoiceAmount>
@@ -31719,8 +31721,6 @@
         <totalTaxableAmount>000000000000321.72</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000344.24</totalAmount>
@@ -32089,6 +32089,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.64</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000200.13</finalInvoiceAmount>
@@ -32097,8 +32099,6 @@
         <totalTaxableAmount>000000000000187.04</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000200.13</totalAmount>
@@ -32670,6 +32670,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.31</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000253.25</finalInvoiceAmount>
@@ -32678,8 +32680,6 @@
         <totalTaxableAmount>000000000000235.80</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000243.92</totalAmount>
@@ -33433,6 +33433,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.27</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000333.43</finalInvoiceAmount>
@@ -33441,8 +33443,6 @@
         <totalTaxableAmount>000000000000311.62</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000333.43</totalAmount>
@@ -33811,6 +33811,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.91</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000219.60</finalInvoiceAmount>
@@ -33819,8 +33821,6 @@
         <totalTaxableAmount>000000000000205.23</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000219.60</totalAmount>
@@ -34189,6 +34189,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.62</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000299.74</finalInvoiceAmount>
@@ -34197,8 +34199,6 @@
         <totalTaxableAmount>000000000000280.13</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000299.74</totalAmount>
@@ -34683,6 +34683,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.37</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000177.96</finalInvoiceAmount>
@@ -34691,8 +34693,6 @@
         <totalTaxableAmount>000000000000166.32</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000177.96</totalAmount>
@@ -34916,6 +34916,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.62</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000131.87</finalInvoiceAmount>
@@ -34924,8 +34926,6 @@
         <totalTaxableAmount>000000000000123.24</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000131.87</totalAmount>
@@ -35323,6 +35323,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.25</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000118.37</finalInvoiceAmount>
@@ -35331,8 +35333,6 @@
         <totalTaxableAmount>000000000000110.63</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000118.37</totalAmount>
@@ -35817,6 +35817,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.32</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000234.24</finalInvoiceAmount>
@@ -35825,8 +35827,6 @@
         <totalTaxableAmount>000000000000218.92</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000234.24</totalAmount>
@@ -36195,6 +36195,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.15</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000132.51</finalInvoiceAmount>
@@ -36203,8 +36205,6 @@
         <totalTaxableAmount>000000000000123.84</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000132.51</totalAmount>
@@ -36573,6 +36573,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.11</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000100.32</finalInvoiceAmount>
@@ -36581,8 +36583,6 @@
         <totalTaxableAmount>000000000000093.76</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000100.32</totalAmount>
@@ -37212,6 +37212,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.31</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000221.27</finalInvoiceAmount>
@@ -37220,8 +37222,6 @@
         <totalTaxableAmount>000000000000206.79</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000221.27</totalAmount>
@@ -37590,6 +37590,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.19</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000121.06</finalInvoiceAmount>
@@ -37598,8 +37600,6 @@
         <totalTaxableAmount>000000000000113.14</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000121.06</totalAmount>
@@ -38026,6 +38026,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.64</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000159.98</finalInvoiceAmount>
@@ -38034,8 +38036,6 @@
         <totalTaxableAmount>000000000000149.51</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000159.98</totalAmount>
@@ -38201,6 +38201,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.37</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000116.34</finalInvoiceAmount>
@@ -38209,8 +38211,6 @@
         <totalTaxableAmount>000000000000108.73</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000116.34</totalAmount>
@@ -38521,6 +38521,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.39</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000180.66</finalInvoiceAmount>
@@ -38529,8 +38531,6 @@
         <totalTaxableAmount>000000000000168.84</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000180.66</totalAmount>
@@ -39015,6 +39015,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.30</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000189.29</finalInvoiceAmount>
@@ -39023,8 +39025,6 @@
         <totalTaxableAmount>000000000000176.03</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000179.96</totalAmount>
@@ -39343,6 +39343,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.60</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000161.54</finalInvoiceAmount>
@@ -39351,8 +39353,6 @@
         <totalTaxableAmount>000000000000150.97</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000161.54</totalAmount>
@@ -39924,6 +39924,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.83</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000255.21</finalInvoiceAmount>
@@ -39932,8 +39934,6 @@
         <totalTaxableAmount>000000000000238.51</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000255.21</totalAmount>
@@ -40331,6 +40331,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.46</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000172.88</finalInvoiceAmount>
@@ -40339,8 +40341,6 @@
         <totalTaxableAmount>000000000000161.57</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000172.88</totalAmount>
@@ -40796,6 +40796,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.60</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000200.60</finalInvoiceAmount>
@@ -40804,8 +40806,6 @@
         <totalTaxableAmount>000000000000186.60</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000191.27</totalAmount>
@@ -41298,6 +41298,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.27</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000230.84</finalInvoiceAmount>
@@ -41306,8 +41308,6 @@
         <totalTaxableAmount>000000000000215.74</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000230.84</totalAmount>
@@ -41473,6 +41473,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000001.61</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000115.97</finalInvoiceAmount>
@@ -41481,8 +41483,6 @@
         <totalTaxableAmount>000000000000108.38</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000115.97</totalAmount>
@@ -41706,6 +41706,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.77</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000173.18</finalInvoiceAmount>
@@ -41714,8 +41716,6 @@
         <totalTaxableAmount>000000000000161.85</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000173.18</totalAmount>
@@ -41881,6 +41881,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.92</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000115.17</finalInvoiceAmount>
@@ -41889,8 +41891,6 @@
         <totalTaxableAmount>000000000000107.64</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000115.17</totalAmount>
@@ -42259,6 +42259,8 @@
         <discountPercent>00002.50</discountPercent>
         <discountAmount>000000000000000.26</discountAmount>
       </itemDiscounts>
+    </itemInfo>
+    <transactionFooter>
       <receiptTotal>
         <type>900</type>
         <finalInvoiceAmount>000000000000144.35</finalInvoiceAmount>
@@ -42267,8 +42269,6 @@
         <totalTaxableAmount>000000000000134.91</totalTaxableAmount>
         <totalDiscounts>-00000000000000.00</totalDiscounts>
       </receiptTotal>
-    </itemInfo>
-    <transactionFooter>
       <vatInfo>
         <type>901</type>
         <totalAmount>000000000000144.35</totalAmount>
