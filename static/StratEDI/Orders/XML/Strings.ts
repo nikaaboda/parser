@@ -1,4 +1,4 @@
-export const STRINGXMLORDER1 = `<?xml version="1.0"?>
+export const STRINGXMLORDER1 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>
@@ -453,7 +453,7 @@ export const STRINGXMLORDER1 = `<?xml version="1.0"?>
   </transaction>
 </document>`;
 
-export const STRINGXMLORDER2 = `<?xml version="1.0"?>
+export const STRINGXMLORDER2 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>
@@ -784,7 +784,7 @@ export const STRINGXMLORDER2 = `<?xml version="1.0"?>
   </transaction>
 </document>`;
 
-export const STRINGXMLORDER3 = `<?xml version="1.0"?>
+export const STRINGXMLORDER3 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>
@@ -1075,7 +1075,7 @@ export const STRINGXMLORDER3 = `<?xml version="1.0"?>
   </transaction>
 </document>`;
 
-export const STRINGXMLORDER4 = `<?xml version="1.0"?>
+export const STRINGXMLORDER4 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>
@@ -1405,7 +1405,7 @@ export const STRINGXMLORDER4 = `<?xml version="1.0"?>
   </transaction>
 </document>`;
 
-export const STRINGXMLORDER5 = `<?xml version="1.0"?>
+export const STRINGXMLORDER5 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>
@@ -1635,7 +1635,7 @@ export const STRINGXMLORDER5 = `<?xml version="1.0"?>
   </transaction>
 </document>`;
 
-export const STRINGXMLORDER6 = `<?xml version="1.0"?>
+export const STRINGXMLORDER6 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>
@@ -8813,7 +8813,7 @@ export const STRINGXMLORDER6 = `<?xml version="1.0"?>
   </transaction>
 </document>`;
 
-export const STRINGXMLORDER7 = `<?xml version="1.0"?>
+export const STRINGXMLORDER7 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>
@@ -17035,7 +17035,7 @@ export const STRINGXMLORDER7 = `<?xml version="1.0"?>
   </transaction>
 </document>`;
 
-export const STRINGXMLORDER8 = `<?xml version="1.0"?>
+export const STRINGXMLORDER8 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>
@@ -19137,7 +19137,7 @@ export const STRINGXMLORDER8 = `<?xml version="1.0"?>
   </transaction>
 </document>`;
 
-export const STRINGXMLORDER9 = `<?xml version="1.0"?>
+export const STRINGXMLORDER9 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>
@@ -24550,7 +24550,7 @@ export const STRINGXMLORDER9 = `<?xml version="1.0"?>
   </transaction>
 </document>`;
 
-export const STRINGXMLORDER10 = `<?xml version="1.0"?>
+export const STRINGXMLORDER10 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>
@@ -26188,7 +26188,7 @@ export const STRINGXMLORDER10 = `<?xml version="1.0"?>
   </transaction>
 </document>`;
 
-export const STRINGXMLORDER11 = `<?xml version="1.0"?>
+export const STRINGXMLORDER11 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>

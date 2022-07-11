@@ -22,14 +22,14 @@ describe("Reader", () => {
             test("Parses Order 1 correctly", () => {
                 const reader = new Reader();
 
-                const result = reader.read("STRATEDI", "ORDER", RAWORDER1);
+                const result = reader.read("STRATEDI", RAWORDER1);
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Orders/XML/Order1.xml").toString('utf-8'))
             })
     
             test("Parses Order 2 correctly", () => {
                 const reader = new Reader();
 
-                const result = reader.read("STRATEDI", "ORDER", RAWORDER2);
+                const result = reader.read("STRATEDI", RAWORDER2);
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Orders/XML/Order2.xml").toString('utf-8'))
             })
     
@@ -37,63 +37,63 @@ describe("Reader", () => {
                 const reader = new Reader();
 
 
-                const result = reader.read("STRATEDI", "ORDER", RAWORDER3);
+                const result = reader.read("STRATEDI", RAWORDER3);
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Orders/XML/Order3.xml").toString('utf-8'))
             })
     
             test("Parses Order 4 correctly", () => {
                 const reader = new Reader();
 
-                const result = reader.read("STRATEDI", "ORDER", RAWORDER4);
+                const result = reader.read("STRATEDI", RAWORDER4);
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Orders/XML/Order4.xml").toString('utf-8'))
             })
     
             test("Parses Order 5 correctly", () => {
                 const reader = new Reader();
 
-                const result = reader.read("STRATEDI", "ORDER", RAWORDER5);
+                const result = reader.read("STRATEDI", RAWORDER5);
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Orders/XML/Order5.xml").toString('utf-8'))
             })
     
             test("Parses Order 6 correctly", () => {
                 const reader = new Reader();
 
-                const result = reader.read("STRATEDI", "ORDER", RAWORDER6);
+                const result = reader.read("STRATEDI", RAWORDER6);
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Orders/XML/Order6.xml").toString('utf-8'))
             })
     
             test("Parses Order 7 correctly", () => {
                 const reader = new Reader();
 
-                const result = reader.read("STRATEDI", "ORDER", RAWORDER7);
+                const result = reader.read("STRATEDI", RAWORDER7);
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Orders/XML/Order7.xml").toString('utf-8'))
             })
     
             test("Parses Order 8 correctly", () => {
                 const reader = new Reader();
 
-                const result = reader.read("STRATEDI", "ORDER", RAWORDER8)
+                const result = reader.read("STRATEDI", RAWORDER8)
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Orders/XML/Order8.xml").toString('utf-8'))
             })
     
             test("Parses Order 9 correctly", () => {
                 const reader = new Reader();
 
-                const result = reader.read("STRATEDI", "ORDER", RAWORDER9);
+                const result = reader.read("STRATEDI", RAWORDER9);
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Orders/XML/Order9.xml").toString('utf-8'))
             })
     
             test("Parses Order 10 correctly", () => {
                 const reader = new Reader();
 
-                const result = reader.read("STRATEDI", "ORDER", RAWORDER10);
+                const result = reader.read("STRATEDI", RAWORDER10);
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Orders/XML/Order10.xml").toString('utf-8'))
             })
     
             test("Parses Order 11 correctly", () => {
                 const reader = new Reader();
 
-                const result = reader.read("STRATEDI", "ORDER", RAWORDER11);
+                const result = reader.read("STRATEDI", RAWORDER11);
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Orders/XML/Order11.xml").toString('utf-8'))
             })
         });
@@ -102,14 +102,14 @@ describe("Reader", () => {
             test("Parses Invoice 1 correctly", () => {
                 const reader = new Reader();
 
-                const result = reader.read("STRATEDI", "INVOICE", RAWINVOICE1);
+                const result = reader.read("STRATEDI", RAWINVOICE1);
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Invoices/XML/Invoice1.xml").toString('utf-8'))
             })
     
             test("Parses Invoice 2 correctly", () => {
                 const reader = new Reader();
 
-                const result = reader.read("STRATEDI", "INVOICE", RAWINVOICE2);
+                const result = reader.read("STRATEDI", RAWINVOICE2);
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Invoices/XML/Invoice2.xml").toString('utf-8'))
             })
     
@@ -117,49 +117,49 @@ describe("Reader", () => {
                 const reader = new Reader();
 
 
-                const result = reader.read("STRATEDI", "INVOICE", RAWINVOICE3);
+                const result = reader.read("STRATEDI", RAWINVOICE3);
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Invoices/XML/Invoice3.xml").toString('utf-8'))
             })
     
             test("Parses Invoice 4 correctly", () => {
                 const reader = new Reader();
 
-                const result = reader.read("STRATEDI", "INVOICE", RAWINVOICE4);
+                const result = reader.read("STRATEDI", RAWINVOICE4);
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Invoices/XML/Invoice4.xml").toString('utf-8'))
             })
     
             test("Parses Invoice 5 correctly", () => {
                 const reader = new Reader();
 
-                const result = reader.read("STRATEDI", "INVOICE", RAWINVOICE5);
+                const result = reader.read("STRATEDI", RAWINVOICE5);
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Invoices/XML/Invoice5.xml").toString('utf-8'))
             })
     
             test("Parses Invoice 6 correctly", () => {
                 const reader = new Reader();
 
-                const result = reader.read("STRATEDI", "INVOICE", RAWINVOICE6);
+                const result = reader.read("STRATEDI", RAWINVOICE6);
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Invoices/XML/Invoice6.xml").toString('utf-8'))
             })
     
             test("Parses Invoice 7 correctly", () => {
                 const reader = new Reader();
 
-                const result = reader.read("STRATEDI", "INVOICE", RAWINVOICE7);
+                const result = reader.read("STRATEDI", RAWINVOICE7);
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Invoices/XML/Invoice7.xml").toString('utf-8'))
             })
     
             test("Parses Invoice 8 correctly", () => {
                 const reader = new Reader();
 
-                const result = reader.read("STRATEDI", "INVOICE", RAWINVOICE8)
+                const result = reader.read("STRATEDI", RAWINVOICE8)
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Invoices/XML/Invoice8.xml").toString('utf-8'))
             })
     
             test("Parses Invoice 9 correctly", () => {
                 const reader = new Reader();
 
-                const result = reader.read("STRATEDI", "INVOICE", RAWINVOICE9);
+                const result = reader.read("STRATEDI", RAWINVOICE9);
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Invoices/XML/Invoice9.xml").toString('utf-8'))
             })
     
@@ -169,14 +169,14 @@ describe("Reader", () => {
             test("Parses Deasdv 1 correctly", () => {
                 const reader = new Reader();
 
-                const result = reader.read("STRATEDI", "DEASDV", RAWDEASDV1);
+                const result = reader.read("STRATEDI", RAWDEASDV1);
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Deasdvs/XML/Deasdv1.xml").toString('utf-8'))
             })
     
             test("Parses Deasdv 2 correctly", () => {
                 const reader = new Reader();
 
-                const result = reader.read("STRATEDI", "DEASDV", RAWDEASDV2);
+                const result = reader.read("STRATEDI", RAWDEASDV2);
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Deasdvs/XML/Deasdv2.xml").toString('utf-8'))
             })
     
@@ -184,35 +184,35 @@ describe("Reader", () => {
                 const reader = new Reader();
 
 
-                const result = reader.read("STRATEDI", "DEASDV", RAWDEASDV3);
+                const result = reader.read("STRATEDI", RAWDEASDV3);
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Deasdvs/XML/Deasdv3.xml").toString('utf-8'))
             })
     
             test("Parses Deasdv 4 correctly", () => {
                 const reader = new Reader();
 
-                const result = reader.read("STRATEDI", "DEASDV", RAWDEASDV4);
+                const result = reader.read("STRATEDI", RAWDEASDV4);
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Deasdvs/XML/Deasdv4.xml").toString('utf-8'))
             })
     
             test("Parses Deasdv 5 correctly", () => {
                 const reader = new Reader();
 
-                const result = reader.read("STRATEDI", "DEASDV", RAWDEASDV5);
+                const result = reader.read("STRATEDI", RAWDEASDV5);
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Deasdvs/XML/Deasdv5.xml").toString('utf-8'))
             })
     
             test("Parses Deasdv 6 correctly", () => {
                 const reader = new Reader();
 
-                const result = reader.read("STRATEDI", "DEASDV", RAWDEASDV6);
+                const result = reader.read("STRATEDI", RAWDEASDV6);
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Deasdvs/XML/Deasdv6.xml").toString('utf-8'))
             })
     
             test("Parses Deasdv 7 correctly", () => {
                 const reader = new Reader();
 
-                const result = reader.read("STRATEDI", "DEASDV", RAWDEASDV7);
+                const result = reader.read("STRATEDI", RAWDEASDV7);
                 expect(result.file).toEqual(fs.readFileSync("../static/StratEDI/Deasdvs/XML/Deasdv7.xml").toString('utf-8'))
             })
     

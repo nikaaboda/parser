@@ -1,4 +1,4 @@
-export const STRINGXMLINVOICE1 = `<?xml version="1.0"?>
+export const STRINGXMLINVOICE1 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>
@@ -104,7 +104,7 @@ export const STRINGXMLINVOICE1 = `<?xml version="1.0"?>
   </transaction>
 </document>`;
 
-export const STRINGXMLINVOICE2 = `<?xml version="1.0"?>
+export const STRINGXMLINVOICE2 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>
@@ -261,7 +261,7 @@ export const STRINGXMLINVOICE2 = `<?xml version="1.0"?>
   </transaction>
 </document>`;
 
-export const STRINGXMLINVOICE3 = `<?xml version="1.0"?>
+export const STRINGXMLINVOICE3 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>
@@ -384,7 +384,7 @@ export const STRINGXMLINVOICE3 = `<?xml version="1.0"?>
   </transaction>
 </document>`;
 
-export const STRINGXMLINVOICE4 = `<?xml version="1.0"?>
+export const STRINGXMLINVOICE4 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>
@@ -20591,7 +20591,7 @@ export const STRINGXMLINVOICE4 = `<?xml version="1.0"?>
   </invoiceList>
 </document>`;
 
-export const STRINGXMLINVOICE5 = `<?xml version="1.0"?>
+export const STRINGXMLINVOICE5 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>
@@ -51118,7 +51118,7 @@ export const STRINGXMLINVOICE5 = `<?xml version="1.0"?>
   </invoiceList>
 </document>`;
 
-export const STRINGXMLINVOICE6 = `<?xml version="1.0"?>
+export const STRINGXMLINVOICE6 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>
@@ -93440,7 +93440,7 @@ export const STRINGXMLINVOICE6 = `<?xml version="1.0"?>
   </invoiceList>
 </document>`;
 
-export const STRINGXMLINVOICE7 = `<?xml version="1.0"?>
+export const STRINGXMLINVOICE7 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>
@@ -93666,7 +93666,7 @@ export const STRINGXMLINVOICE7 = `<?xml version="1.0"?>
   </transaction>
 </document>`;
 
-export const STRINGXMLINVOICE8 = `<?xml version="1.0"?>
+export const STRINGXMLINVOICE8 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>
@@ -94103,7 +94103,7 @@ export const STRINGXMLINVOICE8 = `<?xml version="1.0"?>
   </transaction>
 </document>`;
 
-export const STRINGXMLINVOICE9 = `<?xml version="1.0"?>
+export const STRINGXMLINVOICE9 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>

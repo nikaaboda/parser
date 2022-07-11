@@ -34,7 +34,16 @@ export class Reader {
     }
 
     //read function can take either string or file path to parse
-    read(format: Fileformat, fileType: Filetype, file: string) {
+    read(format: Fileformat, file: string) {
+        const fileType = file.includes('ORDER') ? 'ORDER' : 
+                        file.includes('INVOIC') ? 'INVOICE' : 
+                        file.includes('DESADV') ? 'DEASDV' 
+                        : null;
+
+        if(fileType === null) {
+            throw new Error('Provided file is none of these types: ORDER, INVOICE, DEASDV')
+        }
+                
         const ast = this.parser.parse(file, fileType);
         const { ast : {value: document}, errors} = ast;
 

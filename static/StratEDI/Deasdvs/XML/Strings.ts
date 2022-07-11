@@ -1,4 +1,4 @@
-export const STRINGXMLDEASDV1 = `<?xml version="1.0"?>
+export const STRINGXMLDEASDV1 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>
@@ -128,7 +128,7 @@ export const STRINGXMLDEASDV1 = `<?xml version="1.0"?>
   </transaction>
 </document>`;
 
-export const STRINGXMLDEASDV2 = `<?xml version="1.0"?>
+export const STRINGXMLDEASDV2 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>
@@ -5457,7 +5457,7 @@ export const STRINGXMLDEASDV2 = `<?xml version="1.0"?>
   </transaction>
 </document>`;
 
-export const STRINGXMLDEASDV3 = `<?xml version="1.0"?>
+export const STRINGXMLDEASDV3 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>
@@ -5567,7 +5567,7 @@ export const STRINGXMLDEASDV3 = `<?xml version="1.0"?>
   </transaction>
 </document>`;
 
-export const STRINGXMLDEASDV4 = `<?xml version="1.0"?>
+export const STRINGXMLDEASDV4 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>
@@ -9375,7 +9375,7 @@ export const STRINGXMLDEASDV4 = `<?xml version="1.0"?>
   </transaction>
 </document>`;
 
-export const STRINGXMLDEASDV5 = `<?xml version="1.0"?>
+export const STRINGXMLDEASDV5 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>
@@ -15474,7 +15474,7 @@ export const STRINGXMLDEASDV5 = `<?xml version="1.0"?>
   </transaction>
 </document>`;
 
-export const STRINGXMLDEASDV6 = `<?xml version="1.0"?>
+export const STRINGXMLDEASDV6 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>
@@ -15609,7 +15609,7 @@ export const STRINGXMLDEASDV6 = `<?xml version="1.0"?>
   </transaction>
 </document>`;
 
-export const STRINGXMLDEASDV7 = `<?xml version="1.0"?>
+export const STRINGXMLDEASDV7 = `<?xml version='1.0'?>
 <document>
   <interchangeHeader>
     <type>000</type>
