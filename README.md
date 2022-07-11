@@ -55,4 +55,4 @@ Besides `Reader` and `Writer` there are 3 main classes that cover implementation
 | `Tokenizer`| `Tokenizer`'s main method is `getNextToken()`. This method gets the next `word` according to specification of provided file format which is stored in `constants`, validates it with the help of `Validator` and returns it to `Parser`. This class keeps track of where is the file `cursor`, `tokenIndex`, `sentenceType` and so on. This is the most important class for parsing. |
 |`Validator`  | `Validator` is called by `Tokenizer` . It checks if the provided `token` satisfies the specifications provided of the given file format, and if that’s not so, it returns an object with the `message` that describe inconsistency between the given `file` and guidelines of that file format.  |
 
-
+![Parser flow chart](https://github.com/nikaaboda/parser/blob/main/static/StratEDI/Parser.jpeg)
