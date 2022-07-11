@@ -34,7 +34,6 @@ export class Writer {
     constructStratEDIString(document: any) {
         let finalStratEDIString = '';
         const sentenceNames = Object.keys(document)
-        // interchangeheader, transaction : {transactionInfo, shipmentInfo, itemInfo, transactionFooter}, itemResolution, invoiceList, 
         sentenceNames.forEach((sentenceName) => { 
             const node = document[sentenceName];
             finalStratEDIString = this.handleNode(finalStratEDIString, node);
