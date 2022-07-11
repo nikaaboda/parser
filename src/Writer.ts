@@ -26,7 +26,7 @@ export class Writer {
 
         const document = JSON.parse(fileJson).document;
         
-        const stratEDIString = this.constructStratEDIString(document);
+        const stratEDIString = this.constructStratEDIString(document).replace(/"/g, "'");
 
         return stratEDIString;
     }

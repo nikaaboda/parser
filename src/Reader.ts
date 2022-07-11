@@ -38,7 +38,7 @@ export class Reader {
         const ast = this.parser.parse(file, fileType);
         const { ast : {value: document}, errors} = ast;
 
-        const xml = this.constructXML(document, fileType);
+        const xml = this.constructXML(document, fileType).replace(/"/g, "'");;
 
         return {
             file: xml,
