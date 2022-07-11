@@ -1,9 +1,9 @@
 import builder from 'xmlbuilder';
-import fs from "fs";
 import {Parser} from './Parser';
 import { STRATEDI, TRANSACTIONINFOKEYS, SHIPMENTINFOKEYS, ITEMINFOKEYS, FOOTERKEYS, INVOICELISTKEYS } from './constants';
 
 type Filetype = "ORDER" | "INVOICE" | "DEASDV";
+type Fileformat = "STRATEDI";
 
 export class Reader {
     parser: Parser;
@@ -34,10 +34,8 @@ export class Reader {
     }
 
     //read function can take either string or file path to parse
-    read(file: string, fileType: Filetype, isPath = false) {
-        const string = isPath ? fs.readFileSync(file).toString('utf-8') : file;
-    
-        const ast = this.parser.parse(string, fileType);
+    read(format: Fileformat, fileType: Filetype, file: string) {
+        const ast = this.parser.parse(file, fileType);
         const { ast : {value: document}, errors} = ast;
 
         const xml = this.constructXML(document, fileType);

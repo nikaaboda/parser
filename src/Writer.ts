@@ -1,5 +1,3 @@
-import fs from "fs";
-import util from "util"
 import convert from 'xml-js'
 import {STRATEDI} from "./constants";
 
@@ -15,23 +13,18 @@ function removeJsonTextAttribute(value: any, parentElement: any){
 }
 
 type Filetype = "ORDER" | "INVOICE" | "DEASDV";
-type ReadFormat = "XML" | "JSON";
+type Fileformat = "STRATEDI";
 
 export class Writer {
     FILETYPE: any;
     
 
-    write(file: string, fileType: Filetype, isPath = false) {
+    write(format: Fileformat, fileType: Filetype, file: string) {
         this.FILETYPE = STRATEDI[fileType];
 
-        let parseString: any = isPath ? fs.readFileSync(file).toString('utf-8') : file;
+        const fileJson = convert.xml2json(file, OPTIONS);
 
-        parseString = convert.xml2json(parseString, OPTIONS);
-
-        const document = JSON.parse(parseString).document;
-
-        // console.log(util.inspect(document, {showHidden: false, depth: null, colors: true}))
-
+        const document = JSON.parse(fileJson).document;
         
         const stratEDIString = this.constructStratEDIString(document);
 
